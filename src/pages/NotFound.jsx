@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';import {ArrowRight} from 'lucide-react';import {SEO} from '../components';
+export default function NotFound(){return <section className="not-found"><SEO title="Page Not Found" description="This page could not be found."/><span>404 · Route unknown</span><h1>A Beautiful Detour.</h1><p>The page you were looking for has travelled elsewhere. Let’s guide you back to familiar ground.</p><Link className="button gold" to="/">Return Home <ArrowRight/></Link></section>}

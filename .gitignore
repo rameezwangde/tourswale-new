@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.vite/
+*.log
+.env
+.env.*
+ChatGPT Image Jul 17, 2026, 04_16_45 PM.png
