@@ -46,7 +46,7 @@ export const domestic=[
       {title: 'Day 11 : Tiruvannamalai – Vellore – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit Vellore – Golden Temple. After drive to check in hotel at Tirupati. After check in hotel, proceed whole day sightseeing and dharshan at tirupati. Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, sri varahaswami temple, kapila theertham, talakona water falls, papavinasam theertham.'},
       {title: 'Day 12 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, day of leisure free rest and own activities, etc.'},
       {title: 'Day 13 : Chennai', copy: 'After Morning Breakfast proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach.'},
-      {title: 'Day 14 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Roshni Holidays ".'}
+      {title: 'Day 14 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".'}
     ],
     inclusions: [
       'Accommodation on Double / Triple sharing basis',
@@ -103,7 +103,7 @@ export const domestic=[
       {title: 'Day 2 : Tirupati Dharshan', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel.'},
       {title: 'Day 3 : Tirupati – Vellore – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit Vellore – Golden Temple. After dharshan drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
       {title: 'Day 4 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
-      {title: 'Day 5 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Roshni Holidays ".'}
+      {title: 'Day 5 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".'}
     ],
     inclusions: [
       'Accommodation on Double / Triple sharing basis',
@@ -241,7 +241,7 @@ export const domestic=[
       {title: 'Day 7 : Chidambaram (Ketu, Budha, Angaarakan)', copy: 'After Morning Breakfast proceed to visit dharshan at Ketu Navagrahastalam — Keezahperumpallam, Budha Navagrahastalam — Thiruvenkadu, Angaarakan Navagrahastalam — Vaitheeswaran Kovil. Later return back to hotel.'},
       {title: 'Day 8 : Chidambaram – Tiruthani – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit dharshan at Tiruthani – Murugan Temple. After drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
       {title: 'Day 9 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
-      {title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Roshni Holidays ".'}
+      {title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".'}
     ],
     inclusions: [
       'Accommodation on Double / Triple sharing basis',
@@ -489,7 +489,7 @@ export const domestic=[
       {title: 'Day 12 : Kancheepuram – Tiruthani – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit dharshan at Tiruthani – Mururgan Temple, Srikalahasthi Temple. After drive to check in hotel, Day of leisure free for rest and own activities, etc.'},
       {title: 'Day 13 : Tirupati – Srikalahasthi', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham, Srikalahasteeswara Temple (Air). Later return back to hotel.'},
       {title: 'Day 14 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
-      {title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Roshni Holidays".'}
+      {title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
     ],
     inclusions: [
       'Accommodation at mentioned hotels or similar on Double / Triple sharing basis',
@@ -855,7 +855,7 @@ export const domestic=[
       {title: 'Day 7 : Trichy – Tanjore – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to brihadeeswara temple, gangaikonda cholapuram, garbarakshambigai temple, guru bhagavan temple. Later drive to check in hotel at Chidamabram.'},
       {title: 'Day 8 : Chidambaram Thillai Nataraja Temple (Sky)', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple. Evening do some shopping and own activities. Stay at Chidambaram.'},
       {title: 'Day 9 : Chidambaram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Stay at Chennai.'},
-      {title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of Roshni Holidays.'}
+      {title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of Tourswale.'}
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar on Double / Triple sharing basis',
@@ -1103,7 +1103,7 @@ export const domestic=[
       {title: 'Day 3 : Kumbakonam – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. Later return back to check in hotel at Chidambaram. Overnight Stay at Chidambaram.'},
       {title: 'Day 4 : Chidambaram – Chennai', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple. Evening do some shopping and own activities, etc. Later drive to check in hotel at Chennai. Overnight Stay at Chennai.'},
       {title: 'Day 5 : Chennai', copy: 'After Morning Breakfast, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.'},
-      {title: 'Day 6 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Roshni Holidays".'}
+      {title: 'Day 6 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -1189,7 +1189,7 @@ export const domestic=[
       {title: 'Day 9 : Velankanni – Pondicherry', copy: 'After Morning breakfast check out from the hotel and drive to Pondicherry. After check in hotel, proceed to visit Arulmigu Manakula Vinayagar Temple, French War Memorial, Sri Varadharaja Perumal Temple, Auroville Beach. Later retun back to hotel. Overnight stay at Pondicherry.'},
       {title: 'Day 10 : Pondicherry – Mahabalipruam – Chennai', copy: 'After breakfast check out from the hotel and drive to Chennai. On the way to visit Mahabalipuram - Pancha Rathas, Shore Temple, Varaha Cave Temple, Tiger Cave, Thirukadalmallai. Later drive to check in hotel at Chennai. Overnight stay at Chennai.'},
       {title: 'Day 11 : Chennai', copy: 'After Morning Breakfast, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.'},
-      {title: 'Day 12 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Roshni Holidays".'}
+      {title: 'Day 12 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -1284,7 +1284,7 @@ export const domestic=[
       {title: 'Day 12 : Tiruvannamalai – Vellore – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit Vellore – Golden Temple. After check in hotel, Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel. Overnight Stay at Tirupati.'},
       {title: 'Day 13 : Tirupati – Kalahasthi – Tiruthani – Kancheepuram', copy: 'After Morning Breakfast, check out and drive to Kancheepuram. On the way to visit dharshan at SriKalahasthi Temple, Tiruthani – Murugan Temple. Then drive to check in hotel at Kancheepuram. After proceed to visit, kanchi kailasanathar temple, ekambareswarar temple. After do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Kancheepuram.'},
       {title: 'Day 14 : Kancheepuram – Chennai', copy: 'After Morning Breakfast, check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.'},
-      {title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Roshni Holidays".'}
+      {title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -1374,7 +1374,7 @@ export const domestic=[
       {title: 'Day 3 : Coorg', copy: 'After Breakfast proceed for a sightseeing of Madikeri. Visit Omkareshwara Temple, Abbey Falls, Madikeri fort and Raja\'s Tomb, Raja\'s Seat. Later return back to hotel. Overnight stay at Coorg.'},
       {title: 'Day 4 : Coorg – Mysore', copy: 'After Morning Breakfast check out from the hotel and drive to Mysore. After check in hotel, Proceed to visit Brindavan Garden, Mysore Palace, Chamundeshwari Temple, St.Philomena’s Church, karanji Lake, Mysore Zoo, Krishna Raja Sagara, Lalitha Mahal. Later return back to hotel. Overnight Stay at Mysore.'},
       {title: 'Day 5 : Mysore – Bangalore', copy: 'After Morning Breakfast check out and drive to Bangalore. After check in hotel, proceed to visit Iskcon temple, tippu sultan summer palace, bangalore fort, hesaraghatta lake, bellandur lake, shopping and own activities. Later return back to hotel. Overnight Stay at Bangalore.'},
-      {title: 'Day 6 : Bangalore Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Silicon Valley of India. You will depart to Bangalore Airport for onward journey, along with unforgettable memoirs of "Roshni Holidays".'}
+      {title: 'Day 6 : Bangalore Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Silicon Valley of India. You will depart to Bangalore Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -1460,7 +1460,7 @@ export const domestic=[
       {title: 'Day 9 : Kovalam – Thekkady', copy: 'After Morning Breakfast check out from the hotel and drive to Thekkady. Transfer to hotel & relax. Afternoon, proceed for sightseeing – The Periyar wildlife sanctuary is thick evergreen forest, declared a Tiger Reserve in 1978. The splendid artificial lake formed by the Mullaperiyar Dam across the Periyar river adds to the charm of the park. You can also go for Boat Cruises on the Periyar lake, visit cardamom, pepper, tea & coffee plantation. You may like to experience Kathakali Show-the local dance depicting the God & the devil, Kalaripayattu Show-ancient form of martial Arts practised across this part of India, Thekkady Elephant Ride, on your own. Later return back to hotel. Overnight Stay at Thekkady.'},
       {title: 'Day 10 : Thekkady – Munnar', copy: 'After Morning breakfast, proceed to Munnar. Munnar is a land of Misty Mountains and spectacular tea plantations. The best hill station of Kerala. Watch the spectacular beauty of Tea Gardens; enjoy the nature, where the cloud turns into mist, which may touch you with a romantic feeling. Sprawling tea plantations, picture book towns, winding lanes and holiday facilities make this is a popular and most wanted tourist place of Kerala. After check in to hotel and take rest. Later you can visit Blossom Park, Pothenmedu View point, and Tea museum (will be closed on all Mondays). At the evening you have the opportunity of shopping at Munnar Town. Later return back to hotel. Overnight Stay at Munnar.'},
       {title: 'Day 11 : Munnar', copy: 'Following the breakfast proceed for sightseeing, which includes Photo Point, Honey tree, Mattupetty Dam (boating at own cost, coordinate with driver), Echo point (The natural Echo phenomenon is always happening here), Shooting point, kundala lake, the Eravikulam (Rajamalai) National Park (will be closed on February and March in every year) which is a 30 minutes’ drive away from Munnar town (where you can see the rare species of Mountain Goat). Later return back to hotel. Overnight Stay at Munnar.'},
-      {title: 'Day 12 : Munnar – Cochin Departure', copy: 'After Morning Breakfast check out from the Hotel and get ready to say adios to God’s Own Country. You will depart to Cochin Airport for onward journey, along with unforgettable memoirs of "Roshni Holidays".'}
+      {title: 'Day 12 : Munnar – Cochin Departure', copy: 'After Morning Breakfast check out from the Hotel and get ready to say adios to God’s Own Country. You will depart to Cochin Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -1652,6 +1652,138 @@ export const domestic=[
       }
     ],
     tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'experience-varanasi-roshni',
+    title: 'Experience Varanasi',
+    location: 'Varanasi',
+    days: 'Flexible',
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Dasaswamedh_ghat-varanasi_india-andres_larin.jpg/1280px-Dasaswamedh_ghat-varanasi_india-andres_larin.jpg',
+    desc: 'Experience the spiritual heart of India with guided tours of the iconic Ghats, Sarnath, and the mesmerising evening Ganga Aarti.',
+    tags: ['Varanasi', 'Spiritual', 'Flexible'],
+    promoEyebrow: 'Tourswale',
+    promoTitle: 'Experience Varanasi',
+    promoLine: 'Ganga Aarti · Subah-e-Benaras · Sarnath',
+    specialHeading: 'Discover the City of Light.',
+    stays: ['Customizable Stays', 'Private Experiences', 'Registered Guides'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Varanasiganga.jpg', alt: 'Varanasi Ghat'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Assi_Ghat_Varanasi_morning_Aarti.jpg', alt: 'Ganga Aarti'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg/1280px-Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg', alt: 'Sarnath Heritage'}
+    ],
+    galleryCaptions: ['Varanasi Ghats', 'Ganga Aarti Ceremony', 'Sarnath Heritage'],
+    groupTitles: ['Evening Aarti', 'Morning Boat Tour', 'Sarnath Heritage'],
+    experienceGroups: [
+      ['Evening Aarti', 'Sunset Boat ride', 'Small Burning ghat to Big Burning ghat', 'World Famous Ganga Aarti Ceremony', 'Front-row view of fire prayer'],
+      ['Morning Boat Tour', 'Subah-E-Benaras ceremony', 'Assi ghat & Shivala', 'Traditional boat ride', 'Colourful Heritage ghats'],
+      ['Sarnath Heritage', 'Rishipatan / Ishipatan', 'Chaukandi & Dhamek Stupa', 'Main Temple & Jain Temple', 'Archeological museum & Lion Capital']
+    ],
+    itinerary: [
+      {title: 'Experience 1 : Sunset Boat Ride & Evening Ganga Aarti', copy: 'After relaxation, get ready for a sensational evening in the Old City. Include a Sunset Boat ride from the Small Burning ghat to the Big Burning Ghat. Experience the world-famous evening Ganga Aarti Ceremony event from 6:15 pm to 7 pm. Get a front-row peek on the Ganges for the legendary fire prayer, known as aarti. (Duration: 3 hours, 17:00 to 20:00)'},
+      {title: 'Experience 2 : Subah-E-Benaras with Boat Tour', copy: 'You will be picked up from your hotel for the amazing Subah-e-Benaras ceremony at Assi Ghat, Shivala. Followed by a traditional boat ride passing through different colourful & heritage ghats and buildings. Experience complete peace away from the city hustle with a nice storyteller waiting for the sun to come out. (Duration: 3-4 hours, 05:00 to 09:00)'},
+      {title: 'Experience 3 : Sarnath Tour', copy: 'Visit Sarnath, located 15 km from the city centre, where Lord Buddha delivered his first sermon. Explore historically relevant places like Chaukandi Stupa, Dhamek Stupa, the Main Temple, Jain Temple & the Archeological museum. See the Lion Capital, the National Emblem of India. (Duration: 3 hours, according to customer departure)'}
+    ],
+    inclusions: [
+      'All transfers to experiences listed',
+      'English speaking guided tours (Central Government Registered Guide)',
+      'Private experiences / no groups',
+      'One water bottle for each traveler at every experience'
+    ],
+    exclusions: [
+      'Entry fee to monuments if any',
+      'Accommodation (can be booked as per need under different categories)',
+      'Any personal expenses',
+      'Anything not mentioned under inclusions'
+    ],
+    benefits: [
+      'Private guided tours',
+      'Central Government Registered Guides',
+      'Customizable accommodation options',
+      'Flexible experience timings'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Accommodation can be booked as per your need under different categories.',
+          'Options range from Budget to Premium / Leisure including breakfast.'
+        ]
+      },
+      {
+        title: 'Important Remarks',
+        details: [
+          'Experiences will be organized on the basis of arrival/departure.',
+          'For larger together groups, please contact us for special arrangements.'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
+  },
+  {
+    slug: 'kasol-kheerganga-trek',
+    title: 'Kasol & Kheerganga Trek',
+    location: 'Himachal Pradesh',
+    days: 7,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Kasol_mountain_view.jpg',
+    desc: 'Experience a 7-day adventure through the scenic Parvati Valley, featuring themed cafes in Kasol, natural hot springs, and the majestic Kheerganga trek.',
+    tags: ['Kasol', 'Kheerganga', 'Trekking'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'Kasol & Kheerganga Trek',
+    promoLine: 'Delhi · Kasol · Barsheni · Kheerganga',
+    specialHeading: 'Himalayan Landscapes & Hot Springs.',
+    stays: ['6 Nights / 7 Days', 'Swiss Campsite', 'AC Volvo Transport'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Kasol_mountain_view.jpg', alt: 'Kasol Mountain View'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tosh_in_Monsoon%2C_July_2017.jpg/1280px-Tosh_in_Monsoon%2C_July_2017.jpg', alt: 'Parvati Valley Landscapes'},
+      {src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Kheerganga Trekking'}
+    ],
+    galleryCaptions: ['Kasol Mountains', 'Parvati Valley', 'Himalayan Trekking'],
+    groupTitles: ['The Journey', 'Trekking Experience', 'Camps & Meals'],
+    experienceGroups: [
+      ['The Journey', 'AC Volvo from Delhi', 'Kasol Swiss Campsite', 'Parvati Valley Landscapes', 'Local Market & Themed Cafes'],
+      ['Trekking Experience', '12 KMS Easy to Moderate Trek', 'Local Trek Guide', 'Hot Water Springs', 'Shiva Temple & Kartik ji Cave'],
+      ['Camps & Meals', 'Overnight Kheerganga Camps', 'Overnight Kasol Stay', 'Meals: Dinner & Breakfast included', 'Local Support Team']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Departure from Mumbai', copy: 'Board the train from Mumbai Central at 9:25 pm for Delhi and enjoy the overnight journey.'},
+      {title: 'Day 2 : Arrival & Departure from Delhi', copy: 'Reach Delhi by 6:45 pm. At 7:30 pm, board your AC Volvo bus and start your overnight journey to Kasol.'},
+      {title: 'Day 3 : Reach Kasol & Local Sightseeing', copy: 'Around 10 am, reach our Swiss campsite. Take rest, later explore the local market, themed cafes, take a walking tour to Chalal via the River Bridge, visit Nature Park, and try different cuisines. Dinner & overnight stay in Kasol.'},
+      {title: 'Day 4 : Kheerganga Trek from Barsheni', copy: 'After breakfast, our driver will pick you up for Barsheni where you will meet your local trek guide. Start your trek via Nakthan Village. Experience the best landscapes & waterfalls of Parvati valley. Enjoy hot water springs, visit Shiva temple & Kartik ji cave. Dinner & overnight stay at Kheerganga camps.'},
+      {title: 'Day 5 : Trek Down from Kheerganga', copy: 'Have breakfast and start the trek down from Kheerganga at 10 am. It will take around 4 to 5 hours to reach Barsheni. Board our vehicle, reach Kasol, and start your overnight journey back to Delhi.'},
+      {title: 'Day 6 : Delhi to Mumbai', copy: 'Arrive in Delhi by morning. Board the train from Delhi at 4:45 pm for Mumbai and enjoy the overnight journey.'},
+      {title: 'Day 7 : Arrival in Mumbai', copy: 'Reach Mumbai at 2:45 pm in the afternoon. Trip ends with beautiful memories to share with family & friends.'}
+    ],
+    inclusions: [
+      'One night stay at Kheerganga Camps & One night stay at Kasol',
+      'Two dinner, Two Breakfast meals during stay',
+      'Local Trek Guide',
+      'Transportation from Kasol to Barsheni (base location of trek)',
+      'All Transfers from Delhi in AC Luxury Bus',
+      'Local Support Team at Kasol'
+    ],
+    exclusions: [
+      'Meals during the travel',
+      'Any personal expenses',
+      'Anything that is not mentioned in the inclusions'
+    ],
+    benefits: [
+      'Easy to Moderate Trek suitable for non-trekkers',
+      'Comfortable AC Volvo transport from Delhi',
+      'Scenic Parvati Valley views',
+      'Authentic local experiences'
+    ],
+    policies: [
+      {
+        title: 'Food Menu Details',
+        details: [
+          'Dinner: Chapati, Jeera Rice, Dal Makhni / similar, Paneer Dish / Mix Veg., Salad',
+          'Breakfast: Aloo Puri / Stuffed Parantha, served with Pickle & Tea'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
   }
 ];
 export const international=[
