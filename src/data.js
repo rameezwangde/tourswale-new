@@ -71,6 +71,63 @@ export const domestic=[
       'Dedicated driver for the entire trip'
     ],
     tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'tirupati-kancheepuram-temple-tour',
+    title: 'Tirupati & Kancheepuram Temple Tour',
+    location: 'South India',
+    days: 5,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1200&q=80',
+    desc: 'A spiritual 5-day journey covering the sacred temples of Tirupati, Vellore, and Kancheepuram.',
+    tags: ['Tirupati', 'Kancheepuram', '5 Days'],
+    promoEyebrow: 'Your Spiritual Journey',
+    promoTitle: 'Tirupati & Kancheepuram',
+    promoLine: 'Chennai · Tirupati · Vellore · Kancheepuram',
+    specialHeading: 'Devotion. Heritage. Architecture. Spirituality.',
+    stays: ['4 Nights / 5 Days', 'Temple Darshans', 'Immersive Experience'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
+      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'}
+    ],
+    galleryCaptions: ['Spiritual Darshan', 'Heritage Architecture', 'South India'],
+    groupTitles: ['Sacred Darshans', 'Heritage Temples', 'Chennai Experience'],
+    experienceGroups: [
+      ['Sacred Darshans', 'Sri Venkatachalapathy Temple (Tirumala)', 'Srikalahasthi Temple', 'Sri Padmavathi Ammavari Temple'],
+      ['Heritage Temples', 'Vellore Golden Temple', 'Kanchi Kamakshi Amman Temple', 'Varadharaja Perumal Temple'],
+      ['Chennai Experience', 'Kapaleeswarar Temple', 'Fort St.George', 'Marina Beach', 'San Thome Church']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Chennai – Tirupati (via Srikalahasthi)', copy: 'On Arrival Chennai Airport by Flight will meet and transfer to Tirupati. On the way to visit dharshan at Srikalahasthi temple. After visit drive to check in hotel. Day of leisure free for rest and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 2 : Tirupati Dharshan', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel.'},
+      {title: 'Day 3 : Tirupati – Vellore – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit Vellore – Golden Temple. After dharshan drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 4 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
+      {title: 'Day 5 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Roshni Holidays ".'}
+    ],
+    inclusions: [
+      'Accommodation on Double / Triple sharing basis',
+      'Daily Breakfast basis at all hotels',
+      'All transfer and sightseeing by Air conditioned vehicle',
+      'Driver allowance, toll, parking, fuel charge and interstate taxes',
+      'Applicable taxes for Room Rent, Breakfast and Transport'
+    ],
+    exclusions: [
+      'Expenses of personal nature viz., telephone bills, Laundry, Tips and use of mini bar in the room',
+      'Any pooja, dharshan Entertainments, etc.',
+      'Any meals & services other than those as mentioned in cost includes',
+      'Entrance Fee & Guide Fee',
+      'Alcoholic & non-alcoholic beverages during meals or otherwise',
+      'Tips at restaurants, concierge and driver',
+      '5% GST'
+    ],
+    benefits: [
+      'Dedicated Spiritual Tour',
+      'Comfortable AC transport',
+      'Daily breakfast included',
+      'Assistance with Darshans'
+    ],
+    tagline: 'Book Now with Tourswale'
   }
 ];
 export const international=[
