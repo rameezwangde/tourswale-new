@@ -22,7 +22,7 @@ export const domestic=[
     stays: ['13 Nights / 14 Days', 'Multiple Destinations', 'Immersive Experience'],
     gallery: [
       {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1400&q=80', alt: 'Meenakshi Temple Madurai'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Meenakshi Temple Madurai'},
       {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'}
     ],
     galleryCaptions: ['Kerala Backwaters', 'Madurai Temple', 'Munnar Tea Gardens'],
@@ -78,7 +78,7 @@ export const domestic=[
     location: 'South India',
     days: 5,
     price: null,
-    image: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
     desc: 'A spiritual 5-day journey covering the sacred temples of Tirupati, Vellore, and Kancheepuram.',
     tags: ['Tirupati', 'Kancheepuram', '5 Days'],
     promoEyebrow: 'Your Spiritual Journey',
@@ -87,7 +87,7 @@ export const domestic=[
     specialHeading: 'Devotion. Heritage. Architecture. Spirituality.',
     stays: ['4 Nights / 5 Days', 'Temple Darshans', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
       {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
       {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'}
     ],
@@ -184,6 +184,25 @@ export const domestic=[
       'Flexible accommodation options',
       'Dedicated local sightseeing'
     ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Munnar (2N): 3* Munnar Castle / 4* Munnar Queen / 5* Elixir Hills',
+          'Kumarakom (1N): 3* Royal Riviera / 4* Lake Song / 5* The Zuri',
+          'Cochin (1N): 3* CRB Cochin Palace / 4* The Dunes / 5* Le Maritime'
+        ]
+      },
+      {
+        title: 'Vehicle Information',
+        details: [
+          '2-3 Pax: AC Dzire / Etios',
+          '4-5 Pax: AC Innova',
+          '6-10 Pax: AC 12 Seater Tempo',
+          '11-15 Pax: AC 17 Seater Tempo'
+        ]
+      }
+    ],
     tagline: 'Book Now with Tourswale'
   },
   {
@@ -192,7 +211,7 @@ export const domestic=[
     location: 'Tamil Nadu',
     days: 10,
     price: null,
-    image: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
     desc: 'A 10-day extensive pilgrimage covering the powerful Murugan Temples and Navagraha Stalams in Tamil Nadu.',
     tags: ['Navagraha', 'Murugan Temples', '10 Days'],
     promoEyebrow: 'Your Spiritual Journey',
@@ -201,7 +220,7 @@ export const domestic=[
     specialHeading: 'Faith. Heritage. Devotion. Peace.',
     stays: ['9 Nights / 10 Days', 'Extensive Temple Darshans', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
       {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
       {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture'}
     ],
@@ -303,6 +322,37 @@ export const domestic=[
       'Comfortable AC transport',
       'Wildlife & Nature Trails',
       'Flexible accommodation options'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Munnar (2N): 3* Munnar Castle / 4* Munnar Queen / 5* Elixir Hills',
+          'Thekkady (1N): 3* PepperVine / 4* Elephant Court / 5* Poetree Sarovar',
+          'Alleppey (1N): 3* Pagoda Resort / 4* Deshadan Resort / 5* Lake Canopy (or Houseboats)',
+          'Cochin (1N): 3* CRB Cochin Palace / 4* The Dunes / 5* Le Maritime'
+        ]
+      },
+      {
+        title: 'Vehicle Information',
+        details: [
+          '2-3 Pax: AC Dzire / Etios',
+          '4-5 Pax: AC Innova',
+          '6-10 Pax: AC 12 Seater Tempo Traveller',
+          '11-15 Pax: AC 17 Seater Tempo Traveller'
+        ]
+      },
+      {
+        title: 'Houseboat Rules',
+        details: [
+          'Check in – 12 PM & Check out – 9 AM',
+          'Houseboat will be stationed at one place from 5.00pm to 8.00am due to Govt restriction',
+          'Meal Plan: Breakfast, Lunch, Evening Tea & Snacks, Dinner on board (Authentic Kerala style)',
+          'Deluxe Houseboat: AC Timing from 9 PM to 6 AM only',
+          'Premium Houseboat: AC Timing from 12 PM to 9 AM (Bedroom only)',
+          'Luxury Houseboat: AC Timing from 12 PM to 9 AM (Bedroom & Lobby only)'
+        ]
+      }
     ],
     tagline: 'Book Now with Tourswale'
   }
