@@ -2729,6 +2729,97 @@ export const international=[
       }
     ],
     tagline: 'Tourswale'
+  },
+  {
+    slug: 'enchanting-turkey-10-days',
+    title: 'Enchanting Turkey',
+    location: 'Turkey',
+    days: 10,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/1280px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg',
+    desc: 'Be our guest on a 10-day magical journey through Turkey. Experience the Hot Air Balloons of Cappadocia, the cotton castles of Pamukkale, and the rich history of Istanbul and Kusadasi.',
+    tags: ['Turkey', 'Cappadocia', '10 Days'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'Enchanting Turkey',
+    promoLine: 'Istanbul · Cappadocia · Pamukkale · Kusadasi',
+    specialHeading: 'Fairy Chimneys. Thermal Pools. Grand Bazaars.',
+    stays: ['10 Days / 9 Nights', 'Quality Accommodations', 'Domestic Flights Included'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/1280px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg', alt: 'Istanbul Skyline'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/1280px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg', alt: 'Cappadocia Hot Air Balloons'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Pamukkale%2C_Denizli_2026_68.jpg/1280px-Pamukkale%2C_Denizli_2026_68.jpg', alt: 'Pamukkale Thermal Pools'}
+    ],
+    galleryCaptions: ['Istanbul Skyline', 'Cappadocia Balloons', 'Pamukkale Cotton Castles'],
+    groupTitles: ['Istanbul Highlights', 'Cappadocia & Pamukkale', 'Kusadasi & Ephesus'],
+    experienceGroups: [
+      ['Istanbul Highlights', 'Bosporus Cruise', 'Hippodrome & Blue Mosque', 'Topkapi Palace & Hagia Sophia', 'Grand Bazaar & Spice Market'],
+      ['Cappadocia & Pamukkale', 'Hot Air Balloon Ride', 'Uchisar Castle & Kaymakli Underground City', 'Konya Mevlana Museum', 'Cotton Castle & Hierapolis'],
+      ['Kusadasi & Ephesus', 'Ephesus Excavations', 'House of Virgin Mary', 'Leisure at Kusadasi Beaches']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrive Istanbul', copy: 'Arrive at Istanbul Airport and meet our representative. Transfer to your hotel. Later, proceed for a scenic Bosporus Cruise. Return to the hotel for a dinner prepared by your personal Indian Chef. Overnight in Istanbul.'},
+      {title: 'Day 2 : Istanbul City Tour', copy: 'After breakfast, leave for a sightseeing tour including the Hippodrome, Blue Mosque, and Hagia Sophia. Lunch at the hotel cooked by our Indian chef. After lunch, get dropped at Taksim Square, a major tourist and leisure district. Return to the hotel for dinner. Overnight in Istanbul.'},
+      {title: 'Day 3 : Istanbul to Cappadocia', copy: 'After breakfast, check out and drive to the airport for your flight to Cappadocia. Arrive in this fantastical place and enjoy lunch at your hotel. Later, visit Uchisar Village and the beautiful Valleys of Cappadocia. Dinner at the hotel. Overnight in Cappadocia.'},
+      {title: 'Day 4 : Cappadocia Hot Air Balloon & Underground City', copy: 'Early morning, proceed for a magical Hot Air Balloon ride, drifting past fairy chimneys and valleys. Return to the hotel for breakfast. After lunch, visit the Kaymakli Underground city. Dinner at the hotel. Overnight in Cappadocia.'},
+      {title: 'Day 5 : Cappadocia – Konya – Pamukkale', copy: 'After breakfast, drive to Pamukkale via Konya. Enjoy lunch in Konya at an Indian Restaurant. Photo stop at a Caravan Serai and Mevlana. Dinner at the Pamukkale hotel. Overnight in Pamukkale.'},
+      {title: 'Day 6 : Pamukkale to Kusadasi', copy: 'After breakfast, check out and proceed to explore the Cotton Castle and Hierapolis in Pamukkale. Lunch at the Pamukkale hotel, then drive to Kusadasi. Dinner and overnight in Kusadasi.'},
+      {title: 'Day 7 : Kusadasi – Ephesus & Virgin Mary', copy: 'Breakfast at the hotel, then proceed for a full-day tour of the Ephesus Excavations and the House of Virgin Mary. Enjoy lunch at the Kusadasi hotel. The rest of the day is free for leisure to enjoy the beaches of Kusadasi. Dinner and overnight in Kusadasi.'},
+      {title: 'Day 8 : Kusadasi to Istanbul', copy: 'Breakfast at the hotel. Proceed from Kusadasi to Izmir Airport for your flight back to Istanbul. Arrive at your Istanbul hotel and enjoy lunch. The rest of the day is at leisure. Dinner at the hotel. Overnight in Istanbul.'},
+      {title: 'Day 9 : Topkapi Palace and Grand Bazaar', copy: 'Breakfast at the hotel. Proceed to visit the magnificent Topkapi Palace and the vibrant Grand Bazaar. Lunch at the hotel. Rest of the day at leisure for shopping. Dinner and overnight in Istanbul.'},
+      {title: 'Day 10 : Departure', copy: 'After breakfast, transfer to the airport to board your flight to your onward destination with memorable experiences of Turkey. See you soon!'}
+    ],
+    inclusions: [
+      'Return Economy Class Airfare',
+      'Internal Airfare (Istanbul to Cappadocia and Izmir to Istanbul)',
+      '09 Nights stay at mentioned hotels or similar in well-appointed rooms',
+      'Daily Breakfast with one or two Indian snacks',
+      'Lunches & Dinners as mentioned, prepared by Indian MAHARAJ / Chef',
+      'English Speaking guide & Service of Tour Manager',
+      'All Transfers by Luxury A/C Coach (Parking Fees and Tolls included)',
+      'Entry to Bosporus Cruise, Topkapi Palace, Hagia Sophia',
+      'Uchisar Castle Photostop, Kaymakli Underground City Tour & Hot Air Balloon',
+      'Mevlana Museum, Cotton Castle, Hierapolis, Ephesus Excavations & House of Virgin Mary',
+      'One Time Tourist Turkey Visa (For Maharashtra Issued Passport Only)'
+    ],
+    exclusions: [
+      '5% GST charged over and above the package cost',
+      'Travel Insurance',
+      'Personal Expenses, Gratuities and Tips to Hotel/Guide/Staff',
+      'Meals and Sightseeing other than specified in the Itinerary',
+      'Early and/or Late Check In at Hotels unless otherwise stated'
+    ],
+    benefits: [
+      'Hot Air Balloon Ride included in Cappadocia',
+      'Internal flights included to maximize sightseeing time',
+      'Personal Indian Chef preparing authentic meals at hotels'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Istanbul (2+2 Nights): Occidental Pera Istanbul / Similar',
+          'Cappadocia (2 Nights): Ramada By Wyndham Cappadocia / Similar',
+          'Pamukkale (1 Night): Pam Thermal Hotel & Spa / Similar',
+          'Kusadasi (2 Nights): Le Bleu Hotel & Resort / Similar'
+        ]
+      },
+      {
+        title: 'Important Notes',
+        details: [
+          'Hot Air Balloon is subject to weather conditions.',
+          'The itinerary may be reversed due to flight availability.',
+          'All passengers will have to carry One Kitchen Bag per person for our Kitchen from Mumbai Airport.'
+        ]
+      },
+      {
+        title: 'Optional Supplements',
+        details: [
+          'Turkish Night in Cappadocia - USD 40 per person.',
+          'Quad Bike in Cappadocia – USD 50 per person.'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
   }
 ];
 export const allTours=[...domestic,...international];
