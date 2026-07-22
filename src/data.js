@@ -644,6 +644,180 @@ export const domestic=[
       }
     ],
     tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kerala-package-7n-8d',
+    title: 'Kerala Package – Munnar, Thekkady, Kumarakom, Kovalam & Cochin',
+    location: 'Kerala',
+    days: 8,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1200&q=80',
+    desc: 'An 8-day journey covering Munnar, Thekkady, Kumarakom, Kovalam, and Cochin.',
+    tags: ['Munnar', 'Thekkady', 'Kumarakom', 'Kovalam', 'Cochin'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: "God's Own Country",
+    promoLine: 'Munnar · Thekkady · Kumarakom · Kovalam · Cochin',
+    specialHeading: 'Nature. Wildlife. Backwaters. Beaches.',
+    stays: ['7 Nights / 8 Days', 'Premium Stays', 'AC Houseboat (Optional)'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Tea Gardens'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
+      {src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach'}
+    ],
+    galleryCaptions: ['Munnar Plantations', 'Kumarakom Backwaters', 'Kovalam Beach'],
+    groupTitles: ['Hill Stations', 'Wildlife & Backwaters', 'Beach & Heritage'],
+    experienceGroups: [
+      ['Hill Stations', 'Cheeyapara & Valara Waterfalls', 'Eravikulam National Park', 'Munnar Photo Point', 'Mattupetty Dam'],
+      ['Wildlife & Backwaters', 'Periyar Tiger Reserve', 'Elephant Safari', 'Kumarakom Bird Sanctuary', 'Sunset Views'],
+      ['Beach & Heritage', 'Kovalam Golden Sands', 'Sri Padmanabhaswamy Temple', 'Dutch Palace & Synagogue', 'Chinese fishing nets']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar."},
+      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Stay At Munnar.'},
+      {title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Stay At Thekkady.'},
+      {title: 'Day 4 : Thekkady – Kumarakom', copy: 'After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations and travel magazines. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Stay At Kumarakom.'},
+      {title: 'Day 5 : Kumarakom – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.'},
+      {title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.'},
+      {title: 'Day 7 : Kovalam – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Stay At Cochin.'},
+      {title: 'Day 8 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+    ],
+    inclusions: [
+      'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
+      'Complimentary Breakfast from 2nd Day',
+      'All Meals during the stay at Houseboat',
+      'Pick up, drop & sightseeing by comfortable Ac Vehicle as per itinerary.',
+      'Driving time – 8am to 7pm.',
+      'Toll / Parking / Driver Beta'
+    ],
+    exclusions: [
+      'Any Train / Air Fare Tickets',
+      'Entrance & Activity fee to various monuments, Museums, Temples, Pooja and Parks',
+      'Medical & Travel Insurance',
+      'Any Meals other than those mentioned above.',
+      'Any portage at airports and hotels, Driver Tips, Laundry, Wines & Alcoholic beverages, Mineral Water, Telephonic Charges',
+      '5% GST'
+    ],
+    benefits: [
+      'Houseboat stay experience in Kumarakom',
+      'Comfortable AC transport',
+      'Wildlife & Nature Trails',
+      'Flexible accommodation options'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Munnar (2N): Munnar Castle / Munnar Queen Resort / Elixir Hills',
+          'Thekkady (1N): PepperVine / The Elephant Court / Poetree Sarovar Portico',
+          'Kumarakom (1N): Royal Riviera / Lake Song / The Zuri',
+          'Kovalam (2N): Sagara Beach Resort / Uday Samudra (UDS) / Turtle on the Beach',
+          'Cochin (1N): CRB Cochin Palace / The Dunes Cochin / Le Maritime'
+        ]
+      },
+      {
+        title: 'Vehicle Information',
+        details: [
+          '2-3 Pax: AC Dzire / Etios',
+          '4-5 Pax: AC Innova',
+          '6-10 Pax: AC 12 Seater Tempo Traveller',
+          '11-15 Pax: AC 17 Seater Tempo Traveller'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kerala-package-7n-8d-alleppey',
+    title: 'Kerala Package – Munnar, Thekkady, Alleppey, Kovalam & Cochin',
+    location: 'Kerala',
+    days: 8,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    desc: 'An 8-day journey covering Munnar, Thekkady, Alleppey backwaters, Kovalam, and Cochin.',
+    tags: ['Munnar', 'Thekkady', 'Alleppey', 'Kovalam', 'Cochin'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: "God's Own Country",
+    promoLine: 'Munnar · Thekkady · Alleppey · Kovalam · Cochin',
+    specialHeading: 'Nature. Wildlife. Backwaters. Beaches.',
+    stays: ['7 Nights / 8 Days', 'Premium Stays', 'AC Houseboat (Optional)'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Tea Gardens'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Backwaters'},
+      {src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach'}
+    ],
+    galleryCaptions: ['Munnar Plantations', 'Alleppey Backwaters', 'Kovalam Beach'],
+    groupTitles: ['Hill Stations', 'Wildlife & Backwaters', 'Beach & Heritage'],
+    experienceGroups: [
+      ['Hill Stations', 'Cheeyapara & Valara Waterfalls', 'Eravikulam National Park', 'Munnar Photo Point', 'Mattupetty Dam'],
+      ['Wildlife & Backwaters', 'Periyar Tiger Reserve', 'Elephant Safari', 'Alleppey Houseboat Cruise', 'Sunset Views'],
+      ['Beach & Heritage', 'Kovalam Golden Sands', 'Sri Padmanabhaswamy Temple', 'Dutch Palace & Synagogue', 'Chinese fishing nets']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar."},
+      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Stay At Munnar.'},
+      {title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Stay At Thekkady.'},
+      {title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey- With large network of inland canals earning it the sobriquet “Venice of the East”. Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. Check in at Hotel/Houseboat & experience the life beyond this world along the backwater while cursing in Houseboat (If stay in Houseboat) or else Shikara Ride (If stay in hotel/Resort; at own cost) – Evening enjoy the sunset from the backwater. Stay At Alleppey.'},
+      {title: 'Day 5 : Alleppey – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.'},
+      {title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.'},
+      {title: 'Day 7 : Kovalam – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Stay At Cochin.'},
+      {title: 'Day 8 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+    ],
+    inclusions: [
+      'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
+      'Complimentary Breakfast from 2nd Day',
+      'All Meals during the stay at Houseboat',
+      'Pick up, drop & sightseeing by comfortable Ac Vehicle as per itinerary.',
+      'Driving time – 8am to 7pm. No night drive will be entertained except in case of any emergency',
+      'Toll / Parking / Driver Beta'
+    ],
+    exclusions: [
+      'Any Train / Air Fare Tickets',
+      'Entrance & Activity fee to various monuments, Museums, Temples, Pooja and Parks',
+      'Medical & Travel Insurance',
+      'Any Meals other than those mentioned above. (Anything extra ordered apart from the menu will be charged)',
+      'Any portage at airports and hotels, Driver Tips, Laundry, Wines & Alcoholic beverages, Mineral Water, Telephonic Charges',
+      '5% GST'
+    ],
+    benefits: [
+      'Houseboat stay experience in Alleppey',
+      'Comfortable AC transport',
+      'Wildlife & Nature Trails',
+      'Flexible accommodation options'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Munnar (2N): Munnar Castle / Munnar Queen Resort / Elixir Hills',
+          'Thekkady (1N): PepperVine / The Elephant Court / Poetree Sarovar Portico',
+          'Alleppey (1N): Pagoda Resort / Deshadan Backwater Resort / Lake Canopy',
+          'Kovalam (2N): Sagara Beach Resort / Uday Samudra (UDS) / Turtle on the Beach',
+          'Cochin (1N): CRB Cochin Palace / The Dunes Cochin / Le Maritime'
+        ]
+      },
+      {
+        title: 'Vehicle Information',
+        details: [
+          '2-3 Pax: AC Dzire / Etios',
+          '4-5 Pax: AC Innova',
+          '6-10 Pax: AC 12 Seater Tempo Traveller',
+          '11-15 Pax: AC 17 Seater Tempo Traveller'
+        ]
+      },
+      {
+        title: 'Houseboat Rules',
+        details: [
+          'Check in – 12 PM & Check out – 9 AM',
+          'Backwater cruising & overnight stay in private Deluxe Houseboat',
+          'Meal Plan: Breakfast, Lunch, Evening Tea & Snacks, Dinner on board (Authentic Kerala style)',
+          'Houseboat will be stationed at one place from 5.00pm to 8.00am due to Govt. restriction',
+          'Deluxe Houseboat: AC Timing from 9 PM to 6 AM only',
+          'Premium Houseboat: AC Timing from 12 PM to 9 AM (Bedroom only)',
+          'Luxury Houseboat: AC Timing from 12 PM to 9 AM (Bedroom & Lobby only)'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
   }
 ];
 export const international=[
