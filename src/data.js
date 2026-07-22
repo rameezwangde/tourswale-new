@@ -1784,6 +1784,94 @@ export const domestic=[
       }
     ],
     tagline: 'Tourswale'
+  },
+  {
+    slug: 'shimla-manali-6n7d',
+    title: 'Shimla & Manali Package',
+    location: 'Himachal Pradesh',
+    days: 7,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Manali_City.jpg/1280px-Manali_City.jpg',
+    desc: 'Experience the magic of Himachal Pradesh with this 6 Nights / 7 Days package exploring Shimla, Kullu, Manali, Solang Valley and Naggar Castle.',
+    tags: ['Shimla', 'Manali', 'Solang Valley'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'Shimla & Manali Package',
+    promoLine: 'Shimla · Kufri · Kullu · Manali · Solang Valley',
+    specialHeading: 'Mountain Vistas. Beautiful Valleys. Unforgettable Memories.',
+    stays: ['7 Days / 6 Nights', 'Super Deluxe Hotels', 'MAP Meal Plan'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg/1280px-Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg', alt: 'Shimla Landscape'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Beas_Valley_-_Palchan_-_Kullu_2014-05-10_2275.JPG/1280px-Beas_Valley_-_Palchan_-_Kullu_2014-05-10_2275.JPG', alt: 'Kullu Valley'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG/1280px-Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG', alt: 'Solang Valley'}
+    ],
+    galleryCaptions: ['Beautiful Shimla', 'Scenic Kullu Valley', 'Snowy Solang Valley'],
+    groupTitles: ['Shimla Sightseeing', 'Manali & Valleys', 'Comfort & Inclusions'],
+    experienceGroups: [
+      ['Shimla Sightseeing', 'Kufri, Green Valley, Indira Tourist Park', 'Jakhu Temple, The Mall, Ridge', 'Kalibari Temple, Advanced Studies'],
+      ['Manali & Valleys', 'Kullu Valley & Shawl Factories', 'Manikaran Sightseeing', 'Hadimba Temple & Vashist Hot Springs', 'Solang Valley & Naggar Castle'],
+      ['Comfort & Inclusions', 'MAP Meal Plan (Breakfast & Dinner)', 'Individual Cab for Transfers & Sightseeing', 'Super Deluxe Hotels']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Chandigarh to Shimla', copy: 'On arrival at Chandigarh Airport/Railway Station/Bus Stop, meet our representative. Drive to Shimla. On arrival, check in at the Shimla Hotel. Dinner and overnight stay at Hotel.'},
+      {title: 'Day 2 : Shimla Kufri & Local Sightseeing', copy: 'Morning after breakfast, proceed for Kufri sightseeing, tucked at an altitude of 2,622 meters. Visit Green Valley, Kufri, Indira Tourist Park, Mini Zoo & Fagu Valley. In the evening, visit Jakhu Temple, The Mall, Ridge, Scandal Point, Kalibari Temple, Lakkar Bazaar, Sankat Mochan Temple, Advanced Studies, and Christ Church. Back to hotel. Dinner and overnight stay.'},
+      {title: 'Day 3 : Shimla - Kullu - Manikaran - Manali (280 KM)', copy: 'After breakfast, check out and leave for Manali. On the way, visit sightseeing spots like Kullu Valley, Vyas River, Kullu world-famous Shawl Factories, and Manikaran. Reach Manali in the evening. Transfer to hotel. Dinner and overnight stay.'},
+      {title: 'Day 4 : Manali Local Sightseeing', copy: 'After breakfast, go for full day local sightseeing of Manali. Visit Hadimba Temple, built in 1553. Visit the Club House with its roller skating rink, library, and bar. Explore the Tibetan Monastery, Manu Temple, Van Vihar, and Vashist Hot Springs. Dinner and overnight stay.'},
+      {title: 'Day 5 : Manali - Solang Valley (51 KM)', copy: 'After breakfast, go for full day sightseeing of Solang valley. On the way back from snow point visit Gulaba. Take a sledge ride down the slopes & try luck climbing the little snow hills. In the afternoon return to Manali & then free to explore Mall & Local market on your own. Dinner and overnight stay.'},
+      {title: 'Day 6 : Naggar Castle Sightseeing', copy: 'Morning after breakfast, full day sightseeing of Naggar castle. Evening visit mall road for shopping. Back to hotel. Dinner & Overnight Stay at Hotel.'},
+      {title: 'Day 7 : Manali to Chandigarh Departure', copy: 'In the morning after having breakfast, check out from the hotel. Proceed to Chandigarh. Drop at Chandigarh Railway station/Airport. Sweet Memories with Happy Tour Ending.'}
+    ],
+    inclusions: [
+      'Welcome Drink on Arrival',
+      '6 Nights Accommodation on Double Sharing Basis',
+      'MAP Meal Plan (06 Morning Tea, 06 Breakfast, 06 Dinner)',
+      'Transfer by Individual cab for 07 Days and Sightseeing by Individual Cab',
+      'Pick and Drop at Time of Arrival and Departure from Chandigarh',
+      'Inclusive of All Taxes (Driving Allowance, Toll Tax, Parking Tax, Fuel Charges)'
+    ],
+    exclusions: [
+      'Any monument entry fees / camera fees',
+      'Any meal which is not mentioned above',
+      'Any activities and Personal Expense',
+      'Any Air Fare / Train Fare',
+      'Any Alcoholic and Non Alcoholic Beverages',
+      'Any Adventure Activities like Skiing, Paragliding, River Rafting',
+      'Heater Charges Extra',
+      '5% GST Extra'
+    ],
+    benefits: [
+      'Private Individual Cab for the entire tour',
+      'Comprehensive coverage of Shimla and Manali',
+      'Hassle-free transfers from Chandigarh'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Shimla (2 Nights): Hotel Royal Vista or Similar',
+          'Manali (4 Nights): Hotel Shaina Mareema Cottage / Hotel The Day Flower or Similar',
+          'Room Category: Super Deluxe Hotel / Deluxe Room'
+        ]
+      },
+      {
+        title: 'Important Note',
+        details: [
+          'Mandatory to carry photo ID card while on tour.',
+          'Package can be altered or changed as per customer requirements if possible.',
+          'Check out and check-in time of the hotel is 12:00 noon.',
+          'Entrance fees at any point shall be paid by customer directly.'
+        ]
+      },
+      {
+        title: 'Cancellation Policy',
+        details: [
+          '25% cancellation charges will apply on total amount after cancellation till 20 days of travel date.',
+          '50% cancellation charges will apply if cancelled 15-12 days of travel date.',
+          '75% cancellation charges will apply if cancelled 12-06 days of travel date.',
+          'No Refund if cancelled on the same day or after starting or middle of the tour.'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
   }
 ];
 export const international=[
