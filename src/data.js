@@ -211,7 +211,7 @@ export const domestic=[
     location: 'Tamil Nadu',
     days: 10,
     price: null,
-    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80',
     desc: 'A 10-day extensive pilgrimage covering the powerful Murugan Temples and Navagraha Stalams in Tamil Nadu.',
     tags: ['Navagraha', 'Murugan Temples', '10 Days'],
     promoEyebrow: 'Your Spiritual Journey',
@@ -220,9 +220,9 @@ export const domestic=[
     specialHeading: 'Faith. Heritage. Devotion. Peace.',
     stays: ['9 Nights / 10 Days', 'Extensive Temple Darshans', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture'}
+      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/1280px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg', alt: 'Brihadisvara Temple'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Parameswara_Vinnagaram.JPG/1280px-Parameswara_Vinnagaram.JPG', alt: 'Kanchipuram Temple'}
     ],
     galleryCaptions: ['Madurai Meenakshi', 'Temple Heritage', 'South India'],
     groupTitles: ['Murugan Temples', 'Navagraha Stalams', 'Heritage & Leisure'],
@@ -351,6 +351,204 @@ export const domestic=[
           'Deluxe Houseboat: AC Timing from 9 PM to 6 AM only',
           'Premium Houseboat: AC Timing from 12 PM to 9 AM (Bedroom only)',
           'Luxury Houseboat: AC Timing from 12 PM to 9 AM (Bedroom & Lobby only)'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'shimla-manali-chandigarh-tour',
+    title: 'Shimla, Manali & Chandigarh',
+    location: 'Himachal Pradesh',
+    days: 7,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',
+    desc: 'A 7-day scenic journey through the hills of Shimla, the valleys of Manali, and the modern city of Chandigarh.',
+    tags: ['Shimla', 'Manali', 'Chandigarh', '7 Days'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Himachal Escapes',
+    promoLine: 'Delhi · Shimla · Manali · Chandigarh',
+    specialHeading: 'Mountains. Valleys. Heritage. Leisure.',
+    stays: ['6 Nights / 7 Days', 'Scenic Hill Stays', 'Guided Sightseeing'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1400&q=80', alt: 'Shimla'},
+      {src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Manali'},
+      {src: 'https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1400&q=80', alt: 'Chandigarh'}
+    ],
+    galleryCaptions: ['Shimla · The Ridge', 'Manali · Solang Valley', 'Chandigarh · Rock Garden'],
+    groupTitles: ['Shimla Highlights', 'Manali Experiences', 'Chandigarh Sightseeing'],
+    experienceGroups: [
+      ['Shimla Highlights', 'Kufri Excursion', 'Green Valley', 'Indira Holiday Home', 'Fagu'],
+      ['Manali Experiences', 'Hadimba Temple', 'Solang Valley', 'Tibetan Monastery', 'Vashist Hot Springs'],
+      ['Chandigarh Sightseeing', 'Rock Garden', 'Rose Garden', 'Sukhna Lake']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Delhi – Shimla', copy: "Arrival in Delhi, meet & greet with our representative & Transfer to Shimla (370 k.m. and 9 hours journey) check in to hotel. Dinner and night stay."},
+      {title: 'Day 2 : Shimla – Kufri', copy: "Today morning after breakfast sight seeing of kufri for full day fun. India's one of the best holiday paradise Kufri in Shimla is beautifully tucked on an altitude of 2,622 meter, Via green valley, wild flower hall, Indira Holiday home and Fagu. Overnight stay at hotel in Shimla."},
+      {title: 'Day 3 : Shimla – Kullu - Manali', copy: 'Today morning after breakfast leave for Manali, on the way sight-seeing like Sundernagar lake, Pandoh dam, Vaishno Devi Temple (Kullu) and overnight stay in Manali.'},
+      {title: 'Day 4 : Manali Local Sightseeing', copy: 'After breakfast Half day local sightseeing of Manali "HADIMBA TEMPLE" Built in 1553 with a superbly crafted four tiered pagoda roof, it is famous for its exquisitely carved doorway. "CLUB HOUSE" with its comprehensive facilities, Tibetan Monastery, Van Vihar, and "VASHIST" Well known for its hot springs. Overnight stay at Hotel in Manali.'},
+      {title: 'Day 5 : Manali – Solang Valley', copy: 'Car will be available for Solang Valley visit: 13 kms. is a splendid valley between Solang village and Beas Kund. Solang valley offers the view of glaciers and snow capped mountains and peaks. It has fine ski slopes. Overnight stay in Manali.'},
+      {title: 'Day 6 : Manali – Chandigarh', copy: 'Today morning after breakfast drive to Chandigarh (320 k.m. 8-9 hours journey) Check in to hotel Dinner and night stay.'},
+      {title: 'Day 7 : Chandigarh Sightseeing - Delhi', copy: 'Today morning after breakfast visit to Chandigarh local sightseeing Rose Garden, Rock Garden & Sukhna lake. After sightseeing continue drive back to Delhi Drop at Railway Station / airport.'}
+    ],
+    inclusions: [
+      'Welcome Drink on arrival (non-alcoholic)',
+      'Accommodation for 6 Nights and 7 Days',
+      'Breakfast and Dinner',
+      'Accommodation based on Dbl and Triple sharing basis',
+      'All tour by Tempo Traveler from Delhi to Delhi (a/c will work only plain area)',
+      'Including all Parking Charges, Toll Tax, Green Tax and Driver Stay.'
+    ],
+    exclusions: [
+      'Any monument entry fees / camera fees.',
+      'Any guide charges',
+      'Entry fee for Rohtang pass by National Green Tribunal if apply.',
+      'Any air / train fare or any items not specified under inclusions',
+      'For Heater Requirement directly contact to Hoteliers',
+      'Any adventure activity skiing, paragliding etc',
+      'Any personal Expenses- Laundry, shopping etc.',
+      'GST 5%'
+    ],
+    benefits: [
+      'Comprehensive Himachal tour',
+      'Comfortable Tempo Traveller transport',
+      'Daily breakfast and dinner included',
+      'Guided local sightseeing'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Shimla (2N): The Alpine Retreat / Similar',
+          'Manali (3N): King’s land cottage / Similar',
+          'Chandigarh (1N): Hotel Swan / Similar'
+        ]
+      },
+      {
+        title: 'Vehicle & Pricing Information',
+        details: [
+          'Option 1 (12-14 Pax): Off Season 11500/- | Season 14500/- (12/14 Seater Tempo Traveller AC)',
+          'Option 2 (16 Pax): Off Season 10900/- | Season 13700/- (16 Seater Tempo Traveller AC)',
+          'Extra Bed: Off Season from 8800/- | Season from 9600/-',
+          'Note: AC works only on Plain Area'
+        ]
+      },
+      {
+        title: 'Important Remarks',
+        details: [
+          'Base category rooms will be provided in all hotels.',
+          'Extra Bed Means extra Mattress.',
+          'A.C will not work in hill stations.',
+          'Heater charges are extra.',
+          'The transportation cost is subject to change if there is a hike in fuel rates.',
+          'In case vehicle not going to Rohtang Pass due to NGT/Supreme court guidelines, Tourswale will not be responsible.',
+          'If vehicles are allowed to Rohtang pass, guest will bear expenses.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'south-india-temple-tour-15-days',
+    title: 'South India Temple Tour (Pancha Bootham, Arupadai Veedu, Navagraham)',
+    location: 'South India',
+    days: 15,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80',
+    desc: 'A comprehensive 15-day spiritual journey covering the Pancha Bootham, Arupadai Veedu, and Navagraham temples.',
+    tags: ['15 Days', 'Pancha Bootham', 'Navagraham'],
+    promoEyebrow: 'Your Spiritual Journey',
+    promoTitle: 'Divine South India',
+    promoLine: 'Palani · Madurai · Kumbakonam · Chidambaram · Tirupati',
+    specialHeading: 'Faith. Heritage. Devotion. Peace.',
+    stays: ['14 Nights / 15 Days', 'Extensive Temple Darshans', 'Immersive Experience'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/1280px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg', alt: 'Brihadisvara Temple'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Parameswara_Vinnagaram.JPG/1280px-Parameswara_Vinnagaram.JPG', alt: 'Kanchipuram Temple'}
+    ],
+    galleryCaptions: ['Madurai Meenakshi', 'Temple Heritage', 'South India'],
+    groupTitles: ['Murugan Temples', 'Navagraha Stalams', 'Pancha Bootham & Heritage'],
+    experienceGroups: [
+      ['Murugan Temples', 'Palani Murugan Temple', 'Tiruchendur Murugan Temple', 'Thiruparankundram & Pazhamudhircholai', 'Swamimalai & Tiruthani'],
+      ['Navagraha Stalams', 'Raahu, Guru & Chandra Temples', 'Surya, Sukra & Shani Temples', 'Ketu, Budha & Angaarakan Temples'],
+      ['Pancha Bootham & Heritage', 'Jambukeshwarar (Water)', 'Thillai Nataraja (Sky)', 'Arunachaleswara (Fire)', 'Ekambareswarar (Earth)', 'Srikalahasteeswara (Air)']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival Trichy – Palani', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Palani. After check in hotel, Proceed to visit dharshan at Murugan Temple. Later return back to hotel.'},
+      {title: 'Day 2 : Palani – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit dharshan at Murugan Temple. Later return back to hotel.'},
+      {title: 'Day 3 : Tiruchendur – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, proceed to visit dharshan at Thiruparankundram – Murugan Temple, Pazhamudhircholai – Mururgan Temple. Later return back to hotel.'},
+      {title: 'Day 4 : Madurai – Trichy', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, proceed to visit dharshan at Jambukeshwarar Temple (Water). Later return back to hotel.'},
+      {title: 'Day 5 : Madurai – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, proceed to visit dharshan at Swamimalai Murugan Temple. Later return back to hotel.'},
+      {title: 'Day 6 : Kumbakonam', copy: 'After Morning Breakfast proceed to visit dharshan at Raahu Navagrahastalam — Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. Later return back to hotel.'},
+      {title: 'Day 7 : Kumbakonam – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. Later return back to check in hotel at Chidambaram.'},
+      {title: 'Day 8 : Chidambaram', copy: 'After Morning Breakfast proceed to visit dharshan at Ketu Navagrahastalam — Keezahperumpallam, Budha Navagrahastalam — Thiruvenkadu, Angaarakan Navagrahastalam — Vaitheeswaran Kovil. Later return back to hotel.'},
+      {title: 'Day 9 : Chidambaram', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple (Sky). Evening do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 10 : Chidambaram – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Chidambaram. After check in hotel, Proceed to visit Arunachaleshwara Temple (Fire), Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram. Evening do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 11 : Tiruvannamali – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. After check in hotel, proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple (Earth), chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 12 : Kancheepuram – Tiruthani – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit dharshan at Tiruthani – Mururgan Temple, Srikalahasthi Temple. After drive to check in hotel, Day of leisure free for rest and own activities, etc.'},
+      {title: 'Day 13 : Tirupati – Srikalahasthi', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham, Srikalahasteeswara Temple (Air). Later return back to hotel.'},
+      {title: 'Day 14 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
+      {title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Roshni Holidays".'}
+    ],
+    inclusions: [
+      'Accommodation at mentioned hotels or similar on Double / Triple sharing basis',
+      'Daily Breakfast basis at all hotels',
+      'All transfer and sightseeing by Air conditioned vehicle as per itinerary',
+      'Driver allowance, toll, parking, fuel charge and interstate taxes',
+      'Applicable taxes for Room Rent, Breakfast and Transport'
+    ],
+    exclusions: [
+      'Expenses of personal nature viz., telephone bills, Laundry, Tips and use of mini bar in the room',
+      'Any pooja, dharshan Entertainments, etc.',
+      'Any meals & services other than those as mentioned in cost includes',
+      'Entrance Fee & Guide Fee',
+      'Alcoholic & non-alcoholic beverages during meals or otherwise',
+      'Tips at restaurants, concierge and driver',
+      'Non Ac Rooms only available at Hill Stations',
+      '5% GST'
+    ],
+    benefits: [
+      'Comprehensive 15-day South India pilgrimage',
+      'Comfortable AC transport',
+      'Daily breakfast included',
+      'Covers Pancha Bootham & Navagraham temples'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Palani (1N): Ganpat Grand',
+          'Tiruchendur (1N): Hotel Udhayam International',
+          'Madurai (1N): MMR Gardens',
+          'Trichy (1N): Plaza Hotels',
+          'Kumbakonam (2N): DSR Madhanam Inn',
+          'Chidambaram (3N): Vandayar',
+          'Tiruvannamalai (1N): Himalayaa',
+          'Kancheepuram (1N): Sree Sakthi Residency',
+          'Tirupati (2N): Raj Park',
+          'Chennai (1N): Southern Crest'
+        ]
+      },
+      {
+        title: 'Vehicle & Pricing Information',
+        details: [
+          '02 Pax: AC Dzire / Etios',
+          '04 Pax: AC Innova',
+          '06 Pax: AC Innova',
+          '08 Pax: AC Tempo Traveller',
+          '10 Pax: AC Tempo Traveller',
+          '20 Pax: AC 24 Seat Mini Coach',
+          '30 Pax: AC 35 Seat Large Coach'
+        ]
+      },
+      {
+        title: 'Important Remarks',
+        details: [
+          'Standard Check-in time is 13:00 Hrs & Check-out time is 10:00 Hrs.',
+          'Quoted with base category rooms in all the hotels. Rooms are subject to availability.',
+          'AC will not work in hill areas or in a stopped/parked vehicle.',
+          'Night drive (after 19:00 Hrs) will be charged extra.'
         ]
       }
     ],
