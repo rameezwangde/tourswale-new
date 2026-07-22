@@ -128,6 +128,183 @@ export const domestic=[
       'Assistance with Darshans'
     ],
     tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kerala-munnar-kumarakom-tour',
+    title: 'Kerala Package – Munnar & Kumarakom',
+    location: 'Kerala',
+    days: 5,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Explore the pristine valleys of Munnar and the serene backwaters of Kumarakom on a 5-day escape.',
+    tags: ['Munnar', 'Kumarakom', '5 Days'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Kerala Escapes',
+    promoLine: 'Cochin · Munnar · Kumarakom',
+    specialHeading: 'Nature. Wildlife. Backwaters. Leisure.',
+    stays: ['4 Nights / 5 Days', 'Scenic Stays', 'Immersive Experience'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
+      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'},
+      {src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Landscape'}
+    ],
+    galleryCaptions: ['Kumarakom Backwaters', 'Munnar Tea Estates', 'Kerala Landscapes'],
+    groupTitles: ['Munnar Experiences', 'Kumarakom Serenity', 'Cochin Heritage'],
+    experienceGroups: [
+      ['Munnar Experiences', 'Tea Plantations', 'Eravikulam National Park', 'Mattupetty Dam', 'Eco Point'],
+      ['Kumarakom Serenity', 'Backwater Destination', 'Kumarakom Bird Sanctuary', 'Water Scapes', 'Resort Leisure'],
+      ['Cochin Heritage', 'Dutch Palace', 'Jewish Synagogue', 'Chinese Fishing Nets', 'Marine Drive']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. Its unending expanse of tea plantations, pristine valleys & Mountains, the aroma of spice scented cool air, exotic species of flora & fauna in its wildlife sanctuaries & forests. It's the place you would love to visit and never wish to leave. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds."},
+      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak "Anamudi" & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Rest of the day at leisure.'},
+      {title: 'Day 3 : Munnar – Kumarakom', copy: 'After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations and travel magazines. It has also ranked above Taj Mahal in a latest statistics. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Rest of the day at leisure.'},
+      {title: 'Day 4 : Kumarakom – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Rest of the day at leisure.'},
+      {title: 'Day 5 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+    ],
+    inclusions: [
+      'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
+      'Complimentary Breakfast from 2nd Day',
+      'All Meals during the stay at Houseboat',
+      'Pick up, drop & sightseeing by comfortable Ac Vehicle as per itinerary.',
+      'Driving time – 8am to 7pm.',
+      'Toll / Parking / Driver Beta'
+    ],
+    exclusions: [
+      'Any Train / Air Fare Tickets',
+      'Extrance & Activity fee to various monuments, Museums, Temples, Pooja and Parks',
+      'Medical & Travel Insurance',
+      'Any Meals other than those mentioned above.',
+      'Any portage at airports and hotels, Driver Tips, Laundry, Wines & Alcoholic beverages, Mineral Water, Telephonic Charges',
+      '5% GST'
+    ],
+    benefits: [
+      'Top-rated backwater destination',
+      'Comfortable AC transport',
+      'Flexible accommodation options',
+      'Dedicated local sightseeing'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'navagraha-murugan-temple-tour',
+    title: 'Navagraha & Murugan Temple Tour',
+    location: 'Tamil Nadu',
+    days: 10,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1200&q=80',
+    desc: 'A 10-day extensive pilgrimage covering the powerful Murugan Temples and Navagraha Stalams in Tamil Nadu.',
+    tags: ['Navagraha', 'Murugan Temples', '10 Days'],
+    promoEyebrow: 'Your Spiritual Journey',
+    promoTitle: 'Divine Tamil Nadu Pilgrimage',
+    promoLine: 'Palani · Madurai · Kumbakonam · Chidambaram · Kancheepuram',
+    specialHeading: 'Faith. Heritage. Devotion. Peace.',
+    stays: ['9 Nights / 10 Days', 'Extensive Temple Darshans', 'Immersive Experience'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
+      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture'}
+    ],
+    galleryCaptions: ['Madurai Meenakshi', 'Temple Heritage', 'South India'],
+    groupTitles: ['Murugan Temples', 'Navagraha Stalams', 'Heritage & Leisure'],
+    experienceGroups: [
+      ['Murugan Temples', 'Palani Murugan Temple', 'Tiruchendur Murugan Temple', 'Thiruparankundram & Pazhamudhircholai', 'Swamimalai & Tiruthani'],
+      ['Navagraha Stalams', 'Raahu, Guru & Chandra Temples', 'Surya, Sukra & Shani Temples', 'Ketu, Budha & Angaarakan Temples'],
+      ['Heritage & Leisure', 'Kancheepuram Temples', 'Chembarambakkam Lake', 'Chennai City Tour', 'Marina Beach']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival Trichy – Palani', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Palani. After check in hotel, Proceed to visit Murugan Temple dharshan. After do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 2 : Palani – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit dharshan at Murugan Temple. After do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 3 : Tiruchendur – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Thiruparankundram – Murugan Temple, Pazhamudhircholai – Murugan Temple. Later return back to hotel.'},
+      {title: 'Day 4 : Madurai – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, proceed to visit Dharshan at Swamimalai – Murugan Temple. Evening do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 5 : Kumbakonam (Raahu, Guru, Chandra)', copy: 'After Morning Breakfast proceed to visit dharshan at Raahu Navagrahastalam – Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. Later return back to hotel.'},
+      {title: 'Day 6 : Kumbakonam – Chidambaram (Surya, Sukra, Shani)', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. After drive to check in hotel at Chidambaram.'},
+      {title: 'Day 7 : Chidambaram (Ketu, Budha, Angaarakan)', copy: 'After Morning Breakfast proceed to visit dharshan at Ketu Navagrahastalam — Keezahperumpallam, Budha Navagrahastalam — Thiruvenkadu, Angaarakan Navagrahastalam — Vaitheeswaran Kovil. Later return back to hotel.'},
+      {title: 'Day 8 : Chidambaram – Tiruthani – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit dharshan at Tiruthani – Murugan Temple. After drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
+      {title: 'Day 9 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
+      {title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Roshni Holidays ".'}
+    ],
+    inclusions: [
+      'Accommodation on Double / Triple sharing basis',
+      'Daily Breakfast basis at all hotels',
+      'All transfer and sightseeing by Air conditioned vehicle',
+      'Driver allowance, toll, parking, fuel charge and interstate taxes',
+      'Applicable taxes for Room Rent, Breakfast and Transport'
+    ],
+    exclusions: [
+      'Expenses of personal nature viz., telephone bills, Laundry, Tips and use of mini bar in the room',
+      'Any pooja, dharshan Entertainments, etc.',
+      'Any meals & services other than those as mentioned in cost includes',
+      'Entrance Fee & Guide Fee',
+      'Alcoholic & non-alcoholic beverages during meals or otherwise',
+      'Tips at restaurants, concierge and driver',
+      '5% GST'
+    ],
+    benefits: [
+      'Extensive Navagraha & Murugan Temples coverage',
+      'Comfortable AC transport',
+      'Daily breakfast included',
+      'Dedicated driver for the entire 10-day trip'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kerala-package-6-days',
+    title: 'Kerala Package – Munnar, Thekkady & Alleppey',
+    location: 'Kerala',
+    days: 6,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    desc: 'A 6-day scenic journey through Munnar\'s tea gardens, Thekkady\'s wildlife, and Alleppey\'s backwaters.',
+    tags: ['Munnar', 'Thekkady', 'Alleppey', '6 Days'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Kerala Escapes',
+    promoLine: 'Cochin · Munnar · Thekkady · Alleppey',
+    specialHeading: 'Nature. Wildlife. Backwaters. Leisure.',
+    stays: ['5 Nights / 6 Days', 'Houseboat Stay Option', 'Immersive Experience'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
+      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'},
+      {src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Landscape'}
+    ],
+    galleryCaptions: ['Alleppey Backwaters', 'Munnar Tea Estates', 'Kerala Landscapes'],
+    groupTitles: ['Munnar Experiences', 'Thekkady Wildlife', 'Alleppey Backwaters'],
+    experienceGroups: [
+      ['Munnar Experiences', 'Tea Plantations', 'Eravikulam National Park', 'Mattupetty Dam', 'Eco Point'],
+      ['Thekkady Wildlife', 'Periyar Tiger Reserve', 'Spice Garden Visit', 'Elephant Safari', 'Jungle Jeep Safari'],
+      ['Alleppey Backwaters', 'Houseboat / Shikara Ride', 'Venice of the East', 'Inland Canals', 'Sunset Views']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. Its unending expanse of tea plantations, pristine valleys & Mountains, the aroma of spice scented cool air, exotic species of flora & fauna in its wildlife sanctuaries & forests. It's the place you would love to visit and never wish to leave. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds."},
+      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak "Anamudi" & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Rest of the day at leisure.'},
+      {title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Rest of the day at leisure.'},
+      {title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey- With large network of inland canals earning it the sobriquet "Venice of the East". Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. A glide in a Houseboat through the enchanting backwater is sure to rob your Mind & Heart. Check in at Hotel/Houseboat & experience the life beyond this world while cruising in Houseboat or Shikara Ride. Evening enjoy the sunset from the backwater. Rest of the day at leisure.'},
+      {title: 'Day 5 : Alleppey – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Rest of the day at leisure.'},
+      {title: 'Day 6 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+    ],
+    inclusions: [
+      'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
+      'Complimentary Breakfast from 2nd Day',
+      'All Meals during the stay at Houseboat',
+      'Pick up, drop & sightseeing by comfortable Ac Vehicle as per itinerary.',
+      'Driving time – 8am to 7pm.',
+      'Toll / Parking / Driver Beta'
+    ],
+    exclusions: [
+      'Any Train / Air Fare Tickets',
+      'Extrance & Activity fee to various monuments, Museums, Temples, Pooja and Parks',
+      'Medical & Travel Insurance',
+      'Any Meals other than those mentioned above.',
+      'Any portage at airports and hotels, Driver Tips, Laundry, Wines & Alcoholic beverages, Mineral Water, Telephonic Charges',
+      '5% GST'
+    ],
+    benefits: [
+      'Houseboat stay experience in Alleppey',
+      'Comfortable AC transport',
+      'Wildlife & Nature Trails',
+      'Flexible accommodation options'
+    ],
+    tagline: 'Book Now with Tourswale'
   }
 ];
 export const international=[
