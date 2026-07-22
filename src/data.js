@@ -2644,6 +2644,91 @@ export const international=[
       }
     ],
     tagline: 'Tourswale'
+  },
+  {
+    slug: 'south-africa-11-days',
+    title: 'South Africa 11 Days',
+    location: 'South Africa',
+    days: 11,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Mossel_Bay_%2815412141375%29.jpg',
+    desc: 'An incredible 11-day journey across South Africa featuring Sun City, Mabula Game Reserve, the Garden Route via Mossel Bay, and the iconic Cape Town.',
+    tags: ['South Africa', 'Garden Route', 'Game Drive'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'South Africa 11 Days',
+    promoLine: 'Johannesburg · Sun City · Mabula · Mossel Bay · Cape Town',
+    specialHeading: 'Safari. Ocean Vistas. Endless Adventure.',
+    stays: ['11 Days / 10 Nights', 'Quality Hotels', 'Extensive Sightseeing'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Mossel_Bay_%2815412141375%29.jpg', alt: 'Mossel Bay'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/African_Buffalo.JPG/1280px-African_Buffalo.JPG', alt: 'Mabula Game Reserve'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg/1280px-Camps_bay_%2853460319478%29_%28cropped%29.jpg', alt: 'Cape Town'}
+    ],
+    galleryCaptions: ['Mossel Bay', 'Mabula Game Reserve Safari', 'Cape Town Coastline'],
+    groupTitles: ['Johannesburg & Safari', 'Garden Route & Ocean', 'Cape Town Magic'],
+    experienceGroups: [
+      ['Johannesburg & Safari', 'Walk with the Lion', 'Sun City & Valley of Waves', 'Mabula Game Drives'],
+      ['Garden Route & Ocean', 'Mossel Bay Beach', 'Cango Caves & Wildlife Ranch', 'Knysna Waterfront', 'Bloukrans Bungee Point'],
+      ['Cape Town Magic', 'Table Mountain Cable Car', 'Cape Peninsula Tour', 'Seal Island Cruise & Penguins', 'Helicopter Ride (10-12 Mins)']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrive Johannesburg', copy: 'Arrive in Johannesburg and be met by our representative. Check in at the hotel. Free time for leisure. Dinner and overnight stay in Johannesburg. (Lunch & Dinner)'},
+      {title: 'Day 2 : Johannesburg – Sun City', copy: 'After breakfast, check out and drive to Sun City (approx 3 hrs). Enroute enjoy the famous walk with the lion. Check in at the hotel. Evening enjoy Casino at the resort (on your own). Overnight in Sun City. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 3 : Sun City Sightseeing', copy: 'Early morning enjoy the Valley of Waves. Free time for optional activities like quad biking, archery, horse riding or water activities. Leisure time to enjoy the casino. Overnight in Sun City. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 4 : Sun City – Mabula Game Drive', copy: 'After breakfast, check out and drive to Mabula (approx 3 hrs). Arrive and check in at the hotel. Later proceed for a Game Drive in the park. Evening free to explore the lodge. Overnight in Mabula. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 5 : Mabula – George – Mossel Bay', copy: 'After breakfast, drive to Johannesburg airport to board a flight to George. On arrival, proceed to Mossel Bay. Enjoy the scenic drive and Mossel Bay beach. Check in and explore the town. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 6 : Mossel Bay – Oudtshoorn', copy: 'Drive to Oudtshoorn and enjoy a guided tour of Cango Caves, followed by the Cango Ostrich Farm and Cango Wildlife Ranch. Drive back to the hotel to relax. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 7 : Mossel Bay – Sightseeing', copy: 'Drive to Bloukrans bungee viewpoint (bungee jumping at own cost). Later drive back to Knysna town to enjoy shopping at the waterfront area. Drive back to the hotel. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 8 : Mossel Bay – Cape Town', copy: 'After breakfast, proceed to Cape Town (approx 5 hrs). Arrive and check in at the hotel. Proceed to V&A Mall (if time permits). Overnight in Cape Town. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 9 : Cape Town Sightseeing', copy: 'Drive to Table Mountain and enjoy the Cable car ride (weather permitting). Enjoy a guided city orientation tour passing Sea Point, Moulli Point, CBD Area, Malay Quarter, and Parliament building. Visit Canal Walk mall for shopping. Overnight in Cape Town. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 10 : Cape Point Sightseeing', copy: 'Drive to Cape Point and enjoy the Funicular ride. Drive to the Cape of Good Hope for a photo stop. Visit the penguin park and enjoy the Seal Island Boat ride at Hout Bay. Enjoy a 10-12 minute Helicopter Ride. Overnight in Cape Town. (Breakfast, Lunch & Dinner)'},
+      {title: 'Day 11 : Departure', copy: 'After breakfast, transfer to the airport to board a flight to your onward destination with memorable experiences. See you soon!'}
+    ],
+    inclusions: [
+      'Accommodation in hotels on sharing basis',
+      'Airfare & One Time Visa Charges (Mumbai issued passport only)',
+      'Daily breakfast (starting Day 2), Lunches & Dinners prepared by Indian Chef as specified',
+      'Services of Local English Speaking guide in Garden Route and Cape Town',
+      'Entire road journey and transportation by A/C Deluxe Coach',
+      'Entrances: Valley of Waves, Mabula Game Drives, Diaz Beach, Oudtshoorn (Caves, Ostrich, Wildlife)',
+      'Knysna Waterfront, Bloukrans Bridge viewpoint',
+      'Table Mountain Cable Car, City Tour, Cape Peninsula Tour',
+      'Seal Island Cruise, Funicular Ride, Cape of Good Hope, Boulder Penguin Colony',
+      '10-12 Mins Helicopter Ride in Cape Town & Walk with Lions'
+    ],
+    exclusions: [
+      'Meals not forming part of the itinerary',
+      'Items of personal nature (bottled water, laundry, telephone charges, porterage, gratuities, tips)',
+      'Optional tours like Bungee Jumping or Quad Biking',
+      'Anything specifically not mentioned under inclusions',
+      'GST 5% as per govt laws (or as applicable)'
+    ],
+    benefits: [
+      'Comprehensive 11 Days South Africa Tour',
+      'Includes Helicopter Ride and Walk with Lions',
+      'Meals crafted by an Indian Chef on the Garden Route & Cape Town'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Johannesburg (1 Night): Hotel Peermont Mondior / Similar',
+          'Sun City (2 Nights): Hotel SoHo / Similar',
+          'Bela-Bela/Mabula (1 Night): Mabula Game Lodge / Similar',
+          'Mossel Bay (3 Nights): Diaz Beach Hotel & Spa / Similar',
+          'Cape Town (3 Nights): Holiday Inn Cape Town / Similar'
+        ]
+      },
+      {
+        title: 'Important Notes',
+        details: [
+          'Prices do not include high season surcharge / peak charges / events.',
+          'Special requests (early check-in, views, etc.) are strictly subject to availability.',
+          'Company holds the right to change the route/itinerary subject to weather or events.'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
   }
 ];
 export const allTours=[...domestic,...international];
