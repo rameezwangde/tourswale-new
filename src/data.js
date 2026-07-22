@@ -2262,6 +2262,78 @@ export const international=[
       }
     ],
     tagline: 'Classic Holidays Special'
+  },
+  {
+    slug: 'magical-spain-5-days',
+    title: 'Magical Spain',
+    location: 'Spain',
+    days: 5,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Plaza_Mayor_De_Madrid_%28215862629%29_edited.jpeg/1280px-Plaza_Mayor_De_Madrid_%28215862629%29_edited.jpeg',
+    desc: 'A value-for-money 5-day holiday discovering the magic of Madrid, Poblet, and Barcelona, featuring guided tours and top 4-star hotels.',
+    tags: ['Madrid', 'Barcelona', 'Spain'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'Magical Spain',
+    promoLine: 'Madrid · Zaragoza · Poblet · Montserrat · Barcelona',
+    specialHeading: 'Vibrant Cities. Historic Palaces. Timeless Magic.',
+    stays: ['5 Days / 4 Nights', '4-Star Hotels', 'Indian Meals Included'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Zaragoza_-_Bas%C3%ADlica_del_Pilar_y_r%C3%ADo_Ebro.jpg', alt: 'Zaragoza Basilica del Pilar'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Montserrat_des_de_Manresa.JPG', alt: 'Montserrat Mountain'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Poble_Espanyol_-_Torres_de_%C3%81vila.jpg/1280px-Poble_Espanyol_-_Torres_de_%C3%81vila.jpg', alt: 'Poble Espanyol Barcelona'}
+    ],
+    galleryCaptions: ['Zaragoza Basilica del Pilar', 'Montserrat Mountain', 'Poble Espanyol Barcelona'],
+    groupTitles: ['Madrid Highlights', 'Barcelona & Environs', 'Tour Comforts'],
+    experienceGroups: [
+      ['Madrid Highlights', 'Guided tour of Madrid', 'Plaza de Toros de las Ventas', 'Retiro Park & Crystal Palace', 'Egyptian Debod Temple'],
+      ['Barcelona & Environs', 'Guided tour of Barcelona', 'Tour of Montserrat', 'Basilica del Pilar (Zaragoza)', 'Visit to Poblet Monastery'],
+      ['Tour Comforts', 'Top 4-star category hotels', 'Professional Tour Manager', 'Indian Vegetarian / Jain / Non-Veg Meals', 'Bottle of mineral water every day']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival in Madrid', copy: 'Welcome to Madrid! Upon arrival at the airport, we shall be waiting to transfer you to your hotel. Enjoy free time. You will receive information about the start of the circuit during the afternoon, or you can check the informative panels in the hotel reception area. Towards the end of the day, we provide transfers to the Egyptian Debod temple, Plaza de Espana and Gran Via; a vibrant district. Overnight in Madrid. (Dinner)'},
+      {title: 'Day 2 : Madrid City Tour', copy: 'Today\'s highlights: Madrid city tour. Visit to the Plaza de Toros de las Ventas bullring. Stroll through the Retiro Park. Experience the city on a guided tour showcasing the vibrant centre, Plaza Mayor, broad avenues, fountains, and a walking tour of Retiro Park with its lake and Crystal Palace. Visit the Bullfighting Museum inside Plaza de Toros. At sunset, enjoy a transfer to the Plaza de Oriente opposite the Royal Palace. Return to hotel. Overnight in Madrid. (Breakfast/Dinner)'},
+      {title: 'Day 3 : Madrid - Zaragoza - Poblet - Montserrat - Barcelona', copy: 'Today\'s highlights: Basilica del Pilar, visit to a medieval monastery, ride on a rack train. We depart early in the morning from Madrid heading towards Aragon. Stop in Zaragoza to visit the Basilica del Pilar. Continue to the Monastery of Poblet, surrounded by walls in a beautiful setting. Later, travel to the Montserrat Monastery and take a rack train ride for fantastic scenery. Arrive in Barcelona in the late afternoon. Overnight in Barcelona. (Breakfast)'},
+      {title: 'Day 4 : Barcelona City Tour', copy: 'Today\'s highlights: Barcelona city tour, "Spanish Village" visit, and evening transfer to Las Ramblas district. Enjoy an informative city tour with a local expert, visiting the historic central area, Gothic neighbourhood, and Olympic Games area. See and photograph La Sagrada Familia basilica. Includes entry ticket to "Poble Espanyol" (Spanish Village) open-air architectural museum. Evening transfer to Las Ramblas and Plaza Catalunya area with Indian dinner included. Return to hotel. Overnight in Barcelona. (Breakfast/Dinner)'},
+      {title: 'Day 5 : Departure', copy: 'Fly back home. (Breakfast)'}
+    ],
+    inclusions: [
+      'Europamundo General Services: Travel by bus with English speaking guide, basic travel insurance and breakfast buffet',
+      'Arrival transfer',
+      'City tour in: Madrid, Poblet, Barcelona',
+      'Evening Transfer: Debod Temple, Plaza de Espana/Gran Via, Plaza de Oriente in Madrid; Ramblas and Plaza de Catalunya in Barcelona',
+      'Ticket admission: Las Ventas bullring in Madrid, Poblet Monastery, Poble Espanyol in Barcelona',
+      'Train: Montserrat',
+      'Daily Buffet Breakfast and 3 Dinners',
+      'Daily Mineral Water Bottle (500ml)'
+    ],
+    exclusions: [
+      'Personal expenses',
+      'Any items or services not explicitly mentioned under inclusions'
+    ],
+    benefits: [
+      'Value-for-Money holiday',
+      'Operated by Europamundo Vacations',
+      'Includes additional Indian breakfast dish in selected cities',
+      'Choice of local meals at select cities'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Madrid (2 Nights): Hotel NH / Hotel Hesperia / Marriott Auditorium or similar',
+          'Barcelona (2 Nights): Hotel Frontair Congress / Hotel NH / Best Western Plus or similar'
+        ]
+      },
+      {
+        title: 'Important Information',
+        details: [
+          'In the winter months, from November to March (both included), due to shorter days, the Monastery of Poblet will not be visited so that we can reach Montserrat in the daylight.',
+          'If the group has fewer than fifteen people for the Barcelona city tour, explanations can be given by our guide.',
+          'In selected cities dinner will be served in the comforts of your hotel.'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
   }
 ];
 export const allTours=[...domestic,...international];
