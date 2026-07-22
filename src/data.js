@@ -2334,6 +2334,228 @@ export const international=[
       }
     ],
     tagline: 'Tourswale'
+  },
+  {
+    slug: 'maldives-magical-4n5d',
+    title: 'Maldives Always Magical!',
+    location: 'Maldives',
+    days: 5,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Landaa_Giraavaru_vue_du_ciel.JPG/1280px-Landaa_Giraavaru_vue_du_ciel.JPG',
+    desc: 'Experience 4 nights of pure magic in the Maldives with a mix of Beach and Water Villas at South Palm Beach Resort.',
+    tags: ['Maldives', 'Beach Villa', 'Water Villa'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'Always magical!',
+    promoLine: 'Maldives · Beach Villa · Water Villa',
+    specialHeading: 'White Sands. Warm Waters. Unforgettable Memories.',
+    stays: ['5 Days / 4 Nights', 'South Palm Beach Resort', 'All Meals Included'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Landaa_Giraavaru_vue_du_ciel.JPG/1280px-Landaa_Giraavaru_vue_du_ciel.JPG', alt: 'Maldives Resort Aerial'},
+      {src: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80', alt: 'Maldives Water Villas'},
+      {src: 'https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1200&q=80', alt: 'Maldives Beach'}
+    ],
+    galleryCaptions: ['South Palm Beach Resort', 'Luxurious Water Villas', 'Pristine White Sand Beaches'],
+    groupTitles: ['Resort Experience', 'Meals & Dining', 'Travel Comforts'],
+    experienceGroups: [
+      ['Resort Experience', '03 Nights Beach Villa', '01 Night Water Villa', 'South Palm Beach Resort', 'Indian Ocean Views'],
+      ['Meals & Dining', 'All meals by Rajasthani Maharaj', 'Breakfast Included'],
+      ['Travel Comforts', 'Return Economy class airfare', 'Return airport speed boat transfers', 'Maldives Green tax included']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival in Maldives', copy: 'Welcome to Maldives, where sands are white as the smiles of the locals, where fish swim happily in the warm waters of the Indian Ocean, where the weather is a dream, and the deep rays of the sun wait to engulf you in their arms. Transfer to your resort via speed boat and check into your beautiful Beach Villa.'},
+      {title: 'Days 2-3 : Beach Villa Leisure', copy: 'Enjoy the pristine beaches and world-class amenities of the South Palm Beach Resort. Your stay in the Beach Villa offers direct access to the white sandy shores.'},
+      {title: 'Day 4 : Water Villa Experience', copy: 'Upgrade your experience as you move to the luxurious Water Villa for your final night. Enjoy direct access to the lagoon and stunning ocean views.'},
+      {title: 'Day 5 : Departure', copy: 'After an unforgettable stay, take the speed boat transfer back to the airport for your return flight home.'}
+    ],
+    inclusions: [
+      'Return Economy class airfare on Sri Lankan Airline with taxes',
+      '04 night stay in South Palms Beach Resort with breakfast',
+      'All meals by Rajasthani Maharaj',
+      'Return airport speed boat transfers',
+      'Maldives Green tax'
+    ],
+    exclusions: [
+      'GST Extra',
+      'Any personal expenses or items not mentioned in inclusions'
+    ],
+    benefits: [
+      'Experience both Beach and Water Villas',
+      'Meals specifically prepared by a Rajasthani Maharaj',
+      'Return flights and speed boat transfers included'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          '03 Nights Beach Villa at South Palm Beach Resort',
+          '01 Night Water Villa at South Palm Beach Resort'
+        ]
+      },
+      {
+        title: 'Flight Information',
+        details: [
+          'Mumbai to Colombo (UL 142) | Colombo to Gan (UL 119)',
+          'Gan to Colombo (UL 120) | Colombo to Mumbai (UL 143)'
+        ]
+      },
+      {
+        title: 'Terms and Conditions',
+        details: [
+          'TERMS AND CONDITIONS APPLY.'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
+  },
+  {
+    slug: 'fabulous-scandinavia-9-days',
+    title: 'Fabulous Scandinavia',
+    location: 'Scandinavia',
+    days: 9,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Nyhavn_Canal_3.jpg/1280px-The_Nyhavn_Canal_3.jpg',
+    desc: 'Visit 4 countries in 9 days: Denmark, Sweden, Norway & Finland. Experience exciting cruises and all important attractions in this value-for-money holiday.',
+    tags: ['Scandinavia', '4 Countries', '9 Days'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'Fabulous Scandinavia',
+    promoLine: 'Denmark · Norway · Sweden · Finland',
+    specialHeading: 'Fjords. Cruises. Captivating Capitals.',
+    stays: ['9 Days / 8 Nights', '4-Star Hotels', 'Overnight Cruises'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Nyhavn_Canal_3.jpg/1280px-The_Nyhavn_Canal_3.jpg', alt: 'Nyhavn Canal Copenhagen'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nationaltheatret_evening.jpg/1280px-Nationaltheatret_evening.jpg', alt: 'Oslo National Theatre'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tivoli_Gardens_4.jpg/1280px-Tivoli_Gardens_4.jpg', alt: 'Tivoli Gardens'}
+    ],
+    galleryCaptions: ['Nyhavn Canal, Denmark', 'Oslo, Norway', 'Tivoli Gardens, Denmark'],
+    groupTitles: ['Denmark & Norway', 'Sweden', 'Finland & Tour Comforts'],
+    experienceGroups: [
+      ['Denmark & Norway', 'Guided tour of Copenhagen', 'Tivoli Gardens & Nyhavn Canal', 'Overnight cruise to Oslo', 'Guided tour of Oslo', 'Viking & Ship Museums'],
+      ['Sweden', 'Orientation tour of Karlstad', 'Guided tour of Stockholm', 'Vasa Museum', 'Ride on the Skyview'],
+      ['Finland & Tour Comforts', 'Guided tour of Helsinki', 'Entrance to the Rock church', 'Overnight cruise to Helsinki', 'Top 4-star category hotels', 'Professional Tour Manager']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Welcome to Copenhagen', copy: 'Welcome to Copenhagen - Capital of Denmark. On arrival at the airport, clear immigration, collect your baggage and proceed outside to meet your friendly Tour Manager and proceed to the hotel, for check-in and relax. Later proceed for guided city tour of Copenhagen. See the Little Mermaid - symbol of Copenhagen and the Gefion fountain. Witness the Royal residence Amalienborg palace. Drive down Hans Christian Andersen Boulevard and cross the picturesque canal. Overnight in Copenhagen. (Dinner)'},
+      {title: 'Day 2 : Tivoli Gardens & Overnight Cruise', copy: 'Today after buffet breakfast proceed to visit Tivoli Gardens, one of the world\'s oldest amusement parks. Further proceed to see best way of Copenhagen from a boat sailing down on Nyhavn with waterways and canals. Later continue your journey to the Copenhagen\'s port for your overnight cruise to Norway. Enjoy local dinner on board the cruise. Overnight on board cruise. (Breakfast/Lunch/Dinner on board)'},
+      {title: 'Day 3 : Oslo City Tour & Geilo', copy: 'After breakfast on the cruise disembark at the Oslo pier. Meet the local guide to proceed on guided tour of the city of Oslo the Viking capital where fjords and mountains meet. See medieval Akershus Fortress, the City Hall, the Royal Palace, Parliament and the National Theatre. Continue with a visit to the Vigeland Sculpture Park. Tour the Viking Ship Museum which houses the world\'s best-preserved Viking vessels! Visit Holmenkollen museum and Ski Jump for a breath-taking view of Oslo fjords. Drive to Geilo for check-in into the hotel and relax. Overnight in Geilo. (Breakfast/Lunch/Dinner)'},
+      {title: 'Day 4 : Norway in a Nutshell', copy: 'After breakfast, check out and get set for one of the highlights of your trip - Norway in Nutshell. Proceed to Gudvangen by drive through magnificent Fjord Norway scenery. Board your scenic fjord cruise from Gudvangen, amazed by the splendid scenery of Aurlandsfjord and Nærøyfjord. Arrive at scenic Flam valley, take the Flamsbana train to Myrdal—a masterpiece of engineering with beautiful huge mountains and thundering waterfalls. Take the NSB train to Geilo. Board your bus to Oslo. Enjoy dinner before check-in. Overnight in Oslo. (Breakfast/Lunch/Dinner)'},
+      {title: 'Day 5 : Karlstad & Stockholm', copy: 'Onto Stockholm - the capital of Sweden. Today after buffet breakfast sit back and relax in your coach as we drive to Stockholm. En route, visit the town of Karlstad, situated between the cities of Stockholm and Oslo and bisected by the Klaralven River. Soak in the splendid beauty of Lake Vanern. On arrival at Stockholm - the Swedish capital drive straight to the hotel for check-in and relax. Overnight in Stockholm. (Breakfast/Lunch/Dinner)'},
+      {title: 'Day 6 : Stockholm City Tour', copy: 'Enjoy guided city tour of Stockholm, often referred to as the Venice of the North. See Fjallgatan for a magnificent view of the capital. Visit Old Town with its fascinating narrow cobble-stoned alleys, the Royal palace, the Cathedral, and City Hall. Continue to the impressive Vasa Museum, housing a beautifully preserved 17th-century wooden warship. Later, enjoy a ride on Sky view - Stockholm\'s landmark spherical building for a fantastic view. Overnight in Stockholm. (Breakfast/Lunch/Dinner)'},
+      {title: 'Day 7 : Drottningholm Palace & Cruise', copy: 'Begin your day with a hearty breakfast and later board your coach as we drive to Drottningholm palace, the private residence of the Swedish royal family built in the late 16th century on the island Lovön. Later proceed to board the overnight cruise for Helsinki. Overnight in Cruise. (Breakfast/Lunch/International Dinner on Board Cruise)'},
+      {title: 'Day 8 : Helsinki City Tour', copy: 'Arrival into Helsinki. Disembark and meet the local guide for a guided city tour. Drive past the busy harbour and Embassy Park. See Senate Square, an elegant Lutheran Cathedral, and Esplanadi. Visit the Sibelius Monument dedicated to Jean Sibelius. Drive down Mannerheim Street to see the Parliament building, National Museum, and Finlandia Hall. Visit the unique Rock Church, built out of solid rock and capped with a copper dome. Overnight in Helsinki. (Breakfast/Lunch/Dinner)'},
+      {title: 'Day 9 : Departure', copy: 'Your memorable Holiday ends, today it\'s time to fly back home. Say goodbye to the wonderful new friends you have made on the tour. Check out and depart for the Airport with pleasant memories of your European trip which you will cherish for a lifetime. (Breakfast)'}
+    ],
+    inclusions: [
+      'Economy Class airfares',
+      'Visa & Travel insurance',
+      'Sightseeing as per itinerary',
+      'Services of a Tour Manager escorting the group from the point of arrival',
+      'Overseas Insurance for period of stay (0 - 59 yrs)',
+      'All ground transportation by air-conditioned coaches',
+      'Daily Buffet Breakfast',
+      '7 Vegetarian Lunches',
+      '8 Indian Jain / Vegetarian / Non-Vegetarian Dinners',
+      'TRAVEL TOURS SPECIAL: Bottle of mineral water every day, Ice-cream & tea in select cities'
+    ],
+    exclusions: [
+      'Personal expenses',
+      'Any items or services not explicitly mentioned under inclusions'
+    ],
+    benefits: [
+      'Value-for-Money holiday which you will cherish for a lifetime',
+      'Visit 04 countries in 9 days: Denmark, Sweden, Norway & Finland',
+      'Choice of local meals at select cities'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Copenhagen (1 Night): Hotel Bella Sky / Island / Best Western or similar',
+          'DFDS Cruise (1 Night): Inside stateroom',
+          'Geilo (1 Night): Hotel Vestila Resort / Highline Lodge or similar',
+          'Oslo (1 Night): Hotel Thon / Radisson Blu / Quality or similar',
+          'Stockholm (2 Nights): Hotel Quality / Best Western / Park Inn or similar',
+          'Silja Line Cruise (1 Night): Inside stateroom',
+          'Helsinki (1 Night): Hotel Holiday Inn / Scandic / Radisson Blu Espoo or similar'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
+  },
+  {
+    slug: 'south-africa-group-departure',
+    title: 'Splendid South Africa',
+    location: 'South Africa',
+    days: 10,
+    price: null,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Table_Mountain_DanieVDM.jpg/1280px-Table_Mountain_DanieVDM.jpg',
+    desc: 'Embark on a 10-day adventure through South Africa, exploring Johannesburg, Sun City, Knysna, and Cape Town with thrilling game drives and stunning coastal views.',
+    tags: ['South Africa', 'Cape Town', '10 Days'],
+    promoEyebrow: 'Your Trusted Travel Partner',
+    promoTitle: 'South Africa Group Departure',
+    promoLine: 'Johannesburg · Sun City · Knysna · Cape Town',
+    specialHeading: 'Wildlife. Coastlines. Majestic Mountains.',
+    stays: ['10 Days / 9 Nights', 'Premium Hotels', 'Game Drives & Tours Included'],
+    gallery: [
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg/1280px-Camps_bay_%2853460319478%29_%28cropped%29.jpg', alt: 'Camps Bay Cape Town'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Table_Mountain_DanieVDM.jpg/1280px-Table_Mountain_DanieVDM.jpg', alt: 'Table Mountain'},
+      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Knysna_waterfront.jpg/1280px-Knysna_waterfront.jpg', alt: 'Knysna Waterfront'}
+    ],
+    galleryCaptions: ['Cape Town Coastline', 'Table Mountain', 'Knysna Waterfront'],
+    groupTitles: ['Johannesburg & Sun City', 'Knysna & Coast', 'Cape Town & Peninsula'],
+    experienceGroups: [
+      ['Johannesburg & Sun City', 'Guided Wild Dog & Lion tour', 'Pilanesberg Game Drive', 'Valley of Waves access'],
+      ['Knysna & Coast', 'Cango Caves', 'Cango Ostrich Farm', 'Cango Wildlife Ranch'],
+      ['Cape Town & Peninsula', 'Cape Town City Orientation', 'Table Mountain Cable car', 'Cape Point & Cape of Good Hope', 'Seal Island Cruise & Boulders Beach']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrive Johannesburg', copy: 'On arrival, meet & greet by our representative. Private transfer from Airport to your hotel. Check in and freshen up. Rest of the day at leisure. Dinner at an Indian restaurant. Overnight in Johannesburg.'},
+      {title: 'Day 2 : Johannesburg - Sun City', copy: 'Breakfast at hotel. Check out and take a road transfer to Sun City via a guided Wild Dog and Lion tour. Check in & freshen up. Explore Sun City on your own. Dinner at an Indian restaurant. Overnight in Sun City.'},
+      {title: 'Day 3 : Sun City & Pilanesberg Game Drive', copy: 'Breakfast at the hotel. Proceed for an exciting Game Drive in Pilanesberg. Return to the hotel. Rest of the day enjoy the Valley of Waves. Dinner at an Indian restaurant. Overnight in Sun City.'},
+      {title: 'Day 4 : Sun City to Knysna', copy: 'Breakfast at hotel. Check out and take a private transfer to Johannesburg Airport. Board your flight to George. Upon arrival, take a private transfer to your hotel at Knysna. Check in and freshen up. Rest of the day at leisure. Dinner at an Indian restaurant. Overnight in Knysna.'},
+      {title: 'Day 5 : Knysna & Oudtshoorn Tour', copy: 'Breakfast at the hotel. Proceed for full-day touring in Oudtshoorn. Visit the Cango Caves, one of the world\'s natural wonders. Tour the Cango Ostrich Farm, where you can interact with the world\'s largest birds. Lastly, visit the Cango Wildlife Ranch to view unique animal species of the Karoo region. Dinner at an Indian restaurant. Overnight in Knysna.'},
+      {title: 'Day 6 : Knysna - Cape Town', copy: 'Breakfast at hotel. Check out and take a private transfer to Cape Town. Check in and freshen up. Day free at leisure. Dinner at an Indian restaurant. Overnight in Cape Town.'},
+      {title: 'Day 7 : Cape Town City Tour', copy: 'Breakfast at the hotel. Proceed for a Private Morning City Orientation Tour of Cape Town. Discover the spirit of the Mother City, its vibrant cultures, history, and scenery. Highlights include Table Mountain (weather permitting), scenic coastal drive through Clifton & Sea Point, Green Market Square, and a scenic city tour passing the Houses of Parliament and V&A Waterfront. Dinner at an Indian restaurant. Overnight in Cape Town.'},
+      {title: 'Day 8 : Cape Point Tour', copy: 'Breakfast at the hotel. Join us on a Private Full Day Cape Point Tour to the romantic meeting place of the Indian & Atlantic Oceans. Includes Hout Bay, a 30-minute cruise to the seal colony (weather permitting), Cape Point nature reserve, Cape of Good Hope, a stop for lunch at Fish Hoek Galley, and a visit to the penguin colony in Simonstown. Dinner at an Indian restaurant. Overnight in Cape Town.'},
+      {title: 'Day 9 : Cape Town Leisure', copy: 'Breakfast at the hotel. Rest of the day at leisure. You can opt for optional activities (at additional cost) like Sky Diving, Paragliding, Robben Island Tour, Hot Air Ballooning, or a Helicopter ride. Overnight in Cape Town.'},
+      {title: 'Day 10 : Departure', copy: 'Breakfast at the hotel. Check out and take a private transfer to Cape Town International Airport. Board your flight and fly back home with wonderful memories.'}
+    ],
+    inclusions: [
+      'Return Intl. Airfare: Ex Mumbai & Domestic Airfare',
+      '09 Nights\' accommodation as per itinerary',
+      'Daily Breakfast and Dinners',
+      'Cape town City Orientation tour & Table Mountain Cable car',
+      'Seal Island Cruise, Boulders Beach, Cape Point, Cape of Good Hope, Return Funicular tickets',
+      'Cango Caves, Cango Wildlife, and Cango Ostrich Farm in Oudtshoorn',
+      'Unlimited access to Valley of Waves in Sun City & 1 Game Drive in Pilanesberg National Park',
+      'Guided Lion & Wild Dog Tour en route JNB',
+      'All transfers in an Air-Conditioned Vehicle',
+      '24X7 Assistance during the tour'
+    ],
+    exclusions: [
+      'Visa fees & procedures',
+      'Local tourist guide where not specified above',
+      'Tips & gratuities for drivers & guides',
+      'Meals and drinks not mentioned in the Itinerary or Inclusions',
+      'Mineral water on coaches & microbuses (Available at extra ZAR 30.00 per person per day)',
+      'Items of a personal nature, porterage fees, conservation fees, or any golfing fees'
+    ],
+    benefits: [
+      'Comprehensive 10-day tour covering major South African highlights',
+      'Seamless transfers including domestic flights',
+      'Comfortable Indian meals included throughout the journey'
+    ],
+    policies: [
+      {
+        title: 'Accommodation Details',
+        details: [
+          'Johannesburg (1 Night): Signature Lux Hotel Sandton or Similar',
+          'Sun City (2 Nights): Cabanas or Similar',
+          'Knysna / George (2 Nights): Graywood or Similar',
+          'Cape Town (4 Nights): Inn on the Square or Similar'
+        ]
+      }
+    ],
+    tagline: 'Tourswale'
   }
 ];
 export const allTours=[...domestic,...international];
