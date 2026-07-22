@@ -5,8 +5,73 @@ export const domestic=[
  {slug:'kerala-backwater-retreat',title:'Kerala Backwater Retreat',location:'Kerala',days:6,price:36500,image:images.kerala,desc:'Tea country, tranquil waterways and coastal flavours.',tags:['Munnar','Alleppey']},
  {slug:'ladakh-adventure',title:'Ladakh High-Altitude Adventure',location:'Ladakh',days:7,price:48999,image:images.ladakh,desc:'Otherworldly passes, blue lakes and mountain monasteries.',tags:['Pangong','Nubra']},
  {slug:'andaman-getaway',title:'Andaman Island Getaway',location:'Andaman',days:5,price:42500,image:images.andaman,desc:'Pristine beaches and unhurried island days.',tags:['Havelock','Snorkelling']},
- {slug:'himachal-escape',title:'Himachal Mountain Escape',location:'Himachal Pradesh',days:6,price:31999,image:images.himachal,desc:'Pine forests, mountain cafés and quiet Himalayan trails.',tags:['Manali','Solang']},
- {slug:'guwahati-spiritual-assam',title:'Spiritual Guwahati',location:'Guwahati, Assam',days:4,price:39900,image:'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400',desc:'Three nights in Guwahati with return flights from Mumbai, Kamakhya VIP darshan, a Brahmaputra sunset cruise and Pobitora wildlife safari.',tags:['Flights Included','Twin Sharing','Minimum 4 Guests'],promoEyebrow:'Your Journey, Our Responsibility',promoTitle:'Discover Spiritual Guwahati',promoLine:'The Spiritual Heart of Assam',specialHeading:'Spiritual. Nature. Culture. Shopping.',stays:['3 Nights / 4 Days','Departure: Mumbai','Flights Included'],gallery:[{src:'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400',alt:'Kamakhya Temple in Guwahati, Assam'},{src:'https://unsplash.com/photos/5WDMT98VnSI/download?force=true&w=1400',alt:'Sunset over the Brahmaputra River in Assam'},{src:'https://unsplash.com/photos/Iw8NcX9q7dM/download?force=true&w=1400',alt:'One-horned rhinoceros in Assam'}],galleryCaptions:['Kamakhya Temple · Guwahati','Brahmaputra sunset cruise','One-horned rhino · Assam'],groupTitles:['Spiritual Guwahati','River & Culture','Nature & Shopping'],experienceGroups:[['Spiritual Guwahati','Kamakhya Temple VIP darshan','Umananda Temple','Navagraha Temple','Sukreswar Ghat'],['River & Culture','Peacock Island','Brahmaputra sunset cruise','Srimanta Sankardev Kalakshetra','Assam State Zoo'],['Nature & Shopping','Pobitora Wildlife Sanctuary','One-horned rhinoceros safari','Private sightseeing vehicle','Fancy Bazaar shopping']],itinerary:[{title:'Arrival & Kamakhya Temple Darshan',copy:'Arrive at Guwahati Airport, proceed for assisted VIP darshan at Kamakhya Temple, check in to your hotel and enjoy an evening at leisure.'},{title:'River Island & Brahmaputra Cruise',copy:'Visit Umananda Temple on Peacock Island, Navagraha Temple and Sukreswar Ghat, followed by a Brahmaputra sunset cruise.'},{title:'Pobitora Wildlife Sanctuary Excursion',copy:'Take a jeep safari in Pobitora Wildlife Sanctuary to spot one-horned rhinoceroses and other wildlife, then return for shopping at Fancy Bazaar.'},{title:'Local Sightseeing & Departure',copy:'Depending on flight time, visit Assam State Zoo and Srimanta Sankardev Kalakshetra before your airport transfer and return flight to Mumbai.'}],inclusions:['Mumbai–Guwahati return economy airfare','Three nights’ hotel stay','Brahmaputra sunset cruise','Airport transfers','Private vehicle for sightseeing','Kamakhya Temple VIP darshan assistance','Pobitora Wildlife Jeep Safari','Driver allowance, toll tax and parking charges'],exclusions:['Lunch and dinner','Personal expenses','Camera fees, if applicable','Travel insurance','Anything not mentioned under inclusions'],benefits:['Twin-sharing basis','Minimum four persons required','Spiritual and cultural experience','Private sightseeing vehicle','Flights included from Mumbai'],tagline:'Book Now with Tourswale'},
+ {slug:'himachal-escape',title:'Himachal Mountain Escape',location:'Himachal Pradesh',days:6,price:31999,image:images.himachal,desc:'Pine forests, mountain cafés and quiet Himalayan trails.',tags:['Manali','Solang']},  {slug:'guwahati-spiritual-assam',title:'Spiritual Guwahati',location:'Guwahati, Assam',days:4,price:39900,image:'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400',desc:'Three nights in Guwahati with return flights from Mumbai, Kamakhya VIP darshan, a Brahmaputra sunset cruise and Pobitora wildlife safari.',tags:['Flights Included','Twin Sharing','Minimum 4 Guests'],promoEyebrow:'Your Journey, Our Responsibility',promoTitle:'Discover Spiritual Guwahati',promoLine:'The Spiritual Heart of Assam',specialHeading:'Spiritual. Nature. Culture. Shopping.',stays:['3 Nights / 4 Days','Departure: Mumbai','Flights Included'],gallery:[{src:'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400',alt:'Kamakhya Temple in Guwahati, Assam'},{src:'https://unsplash.com/photos/5WDMT98VnSI/download?force=true&w=1400',alt:'Sunset over the Brahmaputra River in Assam'},{src:'https://unsplash.com/photos/Iw8NcX9q7dM/download?force=true&w=1400',alt:'One-horned rhinoceros in Assam'}],galleryCaptions:['Kamakhya Temple · Guwahati','Brahmaputra sunset cruise','One-horned rhino · Assam'],groupTitles:['Spiritual Guwahati','River & Culture','Nature & Shopping'],experienceGroups:[['Spiritual Guwahati','Kamakhya Temple VIP darshan','Umananda Temple','Navagraha Temple','Sukreswar Ghat'],['River & Culture','Peacock Island','Brahmaputra sunset cruise','Srimanta Sankardev Kalakshetra','Assam State Zoo'],['Nature & Shopping','Pobitora Wildlife Sanctuary','One-horned rhinoceros safari','Private sightseeing vehicle','Fancy Bazaar shopping']],itinerary:[{title:'Arrival & Kamakhya Temple Darshan',copy:'Arrive at Guwahati Airport, proceed for assisted VIP darshan at Kamakhya Temple, check in to your hotel and enjoy an evening at leisure.'},{title:'River Island & Brahmaputra Cruise',copy:'Visit Umananda Temple on Peacock Island, Navagraha Temple and Sukreswar Ghat, followed by a Brahmaputra sunset cruise.'},{title:'Pobitora Wildlife Sanctuary Excursion',copy:'Take a jeep safari in Pobitora Wildlife Sanctuary to spot one-horned rhinoceroses and other wildlife, then return for shopping at Fancy Bazaar.'},{title:'Local Sightseeing & Departure',copy:'Depending on flight time, visit Assam State Zoo and Srimanta Sankardev Kalakshetra before your airport transfer and return flight to Mumbai.'}],inclusions:['Mumbai–Guwahati return economy airfare','Three nights’ hotel stay','Brahmaputra sunset cruise','Airport transfers','Private vehicle for sightseeing','Kamakhya Temple VIP darshan assistance','Pobitora Wildlife Jeep Safari','Driver allowance, toll tax and parking charges'],exclusions:['Lunch and dinner','Personal expenses','Camera fees, if applicable','Travel insurance','Anything not mentioned under inclusions'],benefits:['Twin-sharing basis','Minimum four persons required','Spiritual and cultural experience','Private sightseeing vehicle','Flights included from Mumbai'],tagline:'Book Now with Tourswale'},
+  {
+    slug: 'south-india-leisure',
+    title: 'South India Heritage & Leisure Tour',
+    location: 'South India',
+    days: 14,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Experience the rich culture, grand temples, and scenic hills of South India over 14 memorable days.',
+    tags: ['Kerala', 'Tamil Nadu', '14 Days'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover South India',
+    promoLine: 'Cochin · Munnar · Madurai · Pondicherry · Chennai',
+    specialHeading: 'Heritage. Nature. Spirituality. Culture.',
+    stays: ['13 Nights / 14 Days', 'Multiple Destinations', 'Immersive Experience'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
+      {src: 'https://images.unsplash.com/photo-1596726857187-b9561a7a0300?auto=format&fit=crop&w=1400&q=80', alt: 'Meenakshi Temple Madurai'},
+      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'}
+    ],
+    galleryCaptions: ['Kerala Backwaters', 'Madurai Temple', 'Munnar Tea Gardens'],
+    groupTitles: ['Kerala Experiences', 'Temple Cities', 'Coastal Heritage'],
+    experienceGroups: [
+      ['Kerala Experiences', 'Cochin Sightseeing', 'Periyar Wildlife Sanctuary', 'Munnar Tea Gardens', 'Kathakali Show'],
+      ['Temple Cities', 'Madurai Meenakshi Temple', 'Ranganathaswamy Temple Trichy', 'Tanjore Brihadeeswara', 'Tirupati Dharshan'],
+      ['Coastal Heritage', 'Velankanni Church', 'Pondicherry Beaches', 'French War Memorial', 'Marina Beach Chennai']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival Cochin', copy: 'On Arrival Cochin Airport by Flight will meet and transfer to hotel. After check in hotel, freshen up. Day of leisure free rest for own activities, etc.'},
+      {title: 'Day 2 : Cochin', copy: 'After Morning Breakfast, Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel.'},
+      {title: 'Day 3 : Cochin – Thekkady', copy: 'After Morning Breakfast check out from the hotel and drive to Thekkady. Transfer to hotel & relax. Afternoon, proceed for sightseeing – The Periyar wildlife sanctuary is thick evergreen forest, declared a Tiger Reserve in 1978. The splendid artificial lake formed by the Mullaperiyar Dam across the Periyar river adds to the charm of the park. You can also go for Boat Cruises on the Periyar lake, visit cardamom, pepper, tea & coffee plantation.'},
+      {title: 'Day 4 : Thekkady – Munnar', copy: 'After Morning Breakfast check out from the hotel and drive to Munnar. After check in Hotel, you will proceed for full Day sightseeing across Munnar. Places & Activities of Interest – Echo Point, Kundala Lake, Kundala Dam, Indo Swiss Livestock Project, Mattupetty Lake & Mattupetty Dam, Munnar Boating, Munnar Tea gardens, Munnar Tea museum & Tea factory, Blossom Park, Munnar Elephant Ride, Pothamedu View Point, Hydel Park, Photo Shooting Points, Rajamalai Eravikulam National Park, Anamudi peak.'},
+      {title: 'Day 5 : Munnar – Palani', copy: 'After Morning Breakfast check out and drive to Palani. After check in hotel, proceed to visit dharshan at Murugan Temple. Evening do some shopping and own activities, etc.'},
+      {title: 'Day 6 : Palani – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam.'},
+      {title: 'Day 7 : Madurai – Trichy', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam.'},
+      {title: 'Day 8 : Trichy – Tanjore – Velankanni', copy: 'After Morning Breakfast check out and drive to Velankanni. On the way to visit Tanjore - brihadeeswara temple, gangaikonda cholapuram. After visit drive to check in hotel at Velankanni. After check in hotel, proceed to visit Shrine Basilica of our Lady of Good Health.'},
+      {title: 'Day 9 : Velankanni – Chidambaram – Pondicherry', copy: 'After Morning Breakfast check out and drive to Pondicherry. On the way to visit Chidambaram – Thillai Nataraja Temple. After visit drive to check in hotel at Pondicherry. Proceed to visit arulmigu manakula vinayagar temple, seaside promenade, paradise beach, serenity beach, church of the sacred heart of jesus, bharati government park, french war memorial, sri varadharaja perumal temple, auroville beach.'},
+      {title: 'Day 10 : Pondicherry – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Tiruvannamalai. After check in hotel, Proceed to visit Arunachaleshwara Temple, Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram.'},
+      {title: 'Day 11 : Tiruvannamalai – Vellore – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit Vellore – Golden Temple. After drive to check in hotel at Tirupati. After check in hotel, proceed whole day sightseeing and dharshan at tirupati. Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, sri varahaswami temple, kapila theertham, talakona water falls, papavinasam theertham.'},
+      {title: 'Day 12 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, day of leisure free rest and own activities, etc.'},
+      {title: 'Day 13 : Chennai', copy: 'After Morning Breakfast proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach.'},
+      {title: 'Day 14 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Roshni Holidays ".'}
+    ],
+    inclusions: [
+      'Accommodation on Double / Triple sharing basis',
+      'Daily Breakfast basis at all hotels',
+      'All transfer and sightseeing by Air conditioned vehicle',
+      'Driver allowance, toll, parking, fuel charge and interstate taxes',
+      'Applicable taxes for Room Rent, Breakfast and Transport'
+    ],
+    exclusions: [
+      'Expenses of personal nature viz., telephone bills, Laundry, Tips and use of mini bar in the room',
+      'Any pooja, dharshan Entertainments, etc.',
+      'Any meals & services other than those as mentioned in cost includes',
+      'Entrance Fee & Guide Fee',
+      'Alcoholic & non-alcoholic beverages during meals or otherwise',
+      'Tips at restaurants, concierge and driver',
+      '5% GST'
+    ],
+    benefits: [
+      'Comprehensive South India coverage',
+      'Comfortable AC transport',
+      'Daily breakfast included',
+      'Dedicated driver for the entire trip'
+    ],
+    tagline: 'Book Now with Tourswale'
+  }
 ];
 export const international=[
  {slug:'switzerland-paris',title:'Switzerland & Paris',location:'Europe',days:9,price:189999,image:images.switzerland,desc:'Alpine rail journeys followed by the romance of Paris.',tags:['Lucerne','Paris']},
