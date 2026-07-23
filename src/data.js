@@ -1875,6 +1875,72 @@ export const domestic=[
   }
 ];
 export const international=[
+  {
+    slug: 'mauritius-radisson-blu-adults-only',
+    title: 'Mauritius Adults Only Escape',
+    location: 'Mauritius',
+    days: 6,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1200&q=80',
+    desc: 'A 5-night adults-only romantic island getaway at Radisson Blu Poste Lafayette with private tours and exceptional value.',
+    tags: ['Mauritius', 'Adults Only', '5 Nights'],
+    promoEyebrow: 'Exclusive Island Getaway',
+    promoTitle: 'Mauritius Retreat',
+    promoLine: 'Radisson Blu Poste Lafayette Resort & Spa',
+    specialHeading: 'Boutique Luxury. Ocean Views. Private Sightseeing.',
+    stays: ['5 Nights / 6 Days', 'Superior Ocean Room', 'MAP (Breakfast & Dinner)'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1533669955142-6a73332af4db?auto=format&fit=crop&w=1400&q=80', alt: 'Mauritius Beach'},
+      {src: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1400&q=80', alt: 'Mauritius Resort'},
+      {src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1400&q=80', alt: 'Romantic Beach Dinner'}
+    ],
+    galleryCaptions: ['Pristine Beaches', 'Boutique Luxury', 'Romantic Settings'],
+    groupTitles: ['Property Highlights', 'Private Sightseeing', 'Honeymoon Benefits'],
+    experienceGroups: [
+      ['Property Highlights', 'Exclusive Adults Only Property', 'Prime Beachfront Location', 'Ocean-Facing Accommodation', 'Boutique Luxury by Radisson Blu', 'Exceptional Value with Premium Inclusions'],
+      ['Private Sightseeing', 'No Waiting in Line', 'Private Airport Transfers', 'Full Day North Tour', 'Full Day South Tour', 'Full-Day Île aux Cerfs Tour'],
+      ['Honeymoon Benefits', 'Fruit platter, sparkling wine & seasonal flowers on arrival', 'One romantic dinner during the stay', '30% discount on selected Spa treatments', 'Perfect adults-only setting for a romantic island getaway']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Arrival in Mauritius', copy: 'Arrive in Mauritius and enjoy private airport transfers to Radisson Blu Poste Lafayette Resort & Spa. Check into your Superior Ocean Room. Enjoy your FREE lunch upon arrival (or on departure). Enjoy a relaxing evening.'},
+      {title: 'Day 2 : Full Day North Tour', copy: 'Experience a private full day tour exploring the vibrant North of Mauritius. No waiting in line as you explore local attractions.'},
+      {title: 'Day 3 : Full Day South Tour', copy: 'Embark on a private full day tour of the scenic South of Mauritius. Discover stunning landscapes, waterfalls, and nature parks at your own pace.'},
+      {title: 'Day 4 : Full-Day Île aux Cerfs Tour', copy: 'Take a private full-day trip to the beautiful Île aux Cerfs. Enjoy pristine beaches, turquoise waters, and optional water sports activities.'},
+      {title: 'Day 5 : Leisure & Romance', copy: 'Spend the day at your leisure. Enjoy the adults-only beachfront resort and avail your 30% discount on selected Spa treatments. In the evening, delight in a complimentary romantic dinner.'},
+      {title: 'Day 6 : Departure', copy: 'After breakfast, check out from the hotel and take your private transfer to the airport for your onward journey.'}
+    ],
+    inclusions: [
+      '5 Nights accommodation in Superior Ocean Room',
+      'Meal Plan: MAP (Breakfast & Dinner)',
+      'One FREE Lunch upon Arrival or Departure',
+      'Private Airport Transfers',
+      'Full Day North Tour (Private)',
+      'Full Day South Tour (Private)',
+      'Full-Day Île aux Cerfs Tour (Private)'
+    ],
+    exclusions: [
+      'Airfare',
+      'Travel insurance',
+      'Personal expenses',
+      'Any activities not specified in the inclusions'
+    ],
+    benefits: [
+      'Adults Only Resort Experience',
+      'Ocean-Facing Room',
+      'Fully Private Sightseeing',
+      'Special Honeymoon Inclusions'
+    ],
+    policies: [
+      {
+        title: 'Booking Details',
+        details: [
+          'Travel Window: Till 31 Aug 2026',
+          'Booking Valid: Till 31 Jul 2026'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
  {slug:'switzerland-paris',title:'Switzerland & Paris',location:'Europe',days:9,price:189999,image:images.switzerland,desc:'Alpine rail journeys followed by the romance of Paris.',tags:['Lucerne','Paris']},
  {slug:'italy-heritage',title:'Italy Heritage Journey',location:'Europe',days:8,price:174999,image:images.italy,desc:'Art, architecture and timeless Italian cities.',tags:['Rome','Venice']},
  {slug:'japan-discovery',title:'Japan Tour Package',location:'Japan',days:8,price:165000,image:images.japan,desc:'Seven nights across Tokyo, Mt. Fuji, Hakone, Kyoto, Nara and Osaka with 4-star hotels, Indian meals and the iconic bullet train.',tags:['Land Package','4-Star Hotels','Bullet Train'],promoEyebrow:'Your Journey, Our Responsibility',promoTitle:'Experience the Magic of Japan',promoLine:'Tokyo · Mt. Fuji · Hakone · Kyoto · Nara · Osaka',specialHeading:'Timeless Culture. Breathtaking Views. Unforgettable Memories.',stays:['8 Days / 7 Nights','4-Star Hotels','Land Package Only'],gallery:[{src:'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80',alt:'Tokyo city lights in Japan'},{src:'https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1400&q=80',alt:'Mount Fuji in Japan'},{src:'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1400&q=80',alt:'Traditional Kyoto temple in Japan'}],galleryCaptions:['Tokyo · Modern Japan','Mt. Fuji · Hakone','Kyoto · Timeless culture'],groupTitles:['Tokyo Icons','Fuji & Hakone','Kyoto, Nara & Osaka'],experienceGroups:[['Tokyo Icons','Asakusa','Tokyo Skytree','Shibuya Crossing','Meiji Shrine','Odaiba'],['Fuji & Hakone','Mt. Fuji 5th Station','Lake Ashi Cruise','Hakone Ropeway','Owakudani Valley'],['Kyoto, Nara & Osaka','Fushimi Inari','Golden Pavilion','Arashiyama Bamboo Grove','Nara Park & Tōdai-ji','Osaka Castle & Dotonbori']],itinerary:[{title:'Arrival in Tokyo',copy:'Airport transfer to your hotel followed by leisure time to settle in and explore nearby at your own pace.'},{title:'Tokyo City Tour',copy:'Visit Asakusa, Tokyo Skytree, Shibuya Crossing, Meiji Shrine and the waterfront district of Odaiba.'},{title:'Mt. Fuji & Hakone Tour',copy:'Travel to Mt. Fuji 5th Station, cruise Lake Ashi, ride the Hakone Ropeway and discover Owakudani Valley.'},{title:'Bullet Train to Kyoto',copy:'Experience Japan’s iconic bullet train, then visit Fushimi Inari, Kinkaku-ji Golden Pavilion and Arashiyama Bamboo Grove.'},{title:'Kyoto & Nara Tour',copy:'Explore Kiyomizu-dera, Nara Park and Tōdai-ji Temple, with time for the famous deer-feeding experience.'},{title:'Kyoto to Osaka',copy:'Continue to Osaka Castle, vibrant Dotonbori Street and the Shinsaibashi shopping district.'},{title:'Osaka City Tour',copy:'Take in the views from Umeda Sky Building and experience the flavours and energy of Kuromon Market.'},{title:'Leisure Day & Departure',copy:'Enjoy free time until your scheduled transfer to the airport for departure.'}],inclusions:['7 nights in 4-star hotels with breakfast','Bullet train experience','7 Indian lunches','7 Indian dinners','Lake Ashi cruise','Sightseeing and entry tickets as per itinerary','Airport and railway station transfers','Visa assistance','Daily water bottle','Applicable taxes'],exclusions:['International air tickets','Travel insurance unless selected','Personal expenses','Anything not specified in the inclusions'],benefits:['Best-selling Japan itinerary','Perfect for families, couples and FITs','Centrally located 4-star hotels','Includes Japan’s iconic bullet train','Carefully curated experiences'],tagline:'Book Now with Tourswale'},
