@@ -1,5 +1,64 @@
 export const images={hero:'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2200&q=85',kashmir:'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80',rajasthan:'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80',kerala:'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',ladakh:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',andaman:'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1200&q=80',himachal:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',switzerland:'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80',italy:'https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=80',japan:'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80',bali:'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80',dubai:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80',singapore:'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',turkiye:'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80',usa:'https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1200&q=80'};
 export const domestic=[
+  {
+    slug: 'andamans-luxury-escape-5d',
+    title: '4N/5D Andamans Luxury Escape (Ex BOM)',
+    location: 'Andamans',
+    days: 5,
+    price: 47100,
+    image: 'https://www.andamanocean.in/wp-content/uploads/2023/10/Radhanagar-Beach-Havelock-Island-Andaman-India-3.jpg',
+    desc: 'Port Blair 2N / Havelock 2N with Cellular Jail, Radhanagar Beach, Elephanta Beach, and Roundtrip Flights from Mumbai.',
+    tags: ['Andamans', 'Luxury', 'Flights Included', '4 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Andamans',
+    promoLine: 'Luxury packages with 4* Hotels, Ferries & Flights',
+    specialHeading: 'Beaches. History. Adventure.',
+    stays: ['4 Nights / 5 Days', 'Departure: Mumbai', 'Flights Included'],
+    gallery: [
+      {src: 'https://www.andamanocean.in/wp-content/uploads/2023/10/Radhanagar-Beach-Havelock-Island-Andaman-India-3.jpg', alt: 'Andaman Beach'},
+      {src: 'https://cdn.experienceandamans.com/images/elephant-beach-havelock-island-visit.jpg', alt: 'Havelock Island'},
+      {src: 'https://tse3.mm.bing.net/th/id/OIP.V51-3SrzjhpXR5zK2lR5UgHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Cellular Jail'}
+    ],
+    galleryCaptions: ['Andaman Beach', 'Havelock Island', 'Cellular Jail'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels'],
+    experienceGroups: [
+      ['Inclusions', 'Round Trip Flights (Indigo)', '2N Port Blair - Heritage MNR (Luxury)', '2N Havelock - Aparupa Sands Marina (Luxury)', 'Daily Breakfast (CP Plan)', 'Private Catamaran Ferry (Shared Basis: Premium)', 'All Sightseeing in AC Vehicle', 'Airport & Ferry Terminal Transfers', 'Entry fees for all sightseeing'],
+      ['Flight Details', 'Onward: Indigo 6E-5285 | 07:45 AM (BOM) - 11:05 AM (IXZ)', 'Return: Indigo 6E-5286 | 11:40 AM (IXZ) - 15:15 PM (BOM)'],
+      ['Hotels', 'Port Blair: Heritage MNR (Luxury) - Heritage Club Room', 'Havelock: Aparupa Sands Marina (Luxury) - Executive Room']
+    ],
+    itinerary: [
+      {title: 'Port Blair Arrival - Cellular Jail & Corbyn\'s Cove', copy: 'Arrival, Meet-Greet with our airport representative and Transfer to your booked hotel / resort. Late Afternoon, visit historic Cellular Jail and its Museum. Later proceed to Corbyn’s Cove Beach- Port Blair’s only sandy, palm-fringed beach and enroute take a photo opportunity halt at Tiranga Park.'},
+      {title: 'Port Blair to Havelock - Radha Nagar Beach', copy: 'Pick up from hotel to Port Blair Jetty for your onward journey to Havelock via Private Catamaran Ferry (Premium). Arrival, Meet-Greet by our local representative and transfer to your resort. Afternoon, Visit the Blue Flag certified "Radha Nagar Beach" for swim and relaxation.'},
+      {title: 'Havelock - Elephanta Beach', copy: 'Morning Breakfast and proceed to Elephanta Beach via shared boat. Enjoy water-based activities like Snorkelling, Jet Ski ride, Banana Ride, Sea Walk. (Includes 5-min complimentary snorkelling subject to operator). Return to hotel.'},
+      {title: 'Havelock to Port Blair - L&S Show at Cellular Jail', copy: 'Breakfast, check out and proceed to jetty for onward journey to Port Blair via Private Catamaran Ferry (Premium). Arrival in Port Blair, Transfer to hotel. Evening, Experience the 3D Light & Sound Show at Cellular Jail.'},
+      {title: 'Port Blair Departure', copy: 'Breakfast, Transfer to airport. Tour Ends with sweet memories.'}
+    ],
+    inclusions: [
+      'Round Trip Flights (Indigo 6E-5285 / 6E-5286)',
+      '2N Port Blair - Heritage MNR (Luxury)',
+      '2N Havelock - Aparupa Sands Marina (Luxury)',
+      'Daily Breakfast (CP Plan)',
+      'Airport & Ferry Terminal Transfers in Air-Conditioned Vehicle',
+      'All Sightseeing (Entry fees included) as per itinerary in AC Vehicle',
+      'Inter-Island ferry transfers By Private Catamaran Ferries (Premium)',
+      'Meet & Greet services by local representatives at Airport & Jetty'
+    ],
+    exclusions: [
+      'Lunch and Dinner',
+      'Any kind of personal expenses',
+      'Optional tours, extra meals, Vehicle for Dinner etc.',
+      'Water Sports at Corbyn\'s Cove Beach',
+      'Travel insurance',
+      'Anything not mentioned under inclusions'
+    ],
+    benefits: [
+      'Luxury 4* equivalent Hotels / Resorts',
+      'Premium Ferry Transfers Included',
+      'Flights Included from Mumbai',
+      'Exclusive Vehicle for Sightseeing'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
  {slug:'kashmir-signature-escape',title:'Kashmir Signature Escape',location:'Kashmir',days:6,price:38999,image:images.kashmir,desc:'Shikara mornings, alpine valleys and warm Kashmiri hospitality.',tags:['Dal Lake','Gulmarg']},
  {slug:'royal-rajasthan-journey',title:'Royal Rajasthan Journey',location:'Rajasthan',days:7,price:44999,image:images.rajasthan,desc:'Palace stays, desert sunsets and stories of living heritage.',tags:['Jaipur','Jaisalmer']},
  {slug:'kerala-backwater-retreat',title:'Kerala Backwater Retreat',location:'Kerala',days:6,price:36500,image:images.kerala,desc:'Tea country, tranquil waterways and coastal flavours.',tags:['Munnar','Alleppey']},
@@ -1875,6 +1934,185 @@ export const domestic=[
   }
 ];
 export const international=[
+  {
+    slug: 'baku-azerbaijan-escape-6n',
+    title: '6N/7D Best of Baku & Shahdag (Ex BOM)',
+    location: 'Baku, Azerbaijan',
+    days: 7,
+    price: 98500,
+    image: 'https://www.wernersobek.com/wp-content/uploads/resized/2021/05/EP03535-024-1920x0-c-default.jpg',
+    desc: '6 Nights in Baku with Shahdag, Gobustan, and Flames Tour including Roundtrip Flights and Standard Visa.',
+    tags: ['Azerbaijan', 'Baku', 'Flights Included', '6 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Baku',
+    promoLine: 'Baku, Shahdag, and Gobustan with Flights & Visa',
+    specialHeading: 'History. Fire. Mountains.',
+    stays: ['6 Nights / 7 Days', 'Departure: Mumbai', 'Flights Included'],
+    gallery: [
+      {src: 'https://www.wernersobek.com/wp-content/uploads/resized/2021/05/EP03535-024-1920x0-c-default.jpg', alt: 'Baku Flame Towers'},
+      {src: 'https://images.adsttc.com/media/images/5285/2033/e8e4/4e22/2500/0147/large_jpg/HAC_Exterior_Photo_by_Hufton_Crow_(3).jpg?1384456144', alt: 'Heydar Aliyev Center'},
+      {src: 'https://tse3.mm.bing.net/th/id/OIP.opc0HpIG1lcdM9-zO2Jj8QHaEW?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Old City Baku'}
+    ],
+    galleryCaptions: ['Flame Towers', 'Heydar Aliyev Center', 'Baku Old City'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotel Options', 'Travel Dates'],
+    experienceGroups: [
+      ['Inclusions', 'Return Flights (Azerbaijan Airlines)', '6 Nights Hotel Accommodation in Baku with Breakfast', 'Standard Visa', 'All transfers & sightseeing in Sedan (2 pax) with English speaking driver', 'Entrance fees: Flame temple, Fire mountain, Gobustan, Shahdag cable car', '2 Bottles of water per person per day'],
+      ['Flight Details', 'Onward: Azerbaijan Airlines J2-60 | 02:25 (BOM) - 05:55 (GYD)', 'Return: Azerbaijan Airlines J2-59 | 19:30 (GYD) - 01:25 (BOM)'],
+      ['Hotel Options (Per Person)', 'Option 1: Diamond 3* - ₹98,500', 'Option 2: Central Point 4* - ₹1,05,000'],
+      ['Travel Dates', '14 Aug 2026 - 20 Aug 2026']
+    ],
+    itinerary: [
+      {title: 'Welcome to Baku & Panoramic Tour', copy: 'Arrival at Airport and transfer to hotel. In the evening, enjoy a city view tour. Visit Highland Park-Alley of Martyrs and the Flame Towers, the tallest skyscrapers in Baku.'},
+      {title: 'Baku City Tour', copy: 'Explore the Old City (Icheri Sheher), a UNESCO World Heritage Site including the Palace of the Shirvanshahs and Maiden Tower. Visit the Heydar Aliyev Center (photo stop) and walk along the scenic Baku Boulevard.'},
+      {title: 'Shahdag Tour', copy: 'Departure to Shahdag Mountain Resort Complex, the first and largest ski resort in Azerbaijan located in the Greater Caucasus Range. Enjoy mountain activities and return to Baku.'},
+      {title: 'Flames Tour', copy: 'Visit Ateshgah (Fire Worshippers Temple) and Yanardag (Fire Mountain), a natural gas fire burning continuously. Later, visit Ganjlik Mall for shopping.'},
+      {title: 'Qobustan Tour', copy: 'Explore Qobustan, famous for rock petroglyphs dating back to the 8th millennium BC (UNESCO site). Continue to Deniz Mall.'},
+      {title: 'Shopping Tour', copy: 'Enjoy a Bakhlava Tasting experience. Explore Nizami Street, famous for shopping, and visit Fountains Square.'},
+      {title: 'Departure', copy: 'Breakfast in Hotel. Departure to Airport for your return flight.'}
+    ],
+    inclusions: [
+      'Return Flight from Mumbai to Baku (Azerbaijan Airlines)',
+      '6 Nights Accommodation in Baku including breakfast',
+      'Sightseeing in Baku, Absheron, Shahdag, Gobustan',
+      'English speaking driver (2 pax)',
+      'Entrance fees: Flame temple, Fire mountain, Gobustan, Shahdag cable car',
+      'All transfers according to program (Sedan for 2 pax)',
+      'Standard Visa',
+      '2 Bottles of water per person per day'
+    ],
+    exclusions: [
+      'Lunch and Dinner',
+      'Porter service & Hard drinks',
+      'Charges in hotels for additional services & penalties',
+      'Anything not mentioned in inclusions'
+    ],
+    benefits: [
+      'Flights Included from Mumbai',
+      'Standard Visa Included',
+      'Choice of 3* or 4* Hotel Options',
+      'Private Transfers'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'singapore-cruise-ex-delhi-5n',
+    title: '5N Singapore with Cruise (Ex DEL)',
+    location: 'Singapore',
+    days: 6,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',
+    desc: '3N Stay at 4 Star Hotel + 2N Star Dream Cruise with Flights, Meals, and Sightseeing.',
+    tags: ['Singapore', 'Cruise', 'Flights Included', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Singapore & Cruise',
+    promoLine: 'Roundtrip packages with 4* Hotel, Cruise & Flights',
+    specialHeading: 'City. Nature. Ocean.',
+    stays: ['5 Nights / 6 Days', 'Departure: Delhi', 'Flights Included'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=80', alt: 'Singapore Skyline'},
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1401&q=80', alt: 'Gardens by the Bay'},
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1402&q=80', alt: 'Universal Studios Singapore'}
+    ],
+    galleryCaptions: ['Singapore Skyline', 'Gardens by the Bay', 'Universal Studios'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Available Dates'],
+    experienceGroups: [
+      ['Inclusions', 'Round Trip Flights (Air India)', '3N Singapore - Holiday Inn Express & Suites Novena (4 Star)', '2N Cruise - Star Dream Cruise (Interior)', 'Daily breakfast at hotel', 'All meals onboard cruise', 'All transfers on SIC basis', 'Visit to Gardens by the Bay - Cloud Forest & Flower Dome', 'Guided Singapore City Tour', 'Sentosa Island - Cable Car ride & Wings of Time show'],
+      ['Flight Details', 'Onward: Air India AI-2118 | 00:40 AM - 09:15 AM', 'Return: Air India AI-2383 | 23:00 PM - 02:40 AM'],
+      ['Available Dates (2026-2027)', '26 Sept - 1 Oct 2026', '2 Oct - 7 Oct 2026', '24 Oct - 29 Oct 2026', '31 Oct - 5 Nov 2026', '7 Nov - 12 Nov 2026', '21 Nov - 26 Nov 2026', '28 Nov - 3 Dec 2026', '5 Dec - 10 Dec 2026', '9 Jan - 14 Jan 2027', '16 Jan - 21 Jan 2027']
+    ],
+    itinerary: [
+      {title: 'Arrival in Singapore & Transfer', copy: 'Arrive in Singapore via Air India. Transfer to Holiday Inn Express & Suites Novena (4 Star) on SIC basis.'},
+      {title: 'Guided Singapore City Tour', copy: 'After breakfast, embark on a comprehensive Guided Singapore City Tour to explore the best landmarks.'},
+      {title: 'Gardens by the Bay', copy: 'Visit Gardens by the Bay, including entry to the stunning Cloud Forest & Flower Dome.'},
+      {title: 'Sentosa Island', copy: 'Experience Sentosa Island with a scenic Cable Car ride and the spectacular Wings of Time show.'},
+      {title: 'Board Star Dream Cruise', copy: 'Transfer to the cruise terminal and board the Star Dream Cruise. Enjoy your interior cabin and all meals onboard.'},
+      {title: 'Departure', copy: 'Disembark from the cruise and take your SIC transfer to the airport for your return Air India flight to Delhi.'}
+    ],
+    inclusions: [
+      'Round Trip Flights (Air India)',
+      '3N Singapore - Holiday Inn Express & Suites Novena (4 Star)',
+      '2N Cruise - Star Dream Cruise (Interior)',
+      'Daily breakfast at hotel',
+      'All meals onboard cruise',
+      'All transfers on SIC (Seat-in-Coach) basis',
+      'Visit to Gardens by the Bay – Cloud Forest & Flower Dome (tickets included)',
+      'Guided Singapore City Tour',
+      'Sentosa Island – Cable Car ride & Wings of Time show (tickets included)'
+    ],
+    exclusions: [
+      'Lunch and dinner (except on cruise)',
+      'Personal expenses',
+      'Travel insurance',
+      'Anything not mentioned under inclusions'
+    ],
+    benefits: [
+      'Flights Included from Delhi',
+      'Every Week from Delhi to Singapore',
+      'Roundtrip packages with 4* Hotels & Flights',
+      'Upgrade with Add-Ons: Universal Studio, Marina Bay Sands, or Balcony Room'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'singapore-ex-delhi-5n',
+    title: '5N SINGAPORE with Flights (Ex DEL)',
+    location: 'Singapore',
+    days: 6,
+    price: null,
+    image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',
+    desc: '5N Stay at 4 Star Hotel with Daily Breakfast, SIC Transfers, and Round Trip Flights.',
+    tags: ['Singapore', 'Flights Included', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Singapore',
+    promoLine: 'Roundtrip packages with 4* Hotel & Flights',
+    specialHeading: 'City. Nature. Entertainment.',
+    stays: ['5 Nights / 6 Days', 'Departure: Delhi', 'Flights Included'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=80', alt: 'Singapore Skyline'},
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1401&q=80', alt: 'Gardens by the Bay'},
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1402&q=80', alt: 'Universal Studios Singapore'}
+    ],
+    galleryCaptions: ['Singapore Skyline', 'Gardens by the Bay', 'Universal Studios'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Available Dates'],
+    experienceGroups: [
+      ['Inclusions', 'Round Trip Flights (Air India)', '5N Singapore - Holiday Inn Novena (4 Star)', 'Daily Breakfast', 'All transfers on SIC basis', 'Visit to Gardens by the Bay - Cloud Forest & Flower Dome', 'Guided Singapore City Tour', 'Night Safari entry', 'Universal Studios Singapore entry', 'Sentosa Island - Cable Car ride & Wings of Time show'],
+      ['Flight Details', 'Onward: Air India AI-2118 | 00:40 AM - 09:15 AM', 'Return: Air India AI-2383 | 23:00 PM - 02:40 AM', '4 Star hotel stay with breakfast'],
+      ['Available Dates (2026-2027)', '26 Sept - 1 Oct 2026', '2 Oct - 7 Oct 2026', '24 Oct - 29 Oct 2026', '31 Oct - 5 Nov 2026', '7 Nov - 12 Nov 2026', '21 Nov - 26 Nov 2026', '28 Nov - 3 Dec 2026', '5 Dec - 10 Dec 2026', '9 Jan - 14 Jan 2027', '16 Jan - 21 Jan 2027']
+    ],
+    itinerary: [
+      {title: 'Arrival in Singapore & Night Safari', copy: 'Arrive in Singapore via Air India. Transfer to Holiday Inn Novena (4 Star) on SIC basis. In the evening, enjoy the world-famous Night Safari.'},
+      {title: 'Guided Singapore City Tour', copy: 'After breakfast, embark on a comprehensive Guided Singapore City Tour to explore the best landmarks.'},
+      {title: 'Universal Studios Singapore', copy: 'Enjoy a full day of thrilling rides and entertainment with included entry to Universal Studios Singapore.'},
+      {title: 'Gardens by the Bay', copy: 'Visit Gardens by the Bay, including entry to the stunning Cloud Forest & Flower Dome.'},
+      {title: 'Sentosa Island', copy: 'Experience Sentosa Island with a scenic Cable Car ride and the spectacular Wings of Time show.'},
+      {title: 'Departure', copy: 'After breakfast, time at leisure before your SIC transfer to the airport for your return Air India flight to Delhi.'}
+    ],
+    inclusions: [
+      'Round Trip Flights (Air India AI-2118 / AI-2383)',
+      '5N Stay at Holiday Inn Novena (4 Star)',
+      'Daily Breakfast',
+      'All transfers on SIC (Seat-in-Coach) basis',
+      'Gardens by the Bay - Cloud Forest & Flower Dome tickets',
+      'Guided Singapore City Tour',
+      'Night Safari entry tickets',
+      'Universal Studios Singapore entry tickets',
+      'Sentosa Island - Cable Car ride & Wings of Time show tickets'
+    ],
+    exclusions: [
+      'Lunch and dinner',
+      'Personal expenses',
+      'Optional Add-On: Marina Bay Sands (available at extra cost)',
+      'Travel insurance',
+      'Anything not mentioned under inclusions'
+    ],
+    benefits: [
+      'Flights Included from Delhi',
+      'Limited Seats Available',
+      'Every Week from Delhi to Singapore',
+      'Upgrade with an Add-On: Marina Bay Sands'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
   {
     slug: 'mauritius-radisson-blu-adults-only',
     title: 'Mauritius Adults Only Escape',
