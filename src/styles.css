@@ -229,3 +229,102 @@ img{max-width:100%}
 .us-visa-hero{min-height:820px;padding:12rem 8vw 6rem;display:grid;grid-template-columns:1.15fr .85fr;gap:8vw;align-items:center;background:linear-gradient(90deg,#2e0b16f3,#2e0b1698),url('https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=2200&q=85') center/cover;color:#fff}.us-visa-hero h1{font-size:clamp(4rem,7vw,7rem);margin:.5rem 0 1.5rem}.us-visa-hero h1 em{color:var(--gold);font-weight:500}.us-visa-hero>div>p{max-width:650px;color:#cbd4d9}.us-visa-hero aside{padding:3rem;background:#2e0b16d6;border:1px solid #ffffff35}.us-visa-hero aside>svg{color:var(--gold)}.us-visa-hero aside>span{display:block;margin-top:1rem;color:var(--gold);font-size:.65rem;text-transform:uppercase;letter-spacing:.14em}.us-visa-hero aside strong{display:block;margin:.7rem 0;font:600 2.4rem/1.05 var(--serif)}.us-visa-hero aside p{color:#c6d0d5;font-size:.8rem}.us-visa-hero aside a{display:flex;align-items:center;gap:.5rem;color:var(--gold);font-size:.65rem;text-transform:uppercase;letter-spacing:.1em}.us-visa-hero aside a svg{width:15px}.us-assist-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #d7cdbd;border-left:1px solid #d7cdbd}.us-assist-grid article{position:relative;min-height:250px;padding:2rem;background:#fff;border-right:1px solid #d7cdbd;border-bottom:1px solid #d7cdbd}.us-assist-grid article>svg{color:var(--gold)}.us-assist-grid h3{margin:1.5rem 0 .7rem}.us-assist-grid p{font-size:.78rem;color:#62696d}.us-assist-grid a{position:absolute;left:2rem;bottom:1.5rem;display:flex;align-items:center;gap:.4rem;color:var(--gold);font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em}.us-assist-grid a svg{width:14px}
 @media(max-width:950px){.us-visa-hero{grid-template-columns:1fr}.us-visa-hero aside{max-width:600px}.us-assist-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.us-visa-hero{min-height:850px;padding:9rem 1.25rem 4rem;gap:2rem}.us-visa-hero h1{font-size:3.5rem}.us-visa-hero aside{padding:1.5rem}.us-assist-grid{grid-template-columns:1fr}.us-assist-grid article{min-height:225px;padding:1.5rem}.us-assist-grid a{left:1.5rem;bottom:1.3rem}}
+
+/* Passport Form */
+.passport-form-container {
+    background: var(--ivory);
+    padding: 6rem 8vw;
+}
+.passport-form-container > div {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border: 1px solid #d8d0c4;
+}
+.passport-form-container h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.passport-assistance-form .step-indicators {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #f0eee8;
+    position: relative;
+}
+.passport-assistance-form .step-indicators span {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a8b2b7;
+    position: relative;
+}
+.passport-assistance-form .step-indicators span.active {
+    color: var(--navy);
+}
+.passport-assistance-form .step-indicators span.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--gold);
+}
+.passport-assistance-form .form-step h3 {
+    margin-bottom: 2rem;
+    color: var(--navy);
+}
+.passport-assistance-form h4 {
+    margin: 3rem 0 1.5rem;
+    font-family: var(--serif);
+    font-size: 1.5rem;
+}
+.passport-assistance-form .addons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.passport-assistance-form .declaration {
+    margin: 3rem 0 2rem;
+    padding: 1.5rem;
+    background: var(--sand);
+}
+.passport-assistance-form .declaration .check {
+    margin-bottom: 1rem;
+}
+.passport-assistance-form .declaration .check:last-child {
+    margin-bottom: 0;
+}
+.passport-assistance-form .button-row {
+    margin-top: 2rem;
+    justify-content: flex-end;
+}
+.passport-assistance-form .button-row button {
+    border: none;
+    font-family: inherit;
+}
+.passport-assistance-form .button-row .button.light {
+    border: 1px solid #ddd;
+    color: var(--ink);
+}
+@media (max-width: 720px) {
+    .passport-form-container {
+        padding: 4rem 1.25rem;
+    }
+    .passport-form-container > div {
+        padding: 1.5rem;
+    }
+    .passport-assistance-form .step-indicators span {
+        font-size: 0.6rem;
+    }
+    .passport-assistance-form .addons-grid {
+        grid-template-columns: 1fr;
+    }
+}
