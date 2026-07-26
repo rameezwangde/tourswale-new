@@ -1,6 +1,703 @@
 export const images={hero:'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2200&q=85',kashmir:'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80',rajasthan:'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80',kerala:'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',ladakh:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',andaman:'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1200&q=80',himachal:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',switzerland:'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80',italy:'https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=80',japan:'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80',bali:'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80',dubai:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80',singapore:'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',turkiye:'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80',usa:'https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1200&q=80'};
 export const domestic=[
   {
+    slug: 'south-india-temples-kovalam-7d',
+    title: '6N/7D South India Pilgrimage & Coastal Tour',
+    location: 'South India',
+    days: 7,
+    price: 140000,
+    image: 'https://media1.thrillophilia.com/filestore/723xzm0xxclmd3z5akd8ndk9y6uy_1580530775_shutterstock_1487153798.jpg',
+    desc: 'Embark on a divine 7-day journey across the spiritual heartland of Tamil Nadu and the serene beaches of Kerala, covering Madurai, Trichy, Thanjavur, Rameshwaram, Kanyakumari, and Kovalam.',
+    tags: ['Tamil Nadu', 'Kerala', 'Pilgrimage', '6 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Divine South India',
+    promoLine: 'Heritage, Temples & Coasts',
+    specialHeading: 'A Spiritual Awakening.',
+    stays: ['6 Nights / 7 Days', 'Start: Madurai', 'End: Trivandrum'],
+    gallery: [
+      {src: 'https://wallpapercave.com/wp/wp9198776.jpg', alt: 'Madurai Temple'},
+      {src: 'https://media1.thrillophilia.com/filestore/723xzm0xxclmd3z5akd8ndk9y6uy_1580530775_shutterstock_1487153798.jpg', alt: 'Kanyakumari Sunset'},
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1402&q=80', alt: 'Kovalam Beach'}
+    ],
+    galleryCaptions: ['Meenakshi Temple', 'Kanyakumari', 'Kovalam'],
+    groupTitles: ['Inclusions', 'Hotels & Pricing', 'Policies & T&C'],
+    experienceGroups: [
+      ['Inclusions', 'Transfers & Sightseeing by A/C Innova / Ertiga (7 AM to 6 PM)', 'Daily Breakfast at Hotels', 'Driver Bata, Toll, Tax, Permit & all parking charges', 'Pickup from Madurai / Drop at Trivandrum', 'English/Hindi speaking friendly driver cum guide'],
+      ['Hotels & Pricing', 'Total Land Package Cost: ₹1,40,000/- (+5% GST)', 'Madurai (1N): Hotel President or Similar', 'Trichy (1N): Hotel Ramyas or Similar', 'Thanjavur (1N): Hotel Akshith Inn or Similar', 'Rameshwaram (1N): Hotel Taika or Similar', 'Kanyakumari (1N): Hotel Sea Shore or Similar', 'Kovalam (1N): Jasmine Palace or Similar'],
+      ['Policies & T&C', 'Child below 5 yrs sharing same bed with parents is complimentary', 'No changes in hotels without your consent', 'Base category rooms provided unless mentioned', 'Advance payment required for confirmation']
+    ],
+    itinerary: [
+      {title: 'Arrival at Madurai | Local Sightseeing', copy: 'Arrival at Madurai Airport/Railway Station. Pickup and transfer to the hotel for check-in. Proceed for Madurai sightseeing covering Meenakshi Amman Temple, Thirumalai Nayakkar Palace, Gandhi Memorial Museum and an evening visit to Meenakshi Temple for darshan. Overnight stay in Madurai.'},
+      {title: 'Madurai – Trichy | Temple Tour', copy: 'After breakfast, check-out and proceed towards Trichy. En route visit Srirangam Ranganathaswamy Temple. Later visit Rockfort Temple and Jambukeswarar Temple. Check-in at the hotel. Overnight stay in Trichy.'},
+      {title: 'Trichy – Thanjavur | Heritage Sightseeing', copy: 'After breakfast, check-out and proceed to Thanjavur. Visit Brihadeeswarar Temple (UNESCO World Heritage Site), Thanjavur Palace and Art Gallery. Evening free for local shopping. Overnight stay in Thanjavur.'},
+      {title: 'Thanjavur – Rameshwaram | Pilgrimage Drive', copy: 'After breakfast, check-out and proceed towards Rameshwaram. On arrival, check-in at the hotel. Visit Ramanathaswamy Temple, Agni Theertham and local temples. Evening at leisure. Overnight stay in Rameshwaram.'},
+      {title: 'Rameshwaram – Kanyakumari | Coastal Journey', copy: 'Early morning temple darshan (optional). After breakfast, proceed towards Kanyakumari. Evening visit to Vivekananda Rock Memorial (by ferry), Thiruvalluvar Statue and enjoy sunset at Kanyakumari Beach. Overnight stay in Kanyakumari.'},
+      {title: 'Kanyakumari – Trivandrum – Kovalam', copy: 'After breakfast, proceed to Kovalam via Trivandrum. En route sightseeing: Padmanabhaswamy Temple, Napier Museum, Shankumugham Beach. Check-in at the beachside resort in Kovalam. Leisure time at Kovalam Beach. Overnight stay in Kovalam.'},
+      {title: 'Kovalam – Trivandrum | Departure', copy: 'After breakfast, check-out from hotel and proceed to Trivandrum Railway Station for drop. Tour concludes with pleasant memories.'}
+    ],
+    inclusions: [
+      '06 nights accommodation on twin sharing basis (03 Double Rooms)',
+      'Daily complimentary breakfast',
+      'Transportation by A/C Innova / Ertiga (7 am to 6 pm)',
+      'English/Hindi speaking friendly driver cum guide',
+      'All toll, parking, permit, road tax, and driver allowance',
+      'Child below 5 yrs sharing same bed with parents will be complimentary'
+    ],
+    exclusions: [
+      'All personal expenses and entrance fees at all sightseeing spots',
+      'Optional activities mentioned in the itinerary',
+      '5% GST Extra',
+      'Compulsory Gala Dinner On X\'mas & New year Eve if applicable'
+    ],
+    benefits: [
+      'Complete South Temple Tour',
+      'A/C Innova/Ertiga Included',
+      'Premium Hotel Stays',
+      'Kovalam Beach Relaxation'
+    ],
+    policies: [
+      {
+        title: 'Booking Procedure',
+        details: [
+          'For Offline booking, inform us the type of package and dates of arrival. We will send a confirmation mail with bank account details.',
+          'Deposit the advance amount and send an email regarding the money transfer. We will then initiate the booking.'
+        ]
+      },
+      {
+        title: 'Terms & Booking Conditions',
+        details: [
+          'Room & Rates are subject to availability at the time of processing the reservation.',
+          'Booking will be confirmed only after receiving advance payment and based on hotel availability.',
+          'Hotel Unavailability: If mentioned hotels are unavailable, new options will be provided which may increase or decrease the package rate. If not convinced by new options, advance will be fully refunded if communicated within 1 day.',
+          'No Hotel Changes: There will not be any change in the hotels mentioned without your consent.',
+          'Guest Responsibility: We suggest checking reviews and locations of hotels before confirming the package. Base category rooms are provided unless explicitly mentioned.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kerala-kovalam-6d',
+    title: '5N/6D Kerala Highlights (Munnar, Thekkady, Alleppey, Kovalam) Ex BOM',
+    location: 'Kerala',
+    days: 6,
+    price: 29950,
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Experience the absolute best of Kerala with this 6-day scenic journey covering the misty hills of Munnar, wildlife in Thekkady, Alleppey backwaters, and pristine Kovalam beaches.',
+    tags: ['Kerala', 'Kovalam', 'Munnar', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Kerala Highlights',
+    promoLine: 'Hills, Backwaters & Beaches',
+    specialHeading: 'God\'s Own Country Awaits.',
+    stays: ['5 Nights / 6 Days', 'Start/End: Cochin', 'Beaches & Backwaters'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Backwaters'},
+      {src: 'https://wildlifezones.com/wp-content/uploads/2020/03/Pothamedu-Viewpoint-Munnar.jpg', alt: 'Munnar Hills'},
+      {src: 'https://keralaevents.in/wp-content/uploads/2017/06/thekaddy.jpg', alt: 'Thekkady Wildlife'}
+    ],
+    galleryCaptions: ['Alleppey', 'Munnar', 'Thekkady'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Transfers & Sightseeing by A/C Tempo 16 (7 AM to 6 PM)', 'Daily Breakfast at Hotels', 'Driver Bata, Toll, Parking & Interstate charges', 'English/Hindi speaking friendly driver cum guide'],
+      ['Flight Details', 'Onward: IndiGo 6E-549 | 04:55 (BOM) - 07:00 (COK)', 'Return: IndiGo 6E-548 | 23:20 (COK) - 01:35 (BOM)', 'Note: Flight rates are valid for 24Hrs only'],
+      ['Hotels & Pricing', 'Adults: ₹29,950/-', 'Child Above 5 Years: ₹22,100/-', 'Child Below 4 Years: ₹17,300/-', 'Munnar (2N): Ayur Green Resort / Similar (Non A/C)', 'Thekkady (1N): Jungle Park / Similar (Non A/C)', 'Alleppey (1N): Grand Alleppey / Similar', 'Kovalam (1N): Jasmine Palace / Similar']
+    ],
+    itinerary: [
+      {title: 'Cochin to Munnar', copy: 'Meet our representative at Cochin Airport/Railway station. Drive to Munnar (135km/4.5hrs). Enroute visit Cheyyara waterfalls, Valara waterfalls, Attukadu waterfalls, and spice plantations. Overnight stay at Munnar.'},
+      {title: 'Munnar Sightseeing', copy: 'Full day sightseeing in Munnar. Visit Eravikulam National Park (Raja Malai), Mattupetty dam, tea estates, eco point, rose garden, photo point, honey bee tree, tea museum, and blossom park. Overnight stay at Munnar.'},
+      {title: 'Munnar to Thekkady (Periyar)', copy: 'After breakfast, drive to Thekkady (105km/3.5hrs). Visit Periyar Wildlife Sanctuary where you can see wild elephants, boars, deer, and the great Indian tiger (during boating). In the evening, enjoy optional activities like Kathakali, Kalarippayattu, or an Ayurvedic massage. Overnight stay at Thekkady.'},
+      {title: 'Thekkady to Alleppey', copy: 'Drive to Alleppey in the morning. Enjoy the backwaters (at your own cost), scenery, beach, lighthouse, and local temples. Overnight stay in the hotel in Alleppey.'},
+      {title: 'Alleppey to Kovalam', copy: 'Proceed to Kovalam (165km/4hrs). Sightseeing includes Lighthouse beach, Howah Beach, Ashoka beach. Visit Sree Padmanabhaswamy Temple, Kuthiramalika Palace museum, Napier museum, Sree Chithra art gallery, Kanakakunnu Palace, and planetarium. Overnight stay at Kovalam.'},
+      {title: 'Kovalam to Cochin Drop', copy: 'Drive back to Cochin (240km/6hrs). You can do shopping at Cochin and visit Marine drive if time permits. Our representative will drop you at Cochin/Trivandrum Airport/Railway station/Bus stand for your onward journey back home with sweet memories.'}
+    ],
+    inclusions: [
+      'Accommodation as mentioned on twin sharing basis',
+      'Daily complimentary breakfast at hotels',
+      'Transportation by A/C Tempo 16 (7 AM to 6 PM)',
+      'English/Hindi speaking friendly driver cum guide',
+      'All toll, parking, road tax, fuel charge, interstate charges',
+      'Child below 5 yrs sharing same bed with parents will be complimentary'
+    ],
+    exclusions: [
+      'All personal expenses and entrance fees at all sightseeing spots',
+      '5% GST',
+      'Compulsory Gala Dinner on X\'mas & New Year Eve (if applicable)',
+      'Backwater enjoyment/boating in Alleppey (At your own cost)'
+    ],
+    benefits: [
+      'A/C Tempo 16 Included',
+      'Covers Beaches & Hills',
+      'Flights from BOM included',
+      'Expert Driver-Guide'
+    ],
+    policies: [
+      {
+        title: 'Booking Procedure',
+        details: [
+          'For Offline booking, inform us the type of package and dates of arrival. We will send a confirmation mail with bank account details.',
+          'Deposit the advance amount and send an email regarding the money transfer. We will then initiate the booking.'
+        ]
+      },
+      {
+        title: 'Terms & Booking Conditions',
+        details: [
+          'Room & Rates are subject to availability at the time of processing the reservation.',
+          'Booking will be confirmed only after receiving advance payment and based on hotel availability.',
+          'Hotel Unavailability: If mentioned hotels are unavailable, new options will be provided which may increase or decrease the package rate. If not convinced by new options, advance will be fully refunded if communicated within 1 day.',
+          'No Hotel Changes: There will not be any change in the hotels mentioned without your consent.',
+          'Guest Responsibility: We suggest checking reviews and locations of hotels before confirming the package. Base category rooms are provided unless explicitly mentioned.',
+          'Rooms in Munnar and Thekkady will be Non-A/C as they are hill stations with cold climates.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kerala-backwaters-munnar-5n',
+    title: '5N/6D Best of Kerala (Munnar, Thekkady, Alleppey) Ex BOM',
+    location: 'Kerala',
+    days: 6,
+    price: 37250,
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Immerse yourself in God\'s Own Country with this 6-day scenic journey through the tea gardens of Munnar, wildlife in Thekkady, and a luxurious houseboat stay in Alleppey.',
+    tags: ['Kerala', 'Houseboat', 'Munnar', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Kerala Explorer',
+    promoLine: 'Nature, Wildlife & Backwaters',
+    specialHeading: 'God\'s Own Country Awaits.',
+    stays: ['5 Nights / 6 Days', 'Start/End: Cochin', 'Couples/Honeymoon'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Houseboat'},
+      {src: 'https://wildlifezones.com/wp-content/uploads/2020/03/Pothamedu-Viewpoint-Munnar.jpg', alt: 'Munnar Tea Gardens'},
+      {src: 'https://keralaevents.in/wp-content/uploads/2017/06/thekaddy.jpg', alt: 'Thekkady Wildlife'}
+    ],
+    galleryCaptions: ['Alleppey', 'Munnar', 'Thekkady'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Transfers & Sightseeing by A/C Dzire/Etios (7 AM to 6 PM)', 'Daily Breakfast at Hotels', 'Exclusive Houseboat Stay with All Meals', 'Driver Bata, Toll, Parking & Interstate charges', 'English/Hindi speaking friendly driver cum guide'],
+      ['Flight Details', 'Onward: Vistara UK-511 | 06:00 (BOM) - 08:00 (COK)', 'Return: Air India Express IX-412 | 20:50 (COK) - 23:00 (BOM)'],
+      ['Hotels & Pricing', 'Package Price: ₹37,250/- per person (₹74,500 per couple)', 'Munnar (2N): Ayur Green Resort / Similar (Non A/C)', 'Thekkady (1N): Jungle Park / Similar (Non A/C)', 'Alleppey (1N): One Bedroom Deluxe Houseboat', 'Cochin (1N): Broad Bean / Similar']
+    ],
+    itinerary: [
+      {title: 'Cochin to Munnar', copy: 'Meet our representative at Cochin Airport/Railway station. Drive to Munnar (135km/4.5hrs). Enroute visit Cheyyara waterfalls, Valara waterfalls, Attukadu waterfalls, and spice plantations. Overnight stay at Munnar.'},
+      {title: 'Munnar Sightseeing', copy: 'Full day sightseeing in Munnar. Visit Eravikulam National Park (Raja Malai), Mattupetty dam, tea estates, eco point, rose garden, photo point, honey bee tree, tea museum, and blossom park. Overnight stay at Munnar.'},
+      {title: 'Munnar to Thekkady (Periyar)', copy: 'After breakfast, drive to Thekkady (105km/3.5hrs). Visit Periyar Wildlife Sanctuary where you can see wild elephants, boars, deer, and the great Indian tiger (during boating). In the evening, enjoy optional activities like Kathakali, Kalarippayattu, or an Ayurvedic massage. Overnight stay at Thekkady.'},
+      {title: 'Thekkady to Alleppey Houseboat', copy: 'Drive to Alleppey in the morning (150km/3.5hrs). Check-in to your exclusive 1-Bedroom Deluxe Houseboat at 12 Noon. Enjoy a scenic 21-hour cruise through the backwaters. All meals (lunch, dinner, breakfast) and welcome drinks are served onboard. Overnight stay in the Houseboat.'},
+      {title: 'Alleppey to Cochin', copy: 'After checkout at 9 AM, proceed to Cochin (80km/1.5hrs). Sightseeing includes Fort Cochin, St. Francis church, Chinese fishing nets, Santa Cruz Basilica, Mattancherry palace, Jewish synagogue, and Marine drive. Find some time for shopping. Overnight stay at Cochin.'},
+      {title: 'Departure from Cochin', copy: 'If time permits, enjoy shopping at Lulu Mall. Our representative will drop you at Cochin Airport/Railway station/Bus stand for your onward journey back home with sweet memories.'}
+    ],
+    inclusions: [
+      'Accommodation as mentioned on twin sharing basis',
+      'Daily complimentary breakfast at hotels',
+      'Exclusive Houseboat stay with all meals (Welcome drink, lunch, evening tea, dinner, breakfast)',
+      'Transportation by A/C Dzire / Etios',
+      'English/Hindi speaking friendly driver cum guide',
+      'All toll, parking, road tax, fuel charge, interstate charges'
+    ],
+    exclusions: [
+      'All personal expenses and entrance fees at all sightseeing spots',
+      '5% GST',
+      'Compulsory Gala Dinner on X\'mas & New Year Eve (if applicable)',
+      'Optional activities in Thekkady (Elephant ride, Kathakali, etc.)'
+    ],
+    benefits: [
+      'Private A/C Sedan included',
+      'Deluxe Houseboat Experience',
+      'Flights from BOM included',
+      'Expert Driver-Guide'
+    ],
+    policies: [
+      {
+        title: 'Houseboat Operations',
+        details: [
+          'Check-in is at 12:00 Noon and the boat cruises till 5:30 PM.',
+          'The boat will be anchored from 5:30 PM till 7:00 AM.',
+          'Morning cruise starts at 7:00 AM and checkout is at 9:00 AM.',
+          'A/C in the houseboat operates ONLY from 9:00 PM till 6:00 AM.'
+        ]
+      },
+      {
+        title: 'Important Hotel & AC Notes',
+        details: [
+          'Rooms in Munnar and Thekkady will be Non-A/C as they are hill stations with cold climates.',
+          'Base category rooms will be provided unless explicitly mentioned.',
+          'Any extra bed/breakfast for kids not mentioned in the inclusions must be paid directly at the hotel.'
+        ]
+      },
+      {
+        title: 'Terms & Booking Conditions',
+        details: [
+          'Child Policy: Child below 5 yrs sharing same bed with parents will be complimentary.',
+          'Booking Confirmation: Booking will be confirmed only after receiving advance payment and based on hotel availability.',
+          'Hotel Unavailability: If mentioned hotels are unavailable, new options will be provided which may increase or decrease the package rate. If not convinced by new options, advance will be fully refunded if communicated within 1 day.',
+          'No Hotel Changes: There will not be any change in the hotels mentioned without your consent.',
+          'Guest Responsibility: We suggest checking reviews and locations of hotels before confirming the package. Base category rooms are provided unless explicitly mentioned.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kedarnath-haridwar-4d',
+    title: '3N/4D Ek Dham Yatra - Kedarnath (Ex Haridwar)',
+    location: 'Uttarakhand',
+    days: 4,
+    price: 35406,
+    image: 'https://wallpapers.com/images/hd/kedarnath-temple-banners-4k-9pd6c84fjldyenjg.jpg',
+    desc: 'Discover your spiritual side with a sacred 4 Days Ek Dham Yatra to Kedarnath, starting from Haridwar. A quest of salvation in the high Himalayas.',
+    tags: ['Uttarakhand', 'Kedarnath', 'Spiritual', '3 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Kedarnath Yatra',
+    promoLine: 'A Quest of Salvation',
+    specialHeading: 'Sacred Himalayan Heights.',
+    stays: ['3 Nights / 4 Days', 'Start: Haridwar', 'Trek or Heli options'],
+    gallery: [
+      {src: 'https://wallpapers.com/images/hd/kedarnath-temple-banners-4k-9pd6c84fjldyenjg.jpg', alt: 'Kedarnath Temple'},
+      {src: 'https://thumbs.dreamstime.com/b/divine-ganga-aarti-har-ki-pauri-haridwar-har-ki-pauri-haridwar-sacred-ghat-banks-ganges-river-known-348258111.jpg', alt: 'Haridwar Ganga Aarti'},
+      {src: 'https://outdoorawaits.com/wp-content/uploads/2026/04/Kedarnath-Trek.webp', alt: 'Himalayan Trek'}
+    ],
+    galleryCaptions: ['Kedarnath', 'Haridwar', 'The Trek'],
+    groupTitles: ['Inclusions', 'Flight & Transport Options', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Transport Services Ex Haridwar (Dzire/Ertiga/Crysta)', 'Accommodation on Double/Triple Sharing', 'Breakfast & Dinner in Hotels (Except in Kedarnath)', 'All point to point sightseeing within time frame', 'Toll, Tax, Parking & Driver Allowances'],
+      ['Flight & Transport Options', 'Onward: Air India AI-2741 | 07:40 (BOM-2) - 09:55 (Dehradun/DED)', 'Return: IndiGo 6E-5157 | 18:10 (Dehradun/DED) - 20:35 (NMI)', 'Vehicle Options: Swift Dzire, Ertiga, Innova Crysta'],
+      ['Hotels & Pricing', 'Bhakti Yatra (Dzire): ₹35,406 | Divya Yatra (Dzire): ₹37,940', 'Bhakti Yatra (Ertiga): ₹36,300 | Divya Yatra (Ertiga): ₹38,900', 'Bhakti Yatra (Crysta): ₹38,000 | Divya Yatra (Crysta): ₹40,500', 'Guptkashi/Sitapur (2N): Rudransh / Camp Nirvana', 'Kedarnath (1N): Rudra Camps / Bikaner House (Bed Only, No Meals)']
+    ],
+    itinerary: [
+      {title: 'Haridwar to Sitapur', copy: 'Arrival Haridwar proceed to Sitapur Via Devprayag Rudraprayag, Guptkashi. We should leave Haridwar for almost day long drive to Sitapur. Enroute S/S of Rudprayag (confluence of Alaknanda & Mandakini). Here we can have Darshan of Maa Chamunda Devi Shakti Peeth. Upon reach Sitapur/Rampur/Guptkashi we will take rest. Night stay in Hotel.'},
+      {title: 'Sitapur to Kedarnath', copy: 'After breakfast Morning drive to Sonprayag -Gaurikund. The trek is 19 KM long from Sonprayag. Rest slow, calm and breathful walking strategies are always helpful in completing this kind of trek. On arrival Kedarnath freshening up, perform Pooja and also Darshan at Shri Kedarnath. Rituals & Activities: Visit Gauri Kund, Darshan of Kedarnath Temple, Bhim Shila and Chance to meet Gurus and Sadhus meditating for long time in Kedarnath.'},
+      {title: 'Return Trek to Sitapur', copy: 'After morning darshan and pooja, downward trek to Sonpryag (approx 6 hrs). Our vehicle pick you up from there and take you to hotel for leisure stay for Night.'},
+      {title: 'Sitapur to Dehradun via Rishikesh', copy: 'Early morning after breakfast, we will proceed to Haridwar / Dehradun and on the way we will view of 05th and last Parayag- Dev Parayag. Arrive Rishikesh and you will visit Laxamn Jhula and Ram Jhula on your own as this is not motorable. You can also see many Ghats and temples and beautiful Ashrams. Rishikesh is next home of Sadhus & Saints. It is also called Capital land of Yoga. Evening drop at Haridwar / Dehradun.'}
+    ],
+    inclusions: [
+      'Neat, clean, hygienic accommodation on Double /Triple Sharing as per preferences & group size.',
+      'Breakfast & Dinner in Hotels (Except Kedarnath)',
+      'Inclusive of transport services (Ex Haridwar)',
+      'All point to point sight-seeing as per given program possible in time frame',
+      'All toll, tax, parking and driver allowances are included'
+    ],
+    exclusions: [
+      '5.0% Govt. Service Tax (GST)',
+      'Helicopter Tickets to Kedarnath',
+      'Accommodation and meals in Kedarnath will be on direct payment',
+      'Any International or Domestic Air or Rail Tickets (Except if requested)',
+      'Table drinks, laundry, porter, pony / Palaki, tips',
+      'Camera fee, ropeway charges, entrance charges, health insurance'
+    ],
+    benefits: [
+      'Flights from BOM to DED included (as per quote)',
+      'Vehicle Choice (Dzire, Ertiga, Crysta)',
+      'Suitable for Trek or Heli routes',
+      'Compact 4 Days Itinerary'
+    ],
+    policies: [
+      {
+        title: 'Helicopter Booking Rules (If required)',
+        details: [
+          'Kedarnath Helicopter Tickets Cost Extra from Guptkashi/Phata/Sersi.',
+          'Cost is Actual cost + (1500 Service Charge) + GST.',
+          'IMPORTANT – HELICOPTER TICKETS ARE SUBJECT TO APPROVALS TO THE AVIATION COMPANIES BY THE STATE GOVERNMENT.',
+          'MANDATORY REQUIREMENTS: Full Name, Age, Exact Weight, Copy of Aadhar ID, Contact Number.'
+        ]
+      },
+      {
+        title: 'Why do travel agents/drivers charge extra for excursions (Chopta/Mana)?',
+        details: [
+          'Tourism dependents like local driver in Chardham Yatra places in Himalayan Mountain have limited opportunities to earn for their daily livelihood. They are highly dependent on this seasonal business which is hardly come on peak for 30 days. In this limited span of time they need to work hard for their family. So the local drivers associations and other small organizations supported by Uttarakhand Tourism believes that they should have a nominal charges extra on these kind of excursions which will be a side income other than their fixed daily wages. So this is also our request being a responsible tourism activist to our pilgrim not to be panic or hesitant or reluctant in giving any nominal amount to these communities. They deserve this being real heroes of this Yatra. The advisable charges for the excursions altogether are Triyugi Narayan Temple + Chopta + Mana (3500 Per Small Vehicle Till 03-04 Seated / 5500 to 6500 Per Mid-Size SUV for 06-07 People/ 7500 to 8500 for 12 Seats and above).'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kedarnath-ek-dham-6d',
+    title: '5N/6D Ek Dham Yatra - Kedarnath (Ex Delhi)',
+    location: 'Uttarakhand',
+    days: 6,
+    price: 36100,
+    image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Embark on a deeply spiritual 6 Days Ek Dham Yatra to the majestic Kedarnath, traversing through Haridwar, Guptkashi, and Sonprayag.',
+    tags: ['Uttarakhand', 'Kedarnath', 'Spiritual', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Kedarnath Yatra',
+    promoLine: 'Safe, Comfortable & Meaningful Ek Dham Yatra',
+    specialHeading: 'Divine Blessings. Majestic Himalayas.',
+    stays: ['5 Nights / 6 Days', 'Start: Delhi', 'Trek or Heli options'],
+    gallery: [
+      {src: 'https://wallpapers.com/images/hd/kedarnath-temple-banners-4k-9pd6c84fjldyenjg.jpg', alt: 'Kedarnath Temple'},
+      {src: 'https://thumbs.dreamstime.com/b/divine-ganga-aarti-har-ki-pauri-haridwar-har-ki-pauri-haridwar-sacred-ghat-banks-ganges-river-known-348258111.jpg', alt: 'Haridwar Ganga Aarti'},
+      {src: 'https://outdoorawaits.com/wp-content/uploads/2026/04/Kedarnath-Trek.webp', alt: 'Himalayan Trek'}
+    ],
+    galleryCaptions: ['Kedarnath', 'Haridwar', 'The Trek'],
+    groupTitles: ['Inclusions', 'Flight & Transport Options', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Transport Services Ex Delhi (Dzire/Ertiga/Crysta)', 'Accommodation on Double/Triple Sharing', 'Breakfast & Dinner in Hotels (Except in Kedarnath)', 'All point to point sightseeing within time frame', 'Toll, Tax, Parking & Driver Allowances'],
+      ['Flight & Transport Options', 'Onward: IndiGo 6EF-5095 | 09:20 (NMI) - 11:40 (Delhi/HDO)', 'Return: IndiGo 6E4-5096 | 17:00 (Delhi/HDO) - 19:05 (NMI)', 'Vehicle Options: Swift Dzire, Ertiga, Innova Crysta'],
+      ['Hotels & Pricing', 'Bhakti Yatra (Dzire): ₹36,100 | Divya Yatra (Dzire): ₹39,400', 'Bhakti Yatra (Ertiga): ₹37,800 | Divya Yatra (Ertiga): ₹41,100', 'Bhakti Yatra (Crysta): ₹39,900 | Divya Yatra (Crysta): ₹43,200', 'Haridwar (2N): The Urmi / Hotel Lakshya', 'Guptkashi/Sitapur (2N): Rudransh / Camp Nirvana', 'Kedarnath (1N): Rudra Camps / Bikaner House (Bed Only, No Meals)']
+    ],
+    itinerary: [
+      {title: 'Arrival in Delhi & Transfer to Haridwar', copy: 'Meet our assistance on arrival in Delhi and proceed to Haridwar. Check into your hotel. You can proceed for Ganga Aarti at Har Ki Pouri on your own. Overnight stay in Haridwar.'},
+      {title: 'Haridwar to Sitapur/Guptkashi', copy: 'Leave early morning for a day-long drive to Sitapur via Guptkashi. Pass Devprayag & Rudraprayag along the scenic route. Overnight stay at Sitapur/Guptkashi.'},
+      {title: 'Trek to Kedarnath', copy: 'Morning drive to Sonprayag/Gaurikund. Begin the 19 KM trek to Kedarnath. Upon arrival, freshen up, perform Pooja, and have Darshan of Shri Kedarnath. Overnight stay in Kedarnath (Bed basis only).'},
+      {title: 'Return Trek to Sitapur', copy: 'After morning darshan, begin your downward trek (approx 6 hrs) back to Sonprayag. Our vehicle will pick you up and transfer you to your hotel for a relaxing evening. Overnight in Sitapur/Guptkashi.'},
+      {title: 'Sitapur to Haridwar', copy: 'Early morning checkout and proceed to Haridwar. You have another chance to attend the evening Ganga Aarti at Har-Ki-Pouri. Enjoy local shopping in Haridwar and Rishikesh. Overnight in Haridwar.'},
+      {title: 'Departure from Delhi', copy: 'Morning drive to Delhi (210 kms / 6-7 hrs). Drop at the Airport/Railway station for your onward journey, bringing back glorious spiritual memories.'}
+    ],
+    inclusions: [
+      'Neat, hygienic accommodation on Double/Triple Sharing',
+      'Breakfast & Dinner in Hotels (Except in Kedarnath)',
+      'Transport Services Ex-Delhi (Toll, Tax, Parking included)',
+      'All point-to-point sightseeing as per program',
+      'Driver allowances included'
+    ],
+    exclusions: [
+      'Helicopter Tickets for Kedarnath (Subject to availability)',
+      'Meals during the stay in Kedarnath',
+      'Pony/Palki/Mule charges during the trek',
+      'Personal expenses, tips, and guide charges',
+      'Flights (Unless explicitly requested/booked)'
+    ],
+    benefits: [
+      'Two package categories: Bhakti & Divya',
+      'Vehicle Choice (Dzire, Ertiga, Crysta)',
+      'Suitable for Trek or Heli routes',
+      'Comfortable pacing'
+    ],
+    policies: [
+      {
+        title: 'Important Yatra Notes',
+        details: [
+          'Kedarnath Accommodation: Stay in Kedarnath is on a multiple sharing basis and without any meals (bed basis only).',
+          'Trek Information: The trek from Gaurikund to Kedarnath is 19 KM long. Guests are advised to walk slow and steady.',
+          'Vehicle Limits: Vehicles will go up to permitted areas only (Sonprayag/Gaurikund) and strictly follow the itinerary.',
+          'Helicopter Availability: Heli tickets are highly subject to availability and not guaranteed.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kashmir-sonamarg-escape-5n',
+    title: '5N/6D Magical Kashmir & Sonamarg (Ex BOM)',
+    location: 'Jammu & Kashmir',
+    days: 6,
+    price: 39000,
+    image: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Experience the magic of Kashmir with stays in Srinagar, Gulmarg, Pahalgam, and a beautiful houseboat experience on Nigeen Lake.',
+    tags: ['Kashmir', 'Sonamarg', 'Houseboat', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Magical Kashmir',
+    promoLine: 'A mesmerizing journey through the Valley',
+    specialHeading: 'Paradise Found.',
+    stays: ['5 Nights / 6 Days', 'Departure: BOM'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake'},
+      {src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow'},
+      {src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley'}
+    ],
+    galleryCaptions: ['Srinagar', 'Gulmarg', 'Pahalgam'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Private AC Etios/Dzire Cab (Non-Sharing)', '01 Hour Complimentary Shikara Boat Ride', 'Welcome Kehwa Drink', '5N Accommodation on Double Sharing', 'Daily Buffet Breakfast & Dinner', 'Toll, Parking & Driver Night Halt'],
+      ['Flight Details', 'Onward: IndiGo (BOM - SXR) | 04:20 - 10:05', 'Return: IndiGo (SXR - BOM) | 20:40 - 02:45'],
+      ['Hotels & Pricing', 'Package Price: ₹39,000/- per person', 'Srinagar: Hotel Gurcoo Residency (2N) & Dawn Deluxe Houseboats (1N)', 'Gulmarg: Zahgeer Continental (1N)', 'Pahalgam: Hotel Grand Salween / Classic Crown (1N)']
+    ],
+    itinerary: [
+      {title: 'Arrival in Srinagar', copy: 'Arrival at Srinagar Airport. Transfer to Hotel. Visit famous Mughal Gardens (Nishat Bagh, Chesham Shahi, Shalimar Bagh), Hazratbal Shrine, and Shankaracharya temple.'},
+      {title: 'Sonamarg Day Trip', copy: 'Leave for Sonamarg (Meadow of Gold). Enjoy the scenic valley. You can hire a local union taxi to visit Thajiwas Glacier or Zero Point at Zojila Pass. Return to Srinagar.'},
+      {title: 'Srinagar to Gulmarg', copy: 'Drive to Gulmarg (Meadow of Flowers). Check into your hotel. Enjoy a Gondola ride (at own cost) or an optional sledge ride on the snow-covered slopes. Overnight stay in Gulmarg.'},
+      {title: 'Gulmarg to Pahalgam', copy: 'Drive to Pahalgam (Valley of Shepherds) via Srinagar. Enroute visit Saffron fields and Awantipura ruins. Proceed for a trip to Aru Valley. Overnight in Pahalgam.'},
+      {title: 'Pahalgam to Srinagar & Houseboat', copy: 'Transfer to Srinagar. Explore local markets famous for Kashmiri shawls. Check into your houseboat at Nigeen Lake and enjoy a complimentary 1-hour Shikara ride. Overnight in Houseboat.'},
+      {title: 'Departure', copy: 'After breakfast, depending on your flight timing, you can visit the local market. Drop at Srinagar Airport for your onward journey.'}
+    ],
+    inclusions: [
+      'Accommodation as per plan (Hotels & Houseboat)',
+      'Transportation by Private Non-Sharing Cab (AC Etios/Dzire)',
+      'One Hour Shikara Ride in Dal Lake / Nigeen Lake',
+      'Daily Buffet Breakfast and Dinner',
+      'Welcome Kehwa Drink on Arrival',
+      'Toll, Parking fee, and Driver night halt charges',
+      '24/7 On Call Customer Support'
+    ],
+    exclusions: [
+      'Garden Entry Tickets, Gondola Charges, and Guide Charges',
+      'Lunches or extra meals ordered at houseboat',
+      'Pony rides and Adventure activities',
+      'Union Taxi Charges (Sonamarg, Pahalgam, Gulmarg, etc.)',
+      'Chained vehicle costs during heavy snow',
+      'Airfares (unless explicitly included in total billing)'
+    ],
+    benefits: [
+      'Private Sedan for Couples/2 Adults',
+      'Includes Nigeen Lake Houseboat stay',
+      'Flights from Mumbai Included (Based on quote)',
+      'Complete local support'
+    ],
+    policies: [
+      {
+        title: 'Important Information & Union Rules',
+        details: [
+          'Union Restrictions: Commercial & private vehicles are not allowed for internal sightseeing in Sonmarg, Gulmarg, and Pahalgam. Local union taxis must be hired directly.',
+          'Postpaid SIM Only: Prepaid cellular connections do not work in Kashmir; only postpaid connections work on roaming.',
+          'Weather & Clothing: Check AccuWeather before traveling. Carry heavy woollens for winters and light woollens for summers.'
+        ]
+      },
+      {
+        title: 'Additional Costs (Approx)',
+        details: [
+          'Mughal Garden Entry: ₹24 per person',
+          'Gondola Phase-1: ₹800 per person | Phase-2: ₹1000 per person',
+          'Gulmarg Guide: ₹1200',
+          'Pahalgam Union Cab: ₹3800 - ₹4000',
+          'Sonamarg Cab (Thajiwas): ₹4000 - ₹5500 | Zojila Pass: ₹6000 - ₹8000'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kashmir-bliss-6d',
+    title: '5N/6D Classic Kashmir Bliss (Srinagar, Gulmarg, Pahalgam, Sonmarg)',
+    location: 'Kashmir',
+    days: 6,
+    price: 20250,
+    image: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Immerse yourself in the breathtaking beauty of Kashmir with this 6-day journey through Srinagar, Gulmarg, Pahalgam, and Sonmarg.',
+    tags: ['Kashmir', 'Houseboat', 'Honeymoon', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Kashmir Valley Tour',
+    promoLine: 'Experience the Paradise on Earth',
+    specialHeading: 'Pristine Lakes. Snow-capped Peaks.',
+    stays: ['5 Nights / 6 Days', 'Ex-Srinagar', 'Couples & Family'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake'},
+      {src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow'},
+      {src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley'}
+    ],
+    galleryCaptions: ['Srinagar', 'Gulmarg', 'Pahalgam'],
+    groupTitles: ['Inclusions', 'Optional Packages', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Non-AC Sedan for Transfers & Sightseeing', '01 Hour Shikara Ride on Dal Lake', 'Accommodation on MAPAI Basis (Breakfast + Dinner)', 'Toll, Tax, and Driver Allowance'],
+      ['Optional Packages', 'Option 1 (5N/6D): Includes 1N Pahalgam Stay', 'Option 2 (4N/5D): Pahalgam/Sonmarg Day Trips only (No Pahalgam stay)'],
+      ['Hotels & Pricing', 'Option 1 Price: ₹40,500/- per couple (₹20,250 per person)', 'Option 2 Price: ₹39,000/- per couple (₹19,500 per person)', 'Srinagar (2N): Hotel Stay Villa / Royal Heritage', 'Houseboat (1N): Deluxe Houseboat', 'Gulmarg (1N): Hotel Meadows / Zahgeer Continental', 'Pahalgam (1N - Opt 1): Hotel Misty Mountains']
+    ],
+    itinerary: [
+      {title: 'Arrival in Srinagar & Shikara Ride', copy: 'Meet our representative at Srinagar airport and transfer to your hotel/houseboat. In the evening, enjoy a relaxing 1-hour Shikara ride on the world-famous Dal Lake. Overnight stay at Srinagar.'},
+      {title: 'Srinagar to Gulmarg', copy: 'After breakfast, transfer to Gulmarg (54 kms) via Tangmarg. Check in at the hotel. Enjoy the world\'s highest cable car "Gondola" (book online in advance), play golf, or visit Rani Temple by pony (at own cost). Overnight stay at Gulmarg.'},
+      {title: 'Gulmarg to Pahalgam', copy: 'After breakfast, transfer to Pahalgam (148 kms). Enroute visit Saffron Fields, Apple Orchards, & Bat Factory. In Pahalgam, you can hire local transport to visit Aru Valley, Betaab Valley, or take a horse ride to Baisaran (at own cost). Overnight stay at Pahalgam.'},
+      {title: 'Pahalgam to Srinagar & Mughal Gardens', copy: 'After breakfast, transfer back to Srinagar (119 kms). In the afternoon, embark on local sightseeing visiting the beautiful Mughal Gardens: Chesma Shahi, Nishat Bagh, and Shalimar Bagh. Overnight stay at Srinagar.'},
+      {title: 'Sonmarg Day Trip', copy: 'After breakfast, take a beautiful drive to Sonmarg via Gagangir. Enjoy the views of paddy fields and rivers. In Sonmarg ("Meadow of Gold"), hire a local taxi to visit Thajiwas Glacier. Return to Srinagar for overnight stay.'},
+      {title: 'Departure', copy: 'After breakfast, check out and transfer to Srinagar Airport for your onward journey.'}
+    ],
+    inclusions: [
+      '01 night stay at Deluxe Houseboat (Srinagar)',
+      '01 night stay in Gulmarg',
+      '01 night stay in Pahalgam (Option 1 only)',
+      '02 nights stay in Srinagar Hotel',
+      'MAPAI Basis (Daily Breakfast + Dinner)',
+      '01 hour Shikara ride (using 1 boat)',
+      'All sightseeing & transfers by Non-AC Sedan',
+      'Toll, tax, and driver allowance for all trips'
+    ],
+    exclusions: [
+      'Gondola Tickets (Book online via jammukashmircablecar.com)',
+      'Tickets to all gardens, monuments, Betaab Valley, Aru (Approx ₹200/pax)',
+      'Union Taxi in Pahalgam (Aru, Betaab, Chandanwari) - Approx ₹2500 for Tavera (3 hrs)',
+      'Thajiwas Glacier / Zero Point Taxi - Approx ₹4500 (Sumo, 7 pax)',
+      'Drung Waterfall Taxi in Tangmarg - Approx ₹1500 to ₹2000 (Sumo)',
+      'Snow Jeep transfers (Tangmarg to Gulmarg, or Gagangir to Sonmarg) - Approx ₹3000 to & fro during heavy snow',
+      'Pony rides, personal expenses, lunch, flights, and 5% GST'
+    ],
+    benefits: [
+      'Dedicated Sedan for Couples',
+      'Overnight Houseboat Experience',
+      'All major Kashmir valleys covered',
+      'Flexible itinerary options'
+    ],
+    policies: [
+      {
+        title: 'Important Notes',
+        details: [
+          'No cars allowed inside Gulmarg area due to horse owners\' association rules.',
+          'Shikara ride is strictly for 1 hour as per package.',
+          'Cars are on disposal from 09:00 AM to 05:30 PM with 1 place sightseeing a day.',
+          'For Sonamarg during heavy snowfall, vehicles go only till Gagangir (10km away).'
+        ]
+      },
+      {
+        title: 'Direct Payment Sightseeing',
+        details: [
+          'Guests must make direct payments for local transport/ponies at the following points:',
+          'Pahalgam: Horse Riding, Chandanwari, Betaab Valley, Aru Valley, Baisaran.',
+          'Gulmarg: Horse Riding, Gondola, Zorbing.',
+          'Sonamarg: Thajiwas Glacier, Zero Point, Horse Riding.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'kashmir-katra-escape-7n',
+    title: '7N/8D Complete Kashmir & Vaishno Devi (Ex NMI)',
+    location: 'Jammu & Kashmir',
+    days: 8,
+    price: 31250,
+    image: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80',
+    desc: 'A divine and scenic 8 Days journey spanning the beautiful valleys of Srinagar, Gulmarg, Pahalgam, and ending with Mata Vaishno Devi Darshan in Katra.',
+    tags: ['Kashmir', 'Vaishno Devi', 'Houseboat', '7 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Kashmir',
+    promoLine: 'Breathtaking Valleys & Divine Blessings',
+    specialHeading: 'Paradise on Earth. Spiritual Bliss.',
+    stays: ['7 Nights / 8 Days', 'Departure: NMI', 'Excludes Flight Cost'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake'},
+      {src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow'},
+      {src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley'}
+    ],
+    galleryCaptions: ['Srinagar', 'Gulmarg', 'Pahalgam'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Private AC Toyota Innova (Non-Sharing)', '01 Hour Shikara Ride on Dal/Nigeen Lake', 'Welcome Kehwa Drink', '7N Accommodation on Double Sharing', 'Daily Buffet Breakfast & Dinner', 'Toll, Parking & Driver Night Halt'],
+      ['Flight Details', 'Onward: IndiGo 6E-2090 | 07:05 (NMI) - 15:10 (SXR) via DEL', 'Return: IndiGo 6E-604 | 14:00 (IXJ) - 16:40 (NMI)'],
+      ['Hotels & Pricing', 'Package Price: ₹31,250/- per adult (Group of 4)', 'Flight Price: Approx ₹20,000/- per person', 'Srinagar: Hotel Rozan Jaai (2N) & Dawn Deluxe Houseboats (1N)', 'Gulmarg (Tangmarg): Hotel Grand Hillview (1N)', 'Pahalgam: Hotel Woods Resorts / Skyfarm Resort (1N)', 'Katra: Hotel Maa Gayatri (2N)']
+    ],
+    itinerary: [
+      {title: 'Arrival in Srinagar', copy: 'Arrival at Srinagar Airport (SXR). Transfer to Hotel. Visit famous Mughal Gardens (Nishat Bagh, Chesham Shahi, Shalimar Bagh), Hazratbal Shrine, and Shankaracharya temple.'},
+      {title: 'Sonamarg Day Trip', copy: 'Leave for Sonamarg (Meadow of Gold). Enjoy the scenic valley. You can hire a local union taxi to visit Thajiwas Glacier or Zero Point at Zojila Pass. Return to Srinagar.'},
+      {title: 'Doodhpathri Day Trip', copy: 'Day trip to Doodhpathri (Valley of Milk). Enjoy the lush green meadows and silver shining streams of cold water. Late evening return to Srinagar.'},
+      {title: 'Srinagar to Gulmarg', copy: 'Check out and drive to Gulmarg. Experience the world-famous Gondola cable car ride (at own cost). Indulge in horse-riding and enjoy the snow-capped peaks. Overnight stay in Tangmarg/Gulmarg.'},
+      {title: 'Gulmarg to Pahalgam', copy: 'Drive to Pahalgam (Valley of Shepherds). Enroute visit Saffron fields and Awantipura ruins. Proceed for a trip to Aru Valley, a scenic meadow and base camp for treks. Overnight in Pahalgam.'},
+      {title: 'Pahalgam to Katra', copy: 'After breakfast, embark on a beautiful 7-hour drive from Pahalgam to Katra. Check into your hotel in Katra for dinner and overnight stay.'},
+      {title: 'Mata Vaishnodevi Darshan', copy: 'Early morning leave for Mata Vaishnodevi Darshan. Trek about 14 kms or hire ponies/battery vehicles. Return to the hotel by late evening.'},
+      {title: 'Departure from Katra', copy: 'After an early breakfast, drop at Jammu Airport (IXJ) or Railway station for your onward journey.'}
+    ],
+    inclusions: [
+      'Accommodation as per plan (Hotels & Houseboat)',
+      'Transportation by Private Non-Sharing Cab (Toyota Innova)',
+      'One Hour Shikara Ride in Dal Lake / Nigeen Lake',
+      'Daily Buffet Breakfast and Dinner',
+      'Welcome Kehwa Drink on Arrival',
+      'Toll, Parking fee, and Driver night halt charges',
+      '24/7 On Call Customer Support'
+    ],
+    exclusions: [
+      'Air/Train Tickets (Flights quoted separately)',
+      'Garden Entry Tickets, Gondola Charges, and Guide Charges',
+      'Lunches or extra meals ordered at houseboat',
+      'Pony rides and Adventure activities',
+      'Union Taxi Charges (Sonamarg, Pahalgam, Gulmarg, etc.)',
+      'Chained vehicle costs during heavy snow'
+    ],
+    benefits: [
+      'Private Innova for 4 Adults',
+      'Includes iconic Houseboat stay',
+      'Vaishno Devi Darshan added',
+      'Complete local support'
+    ],
+    policies: [
+      {
+        title: 'Important Information & Union Rules',
+        details: [
+          'Union Restrictions: Commercial & private vehicles are not allowed for internal sightseeing in Sonmarg, Gulmarg, and Pahalgam. Local union taxis must be hired directly.',
+          'Postpaid SIM Only: Prepaid cellular connections do not work in Kashmir; only postpaid connections work on roaming.',
+          'Flight Surcharge: Total package excludes flights. Flight cost is approximately ₹20,000 per person extra as of now.',
+          'Weather & Clothing: Check AccuWeather before traveling. Carry heavy woollens for winters and light woollens for summers.'
+        ]
+      },
+      {
+        title: 'Additional Costs (Approx)',
+        details: [
+          'Mughal Garden Entry: ₹24 per person',
+          'Gondola Phase-1: ₹800 per person | Phase-2: ₹1000 per person',
+          'Gulmarg Guide: ₹1200',
+          'Pahalgam Union Cab: ₹3800 - ₹4000',
+          'Sonamarg Cab (Thajiwas): ₹4000 - ₹5500 | Zojila Pass: ₹6000 - ₹8000'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'himachal-manali-shimla-5n',
+    title: '5N/6D Best of Himachal - Manali & Shimla (Ex PNQ)',
+    location: 'Himachal Pradesh',
+    days: 6,
+    price: 28900,
+    image: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80',
+    desc: 'An incredible 5 Nights group journey exploring the majestic peaks of Manali, Solang Valley, Atal Tunnel, and the colonial charm of Shimla.',
+    tags: ['Himachal', 'Group Tour', 'Flights Included', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Himachal',
+    promoLine: 'Breathtaking mountains with Tempo Traveller & Flights',
+    specialHeading: 'Mountain Peaks. Historic Valleys.',
+    stays: ['5 Nights / 6 Days', 'Departure: Pune', 'Flights Included'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1400&q=80', alt: 'Manali Snow'},
+      {src: 'https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1401&q=80', alt: 'Shimla Ridge'},
+      {src: 'https://thetravelshots.com/wp-content/uploads/2022/10/Solang-Valley.jpg', alt: 'Solang Valley'}
+    ],
+    galleryCaptions: ['Manali', 'Shimla', 'Solang Valley'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Return Flights (Pune - Delhi)', '5N Accommodation on Double Sharing', '05 Breakfast and 05 Dinner', 'All Tour by Tempo traveler from Delhi to Delhi', 'Parking, Luxury tax, Toll Tax, Green Tax and Driver Stay', 'Welcome Drink on arrival (Nonalcoholic)'],
+      ['Flight Details', 'Onward: IndiGo 6E-6763 | 05:05 (PNQ) - 07:15 (DEL)', 'Return: IndiGo 6E-2343 | 02:15 (DEL) - 04:25 (PNQ)'],
+      ['Hotels & Pricing', 'Adults: ₹28,900/- per person', 'Child (Below 5 Years): ₹15,500/- per child', 'Manali: Hotel Surya The Mall (3 Nights)', 'Shimla: The Alpine Retreat (2 Nights)']
+    ],
+    itinerary: [
+      {title: 'Delhi to Manali', copy: 'Arrival in Delhi. Pick up from Railway Station/Airport and drive to Manali. Check into the hotel for dinner and overnight stay.'},
+      {title: 'Manali Local Sightseeing', copy: 'Visit Hadimba Temple, known for its superbly crafted four tiered pagoda roof. Visit the Club House, Tibetan Monastery, Van Vihar, and Vashist Hot Springs. Return to the hotel.'},
+      {title: 'Solang Valley & Atal Tunnel', copy: 'Visit Solang Valley offering views of glaciers and snow capped peaks. Experience the Atal Tunnel (9.02 km long) and visit Sissu Village. Return to Manali.'},
+      {title: 'Manali - Kullu - Shimla', copy: 'Drive to Shimla (270 kms). Enroute visit Sundernagar lake, Mandi, Kullu Valley, Pandoh dam, Vaishno Devi Temple (Kullu), and Beas River. Arrival and check into Shimla hotel.'},
+      {title: 'Kufri & Shimla Sightseeing', copy: 'Full day excursion to Kufri. Enjoy breathtaking views via Green Valley, Indira Holiday home and Fagu. Visit Advance study centre, Sankat Mochan, Bird Park, Mall Road, Ridge, and famous Kali Temple.'},
+      {title: 'Departure to Delhi', copy: 'Check out from the hotel and drive to Delhi. Drop at the Airport/Railway Station for your onward journey.'}
+    ],
+    inclusions: [
+      'Return Flights (PNQ - DEL - PNQ)',
+      'Accommodation for 5 Nights & 6 Days (Double Sharing)',
+      '05 Breakfasts and 05 Dinners',
+      'All Tour by Tempo traveler from Delhi to Delhi',
+      'Toll, Parking, Luxury tax, Green Tax and Driver Stay',
+      'Welcome Drink on arrival'
+    ],
+    exclusions: [
+      'Monument entry fees / camera fees & Guide charges',
+      'Any meal not mentioned above',
+      'GST 5% Extra',
+      'Use of Chain Vehicle like Jeep due to heavy snowfall',
+      'Khajjiar via Chamba route cost (if main route is closed)',
+      'Rohtang Pass entry fee / NGT permits or expenses',
+      'Heater Requirements and Adventure activities (skiing, paragliding)',
+      'Personal Expenses (Laundry, shopping etc)'
+    ],
+    benefits: [
+      'Group Tour (Calculated for Min 14 Pax)',
+      'Tempo Traveller Ex-Delhi',
+      'Flights Included from Pune',
+      'Comprehensive Himachal Coverage'
+    ],
+    policies: [
+      {
+        title: 'Important Notes & NGT Rules',
+        details: [
+          'Rohtang Pass: The company is responsible for the cab given in the package. If vehicles are allowed to go to Rohtang pass, guests bear their own expenses.',
+          'NGT Rohtang Rule: Only 1000 vehicles are allowed per day. Permits are subject to availability. If permit is not obtained, we are not responsible and no deduction in cost is applicable.',
+          'Chain Vehicles: If heavy snowfall requires a 4x4 or chain vehicle, the cost is borne directly by the guest.',
+          'Khajjiar: Taxis are included by direct route only. Alternate long routes due to snowfall will cost extra.'
+        ]
+      },
+      {
+        title: 'Terms & Conditions',
+        details: [
+          'No refund for any unused accommodation, missed meals, or sightseeing due to bad weather, ill health, strikes, roadblocks or factors beyond our control.',
+          'Room allocation is done by the hotel depending upon availability at the time of check-in.',
+          'No refund can be claimed if hotel services are not up to expectations (considered case by case).'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
     slug: 'andamans-luxury-escape-5d',
     title: '4N/5D Andamans Luxury Escape (Ex BOM)',
     location: 'Andamans',
@@ -1934,6 +2631,754 @@ export const domestic=[
   }
 ];
 export const international=[
+  {
+    slug: 'thailand-phuket-pattaya-bangkok-7d',
+    title: '6N/7D Thailand Highlights (Phuket, Pattaya, Bangkok)',
+    location: 'Thailand',
+    days: 7,
+    price: 175157,
+    image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Explore the vibrant trio of Phuket, Pattaya, and Bangkok. From the crystal clear waters of Phi Phi Island to the historic grandeur of the Emerald Buddha and the wild wonders of Safari World.',
+    tags: ['Thailand', 'Phuket', 'Pattaya', 'Bangkok', '6 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Thailand Highlights',
+    promoLine: 'Phuket, Pattaya & Bangkok',
+    specialHeading: 'The Ultimate Thai Experience.',
+    stays: ['6 Nights / 7 Days', '3 City Tour', 'Couples/Honeymoon Focus'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=1400&q=80', alt: 'Phi Phi Islands'},
+      {src: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1401&q=80', alt: 'Grand Palace Bangkok'},
+      {src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1402&q=80', alt: 'Pattaya Coastal Views'}
+    ],
+    galleryCaptions: ['Phi Phi Islands', 'Grand Palace', 'Pattaya'],
+    groupTitles: ['Inclusions', 'Sightseeing', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Daily Breakfast at hotels', 'All Private Intercity & Airport Transfers', 'Nong Nooch Indian Breakfast', 'Phi Phi & Safari World Lunches', 'Flight: Already Booked (Not included in price)'],
+      ['Sightseeing', 'Phi Phi Island Tour by Speed Boat (SIC)', 'Nong Nooch Garden (SIC)', 'Safari World and Marine Park (SIC)', 'Grand Palace & Emerald Buddha (Private)', 'Ancient City Tour (Private, Excl. Ticket)'],
+      ['Hotels & Pricing', 'Total Package Price: ₹1,75,157.00', 'For: 2 Adults (1 Room)', 'Phuket (2N): Best Western Patong Beach (Superior Room)', 'Pattaya (2N): Nova Platinum Hotel (Superior City View)', 'Bangkok (2N): Ramada D\'MA (Honeymoon Room)']
+    ],
+    itinerary: [
+      {title: 'Day 1: Arrival in Phuket', copy: 'Arrival Pickup from: Phuket International Airport. Drop at: Patong Beach. Check in to your Superior Room at Best Western Patong Beach and spend the evening relaxing.'},
+      {title: 'Day 2: Phi Phi Island Tour', copy: 'Phi Phi Island Tour with Lunch by Speed Boat (Shared). Delight in pristine beaches, turquoise waters, and stunning vistas. Please stay in the lobby at the designated time for pickup. (National park fee not included).'},
+      {title: 'Day 3: Phuket to Pattaya Transfer', copy: 'Private transfer from Best Western Patong Beach to Phuket International Airport. Fly to Bangkok (flight pre-booked). Private pickup from Bangkok Suvarnabhumi Airport and transfer to Nova Platinum Hotel in Pattaya.'},
+      {title: 'Day 4: Nong Nooch Garden', copy: 'Nong Nooch Garden (Including Entry Ticket and Indian Breakfast) on SIC basis. Explore meticulously landscaped gardens, vibrant floral displays, and cultural shows. Indulge in a flavorful Indian breakfast amidst the serene surroundings.'},
+      {title: 'Day 5: Pattaya to Bangkok & Grand Palace', copy: 'Private transfer from Nova Platinum Hotel to Ramada D\'MA Bangkok. Later, enjoy a private tour of the Grand Palace and Emerald Buddha. Marvel at the intricate beauty of the palace\'s architecture and experience centuries of Thai history.'},
+      {title: 'Day 6: Safari World and Marine Park', copy: 'Join an exhilarating expedition to Safari World and Marine Park on SIC basis, inclusive of lunch. Encounter a diverse array of wildlife and witness captivating marine spectacles. (Closed on Mondays).'},
+      {title: 'Day 7: Departure', copy: 'Private departure transfer from Ramada D\'MA Bangkok to Bangkok Donmuang Airport for your onward journey.'}
+    ],
+    inclusions: [
+      'Accommodation for 6 Nights for 2 Adults',
+      '2 Nights at Best Western Patong Beach (Phuket) with Breakfast',
+      '2 Nights at Nova Platinum Hotel (Pattaya) with Breakfast',
+      '2 Nights at Ramada D\'MA (Bangkok) with Breakfast',
+      'Phi Phi Island Tour with Lunch by Speed Boat (SIC)',
+      'Nong Nooch Garden with Entry Ticket and Indian Breakfast (SIC)',
+      'Safari World and Marine Park with Lunch (SIC)',
+      'Grand Palace and Emerald Buddha Tour (Private)',
+      'Ancient City Tour (Private, Excluding Ticket)',
+      'All airport and intercity transfers (Private)'
+    ],
+    exclusions: [
+      'International and Domestic Flights (Flights already booked by guest)',
+      'National Park Fee for Phi Phi Island',
+      'Entry Ticket for Ancient City Tour',
+      'Any personal expenses or additional meals',
+      'Refundable security deposits at hotels'
+    ],
+    benefits: [
+      'Covers 3 Major Thai Destinations',
+      'Private Transfers for Convenience',
+      'Mix of Cultural & Adventure Tours',
+      'Honeymoon Room in Bangkok'
+    ],
+    policies: [
+      {
+        title: 'Transfer & Sightseeing Policies',
+        details: [
+          'For SIC pick-ups, there is a strict 5-minute waiting time. Guests must be present in the lobby at the designated time.',
+          'National Park fees (e.g., for Phi Phi Islands) are not covered in the tour package and must be paid on-site.',
+          'Safari World and Marine Park is closed on Mondays.'
+        ]
+      },
+      {
+        title: 'Hotel & Flight Notes',
+        details: [
+          'Flights are pre-booked by the guest and are not included in the package price.',
+          'Hotel check-in times typically range from 2:00 PM to 3:00 PM.',
+          'A refundable security deposit may be required by hotels at the time of check-in.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'thailand-krabi-phuket-family-6d',
+    title: '5N/6D Thailand Family Trip (Krabi & Phuket)',
+    location: 'Thailand',
+    days: 6,
+    price: 268500,
+    image: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80',
+    desc: 'An unforgettable 6-day family adventure covering the stunning islands of Krabi and the vibrant culture of Phuket. Includes 4 Island Tour, Phi Phi Islands, and the spectacular Phuket Fantasea Show.',
+    tags: ['Thailand', 'Phuket', 'Krabi', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Thailand Escape',
+    promoLine: 'Krabi & Phuket Family Tour',
+    specialHeading: 'Discover the Land of Smiles.',
+    stays: ['5 Nights / 6 Days', '27 Jul 2026 - 01 Aug 2026', 'Family Quadruple/Triple Rooms'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1400&q=80', alt: 'Krabi Long Tail Boat'},
+      {src: 'https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=1401&q=80', alt: 'Phi Phi Islands'},
+      {src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1402&q=80', alt: 'Phuket Town'}
+    ],
+    galleryCaptions: ['Krabi 4 Islands', 'Phi Phi Islands', 'Phuket City'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Krabi 4 Island Tour with Lunch by Long Tail Boat', 'Phuket City Tour (Private Enroute)', 'Phuket Fantasea Show', 'Phi Phi Island Tour with Lunch by Speed Boat', 'Airport Transfers'],
+      ['Flight Details', 'Onward: Akasa Air QP-618 | 06:20 (BOM T2) - 12:40 (HKT)', 'Return: Akasa Air QP-619 | 13:50 (HKT) - 17:20 (BOM T2)'],
+      ['Hotels & Pricing', 'Total Package Price: ₹2,68,500.00', 'For: 2 Adults, 2 Children (7 yrs, 3 yrs)', 'Krabi (2N): GLOW Ao Nang (1 Family Triple)', 'Phuket (3N): ASHLEE Plaza Patong (1 Family Quadruple)']
+    ],
+    itinerary: [
+      {title: 'Day 1: Monday, July 27th, 2026 | Arrival in Krabi', copy: 'Arrival Pickup from: Phuket Airport. Drop at: GLOW Ao Nang Krabi. Settle in and prepare for your upcoming adventures.'},
+      {title: 'Day 2: Tuesday, July 28th, 2026 | Krabi 4 Island Tour', copy: 'Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee). Places to cover: Phranang Cave, Chicken Island, Poda Island, Tup Island & Moh Island. Includes snorkel mask, life jacket, box lunch, fresh fruit, drinking water, first aid kit, insurance, tour guide. What to bring: Swimming suit, towel, sunscreen, hat and camera.'},
+      {title: 'Day 3: Wednesday, July 29th, 2026 | Transfer to Phuket & City Tour', copy: 'Pickup from: GLOW Ao Nang Krabi. Drop at: ASHLEE Plaza Patong Hotel & Spa. Enjoy a 5-hour private city tour on your way from Krabi to Phuket, visiting Wat Chalong, Karon Viewpoint, and Old Phuket Town.'},
+      {title: 'Day 4: Thursday, July 30th, 2026 | Phuket Fantasea Show', copy: 'Phuket Fantasea Show (SIC). Immerse yourself in the enchanting world of Phuket Fantasea Show, a captivating blend of Thai culture, mythology, and entertainment. Witness extravagant performances featuring acrobatics, pyrotechnics, and mesmerizing special effects.'},
+      {title: 'Day 5: Friday, July 31st, 2026 | Phi Phi Island Tour', copy: 'Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee). Delight in pristine beaches, turquoise waters, and stunning vistas. The driver will not wait for more than 5 mins for pick-up from the lobby.'},
+      {title: 'Day 6: Saturday, August 1st, 2026 | Departure', copy: 'Departure from: ASHLEE Plaza Patong Hotel & Spa. Drop at: Phuket Airport for your return flight.'}
+    ],
+    inclusions: [
+      'Accommodation for 2 Adults and 2 Children (7 yrs, 3 yrs)',
+      '2 Nights at GLOW Ao Nang Krabi (Family Triple) with Breakfast',
+      '3 Nights at ASHLEE Plaza Patong (Family Quadruple) with Breakfast (child meal not included)',
+      'Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared)',
+      'Phuket Fantasia Show (Shared)',
+      'Phuket City Tour (5 Hours) Enroute Krabi to Phuket (Private)',
+      'Phi Phi Island Tour with Lunch by Speed Boat (Shared)',
+      'Airport Transfers'
+    ],
+    exclusions: [
+      'National Park Fees (Maya Bay, Loh Samah Bay, Loh Ko Bay, etc.) to be paid on-site',
+      'Interhotel transfers within Phi Phi (if applicable)',
+      'Any additional fees for child height exceeding permissible limits at sightseeing',
+      'Refundable security deposits at hotels',
+      'Anything not explicitly mentioned in inclusions'
+    ],
+    benefits: [
+      'Comprehensive Family Package',
+      'Direct Flights from Mumbai included',
+      'Private Intercity Transfer with City Tour',
+      'Iconic Island Tours'
+    ],
+    policies: [
+      {
+        title: 'National Park & Environmental Regulations',
+        details: [
+          'Maya Bay, Loh Samah Bay, and Loh Ko Bay are closed for annual tourism from August 1st to September 30th for natural restoration and safety.',
+          'Guests are required to pay the National Park fees as a government tax on-site if not included in the package.',
+          'Due to Ecological Restoration, Maya Bay will be closed from 1st August 2024 to 30th September 2024.'
+        ]
+      },
+      {
+        title: 'Immigration & Digital Forms',
+        details: [
+          'Starting 1 May 2025, all non-Thai nationals entering Thailand by air, land, or sea must complete the Thailand Digital Arrival Card (TDAC) online before arrival. Register within 3 days before arrival. Apply here: https://tdac.immigration.go.th'
+        ]
+      },
+      {
+        title: 'Transfer & Sightseeing Policies',
+        details: [
+          'For SIC pick-ups, there is a 5-minute waiting time. Guests must be in the lobby punctually; otherwise, it may be considered a no-show.',
+          'Upon airport arrival, there is a 15-20 minutes waiting period as the driver makes their way from the parking area.',
+          'Pickup time in SIC transfers is subject to change +/- 30mins.',
+          'For private (PVT) island tours, only land transfers are private. Sea transfers are shared (SIC) unless PVT boat is separately booked.',
+          'Maximum waiting time for PVT transfers is 20 minutes (additional charges or no-show applies afterwards).',
+          'In some hotels surrounded by water (e.g., Centara Grand Krabi), pick-up is from the pier. Complimentary boat must be booked directly by guests.',
+          'Sightseeing tickets will be uploaded 24 hours prior or handed over by the driver.',
+          'Tiger kingdom tickets will get void if the transfers are marked as no show.',
+          'Interhotel transfers within Phi Phi are self-arranged by guests.'
+        ]
+      },
+      {
+        title: 'Hotel Terms & Conditions',
+        details: [
+          'Bed type is subject to availability at check-in.',
+          'Hotels may request a refundable security deposit upon check-out provided there is no room damage.',
+          'Standard check-in time ranges from 2 to 3 PM and early check-in is subject to availability.',
+          'Please inform food preferences in advance; otherwise, it will be considered VEG.',
+          'Hotel Check-In/Check-Out Restrictions: High demand dates (25th, 30th, 31st Dec, 1st Jan) may not be available for check-in/out.',
+          'Hotel Surcharges (Gala Dinners, resort fees) are at the hotel\'s discretion and payable directly by the guest.'
+        ]
+      },
+      {
+        title: 'Other Important Notes',
+        details: [
+          'Mini Reclining Buddha Temple Bangkok Temporarily Closed from 17th April 2026 to 1st July 2026.',
+          'The Phuket - Krabi ferry operates only on Sundays, Wednesdays, and Fridays.',
+          'We will not be responsible for processing refunds for unutilized services. No show means no refund or rescheduling.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'maldives-medhufushi-4n',
+    title: '4N/5D Maldives Getaway (Medhufushi Island Resort)',
+    location: 'Maldives',
+    days: 5,
+    price: 97580,
+    image: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Escape to the pristine Medhufushi Island Resort for a 4-night Maldivian dream. Enjoy a mix of Beach and Water Villas with half board meals and complimentary speedboat transfers.',
+    tags: ['Maldives', 'Beach Villa', 'Water Villa', '4 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Maldives Getaway',
+    promoLine: 'Medhufushi Island Resort',
+    specialHeading: 'A Tropical Paradise Awaits.',
+    stays: ['4 Nights / 5 Days', '2N Beach Villa + 2N Water Villa', 'Half Board Meals'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1400&q=80', alt: 'Maldives Water Villa'},
+      {src: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1401&q=80', alt: 'Beachfront Dining'},
+      {src: 'https://tse3.mm.bing.net/th/id/OIP.SMLQi9hyhCgZzO_g6U0YqwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Ocean Views'}
+    ],
+    galleryCaptions: ['Water Villas', 'Romantic Dinners', 'Crystal Clear Lagoons'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Transfers & Details'],
+    experienceGroups: [
+      ['Inclusions', 'Green Tax and GST', 'Speed Boat Transfer', 'Buffet style meals (Half Board)', 'Wide variety of Indian Food (Jain food on request)'],
+      ['Flight Details', 'Onward: IndiGo | 17:55 (Kochi) - 18:55 (Male)', 'Return: IndiGo | 08:35 (Male) - 10:35 (Kochi)'],
+      ['Transfers & Details', 'Male to Resort: 11:00 AM & 05:00 PM (Speedboat)', 'Resort to Male: 06:15 AM & 10:15 AM (Speedboat)', 'Note: Wait times of 1-4 hours possible for airport transfers']
+    ],
+    itinerary: [
+      {title: 'Arrival in Maldives & Transfer to Resort', copy: 'Arrive at Male International Airport. You will be greeted and transferred to Medhufushi Island Resort via Speedboat (Note: 1-4 hours wait time may apply). Check-in to your Beach Villa and enjoy your half-board dinner.'},
+      {title: 'Beach Villa Experience', copy: 'Spend the day relaxing at the outdoor pool, spa, or simply enjoying the pristine beaches. The beachfront restaurants are perfect for romantic dinners. Overnight in the Beach Villa.'},
+      {title: 'Transfer to Water Villa', copy: 'After breakfast, transition to the iconic Water Villa. Enjoy the rustic villas with lagoon views and your own private sun deck. Relax and soak in the Maldivian sun.'},
+      {title: 'Water Villa Leisure', copy: 'Enjoy a full day of leisure in your Water Villa. Experience the crystal-clear waters right from your deck. Half board meals are included.'},
+      {title: 'Departure', copy: 'After breakfast, check out from the resort. Take the morning speedboat back to Male International Airport for your return flight to Kochi.'}
+    ],
+    inclusions: [
+      'Accommodation: 2 Nights Beach Villa + 2 Nights Water Villa',
+      'Half Board meal plan (Buffet style meals)',
+      'Green Tax and GST',
+      'Return Speed Boat Transfers',
+      'Indian Food including Vegetarian (Jain food available on request)',
+      'Honeymoon/Birthday/Anniversary benefits (Cake & bed decoration on arrival)'
+    ],
+    exclusions: [
+      'All Inclusive Package (available as upgrade)',
+      'Seaplane Upgrade (Adult: 208 USD, Child: 158 USD)',
+      'Any personal expenses, spa treatments, or excursions',
+      'Anything not mentioned under inclusions'
+    ],
+    benefits: [
+      'Mix of Beach & Water Villa',
+      'Indian/Jain Food Options',
+      'Speedboat Transfers Included',
+      'Flights from Kochi included'
+    ],
+    policies: [
+      {
+        title: 'Transfer Policy',
+        details: [
+          'Speedboat Male to Resort: 11:00 AM & 05:00 PM',
+          'Speedboat Resort to Male: 06:15 AM & 10:15 AM',
+          'Guests might require to wait for 1-4 hours for airport transfers.',
+          'Please share flight tickets 72 hours prior to departure to arrange Airport Transfer. Bookings within 72hrs are subject to availability.',
+          'Seaplane Baggage: 20kg + 5kg hand luggage. Excess baggage is US$5 per kg.'
+        ]
+      },
+      {
+        title: 'All-Inclusive Upgrade (If Selected)',
+        details: [
+          'Includes breakfast, lunch, and dinner at main restaurant.',
+          'Bottled drinks, water, soft drinks, beer, house wine, and pouring spirits (10:00 to 00:00).',
+          'Minibar soft drinks & water (replenished once daily).',
+          '20% discount on A la carte (if bill exceeds USD50) & special dinners, 10% discount on spa.'
+        ]
+      },
+      {
+        title: 'Important Conditions',
+        details: [
+          'Inclusions are subject to change from time to time basis resort policy.',
+          'Rooms and prices are subject to availability and will be reconfirmed at the time of booking.',
+          'To qualify as Honeymooners, certified documents (validity 12 months) must be submitted at booking.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'japan-golden-route-9d',
+    title: '8N/9D Best of Japan (Tokyo, Kyoto, Osaka)',
+    location: 'Japan',
+    days: 9,
+    price: 179500,
+    image: 'https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1200&q=80',
+    desc: 'An epic 9 Days journey through Japan featuring Tokyo City, Mount Fuji, Kyoto shrines, Osaka, and thrilling theme parks.',
+    tags: ['Japan', 'Tokyo', 'Kyoto', 'Osaka', '8 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Japan',
+    promoLine: 'The Ultimate Golden Route Experience',
+    specialHeading: 'Tradition Meets Tomorrow.',
+    stays: ['8 Nights / 9 Days', '02 Oct 2026 - 10 Oct 2026'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80', alt: 'Tokyo Skyline'},
+      {src: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1401&q=80', alt: 'Kyoto Fushimi Inari'},
+      {src: 'https://tse1.mm.bing.net/th/id/OIP.fenLplFhQfQ-b7_jVUcLLAHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Osaka City'}
+    ],
+    galleryCaptions: ['Tokyo', 'Kyoto', 'Osaka'],
+    groupTitles: ['Inclusions', 'Travel Dates', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Tokyo City Tour with Skytree Entry (SIC)', 'Mount Fuji & Hakone Day Tour (SIC)', 'Kyoto Tour: Nara, Fushimi Inari, Arashiyama (SIC)', 'Osaka Half Day City Tour (PVT)', 'Tokyo Disneyland Entry Tickets', 'Universal Studios Japan Entry Tickets', 'Shinkansen Bullet Train (Tokyo to Kyoto)', 'Private Airport Transfers'],
+      ['Travel Dates', 'Start Date: 02 Oct 2026', 'End Date: 10 Oct 2026'],
+      ['Hotels & Pricing', 'Price: ₹1,79,500/- per person', 'Tokyo: APA Hotel Higashi Shinjuku Kabukicho Tower (4N, BBF)', 'Kyoto: Miyako Hotel Kyoto Hachijo (2N, BBF)', 'Osaka: Hearton Hotel Nishiumeda (2N, BBF)']
+    ],
+    itinerary: [
+      {title: 'Arrival in Tokyo (02 Oct)', copy: 'Arrival in Tokyo and transfer to your hotel. Relax and prepare for an exciting journey ahead.'},
+      {title: 'Tokyo City Tour (03 Oct)', copy: 'Enjoy a comprehensive Tokyo City Tour on a Shared (SIC) basis. This includes an entrance ticket to the iconic Tokyo Skytree (350m observation deck).'},
+      {title: 'Mount Fuji & Hakone (04 Oct)', copy: 'Embark on a magnificent Mount Fuji and Hakone Day Tour (SIC). Includes an entrance ticket to the breathtaking Hakone Ropeway.'},
+      {title: 'Tokyo Disneyland (05 Oct)', copy: 'Experience the magic of Tokyo Disneyland! Your entry tickets are included (Please note: Transfers are not included; you may travel at your own convenience).'},
+      {title: 'Bullet Train to Kyoto (06 Oct)', copy: 'Transfer from your Tokyo Hotel to Tokyo Station. Board the famous Shinkansen (Bullet Train) to Kyoto. Upon arrival, transfer from Kyoto Station to your hotel.'},
+      {title: 'Kyoto Highlights (07 Oct)', copy: 'Explore the cultural heart of Japan with a tour of Nara, the Fushimi Inari Taisha shrine, and the beautiful Arashiyama bamboo grove (SIC).'},
+      {title: 'Transfer to Osaka & City Tour (08 Oct)', copy: 'Transfer from your Kyoto Hotel to your Osaka Hotel. In the afternoon, enjoy an Osaka Half Day City Tour (PVT).'},
+      {title: 'Universal Studios Japan (09 Oct)', copy: 'Get ready for thrills at Universal Studios Japan! Entry tickets are included (Transfers are not included).'},
+      {title: 'Departure (10 Oct)', copy: 'After breakfast, check out and enjoy a private transfer to the airport for your onward journey.'}
+    ],
+    inclusions: [
+      '8 Nights Accommodation with Breakfast',
+      'Tokyo City Tour & Skytree Ticket (SIC)',
+      'Mount Fuji & Hakone Tour with Ropeway (SIC)',
+      'Kyoto Nara & Arashiyama Tour (SIC)',
+      'Osaka Half Day City Tour (PVT)',
+      'Disneyland Tokyo Tickets',
+      'Universal Studios Japan Tickets',
+      'Tokyo to Kyoto Shinkansen Train Tickets',
+      'Private Airport Transfers'
+    ],
+    exclusions: [
+      'Flights and Visa fees',
+      'Lunch and Dinner (unless specified)',
+      'Transfers for Disneyland & Universal Studios',
+      'SIC Meeting Point Transfers (Guests must reach meeting points on their own)'
+    ],
+    benefits: [
+      'Extensive Japan Coverage',
+      'Bullet Train Experience',
+      'Top Theme Parks Included',
+      'Comfortable 4* Hotels'
+    ],
+    policies: [
+      {
+        title: 'Important Tour Notes',
+        details: [
+          'SIC Tours: All Shared (SIC) tours start from a designated meeting point. Kindly reach the designated meeting point on your own. All SIC tours are based on availability.',
+          'Private Tours: For full-day private tours, vehicles are available for a maximum of 10 hours.',
+          'Theme Parks: Entry tickets for Disneyland and Universal Studios are provided, but transfers are strictly excluded.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'hong-kong-macau-premium-6n',
+    title: '6N/7D Premium Hong Kong & Macau',
+    location: 'Hong Kong & Macau',
+    days: 7,
+    price: 154468,
+    image: 'https://wallpapers.com/images/hd/hong-kong-victoria-peak-at-night-57uvzujiwoh9d7sh.jpg',
+    desc: 'Experience ultimate luxury with stays at the Intercontinental Hong Kong and The Venetian Macau. Enjoy private city tours, Disneyland, Ocean Park, and Lantau Island.',
+    tags: ['Hong Kong', 'Macau', 'Disneyland', 'Premium', '6 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Premium Hong Kong & Macau',
+    promoLine: 'Luxury stays at Intercontinental & The Venetian',
+    specialHeading: 'Luxury Living. Magical Moments.',
+    stays: ['6 Nights / 7 Days', 'Premium Twin City Tour'],
+    gallery: [
+      {src: 'https://wallpapers.com/images/hd/hong-kong-victoria-peak-at-night-57uvzujiwoh9d7sh.jpg', alt: 'Hong Kong Harbour'},
+      {src: 'https://tse4.mm.bing.net/th/id/OIP.oRLfu1lDpRnvZL88khyzPgHaEg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'The Venetian Macau'},
+      {src: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/12/e7/7e/72.jpg', alt: 'Lantau Island Big Buddha'}
+    ],
+    galleryCaptions: ['Hong Kong', 'The Venetian Macau', 'Lantau Island'],
+    groupTitles: ['Inclusions', 'Transfers & Ferries', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Ocean Park Entry & Transfers', 'Hong Kong City Tour (Victoria Peak Tram, Star Ferry, Symphony of Lights)', 'Disneyland 1 Day Pass & Transfers', 'Lantau Island Tour (Cable Car, Big Buddha)', 'Macau City Tour'],
+      ['Transfers & Ferries', 'HKIA to HK Hotel (PVT)', 'HK Pier Transfers (PVT)', 'Ferry HK to Macau & Return', 'Macau Pier to Hotel (Free Shuttle)', 'Macau Pier to HKIA (PVT)'],
+      ['Hotels & Pricing', 'HK: Intercontinental Grand Stanford (4 Nights, BBF)', 'Macau: The Venetian Macau "Royal Deluxe Suite" (2 Nights, BBF)', 'Adult (Twin): ₹1,54,468', 'Adult (Extra Bed): ₹1,06,000', 'Child (Extra Bed): ₹74,866 | Child (No Bed): ₹52,731', 'Infant Ferry: ₹8,500']
+    ],
+    itinerary: [
+      {title: 'Arrival in Hong Kong', copy: 'Transfer from Hong Kong International Airport (HKIA) to Hotel (PVT). Surcharge will be applied for pickups between 10 PM and 8 AM.'},
+      {title: 'Ocean Park Adventure', copy: 'Enjoy a thrilling day at Ocean Park with Entry and Return Transfers included (PVT). Services will start after 11:00 A.M.'},
+      {title: 'Hong Kong City Tour', copy: 'Hong Kong City Tour: Victoria Peak by 1 Way Peak tram, Star Ferry, Avenue of Star, Old Clock Tower, Victoria Harbour, Symphony of Lights Show & drop to hotel (Max 5 Hours - PVT).'},
+      {title: 'Hong Kong Disneyland', copy: 'Round Trip Transfers to Disneyland with a 1 Day Pass included (PVT). Spend the entire day enjoying the magical attractions.'},
+      {title: 'Lantau Island & Transfer to Macau', copy: 'Lantau Island tour with Return Transfers, 2 way Standard Cabin Cable Car, Po Lin Monastery, and the Big Buddha Statue (PVT). Afterwards, transfer to the Pier (PVT) and take the Ferry to Macau. Transfer to The Venetian Macau via free shuttle.'},
+      {title: 'Macau City Tour', copy: 'Macau City Tour (Max 4 Hrs - PVT) covering Ama Temple, Ruins of St Paul Church, Natcha Temple, Old City Walls, Senado Square, Kun Lam Statue Pass By, Fisherman\'s Wharf & Photo Stop at Macau Tower.'},
+      {title: 'Departure', copy: 'Transfer to Pier in Macau on Free Shuttle. Take the Ferry back to Hong Kong. Transfer from Pier to HKIA for your onward flight (PVT).'}
+    ],
+    inclusions: [
+      '4 Nights Accommodation in Hong Kong with Breakfast',
+      '2 Nights Accommodation in Macau with Breakfast',
+      'Hong Kong and Macau City Tours (PVT)',
+      'Lantau Island Tour with 2-way Cable Car (PVT)',
+      '1 Day Disneyland Pass with Transfers (PVT)',
+      'Ocean Park Entry with Transfers (PVT)',
+      'All Ferry Tickets (HK to Macau and Macau to HKIA)'
+    ],
+    exclusions: [
+      'Flights and Visa fees',
+      'Lunch and Dinner (unless specified)',
+      'Surcharges for transfers between 10:00 PM and 08:00 AM',
+      'Personal expenses, shopping, and tips'
+    ],
+    benefits: [
+      'Premium Hotel Stays',
+      'All Major Theme Parks Included',
+      'Private Transfers for most sightseeing',
+      'Lantau Island Experience'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'hong-kong-macau-shenzhen-6n',
+    title: '6N/7D Hong Kong, Macau & Shenzhen Experience',
+    location: 'Hong Kong, Macau & Shenzhen',
+    days: 7,
+    price: 0,
+    image: 'https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1200&q=80',
+    desc: 'An unforgettable 6 Nights journey spanning the vibrant cityscapes of Hong Kong, historic Macau, and modern Shenzhen with a magical Disneyland visit.',
+    tags: ['Hong Kong', 'Macau', 'Shenzhen', 'Disneyland', '6 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Hong Kong & Beyond',
+    promoLine: 'A magical Tri-City journey spanning HK, Macau & Shenzhen',
+    specialHeading: 'Vibrant Cities. Endless Magic.',
+    stays: ['6 Nights / 7 Days', 'Tri-City Tour'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1400&q=80', alt: 'Hong Kong Skyline'},
+      {src: 'https://www.expat.com/images/guide-cover/macau-hero_size-t1524808170.jpg', alt: 'Macau Ruins of St Paul'},
+      {src: 'https://wallpaperaccess.com/full/7094990.jpg', alt: 'Shenzhen Skyline'}
+    ],
+    galleryCaptions: ['Hong Kong', 'Macau', 'Shenzhen'],
+    groupTitles: ['Inclusions', 'Ferry & Transfers', 'Hotels'],
+    experienceGroups: [
+      ['Inclusions', 'Macau City Tour (Max 4 Hours)', 'Windows of the World & Lotus Square (Shenzhen)', 'Luohu Shopping Mall', 'Hong Kong City Tour (Max 5 Hours)', 'Victoria Peak Tram (1 Way) & Madame Tussauds', 'Symphony of Lights Show', 'Hong Kong Disneyland (1 Day Pass)'],
+      ['Ferry & Transfers', 'Airport to Pier (PVT)', 'Ferry to Macau', 'Ferry from Macau to Shenzhen', 'Ferry from Shenzhen to Hong Kong', 'All Transfers are on SIC unless stated as PVT'],
+      ['Hotels', 'Macau: Regency Art Macau (2 Nights, BBF)', 'Shenzhen: Best Western Felicity (2 Nights, BBF)', 'Hong Kong: Harbour Plaza Metropolis (2 Nights, BBF)']
+    ],
+    itinerary: [
+      {title: 'Arrival & Transfer to Macau', copy: 'Transfer from Airport to Pier (PVT). Ferry to Macau, followed by transfer from the Ferry Pier to your hotel in Macau. (Surcharge applies for late night/early morning pickups).'},
+      {title: 'Macau City Tour', copy: 'Enjoy a Macau City Tour covering the Ama Temple, Ruins of St Paul Church, Natcha Temple, Old City Walls, Senado Square, Kun Lam Statue, and a coach view of Macau Tower (Max 4 Hours - PVT).'},
+      {title: 'Macau to Shenzhen', copy: 'Transfer from Hotel to Ferry Pier in Macau. Take the ferry to Shenzhen. Pick up from pier and proceed for Lunch, Windows of the World, Lotus Square, and Luohu Shopping Mall (PVT).'},
+      {title: 'Leisure Day in Shenzhen', copy: 'Enjoy a full day at leisure to explore the modern metropolis of Shenzhen on your own.'},
+      {title: 'Shenzhen to Hong Kong & City Tour', copy: 'Drop to Pier (SIC) and ferry to HK. Pick up from HK Hotel for the Hong Kong City Tour: Victoria Peak by 1 Way Peak tram, Madame Tussauds, Old Clock Tower, Victoria Harbour, and the Symphony of Lights show (Max 5 Hours - PVT).'},
+      {title: 'Hong Kong Disneyland', copy: 'Round Trip Transfers to Disneyland with a 1 Day Pass included (PVT). Enjoy the magic of the park all day!'},
+      {title: 'Departure', copy: 'Drop to HKIA for your onward flight (Early morning surcharge applicable for pick-ups between 10:00 PM and 8:00 AM).'}
+    ],
+    inclusions: [
+      'Accommodation for 6 Nights with Breakfast (BBF)',
+      'Macau City Tour (PVT)',
+      'Shenzhen Tour with Windows of the World & Lunch (PVT)',
+      'Hong Kong City Tour with Peak Tram & Madame Tussauds (PVT)',
+      '1 Day Pass to Hong Kong Disneyland with Transfers (PVT)',
+      'Ferry Tickets: Airport-Macau, Macau-Shenzhen, Shenzhen-HK',
+      'All necessary Pier & Airport Transfers'
+    ],
+    exclusions: [
+      'Flights and Visa fees',
+      'Lunch and Dinner (unless specified)',
+      'Surcharges for transfers between 10:00 PM and 08:00 AM',
+      'Personal expenses, shopping, and tips'
+    ],
+    benefits: [
+      'Tri-City Multi-Country Experience',
+      'Disneyland Ticket Included',
+      'Comprehensive City Tours in each location',
+      'Smooth Ferry Connections'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'dubai-short-escape-4n',
+    title: '4N/5D Dubai Highlights (Ex BOM)',
+    location: 'Dubai, UAE',
+    days: 5,
+    price: 39319,
+    image: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg',
+    desc: 'A comprehensive 4 Nights Dubai getaway covering the Marina Dhow Cruise, Dubai Frame, Burj Khalifa, and Desert Safari.',
+    tags: ['Dubai', 'Short Break', 'Flights Included', '4 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Dubai',
+    promoLine: 'Affordable luxury with 4* Hotel & Flights',
+    specialHeading: 'Iconic Sights. Desert Magic.',
+    stays: ['4 Nights / 5 Days', 'Departure: Mumbai', 'Flights Included'],
+    gallery: [
+      {src: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg', alt: 'Dubai Skyline'},
+      {src: 'https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg', alt: 'Burj Khalifa'},
+      {src: 'https://www.dubaidesertsafaris.com/wp-content/uploads/2024/09/c149f87896c9c6fa4f01bf3fc7040d57.webp', alt: 'Desert Safari'}
+    ],
+    galleryCaptions: ['Dubai Skyline', 'Burj Khalifa', 'Desert Safari'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels'],
+    experienceGroups: [
+      ['Inclusions', 'Return Flights (IndiGo & Air India)', '4N Omega Hotel, Bur Dubai (Breakfast Included)', 'Dubai City Tour (SIC)', 'Dubai Frame (SIC)', 'At the Top Burj Khalifa (124th Floor - Non Prime) (SIC)', 'Standard Desert Safari with BBQ dinner (SIC)', 'Dhow Marina Cruise with Dinner (SIC)', 'Private Airport Transfers (Arrival AUH, Departure DXB)'],
+      ['Flight Details', 'Onward: IndiGo | 05:25 (BOM) - 07:25 (AUH)', 'Return: Air India | 18:55 (DXB) - 23:55 (BOM)'],
+      ['Hotels', 'Omega Hotel, Bur Dubai (Standard Room with Breakfast)']
+    ],
+    itinerary: [
+      {title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Abu Dhabi International Airport (AUH). Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (SIC).'},
+      {title: 'Dubai Frame', copy: 'Discover the Dubai Frame with included entrance tickets. Relish 360-degree views from the 150-meter high Sky Deck and traverse the breathtaking Glass Bridge (SIC).'},
+      {title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city (SIC).'},
+      {title: 'Desert Safari with BBQ Dinner', copy: 'Embark on the Standard Desert Safari, featuring 4x4 transfers, dune bashing, sunset photos, camel rides, henna painting, Shisha, cultural dances, and a buffet dinner with BBQ (SIC).'},
+      {title: 'Departure', copy: 'Pickup from Bur Dubai. Drop at Dubai International Airport (DXB) for your return flight.'}
+    ],
+    inclusions: [
+      'Return Flights (BOM-AUH and DXB-BOM)',
+      '4 Nights Accommodation at Omega Hotel, Bur Dubai',
+      'Dubai City Tour',
+      'Dubai Frame Entrance',
+      'At the Top Burj Khalifa 124th Floor (Non-Prime Time)',
+      'Standard Desert Safari with BBQ Dinner',
+      'Dhow Cruise on Marina with Dinner',
+      'Private Airport Transfers'
+    ],
+    exclusions: [
+      'Lunch and Dinner (unless specified in itinerary)',
+      'Tourism Dirham Fee (payable directly at the hotel)',
+      'Personal expenses, tips and gratuities',
+      'Any optional activities (Quad biking, bar services etc.)'
+    ],
+    benefits: [
+      'Affordable Dubai Experience',
+      'Flights Included from Mumbai',
+      'Key Sightseeing Covered',
+      'Private Transfers'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'dubai-yas-island-group-5n',
+    title: '5N/6D Dubai & Yas Island Thrills (Ex BOM)',
+    location: 'Dubai & Abu Dhabi, UAE',
+    days: 6,
+    price: 95500,
+    image: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1200&q=80',
+    imagePosition: 'center 20%',
+    desc: 'Action-packed 5 Nights Group Holiday featuring Museum of the Future, Yas Island Theme Parks, Burj Khalifa, and Desert Safari.',
+    tags: ['Dubai', 'Yas Island', 'Group Tour', '5 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Dubai & Yas Island',
+    promoLine: 'Group package with Theme Parks, Flights & Visas',
+    specialHeading: 'Future Marvels. Theme Park Thrills.',
+    stays: ['5 Nights / 6 Days', 'Departure: Mumbai', 'Flights Included'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80', alt: 'Dubai Skyline'},
+      {src: 'https://tse1.mm.bing.net/th/id/OIP.psf5zJr9ZlEOTuo-S_gz2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Museum of the Future'},
+      {src: 'https://www.travelaroundtheworldblog.com/wp-content/uploads/2025/12/Abu-Dhabi-Yas-Island-1024x559.jpg', alt: 'Ferrari World Yas Island'}
+    ],
+    galleryCaptions: ['Dubai Skyline', 'Museum of the Future', 'Yas Island Parks'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels'],
+    experienceGroups: [
+      ['Inclusions', 'Return Flights (Indigo)', 'Omega Hotel, Bur Dubai (Breakfast Included)', 'Yas Island 2 Days 2 Parks Tickets (Ferrari World, Warner Bros, Yas Waterworld, or SeaWorld)', 'Museum of the Future Admission', 'Dubai City Tour & Burj Khalifa (124th Floor)', 'Global Village & Miracle Garden', 'Standard Desert Safari with BBQ Dinner', 'Dhow Marina Cruise with Dinner', 'Private Airport & Inter-Hotel Transfers'],
+      ['Flight Details', 'Onward: Indigo 6ET-1453 | 15:30 (BOM) - 17:20 (DXB)', 'Return: Indigo 6ET-1454 | 18:20 (DXB) - 23:00 (BOM)'],
+      ['Hotels', 'Dubai: Omega Hotel, Bur Dubai (Standard Room with Bathtub)', 'Abu Dhabi: Yas Island Hotel (Transfer specified)']
+    ],
+    itinerary: [
+      {title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Dubai International Airport. Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (Private/Shared basis).'},
+      {title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city.'},
+      {title: 'Museum of the Future & Desert Safari', copy: 'Experience admission to the Museum of the Future. Later, embark on the Standard Desert Safari, featuring luxury 4x4 transfers, dune bashing, sunset photos, camel rides, cultural dances, and a buffet dinner with BBQ.'},
+      {title: 'Global Village and Miracle Garden', copy: 'Immerse yourself in cultural diversity at Global Village. Wander through the breathtaking Miracle Garden, a floral oasis showcasing stunning blooms (Subject to Operations).'},
+      {title: 'Transfer to Yas Island & Theme Parks', copy: 'Inter-Hotel Transfer from Bur Dubai to Yas Island. Enjoy the Yas Island 2 Days 2 Parks ticket. Choose any two parks from Ferrari World Abu Dhabi, Warner Bros. World Abu Dhabi, Yas Waterworld, or Seaworld.'},
+      {title: 'Departure', copy: 'Pickup from Yas Island. Drop at Dubai International Airport for your return flight.'}
+    ],
+    inclusions: [
+      'Return Flights on Indigo Airlines',
+      'Accommodation at Omega Hotel, Bur Dubai',
+      'Museum of the Future Tickets',
+      'Yas Island 2 Days 2 Parks Tickets',
+      'Dubai City Tour',
+      'Global Village and Miracle Garden',
+      'Standard Desert Safari with BBQ Dinner',
+      'Dhow Cruise on Marina with BBQ Dinner',
+      'At the Top Burj Khalifa 124th Floor (Non-Prime Time)',
+      'Private Airport and Inter-Hotel Transfers'
+    ],
+    exclusions: [
+      'Lunch and Dinner (unless specified in itinerary)',
+      'Tourism Dirham Fee (payable directly at the hotel)',
+      'Personal expenses, tips and gratuities',
+      'Any optional activities (Quad biking, bar services etc.)'
+    ],
+    benefits: [
+      'Group Package (Ideal for 21 Adults)',
+      'Action-packed Theme Park inclusions',
+      'Flights Included from Mumbai',
+      'Dedicated Private Transfers'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'dubai-family-escape-6n',
+    title: '6N/7D Dubai Family Premium Escape (Ex BOM)',
+    location: 'Dubai, UAE',
+    days: 7,
+    price: 93770,
+    image: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg',
+    desc: 'Perfect 6 Nights Family Holiday featuring Burj Khalifa, Aya Universe, Global Village, Desert Safari, and Abu Dhabi BAPS Temple.',
+    tags: ['Dubai', 'Family', 'Flights Included', '6 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Dubai',
+    promoLine: 'Luxury family package with 4* Hotel, Visas & Flights',
+    specialHeading: 'Modern Marvels. Desert Wonders.',
+    stays: ['6 Nights / 7 Days', 'Departure: Mumbai', 'Flights Included'],
+    gallery: [
+      {src: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg', alt: 'Dubai Skyline'},
+      {src: 'https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg', alt: 'Burj Khalifa'},
+      {src: 'https://www.dubaidesertsafaris.com/wp-content/uploads/2024/09/c149f87896c9c6fa4f01bf3fc7040d57.webp', alt: 'Desert Safari'}
+    ],
+    galleryCaptions: ['Dubai Marina', 'Burj Khalifa View', 'Desert Safari'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotel Options'],
+    experienceGroups: [
+      ['Inclusions', 'Return Flights & UAE Visa', '6N Grand Excelsior Hotel Bur Dubai (Deluxe room with Bathtub & Breakfast)', 'Abu Dhabi City Tour with BAPS Hindu temple', 'Dubai City Tour & Dubai Frame', 'Global Village and Miracle Garden', 'Aya Universe', 'Dhow Cruise and BBQ dinner', 'At the Top Burj Khalifa (124th Floor)', 'Standard Desert Safari with BBQ dinner', 'Private Airport Transfers'],
+      ['Flight Details', 'Onward: Emirates EK-507 | 16:00 (BOM) - 17:40 (DXB)', 'Return: Emirates EK-508 | 15:40 (DXB) - 20:25 (BOM)'],
+      ['Hotel Options', 'Grand Excelsior Hotel Bur Dubai (4 Star) - Deluxe Room']
+    ],
+    itinerary: [
+      {title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Dubai International Airport. Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (Private/Shared basis).'},
+      {title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city.'},
+      {title: 'Global Village and Miracle Garden', copy: 'Immerse yourself in cultural diversity at Global Village. Wander through the breathtaking Miracle Garden, a floral oasis showcasing stunning blooms (Subject to Operations).'},
+      {title: 'Desert Safari with BBQ Dinner', copy: 'Embark on the Standard Desert Safari, featuring luxury 4x4 transfers, dune bashing, sunset photos, camel rides, henna painting, Shisha, cultural dances, and a buffet dinner with BBQ.'},
+      {title: 'Dubai Frame & Aya Universe', copy: 'Discover the Dubai Frame with its 150m high Sky Deck. Later, explore Aya Universe, an immersive entertainment park located in Wafi City Mall with 12 captivating space zones.'},
+      {title: 'Abu Dhabi City Tour & BAPS Hindu Temple', copy: 'Discover Abu Dhabi\'s blend of modernity and tradition. Includes a visit to the impressive BAPS Hindu Temple showcasing exquisite craftsmanship. (Sheikh Zayed Grand Mosque dress code applies).'},
+      {title: 'Departure', copy: 'Pickup from Bur Dubai hotel. Drop at Dubai International Airport for your return flight.'}
+    ],
+    inclusions: [
+      'Return Flights on Emirates Airlines',
+      'UAE Visa included',
+      '6 Nights at Grand Excelsior Hotel Bur Dubai (Breakfast only)',
+      'Abu Dhabi City Tour with BAPS Hindu temple',
+      'Dubai City Tour',
+      'Global Village and Miracle Garden',
+      'Dubai Frame & Aya Universe Entrance',
+      'Standard Desert Safari with BBQ Dinner',
+      'Dhow Cruise on Marina with BBQ Dinner',
+      'At the Top Burj Khalifa 124th Floor (Non-Prime Time)',
+      'Private Airport Transfers'
+    ],
+    exclusions: [
+      'Lunch and Dinner (unless specified in itinerary)',
+      'Tourism Dirham Fee (payable directly at the hotel)',
+      'Personal expenses, tips and gratuities',
+      'Any optional activities (Quad biking, bar services etc.)'
+    ],
+    benefits: [
+      'Family Package (Priced Approx ₹3,75,082 for 3 Adults, 1 Child)',
+      'Premium Flights on Emirates',
+      'Comprehensive Sightseeing Coverage',
+      'Visa Processing Included'
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'bali-nusa-penida-escape-6d',
+    title: '5N/6D Best of Bali & Nusa Penida (Ex BOM)',
+    location: 'Bali, Indonesia',
+    days: 6,
+    price: 87841,
+    image: 'https://tse2.mm.bing.net/th/id/OIP.wxQn0aZpEMG8cZAohVv1nAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    desc: 'Experience Bali with 3 Nights in Kuta and 2 Nights in a Private Pool Villa in Ubud, featuring Nusa Penida, Watersports, and Kintamani.',
+    tags: ['Bali', 'Nusa Penida', 'Private Pool Villa', '6 Days'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Discover Bali',
+    promoLine: 'Luxury packages with 4* Hotels, Ferries & Flights',
+    specialHeading: 'Beaches. Temples. Jungle Swings.',
+    stays: ['5 Nights / 6 Days', 'Departure: Mumbai', 'Flights Included'],
+    gallery: [
+      {src: 'https://tse4.mm.bing.net/th/id/OIP.Poat96eAwY3YtVQfod5EkQHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Bali Vibes'},
+      {src: 'https://tse2.mm.bing.net/th/id/OIP.wxQn0aZpEMG8cZAohVv1nAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Nusa Penida'},
+      {src: 'https://media.villagetaways.com/villas/bali/1776/244f55edd3ef55024a19aedc4e135ed2_full.jpg', alt: 'Private Pool Villa'}
+    ],
+    galleryCaptions: ['Bali Nature', 'Kelingking Beach', 'Ubud Villa'],
+    groupTitles: ['Inclusions', 'Flight Details', 'Hotels', 'Travel Dates'],
+    experienceGroups: [
+      ['Inclusions', 'Return Flights (Malaysia Airlines)', '3N Kuta - The Kana Kuta (Deluxe, City View)', '2N Ubud - Ubud Raya Villa (Superior 1BR Private Pool Villa)', 'Daily Breakfast for Two', 'All tours on Private basis (SIC for ferry)', 'Nusa Penida West Tour & Watersports', 'Kintamani & Bedugul Tours'],
+      ['Flight Details', 'Onward: Malaysia Airlines MH-195/MH-851 | 23:45 (BOM) - 15:25+1 (DPS)', 'Return: Malaysia Airlines MH-852/MH-174 | 19:15 (DPS) - 11:55+1 (BOM)'],
+      ['Hotels', 'Kuta: The Kana Kuta - Deluxe City View (3 Nights)', 'Ubud: Ubud Raya Villa - Superior 1BR Private Pool Villa (2 Nights)'],
+      ['Travel Dates', '7 Jan 2027']
+    ],
+    itinerary: [
+      {title: 'Arrival in Bali', copy: 'Arrival Pickup from Denpasar International Airport. Drop at The Kana Kuta for check-in and relaxation.'},
+      {title: 'Nusa Penida West Tour', copy: 'Nusa Penida West Tour (Kelingking Beach, Broken Beach, Angel Billabong, 3 Point Snorkelling by Sharing Boat) with Local Lunch & 2-Way Ferry (Private land transfer, SIC ferry).'},
+      {title: 'Watersports & Tanah Lot', copy: 'Full Day Tour of Deluxe Watersports (Banana Boat, Jet Ski, Parasailing) and Tanah Lot Temple (Private).'},
+      {title: 'Bedugul Tour & Transfer to Ubud', copy: 'Bedugul Tour with Handara Gate, Beratan Temple and Jatiluwih Rice Terraces (Private). Transfer from Kuta Hotel to Ubud Raya Villa.'},
+      {title: 'Kintamani Tour', copy: 'Kintamani Tour Mount Batur View, Coffee Plantation, Tegalalang Rice Terraces, Tegenungan Falls, Bali Jungle Swing without Lunch and Ubud Art Market (Private).'},
+      {title: 'Departure', copy: 'Departure Pickup from Ubud Raya Villa. Drop at Denpasar International Airport for your return flight.'}
+    ],
+    inclusions: [
+      'Return Flights on Malaysia Airlines',
+      '3 Nights at The Kana Kuta (Breakfast Included)',
+      '2 Nights at Ubud Raya Villa - Private Pool Villa (Breakfast Included)',
+      'Nusa Penida West Tour with Lunch & Ferry',
+      'Deluxe Watersports (Banana Boat, Jet Ski, Parasailing)',
+      'Tanah Lot, Bedugul, Handara Gate & Jatiluwih Rice Terraces',
+      'Kintamani Tour, Mount Batur, Jungle Swing & Ubud Art Market',
+      'Private transfers for sightseeing (Ferry on SIC basis)'
+    ],
+    exclusions: [
+      'Retribution charges at Padang Bai and Gili Trawangan',
+      'Scuba diving, snorkeling gear rental (unless provided by operator)',
+      'Meals not explicitly mentioned (e.g. Lunch/Dinner)',
+      'Personal expenses and optional tours',
+      'Hotel Surcharges & Mandatory Fees (Gala Dinners etc.)'
+    ],
+    benefits: [
+      'Luxury Private Pool Villa Experience',
+      'Comprehensive Bali & Nusa Penida Coverage',
+      'Flights Included from Mumbai',
+      'Private Land Transfers'
+    ],
+    policies: [
+      {
+        title: 'Terms and Conditions',
+        details: [
+          'Standard check-in time ranges from 2 to 3 PM.',
+          'For the Nusa Penida tour, guests are advised to request a packed breakfast from the hotel due to the early morning ferry departure.',
+          'Bed type is always subjected to availability at the time of Check-in.',
+          'Galungan Holiday Update: Closing Activities: Nusa penida (Closed on 17 June), ATV Ride (Closed on 17 June), ATV Beji (Closed on 17-18 June). Activity open on 17 june 2026: Kuber Atv Open 10.00 am, Swing (Open Until 13.00), Spa open 14.30 pm, Desa swing Open 10.00-14.00, Aloha, Gili (Samaya), Bali zoo, Bali Safari, Jeep tracking - open normal.',
+          'For island tour on private (PVT) basis, only the land transfers will be private. The boat/sea transfers will remain on a shared (SIC) basis. In case they wish to book a PVT boat the same will be separately charged.',
+          'Snorkeling activities included in the Nusa Penida tour do not come with an instructor. Guests can opt to purchase snorkeling gear on-site if needed.',
+          'Ferry for Nusa Penida will depart from Sanur Harbor. For Gili T the Ferry will depart from Padang bai Harbor.',
+          'Tickets (if applicable) will be provided on-ground by the respective driver.',
+          'It is recommended that guests refrain from allowing local vendors to take their pictures.',
+          'Cidomo rides are not provided for Gilli transfers. Guests are responsible for arranging their own transportation.',
+          'If the vehicle is utilized beyond the standard hours (9 hours), additional charges may apply.',
+          'Pickup time in SIC transfers is subject to change +/- 30mins.',
+          'Retribution charges at Padang Bai and Gili Trawangan (IDR 10,000 to IDR 20,000 per person) are applicable and must be paid directly on the ground.',
+          'Maximum waiting time for any PVT transfer is 20 minutes.',
+          'No refunds for unutilized services or no-shows.',
+          'Ferries booked are without AC.',
+          'For scuba diving in Gilli and Nusa Penida, guests need to be trained a day before.',
+          'Closing time: ATV - 3:00 PM, Rafting - 2:00 PM, Swing Activity - 4:00 PM, Water sport - 4:00 PM.',
+          'Delay by guests of more than 20 mins for private transfers incurs additional waiting charges.',
+          'Food preference must be informed in advance, else it will be considered VEG.',
+          'Itinerary is valid for day hour arrivals. Late night arrivals/delays might levy extra charges.',
+          'Scuba diving requires 4-5 hours. Essential to stay one night in Nusa Penida/Gili if opting for it.',
+          'Hotel may require a refundable security deposit at check-in.',
+          'Lunch (if opted) is subject to availability and timings. Reconfirm with driver.',
+          'Travelers to Bali must complete this form 3 days prior: https://allindonesia.imigrasi.go.id/',
+          'Driver provides all sightseeing tickets.',
+          'Due to high demand during festive seasons (Dec 25, 30, 31, Jan 1), check-ins/check-outs may have restrictions.',
+          'Hotel Surcharges (Gala Dinners, resort fees) are at hotel discretion and payable directly.',
+          'Activities on special dates (Dec 25-Jan 1) subject to operational feasibility.',
+          'Airport Arrival Transfers: Standard wait time up to 60 mins. Additional waiting/parking charges borne by guest.',
+          'Interhotel & Departure Transfers: Max wait time 60 mins.'
+        ]
+      },
+      {
+        title: 'Snorkeling Eligibility & Guest Safety Responsibilities',
+        details: [
+          '1. Swimming Ability Requirement: Snorkeling activities are only permitted for guests who can swim confidently and independently in open water.',
+          '2. Disclosure of Swimming Ability: Guests must provide truthful and accurate information regarding their swimming ability. Failure will result in removal without refund.',
+          '3. Operator & Snorkeling Team Responsibility: The snorkeling team operates strictly as guides and safety supervisors, not evaluators.',
+          '4. Liability Waiver: Guests acknowledge that the company will not be held liable for incidents resulting from inaccurate information.',
+          '5. Right to Refuse Participation: Company reserves the right to refuse or stop a guest from participating for safety reasons.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
   {
     slug: 'baku-azerbaijan-escape-6n',
     title: '6N/7D Best of Baku & Shahdag (Ex BOM)',
