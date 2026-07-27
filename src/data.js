@@ -1,6 +1,361 @@
 export const images={hero:'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2200&q=85',kashmir:'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80',rajasthan:'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80',kerala:'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',ladakh:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',andaman:'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1200&q=80',himachal:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',switzerland:'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80',italy:'https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=80',japan:'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80',bali:'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80',dubai:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80',singapore:'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',turkiye:'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80',usa:'https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1200&q=80'};
 export const domestic=[
   {
+    slug: 'andaman-6n-7d-ariees-grand',
+    title: "6N/7D Andaman Tour (Port Blair, Havelock, Neil)",
+    location: "Andaman & Nicobar Islands",
+    days: 7,
+    price: 0,
+    image: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800",
+    desc: "Experience 6 Nights in Andaman covering Port Blair, Havelock, and Neil Island with Ross Island, North Bay, Radha Nagar Beach, and Elephant Beach.",
+    tags: ["Andaman", "6 Nights", "Domestic"],
+    promoEyebrow: "Extended Paradise",
+    promoTitle: "Andaman Wonders",
+    promoLine: "Beaches, History & Corals",
+    specialHeading: "Tropical Escape.",
+    stays: ["6 Nights / 7 Days", "Start: Port Blair", "End: Port Blair"],
+    gallery: [
+      {src: "https://mediaim.expedia.com/destination/1/e85c8b7e12b52bc84e5ec9c77a73fcf0.jpg", alt: "Port Blair"},
+      {src: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800", alt: "Havelock Island"},
+      {src: "https://tse1.mm.bing.net/th/id/OIP.it80vPqs0DxV4wzt5SAbZQHaDm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3", alt: "Neil Island"}
+    ],
+    galleryCaptions: ["Port Blair", "Havelock", "Neil Island"],
+    groupTitles: ["Details", "Hotels", "Inclusions"],
+    experienceGroups: [
+      ["Details", "Pax: 4 Adult(s), 3 Child(s)", "Total Days: 7"],
+      ["Hotels", "Port Blair: Ariees Grand (2 Nights, Deluxe Room, Breakfast Only)", "Havelock: Haywizz Havelock Island Resort (2 Nights, Premium, Breakfast & Dinner Only)", "Neil Island: Aquays Resort (1 Night, Neil Plaza Pool/Sea View, Breakfast & Dinner Only)", "Port Blair: Ariees Grand (1 Night, Deluxe Room, Breakfast & Dinner Only)"],
+      ["Inclusions", "Accommodation on twin sharing basis", "Land transportation (MUV 6 Pax) from pick up till drop as per itinerary", "Complimentary use of hotel recreation facilities (subject to availability)", "Vehicle cost includes fuel, Driver allowance, Toll/Parking", "Ferry: Port Blair to Havelock, Havelock to Neil, Neil to Port Blair"]
+    ],
+    itinerary: [
+      {title: "Day 1: Arrive Port Blair. Corbyn's Cove beach & Cellular Jail", copy: "Arrive at Veer Savarkar Airport, Port Blair. Meet our local representative and get transferred to your pre-booked hotel. Check in & fresh up. Later in the afternoon, visit Corbyn’s Cove beach. 09 Kms from Port Blair - a coconut palm fringed beach, ideal for swimming, sun-basking & bathing. Visit Cellular jail. Famously known as 'Kala Paani' which is a national memorial now. Also, eyewitness the enthralling light and sound show at the cellular jail where heroic saga of our great freedom fighters bought alive. Later return back to our hotel. Overnight at Port Blair."},
+      {title: "Day 2: Port Blair - Ross Island – North Bay", copy: "After breakfast, get ready for a full day trip to North Island (Coral island) and Ross Island. North Bay is famous for its exotic variety of corals and colorful ornamental fishes. Optional activities available. Later, visit Ross Island from where the Britishers ruled the entire A& N islands. Today, the island is in ruins and its scenic beauty attracts many history buffs. Overnight at Port Blair. (Note: Entry ticket of Ross Island is directly paid. Itinerary depends on weather conditions)."},
+      {title: "Day 3: Port Blair to Havelock Island. Visit Radha Nagar Beach", copy: "Today, get transferred to the jetty to catch your luxury tourist ferry to Havelock Island (57 km by sea). On arrival at Havelock jetty, meet our local representative and board our vehicle to visit world famous Radha Nagar beach. It truly is a mesmerizing curve of white sand with perfectly colored blue waters, all lined by lush forest and palm trees. Overnight at Havelock Island."},
+      {title: "Day 4: Havelock Island - Day Free for Leisure", copy: "After breakfast, day free for leisure activities/ Game Fishing/water sports on direct payment basis. Activities available: Snorkeling, Scuba diving, Game fishing, Kayaking and Sea walk. Overnight at Havelock Island. (No vehicle included for this day)"},
+      {title: "Day 5: Transfer from Havelock to Neil Island - Laxmanpur beach", copy: "After breakfast, check out from your hotel. Later return back to Havelock jetty to catch your luxury tourist ferry to Neil Island (18 km by sea). Upon arrival, meet our local representative and get transferred to your hotel. Neil Island is known as Vegetable bowl of Andaman Islands. Later visit Laxmanpur beach where you can get a chance to visit Natural Bridge (subject to low tides). Overnight at Neil Island."},
+      {title: "Day 6: Neil Island to Port Blair.", copy: "After breakfast, check out and board your vehicle to Bharatpur beach. This beach is ideal for swimming and water sports activities are available at extra cost. Later in the evening, reach to Bharatpur jetty to board your luxury tourist ferry to Port Blair. On arrival get transferred to your hotel. Overnight at Port Blair."},
+      {title: "Day 7: Port Blair hotel to Airport Drop.", copy: "After breakfast, get transferred to Veer Savarkar airport, Port Blair to catch your return flight back to home. Return home with wonderful memories."}
+    ],
+    inclusions: [
+      "Accommodation on twin sharing basis in mentioned hotels",
+      "Land transportation from pick up till drop as per itinerary",
+      "MUV (6 Pax) vehicle including fuel, driver allowance, parking and entry charges",
+      "Ferries between Port Blair, Havelock, and Neil Island",
+      "Sightseeing on point-to-point basis"
+    ],
+    exclusions: [
+      "Any Airfare / Train fare",
+      "Entry ticket of Ross Island (Directly pay)",
+      "Optional water sports activities (Snorkeling, Scuba diving, etc.)",
+      "Personal expenses (tips, phone calls, laundry, extra vehicle hire, etc.)",
+      "Extra food or beverages"
+    ],
+    benefits: [
+      "Leisure Day in Havelock",
+      "Comprehensive Andaman Coverage",
+      "MUV Vehicle Transfers"
+    ],
+    policies: [
+      {
+        title: "Cancellation & Modification",
+        details: [
+          "50% of the package cost must be deposited as an advance to confirm booking.",
+          "Remaining 50% paid 1 month before the tour.",
+          "Before 45 Days of Commencement: 25% Cancellation Charges.",
+          "Before 30 - 44 Days: 35% Cancellation Charges.",
+          "Before 15 – 29 Days of Commencement: 50% Cancellation Charges.",
+          "Before 08 - 14 Days of Commencement: 75% Cancellation Charges.",
+          "Less than 08 Days of Commencement: NO REFUND."
+        ]
+      },
+      {
+        title: "General & Operations",
+        details: [
+          "The rooms & rates are subject to availability at the time of booking/confirmation.",
+          "The Vehicle will be allowed up to parking points & last possible points.",
+          "Any hike in Fuel cost & changes in taxes structure will be charged extra.",
+          "All guests are requested to satisfy themselves with a Vehicle or driver within the minimum time duration."
+        ]
+      }
+    ],
+    tagline: "Book Now with Tourswale"
+  },
+  {
+    slug: 'andaman-4n-5d-silver-spring',
+    title: "4N/5D Andaman Islands Tour",
+    location: "Andaman & Nicobar Islands",
+    days: 5,
+    price: 0,
+    image: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800",
+    desc: "Experience 4 Nights in Andaman covering Port Blair, Havelock, and Neil Island with Cellular Jail, Radha Nagar Beach, and Elephant Beach.",
+    tags: ["Andaman", "4 Nights", "Domestic"],
+    promoEyebrow: "Island Paradise",
+    promoTitle: "Andaman Gateway",
+    promoLine: "Beaches, History & Corals",
+    specialHeading: "Tropical Escape.",
+    stays: ["4 Nights / 5 Days", "Start: Port Blair", "End: Port Blair"],
+    gallery: [
+      {src: "https://mediaim.expedia.com/destination/1/e85c8b7e12b52bc84e5ec9c77a73fcf0.jpg", alt: "Port Blair"},
+      {src: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800", alt: "Havelock Island"},
+      {src: "https://tse1.mm.bing.net/th/id/OIP.it80vPqs0DxV4wzt5SAbZQHaDm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3", alt: "Neil Island"}
+    ],
+    galleryCaptions: ["Port Blair", "Havelock", "Neil Island"],
+    groupTitles: ["Details", "Hotels", "Inclusions"],
+    experienceGroups: [
+      ["Details", "Pax: 2 Adult(s)", "Total Days: 5"],
+      ["Hotels", "Port Blair: Silver Spring (1 Night, Deluxe Room, Breakfast Only)", "Havelock: Aquays Resorts / Holiday Inn (1 Night, Havelock Plaza, Breakfast Only)", "Neil Island: Aquays Resort (1 Night, Neil Plaza, Breakfast Only)", "Port Blair: TSG Grand (1 Night, Cozy Room, Breakfast Only)"],
+      ["Inclusions", "Accommodation on twin sharing basis", "Land transportation by Sedan (Capacity 4 Pax)", "Complimentary use of hotel recreation facilities (subject to availability)", "Vehicle cost includes fuel, Driver allowance, Toll/Parking", "Candle Light Dinner Beach Side (1 Couple at Aquays Resorts)", "Flower Bed Decoration (1 Couple at Aquays Resorts)", "Ferry: Port Blair to Havelock, Havelock to Neil, Neil to Port Blair"]
+    ],
+    itinerary: [
+      {title: "Day 1: Arrive Port Blair. Corbyn's Cove beach & Cellular Jail", copy: "Arrive at Veer Savarkar Airport, Port Blair. Meet our local representative and get transferred to your pre-booked hotel. Check in & fresh up. Later in the afternoon, visit Corbyn’s Cove beach. 09 Kms from Port Blair - a coconut palm fringed beach, ideal for swimming, sun-basking & bathing. Visit Cellular jail. Famously known as 'Kala Paani' which is a national memorial now. Also, eyewitness the enthralling light and sound show at the cellular jail where heroic saga of our great freedom fighters bought alive. Later return back to our hotel. Overnight at Port Blair."},
+      {title: "Day 2: Port Blair to Havelock Island (by private ferry). Visit Radha Nagar Beach & Elephant beach trip", copy: "Today, get transferred to the jetty to catch your luxury tourist ferry to Havelock Island (57 km by sea). On arrival at Havelock jetty, meet our local representative and get transferred to hotel, check in & immediately board your vehicle to Havelock island jetty for your visit to Elephant beach. Elephant beach is approximately 20 minutes from Havelock Island and can be reached by speedboat. This place offers beautiful white sand beach along with an amazing coral reef. Later, visit Radha Nagar beach. It truly is a mesmerizing curve of white sand with perfectly coloured blue waters, all lined by lush forest and palm trees. Overnight at Havelock Island."},
+      {title: "Day 3: Kalapathar Visit. Transfer to Neil Island from Havelock - Laxmanpur beach", copy: "After breakfast, check out from your hotel and board your vehicle to Kalapathar beach. This is an ideal spot for photography or picnic. Later return back to Havelock jetty to catch your luxury tourist ferry to Neil Island (18 km by sea). Upon arrival, meet our local representative and get transferred to your hotel. Neil Island is known as Vegetable bowl of Andaman Islands. Later visit Laxmanpur beach where you can get a chance to visit Natural Bridge (subject to low tides). Overnight at Neil Island."},
+      {title: "Day 4: Neil Island to Port Blair. Chidiyatapu Sightseeing.", copy: "After breakfast in the morning, check out and get transferred to Neil Island jetty for your transfers back to Port Blair. On arrival, get transferred to your hotel and immediately after that, we will take you to the southernmost tip of South Andaman, Chidiyatapu (35 kms from Port Blair). The lush green mangroves, forest cover with numerous chirping birds and the Sylvan sands and Munda Pahar beaches make it an ideal picnic site. Later, return back to the hotel. Overnight at Port Blair."},
+      {title: "Day 5: Port Blair hotel to Airport Drop.", copy: "After breakfast, get transferred to Veer Savarkar airport, Port Blair to catch your return flight back to home. Return home with wonderful memories."}
+    ],
+    inclusions: [
+      "Accommodation on twin sharing basis in mentioned hotels",
+      "Land transportation from pick up till drop as per itinerary",
+      "Sedan vehicle including fuel, driver allowance, parking and entry charges",
+      "Aquays Resorts Inclusions: Candle Light Dinner & Flower Bed Decoration",
+      "Ferries between Port Blair, Havelock, and Neil Island",
+      "Sightseeing on point-to-point basis"
+    ],
+    exclusions: [
+      "Any Airfare / Train fare",
+      "Personal expenses (tips, phone calls, laundry, extra vehicle hire, etc.)",
+      "Extra food or beverages",
+      "Entrance fees to monuments unless specified",
+      "Room Heater / AC on hills"
+    ],
+    benefits: [
+      "Special Couple Inclusions at Aquays",
+      "Comprehensive Andaman Coverage",
+      "Private Sedan Vehicle"
+    ],
+    policies: [
+      {
+        title: "Cancellation & Modification",
+        details: [
+          "If cancelled, you pay 5% of the Billing Amount for Andaman bookings.",
+          "Date of booking to 30 days before travel: 25% (Season) & Nill (Off-Season).",
+          "30 to 15 days before travel: 50% (Season) & 25% (Off-Season).",
+          "15 to 7 days before travel: 75% (Season) & 50% (Off-Season).",
+          "0 to 7 days before travel: 100% cancellation charges. No refund.",
+          "Peak season (long weekends, festival season) hotels may charge 100% cancellation."
+        ]
+      },
+      {
+        title: "General & Operations",
+        details: [
+          "No refund for unused nights or early check-out.",
+          "Standard Check-in and check-out times at hotels apply.",
+          "We reserve the right to modify the itinerary due to Force Majeure events, strikes, weather, ferry availability, etc.",
+          "Driver and vehicle details will be sent 12 hrs before arrival. No follow-ups needed.",
+          "A valid Photo ID (Drivers License, Voters Card, Passport, Ration Card) is required. PAN Card is NOT accepted."
+        ]
+      }
+    ],
+    tagline: "Book Now with Tourswale"
+  },
+  {
+    slug: 'sikkim-darjeeling-6n',
+    title: '6N/7D Sikkim-Darjeeling (Gangtok, Pelling, Darjeeling)',
+    location: 'Sikkim & Darjeeling',
+    days: 7,
+    price: 181300,
+    image: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4',
+    desc: 'Experience a 7-day magical journey through the majestic Himalayas covering Gangtok, Pelling, and Darjeeling.',
+    tags: ['Sikkim', 'Darjeeling', '6 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Sikkim & Darjeeling',
+    promoLine: 'Hills, Valleys & Monasteries',
+    specialHeading: 'Mystical Himalayas.',
+    stays: ['6 Nights / 7 Days', 'Start: Bagdogra/NJP', 'End: Bagdogra/NJP'],
+    gallery: [
+      {src: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4', alt: 'Darjeeling'},
+      {src: 'https://nomadicweekends.com/blog/wp-content/uploads/2019/02/30127578_1691986214228436_4746460975484370944_o-1.jpg', alt: 'Sikkim Valley'},
+      {src: 'https://static.toiimg.com/photo/56621791/.jpg', alt: 'Monastery'}
+    ],
+    galleryCaptions: ['Darjeeling', 'Sikkim Valley', 'Monastery'],
+    groupTitles: ['Inclusions', 'Transportation & Flights', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Accommodation in rooms as mentioned', 'Meal Plan: MAP (Breakfast + Dinner)', 'Exclusive Non-AC vehicle for transfers & sightseeing (point-to-point)', 'All permit fees & hotel taxes'],
+      ['Transportation & Flights', 'Non-AC Dzire for transfers & sightseeing', 'Onward Flight: IndiGo (07:50 → 10:50)', 'Return Flight: SpiceJet (16:50 → 19:45)'],
+      ['Hotels & Pricing', 'Option 1 (3 Star Deluxe): ₹1,81,300/- for 3 Adults', 'Option 2 (4 Star): ₹1,89,200/- for 3 Adults', 'Gangtok (3N): Avianna / Yashshree Sikkim Blossom', 'Pelling (1N): Voyage Dream Villa / Yashshree Chekhim', 'Darjeeling (2N): RJ Resort / Yashshree Mall Road']
+    ],
+    itinerary: [
+      {title: 'Day 1 : Bagdogra Airport / NJP to Gangtok', copy: 'On arrival at New Jalpaiguri Junction Railway Station/Ixb Airport, our driver will meet and greet you and board you to the vehicle. Then you will make your way to the hotel in Gangtok. Stay overnight at Gangtok.'},
+      {title: 'Day 2 : Gangtok - Local Sightseeing', copy: 'Post breakfast start for a Full day city tour covering Tashi view point, Ganesh Tok, Hanuman Tok, Plant Conservatory, Cottage Industry and Handicraft Centre, Institute of Tibetology, Dro-dul Chorten, and Banjhakri Waterfalls. Stay overnight at Gangtok.'},
+      {title: 'Day 3 : Gangtok - Excursion to Tsomgo Lake & New Baba Mandir', copy: 'Post breakfast, visit Tsomgo Lake (12,400 ft.), a high altitude sacred lake. Then visit New Baba Mandir (13,200 ft.). Later you are returned to the hotel. Stay overnight at Gangtok.'},
+      {title: 'Day 4 : Gangtok to Pelling', copy: 'Post breakfast transfer to Pelling. On your way, pass through attractions of Namchi Siddheshwar Dham (Chardham). Then visit Ravangla Buddha Park. On arrival at Pelling, check in to the hotel. Stay overnight at Pelling.'},
+      {title: 'Day 5 : Pelling to Darjeeling', copy: 'Post breakfast check out and visit Skywalk, Pemayangtse Monastery, Rabdentse Ruins, and Bird Sanctuary. After sightseeing, transfer to Darjeeling. Rest of the day is free. Stay overnight at Darjeeling.'},
+      {title: 'Day 6 : Darjeeling - Local Sightseeing', copy: 'Early visit to Tiger hill to watch sunrise over Mt. Khangchendzonga. On way back see Ghoom Monastery and Batasia Loop. After breakfast, tour covers Japanese Temple, Peace Pagoda, Himalayan Mountaineering Institute, Padmaja Naidu Zoological Park, Tenzing Rock, Tibetan Refugee Centre, and Tea Garden. Stay overnight at Darjeeling.'},
+      {title: 'Day 7 : Darjeeling to Departure', copy: 'Enjoy your breakfast & then check out. Drive to New Jalpaiguri Junction Railway Station/Ixb Airport to continue with your onward journey.'}
+    ],
+    inclusions: [
+      'Accommodation in rooms as mentioned in the itinerary',
+      'Meal Plan (Dinner + Breakfast)',
+      'Exclusive Non Ac vehicle for transfers & sightseeing on point to point basis',
+      'All permit fees & hotel taxes (Rates valid for INDIAN NATIONALS only)'
+    ],
+    exclusions: [
+      'Air Fare / Train fare',
+      'Personal Expenses such as Laundry, telephone calls, tips & gratuity, mineral water, etc.',
+      'Additional sightseeing or extra usage of vehicles',
+      'Entrance Fees & Guide charges',
+      'Any cost arising due to natural calamities like landslides, road blockage, etc.',
+      'Room Heater Charges',
+      'Nathula Pass and Toy Train are not included'
+    ],
+    benefits: [
+      '3 Star Deluxe or 4 Star Accommodations options',
+      'Complete local sightseeing',
+      'Dedicated point to point transport'
+    ],
+    policies: [
+      {
+        title: 'Terms and Conditions',
+        details: [
+          'Note: If any of the above mentioned sightseeing points are closed due to renovation / weekly closed / any other reason, the closed sightseeing point will not be covered on another day. Also note that no alternate sightseeing will be covered for that closed sightseeing point.',
+          'Any cost arising due to acts of God, terrorism or threats of terrorism, civil disorder, strikes, lockouts, server and network failure, riots, acts of war, cyclones, tsunami, earthquakes, inclement weather conditions, any other natural disasters, disease (If anything happens, cancellation / extra charges will be applicable as per Individual hotel\'s policy and Transportation policy.)',
+          'This clause outlines potential additional costs that may arise during your trip due to unforeseen circumstances. Here\'s a breakdown:',
+          'Additional Costs: Natural calamities: landslides, road blockages, etc. Political disturbances: strikes, protests, etc. Other unforeseen events: road closures, etc.',
+          'Payment Terms: These additional costs will be borne by the client. Payments will need to be made directly on the spot. Implications You should be prepared for potential additional expenses during your trip. It\'s essential to have some extra funds available in case of unforeseen events.',
+          'Recommendations: Check the weather forecast and local conditions before your trip. Stay informed about local events and protests. Consider purchasing travel insurance to cover unexpected expenses. By agreeing to these terms, you acknowledge that you understand and accept the potential additional costs associated with your trip.'
+        ]
+      },
+      {
+        title: 'Accommodation & Requirements',
+        details: [
+          'Note:- 1. The above mentioned hotels will be confirmed as per the room availability. Otherwise we will confirm a similar category hotel. 2. Itinerary might be rearranged as per hotel availability at the time of booking.',
+          'Note: Travelers planning to visit such remote regions should be prepared for a more rustic and basic experience, with a focus on simplicity and cleanliness rather than luxury amenities. Even the best hotels are equivalent to basic 3 here. It\'s essential for guests to manage their expectations and plan accordingly, taking into account the specific conditions and limitations of this area',
+          'Require Documents to issue permit for Tsomgo Lake, New Baba Mandir, Nathula Pass, Lachen and Lachung: 1. Both Side Photo copy of Valid Driving License / Passport / Voter ID for the Adults. 2. Birth Certificate for the Minors (Children below 18 years). 3. Passport size photos of everyone.'
+        ]
+      },
+      {
+        title: 'IMPORTANT NOTE',
+        details: [
+          'All transfers from Gangtok / Pelling / Darjeeling to onward destinations will be provided either in the morning from 07:00 a.m. to 08:00 a.m. or in the afternoon from 01:00 p.m. to 02:00 p.m.',
+          'If any of the above mentioned sightseeing points is closed due to renovation / weekly closed / any other reason, the closed sightseeing point will not be covered on another day. Also note that no alternate sightseeing will be covered for that closed sightseeing point.',
+          'If guests are booked for luxury vehicles, Scorpio/Xylo/Innova will be provided as per availability. A maximum 06 tourists including children are allowed in 01 Scorpio/Xylo/Innova with maximum luggage 5-6 medium size baggage in a vehicle. In case the numbers of heads traveling increases or the guests are carrying more luggages, then the guest will have to take another additional vehicle at a supplement cost or pay directly for the extra vehicle.',
+          'In No Parking Zones, the vehicle will get parked in an available parking area. In such a case, you will have to wait for the vehicle to come to your designated area. Please be patient as the driver will have to come through traffic. Please coordinate with the driver.',
+          'Most of the hotels do not have parking places & vehicles cannot be parked in front of the gates for a longer period hence guests should wait at the reception 5 minute before the departure to avoid the inconveniences.',
+          'Due to vehicle parking difficulty, most of the areas are restricted to vehicle entry & specific time is allotted for entries. Kindly follow the time strictly as given to you.',
+          'The vehicle may change every day/Sector wise as per the itinerary. The vehicle is not on disposal.',
+          'Please inform the guests to travel with a maximum one luggage bag per person.',
+          'Hotel Check-in time 14:00 hrs / Hotel Check-out time is 12:00 hrs.',
+          'The tourism infrastructure in Sikkim & Darjeeling is not very developed and one should not expect or compare it with the standards of plains & other developed destinations. There is always scarcity of water and power in the region and so you would come across situations like water (hot) being supplied on time basis . morning & evening.',
+          'In the area almost all the hotels do not have a lift facility and in all the hotels the guest will have to climb stairs. In case if any guest is having problem of blood pressure, knee or other ailment for which they cannot climb the higher floors they will have to intimate us during the time of booking so that we can try to arrange rooms at the lowest possible floor of the hotel enabling the guest to climb the minimum number of stairs.',
+          'In Lachen and Lachung most of the hotels are offering Vegetarian food.',
+          'All guests are requested to carry minimum luggage when travelling to North Sikkim and keep the remaining luggage at the hotel in Gangtok because of bad road conditions of North Sikkim especially during transhipment due to landslides and road blockages.',
+          'Senior Citizen and Child below 10yrs are not suggested to visit Gurudongmar Lake (17,100 Ft.) in Lachen due to high altitude and low oxygen level.',
+          'No room heating systems are provided in the rooms in maximum hotels at North Sikkim (Lachen and Lachung), due to shortage of power, instead the hotelier provides hot water bags.',
+          'In maximum hotels there is no geyser in the bathroom at North Sikkim (Lachen and Lachung) hot water is supplied by buckets by the hotelier.',
+          'Hotels available are only with basic amenities at North Sikkim (Lachen and Lachung) & simple food cooked by the locals and not by hotel Chef.',
+          'As Innova is a low chassis car and is not ideal to travel Tsomgo Lake Baba Mandir / Lachen & Lachung. Alternative in Luxury vehicles like Scorpio / Xylo will be provided.'
+        ]
+      },
+      {
+        title: 'Important Note about Nathula Pass',
+        details: [
+          '(We will not give you any guarantee for Nathula pass but we will try)',
+          'The permit for Nathula Pass is issued by the Sikkim Tourism Department is completely subject to availability and Road Condition.',
+          'Only limited permits are issued by the Sikkim Tourism Department before 24 hrs. of the tour (OR on the day of tour depending on road condition) to those travel agencies registered with Sikkim Tourism Department on Rotation basis. Nathula is closed on every Monday. Normally organizing a permit at the eleventh hour is not possible, the minimum time required is 48 hours before the arrival to apply the permit with all documents. We will try our best, but in case of non-availability of permit, the tour will only be till Baba Mandir. In case the permit is available one can opt for the trip with the supplement cost.',
+          'It is mandatory that guests should carry photo proof identity cards such as Voter Id / Passport / Driving License and passport size photograph. (Aadhaar Card / PAN Card are not considered as a valid ID proof). A Birth Certificate is required for the Children below 18 years.',
+          'As permit is mandatory and a very limited number of permits are issued per day for visiting Nathula, guests have to travel by any car whichever is available (like Xylo/Scorpio/Maxx/Bolero/Sumo) as per permit issued. We cannot give any choice on Vehicle type. This is to inform you that in order to control and send more tourists to Nathula pass, the department of tourism after consulting with travel agents laid down the following rules:-',
+          'The Indian Army allows visiting Nathula from 11:00AM to 12:30PM only. Guests have to start early from Gangtok. If the guest makes a delay in starting from Gangtok we cannot guarantee the visit in spite of having confirmed permit.',
+          'In high season a limited permit will be issued by authorities. We will try to get the permit but if we do not get the permit then we will refund the supplement amount after the end of the tour.',
+          'Please note if the Nathula pass permit is not done due to weather conditions / Landslide / any other reason than we will refund the supplement amount after the end of the tour.',
+          'Also note that if the Nathula Pass permit is issued and due to any other reason they can.t visit Nathula Pass then we are unable to refund anything.',
+          'In case of less than 6 people from one travel agent the Department generally clubs small numbers with another travel agent.s small number of tourists just for 4 km up and down before Nathula Pass. Now in this case it might so happen that the guests might have to leave their vehicle and board some other vehicle with other guests or other guests may join them in their vehicle or for groups and multiple cars it might so happen that the guests who has paid for certain number of vehicles might have to accommodate in lesser number of vehicles as per the instruction of the Permit Office at Sarathang (04 kms before Nathula Pass). In that case no refund would be applicable.'
+        ]
+      },
+      {
+        title: 'Cancellation Policy',
+        details: [
+          'Cancellation Policy will be applicable as per hotels cancellation policy and Transportation cancellation policy.',
+          'Hope you find the above in order and as requested.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+{
+    slug: 'sikkim-darjeeling-8n',
+    title: '8N/9D Sikkim-Darjeeling (Gangtok, Lachung, Pelling, Darjeeling)',
+    location: 'Sikkim & Darjeeling',
+    days: 9,
+    price: 156400,
+    image: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Explore the majestic beauty of the Himalayas covering Gangtok, Lachung, Pelling, and Darjeeling in a comprehensive 9-day tour.',
+    tags: ['Sikkim', 'Darjeeling', '8 Nights'],
+    promoEyebrow: 'Your Journey, Our Responsibility',
+    promoTitle: 'Sikkim & Darjeeling',
+    promoLine: 'Hills, Valleys & Monasteries',
+    specialHeading: 'Mystical Himalayas.',
+    stays: ['8 Nights / 9 Days', 'Start: Bagdogra/NJP', 'End: Bagdogra/NJP'],
+    gallery: [
+      {src: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4', alt: 'Darjeeling'},
+      {src: 'https://nomadicweekends.com/blog/wp-content/uploads/2019/02/30127578_1691986214228436_4746460975484370944_o-1.jpg', alt: 'Yumthang Valley'},
+      {src: 'https://static.toiimg.com/photo/56621791/.jpg', alt: 'Monastery'}
+    ],
+    galleryCaptions: ['Darjeeling', 'Yumthang Valley', 'Monastery'],
+    groupTitles: ['Inclusions', 'Transportation', 'Hotels & Pricing'],
+    experienceGroups: [
+      ['Inclusions', 'Accommodation in 4-Star hotels', 'Meal Plan: MAP (Breakfast + Dinner)', 'Exclusive Non-AC vehicle for transfers & sightseeing (point-to-point)'],
+      ['Transportation', 'Non-AC Dzire for Bagdogra, Gangtok, Pelling, Darjeeling', 'Non-AC Innova / Xylo for Lachung & Yumthang Valley'],
+      ['Hotels & Pricing', 'Total Price: ₹1,56,400/- for 3 Adults', 'Gangtok (2N+1N): Magpie Libing Grand (4 Star) - Comfort Room', 'Lachung (2N): Yashshree Dewathang Resort & Spa (4 Star) - Premium Room', 'Pelling (1N): Magpie Pachhu Village Resorts (4 Star) - Cottage Super Deluxe', 'Darjeeling (2N): Yashshree Mall Road (4 Star) - Deluxe Room']
+    ],
+    itinerary: [
+      {title: '1st Day : Bagdogra Airport / NJP to Gangtok', copy: 'On arrival at New Jalpaiguri Junction Railway Station/IXB Airport, our driver will meet and greet you and board you to the vehicle. Then you will make your way to the hotel in Gangtok. Stay overnight at Gangtok.'},
+      {title: '2nd Day : Gangtok - Excursion to Tsomgo Lake & New Baba Mandir', copy: 'Post breakfast, visit Tsomgo Lake (12,400 ft. / 37 km / 02 hr from Gangtok), a high altitude sacred lake. Then you will visit New Baba Mandir (13,200 ft. / 16 km / 01 hr from Tsomgo Lake). Later you are returned to the hotel. Stay overnight at Gangtok.'},
+      {title: '3rd Day : Gangtok to Lachung', copy: 'After breakfast, check out from the hotel with limited luggage and proceed to Lachung (8,700 ft.), North Sikkim. On arrival at Lachung, check into your hotel. Stay overnight at Lachung.'},
+      {title: '4th Day : Lachung - Yumthang Valley Excursion', copy: 'Early morning, drive to Yumthang Valley (12,000 ft), which is also known as the valley of flowers. On your way back to the hotel from Yumthang Valley, you will be visiting hot spring. Head back to the hotel. Rest of the evening will be free for leisure. Stay overnight at Lachung.'},
+      {title: '5th Day : Lachung to Gangtok', copy: 'Post breakfast check out from the hotel. On arrival at Gangtok, check-in to your hotel. Rest of the evening will be free for leisure. Stay overnight at Gangtok.'},
+      {title: '6th Day : Gangtok to Pelling', copy: 'Post breakfast transfer to Pelling. On your way to Pelling, you will pass through some attractions of Namchi Siddheshwar Dham (Chardham). Then visit Ravangla "Buddha Park". On arrival at Pelling, you will check in to the hotel. Stay overnight at Pelling.'},
+      {title: '7th Day : Pelling to Darjeeling', copy: 'Post breakfast check out from the hotel and you will be visiting Skywalk, Pemayangtse Monastery, Rabdentse Ruins, and Bird Sanctuary. After the sightseeing tour, you are transferred to Darjeeling. Rest of the day is free. Stay overnight at Darjeeling.'},
+      {title: '8th Day : Darjeeling - Local Sightseeing', copy: 'Visit Tiger hill early morning to watch sunrise over Mt. Khangchendzonga. Visit Ghoom Monastery and Batasia Loop. After breakfast, sightseeing covers Japanese Temple, Peace Pagoda, Himalayan Mountaineering Institute, Padmaja Naidu Himalayan Zoological Park, Tenzing Rock, Tibetan Refugee self-help Centre, and Tea Garden. Stay overnight at Darjeeling.'},
+      {title: '9th Day : Darjeeling to Departure', copy: 'After breakfast, transfer to Bagdogra Airport/NJP Railway Station for your onward journey.'}
+    ],
+    inclusions: [
+      'Accommodation in rooms as mentioned in the itinerary',
+      'Meal Plan MAP (Dinner + Breakfast)',
+      'Exclusive Non Ac vehicle for transfers & sightseeing on point to point basis',
+      'All permit fees & hotel taxes (Rates valid for INDIAN NATIONALS only)'
+    ],
+    exclusions: [
+      'Air Fare / Train fare',
+      'Personal Expenses such as Laundry, telephone calls, tips & gratuity, mineral water, etc.',
+      'Additional sightseeing or extra usage of vehicles',
+      'Entrance Fees & Guide charges',
+      'Any cost arising due to natural calamities like landslides, road blockage, etc.',
+      'Room Heater Charges',
+      'Nathula Pass and Toy Train are not included'
+    ],
+    benefits: [
+      'Premium 4 Star Accommodations',
+      'Excursion to Yumthang Valley of Flowers',
+      'Dedicated point to point transport'
+    ],
+    policies: [
+      {
+        title: 'Important Trip Notes',
+        details: [
+          'Lachung: Travelers should be prepared for a more rustic and basic experience. Even best hotels are equivalent to basic 3 star here.',
+          'Due to winter season (heavy snow) vehicle will be able to drive till Snow point on the way to Yumthang Valley.',
+          'Nathula Pass: If permit is not done due to weather/landslide, supplement amount will be refunded. If issued and cannot visit, no refund.'
+        ]
+      },
+      {
+        title: 'Cancellation Policy',
+        details: [
+          'Cancellation Policy will be applicable as per hotels cancellation policy and Transportation cancellation policy.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
     slug: 'south-india-temples-kovalam-7d',
     title: '6N/7D South India Pilgrimage & Coastal Tour',
     location: 'South India',
@@ -2631,6 +2986,678 @@ export const domestic=[
   }
 ];
 export const international=[
+  {
+    slug: 'greece-athens-mykonos-santorini-7n',
+    title: "7N/8D Greece Tour (Athens, Mykonos, Santorini)",
+    location: "Greece",
+    days: 8,
+    price: 0,
+    image: "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80",
+    desc: "Experience 7 Nights in Greece covering Athens, Mykonos, and Santorini. Includes City Tours, Volcano hot springs, and Oia sunset tour.",
+    tags: ["Greece", "7 Nights", "International"],
+    promoEyebrow: "Mediterranean Dream",
+    promoTitle: "Greek Isles Explorer",
+    promoLine: "History, Beaches & Sunsets",
+    specialHeading: "Aegean Magic.",
+    stays: ["7 Nights / 8 Days", "Start: Athens", "End: Athens"],
+    gallery: [
+      {src: "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80", alt: "Greece"},
+      {src: "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?auto=format&fit=crop&w=1200&q=80", alt: "Mykonos"},
+      {src: "https://www.en-vols.com/wp-content/uploads/afmm/2023/06/GettyImages-1397763152_Guide_Santorin_MED.jpg", alt: "Santorini"}
+    ],
+    galleryCaptions: ["Athens", "Mykonos", "Santorini"],
+    groupTitles: ["Details", "Hotels", "Inclusions"],
+    experienceGroups: [
+      ["Details", "Pax: Per Person on twin share basis"],
+      ["Hotels", "Athens: Selina Athens Theatrou (02 Nights) & (01 Night)", "Mykonos: Colours Of Mykonos (02 Nights)", "Santorini: Iris Boutique Hotel (02 Nights)"],
+      ["Inclusions", "Daily breakfast", "Private arrival & departure transfers in Athens, Mykonos, Santorini", "Ferries between Athens, Mykonos, and Santorini"]
+    ],
+    itinerary: [
+      {title: "Day 1: Arrival in Athens", copy: "Private transfer from airport to hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens."},
+      {title: "Day 2: Athens Sightseeing", copy: "After Breakfast, Today Enjoy Athens half-day sightseeing tour with Acropolis Museum. Overnight in Athens."},
+      {title: "Day 3: Athens to Mykonos", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Athens to Mykonos. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Mykonos."},
+      {title: "Day 4: Mykonos Tour", copy: "After Breakfast, Today Enjoy Mykonos Half Day City Tour. Overnight in Mykonos."},
+      {title: "Day 5: Mykonos to Santorini", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Mykonos to Santorini. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Santorini."},
+      {title: "Day 6: Santorini Tour", copy: "After Breakfast, Today Enjoy Santorini City Tour with Sunset Oia. Overnight in Santorini."},
+      {title: "Day 7: Santorini to Athens", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Santorini to Athens. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens."},
+      {title: "Day 8: Departure", copy: "After Breakfast, Private transfer from hotel to airport. Departure from Athens Airport for your flight."}
+    ],
+    inclusions: [
+      "03 Nights accommodation in ATHENS (Selina Athens Theatrou or Similar)",
+      "02 Nights accommodation in MYKONOS (Colours Of Mykonos or Similar)",
+      "02 Nights accommodation in SANTORINI (Iris Boutique Hotel or Similar)",
+      "Daily Breakfast",
+      "Private arrival and departure transfers in Athens, Mykonos and Santorini",
+      "Ferry from Athens to Mykonos, Mykonos to Santorini, Santorini to Athens",
+      "Athens half-day sightseeing tour with Acropolis Museum",
+      "Mykonos Half Day City Tour",
+      "Santorini City Tour with Sunset Oia"
+    ],
+    exclusions: [
+      "International air ticket and Greece Visa Charges",
+      "Overnight Tax is payable directly to the hotel upon arrival",
+      "Meals other than specified",
+      "Tips, Porterage, Laundry, telephone, optional excursions",
+      "Cost of any medical or quarantine related to Covid check"
+    ],
+    benefits: [
+      "Ferry Tickets Included",
+      "Guided City & Island Tours",
+      "Private Airport/Port Transfers"
+    ],
+    policies: [
+      {
+        title: "Notes & Availability",
+        details: [
+          "The price is based on the standard room category (max 3 persons). Higher categories at additional cost.",
+          "No refund for any non-utilization of any services.",
+          "At the quotation stage, no services are confirmed; subject to availability.",
+          "Should period, pax, accommodation, transport or duration change, quote will be revised.",
+          "Early check-in or late checkout is at hotel's discretion unless pre-booked."
+        ]
+      },
+      {
+        title: "Ferry Services Guidelines",
+        details: [
+          "Physical ferry tickets provided by Local Representative on arrival day.",
+          "Economy, Business, and Platinum Class available. Service levels same except seating.",
+          "Ferries are not luxury; purely to reach destination. Carry your own luggage.",
+          "Staircases are narrow and crowded; pack light.",
+          "Ferry tickets once issued are non-refundable. Sit in assigned seats."
+        ]
+      },
+      {
+        title: "Cancellation Charges",
+        details: [
+          "45 days – 32 days before arrival: 50% cancellation fees will apply",
+          "32 days before arrival – no show: 100% cancellation fees will apply"
+        ]
+      }
+    ],
+    tagline: "Book Now with Tourswale"
+  },
+  {
+    slug: 'bhutan-ex-phuentsholing-7n',
+    title: "7N/8D Bhutan Tour (Ex-Phuentsholing)",
+    location: "Bhutan",
+    days: 8,
+    price: 0,
+    image: "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/08/shutterstock_547416469.jpg",
+    desc: "Experience 7 Nights in Bhutan covering Phuentsholing, Thimphu, Punakha/Wangdue, and Paro with Tiger's Nest hike and Dzong visits.",
+    tags: ["Bhutan", "7 Nights", "International"],
+    promoEyebrow: "Land of the Thunder Dragon",
+    promoTitle: "Bhutan Mystique",
+    promoLine: "Culture, Mountains & Monasteries",
+    specialHeading: "Himalayan Kingdom.",
+    stays: ["7 Nights / 8 Days", "Start: NJP Rly Station / IXB Airport", "End: NJP Rly Station / IXB Airport"],
+    gallery: [
+      {src: "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/08/shutterstock_547416469.jpg", alt: "Bhutan"},
+      {src: "https://www.andbeyond.com/wp-content/uploads/sites/5/Bhutan-Paro-Tigers-Nest-6-Website-1920x1080-fill-gravityauto.jpg", alt: "Paro"},
+      {src: "https://lp-cms-production.imgix.net/2019-06/920de4c69eb8dc956b6687b1e78ae804-trashi-chhoe-dzong.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4", alt: "Thimphu"}
+    ],
+    galleryCaptions: ["Bhutan Monasteries", "Paro Taktsang", "Thimphu"],
+    groupTitles: ["Details", "Hotels", "Inclusions"],
+    experienceGroups: [
+      ["Details", "Pax: 2", "Nationality: INDIANS", "Meal Plan: MAP"],
+      ["Hotels", "Phuentsholing: Hotel Alem (2 Nights, 3 Star, MAP)", "Thimphu: Hotel Kisa (2 Nights, 3 Star, MAP)", "Punakha: Punakha Residency (1 Night, 3 Star, MAP)", "Paro: Hotel Drukchen (2 Nights, 3 Star, MAP)"],
+      ["Inclusions", "Accommodation on twin/triple sharing basis", "Meal Plan MAP", "Exclusive Non a/c vehicle for all transfers & sightseeing (9 AM to 5 PM)", "Guide charges for Bhutan portion only", "SDF", "Hotel taxes applicable"]
+    ],
+    itinerary: [
+      {title: "Day 1 - NJP Rly Station / IXB Airport - Phuentsholing", copy: "On arrival at NJP Railway Station / IXB Airport you will be transferred to Phuentsholing. On arrival check in at the hotel. Later in the day you would be greeted by your guide. Evening free for leisure. Overnight stay at the hotel in Phuentsholing."},
+      {title: "Day 2 - Phuentsholing - Thimphu", copy: "After breakfast complete the immigration formalities and get transferred to Thimphu. On the way stop at Kharbandi Goemba. Later continue your drive to Thimphu. On arrival check in at the hotel. Evening free for leisure. Overnight stay at the hotel in Thimphu."},
+      {title: "Day 3 - Thimphu Sightseeing", copy: "After breakfast you would be taken for tour of Thimphu City. You would be visiting Kuensel Phodrang, Buddha Statue; National Memorial Chorten, a Stupa built in 1974; Folk Heritage Museum, traditional 3 storied house; Changangkha Lhakhang, one of the oldest temple in Thimphu and Motithang Takin Reserve, a wildlife reserve centre for Takin. In the evening visit Tashichho Dzong, Fortress of the Glorious Religion. Overnight at the hotel in Thimphu."},
+      {title: "Day 4 - Thimphu - Punakha / Wangdue Sightseeing", copy: "After breakfast, you will be driven to Punakha. On the way, stop at Immigration Check Point in Hongtsho Village to get the permit stamped which is to be returned in your return journey. Later halt at Dochula Pass, situated at an altitude of 3,100 mts. The landmarks around the pass includes 108 Druk Wangyal Stupas. Continue your drive to Punakha / Wangdue. On arrival visit Chimi Lhakhang, the Temple of Fertility. It is a short hike of around 30 - 45 minutes. Later, visit Punakha Dzong, located at the confluence of Mo Chhu and Po Chhu Rivers. Later check in at the hotel. Evening is free for leisure. Overnight at the hotel in Punakha / Wangdue."},
+      {title: "Day 5 - Punakha / Wangdue - Paro Sightseeing", copy: "After breakfast, you would be driven to Paro. Enroute stop at Royal Botanical Garden at Lamperi, Bhutan’s first botanical park. Further on the way, stop at Immigration Check Point in Hongtsho Village to return the permit which was stamped earlier. Later stop at Tamchog Lhakhang. On arrival at Paro visit Ta Dzong, national museum; Paro Rimpung Dzong, Buddhist monastery and fortress; walk down to Nemi Zam Bridge, a traditional covered cantilever bridge. Later check in at the hotel. Evening free for leisure. Overnight at the hotel in Paro."},
+      {title: "Day 6 - Paro Sightseeing", copy: "After breakfast visit Taktsang Monastery (Tiger's Nest), home of gods and monks located at an altitude of 3100 mts in the Upper Paro Valley, Bhutan. The hike to the Monastery takes about 5 - 6 hours to complete. As the hike to Taktsang Monastery is steep coupled with stiff stairs, it is not recommended to take the hike with small children and elderly people. Evening is free for leisure. Overnight at the hotel in Paro."},
+      {title: "Day 7 - Paro - Phuentsholing", copy: "After breakfast check out from hotel. Later you would be driven to Phuentsholing. On arrival check in at the hotel. Overnight stay at the hotel in Phuentsholing."},
+      {title: "Day 8 - Phuentsholing - NJP Railway Station/IXB Airport", copy: "After breakfast check out from the hotel. Later you would be transferred to NJP Railway Station / IXB Airport for your onward journey. Tashi Delek!"}
+    ],
+    inclusions: [
+      "Accommodation on twin/triple sharing basis as mentioned",
+      "All rooms are base category",
+      "Meal Plan MAP",
+      "SDF",
+      "Hotel taxes applicable",
+      "Guide charges for Bhutan portion only",
+      "Exclusive Non a/c vehicle for all transfers & sightseeing as per itinerary (9 AM to 5 PM)"
+    ],
+    exclusions: [
+      "Air Fare/Train fare, insurance premium, any other activities",
+      "Personal expenses such as laundry, telephone bills, bar bills, tips",
+      "Entrance Fees for museums and monuments, Upgradation Charges and Optional Tours",
+      "Any additional costs because of unforeseen events like landslides, blockades, etc.",
+      "Goods & Services Tax (GST) and TCS (5%)"
+    ],
+    benefits: [
+      "Complete Bhutan Experience",
+      "Guided Tours",
+      "Includes Permits & SDF"
+    ],
+    policies: [
+      {
+        title: "SOP & Immigration Rules",
+        details: [
+          "For Indian Nationals: Passport/Voter ID or Birth Certificate for child below 18 years is acceptable.",
+          "Travel Insurance is mandatory for all tourists.",
+          "2 doses of WHO recognized vaccines certificate is mandatory for all tourists (Child Below 12 years accompanied by parents can travel without vaccine).",
+          "Immigration office in Phuentsholing is open from Monday to Friday (9 AM – 4 PM) and is closed on weekends and Government Holidays.",
+          "No photos of passport taken from mobile shall be accepted for online permits."
+        ]
+      },
+      {
+        title: "Vehicle Details",
+        details: [
+          "For India part: 01 Innova / Xylo / Scorpio / Ertiga for 1-6 Pax.",
+          "For Bhutan part: 01 Hyundai Tucson / Hyundai Creta (maximum capacity 2 + 2 Seats for Guide and Driver).",
+          "The concept of disposal vehicles is not practiced in Bhutan. Guide and vehicle available from 9.00 AM to 5.00 PM.",
+          "Supplemental charges for AC in the vehicle shall be applicable."
+        ]
+      },
+      {
+        title: "Cancellation Policy",
+        details: [
+          "Cancellation made within 31-60 days from the date of arrival (High Season): 50%",
+          "Cancellation made within 30 days from the date of arrival (High Season): 100%"
+        ]
+      }
+    ],
+    tagline: "Book Now with Tourswale"
+  },
+  {
+    slug: 'thailand-pattaya-bangkok-5n-mar2026',
+    title: "5N/6D Thailand Trip (Pattaya & Bangkok)",
+    location: "Thailand",
+    days: 6,
+    price: 58536,
+    image: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80",
+    desc: "Experience 5 Nights in Thailand covering Pattaya and Bangkok, including Coral Island, Chao Phraya Dinner Cruise, and Safari World.",
+    tags: ["Thailand", "5 Nights", "International"],
+    promoEyebrow: "Thai Delights",
+    promoTitle: "Thailand Highlights",
+    promoLine: "Beaches, Temples & Cruises",
+    specialHeading: "Amazing Thailand.",
+    stays: ["5 Nights / 6 Days", "Start: Bangkok Suvarnabhumi Airport", "End: Bangkok Suvarnabhumi Airport"],
+    gallery: [
+      {src: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80", alt: "Thailand"},
+      {src: "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/piljuef8ykc7eewsaloh.jpg", alt: "Pattaya"},
+      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok"}
+    ],
+    galleryCaptions: ["Thailand Beauty", "Pattaya", "Bangkok"],
+    groupTitles: ["Prices & Details", "Hotels", "Sightseeing"],
+    experienceGroups: [
+      ["Prices & Details", "Total Net Price: INR 57,536.00 + Arrival card price 1000 (Total: INR 58,536)", "Pax: 2 Adults (1 Room)"],
+      ["Hotels", "Pattaya: Citrus Grande Hotel Pattaya by Compass Hospitality", "Bangkok: Convenient Park Bangkok"],
+      ["Sightseeing", "Coral Island Tour with Lunch by Speed Boat (From Pattaya) SIC", "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) SIC", "Princess Chao Phraya Dinner Cruise (Indian) SIC", "Safari World and Marine Park with Lunch (Mon Closed) SIC"]
+    ],
+    itinerary: [
+      {title: "Day 1: Arrival & Pattaya Transfer", copy: "Arrival | PRIVATE Pickup from: Bangkok Suvarnabhumi Airport Drop at: Pattaya Transfers from BKK Airport to Pattaya Hotel."},
+      {title: "Day 2: Coral Island Tour", copy: "Coral Island Tour with Lunch by Speed Boat (From Pattaya) | SIC. Embark on a thrilling Coral Island Tour by speedboat, whisking you away to pristine beaches and vibrant coral reefs. Enjoy a delicious lunch amidst stunning tropical surroundings, with opportunities for snorkeling and relaxation. Experience the beauty of Thailand's marine life on this unforgettable island adventure. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time."},
+      {title: "Day 3: Bangkok Transfer", copy: "Inter-Hotel Transfer | PRIVATE Pickup from: Pattaya Drop at: Bangkok Transfers from Pattaya Hotel to Bangkok Hotel."},
+      {title: "Day 4: Temple Tour & Dinner Cruise", copy: "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | SIC. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship. Princess Chao Phraya Dinner Cruise (Indian) | SIC. Embark on a delightful culinary journey along the Chao Phraya River with our Princess Chao Phraya Dinner Cruise or Arena Dinner Cruise, offering authentic Indian cuisine. Indulge in a sumptuous Indian dinner buffet while enjoying panoramic views of Bangkok's iconic landmarks illuminated at night."},
+      {title: "Day 5: Safari World", copy: "Safari World and Marine Park with Lunch (Mon Closed) SIC."},
+      {title: "Day 6: Departure", copy: "Departure | PRIVATE Pickup from: Bangkok Drop at: Bangkok Suvarnabhumi Airport."}
+    ],
+    inclusions: [
+      "Pattaya: Citrus Grande Hotel Pattaya by Compass Hospitality",
+      "Bangkok: Convenient Park Bangkok",
+      "Coral Island Tour with Lunch by Speed Boat",
+      "Bangkok City Temple Tour",
+      "Princess Chao Phraya Dinner Cruise",
+      "Safari World and Marine Park with Lunch",
+      "Transfers (Private) - Airport & Inter-Hotel"
+    ],
+    exclusions: [
+      "National Park Fees (if any)",
+      "Personal Expenses",
+      "Any other services not mentioned"
+    ],
+    benefits: [
+      "Dinner Cruise Experience",
+      "Private Transfers for Convenience",
+      "Comprehensive Sightseeing"
+    ],
+    policies: [
+      {
+        title: "Important Transfer & Sightseeing Notes",
+        details: [
+          "SIC Transfers in Island Tours are time specific. It is advisable for guests to be in the lobby at the pickup time.",
+          "Pickup time in SIC transfers is subject to change +/- 30mins. However, please be ready and available for pickup at the mentioned time as the coach will not wait for more than 5 minutes for the guest.",
+          "Maximum waiting time for any PVT transfer is 20 mins. If the wait time exceeds the 20 mins mark additional waiting charges will be applicable.",
+          "We will not be responsible to process refund for any unutilized services. Moreover, in case of no show no refund or rescheduling is applicable."
+        ]
+      }
+    ],
+    tagline: "Book Now with Tourswale"
+  },
+  {
+    slug: 'thailand-krabi-phuket-bangkok-6n',
+    title: "6N/7D Thailand Trip (Krabi, Phuket, Bangkok)",
+    location: "Thailand",
+    days: 7,
+    price: 65500,
+    image: "https://cdn.audleytravel.com/5018/3588/79/16017015-railay-beach-krabi.jpg",
+    desc: "Experience 6 Nights in Thailand covering Krabi, Phuket, and Bangkok, including 4 Island Tour, Phi Phi Island, and Safari World.",
+    tags: ["Thailand", "6 Nights", "International"],
+    promoEyebrow: "Tropical Wonders",
+    promoTitle: "Thailand Multi-City",
+    promoLine: "Islands, Beaches & City Lights",
+    specialHeading: "Ultimate Thai Journey.",
+    stays: ["6 Nights / 7 Days", "Start: Krabi Airport", "End: Suvarnabhumi Airport"],
+    gallery: [
+      {src: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80", alt: "Thailand"},
+      {src: "https://cdn.audleytravel.com/5018/3588/79/16017015-railay-beach-krabi.jpg", alt: "Krabi"},
+      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok"}
+    ],
+    galleryCaptions: ["Thailand Beauty", "Krabi", "Bangkok"],
+    groupTitles: ["Prices & Details", "Hotels & Flights", "Sightseeing"],
+    experienceGroups: [
+      ["Prices & Details", "Price: INR 65,500.00 per person", "Pax: 3 Adults (1 Family Triple Room)", "Query Code: l8tv0, q2m89"],
+      ["Hotels & Flights", "Krabi: GLOW Ao Nang Krabi (2 Nights, 1 Family Triple, Bed and Breakfast)", "Phuket: Journey hub Phuket Patong (2 Nights, 1 Deluxe, Bed and Breakfast)", "Bangkok: Bangkok Palace Hotel (2 Nights, 1 Superior, Bed and Breakfast)", "Flight Onward: Indigo 6E-1312 BOM-2 (04:15) - KBV (10:10)", "Flight Internal: Air Asia FD-4125 HKT (10:15) - BKK (11:50)", "Flight Return: Indigo 6ET-1060 BKK (23:40) - BOM-2 (02:50)"],
+      ["Sightseeing", "Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee) SIC", "SIM and Insurance TICKETS ONLY", "Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee) SIC", "Phuket City Tour (Including Chalong Temple, Karon View Point, Cashew Nut Factory, Old Town) SIC", "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) SIC", "Safari World and Marine Park with Lunch (Mon Closed) SIC"]
+    ],
+    itinerary: [
+      {title: "Day 1: Arrival in Krabi", copy: "Arrival Pickup from: Krabi Airport Drop at: Glow Ao Nang Krabi Transfers from KBV Airport to Krabi Hotel."},
+      {title: "Day 2: Krabi 4 Island Tour", copy: "Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee) | SIC. Embark on a captivating 4 Island Tour by Long Tail Boat Excluding the National Park Fee. Places to cover: Phranang Cave (Princess Spirit House), Chicken Island (snorkeling & colorful fish), Poda Island (white sandy beach for sunbathing), Tup Island & Moh Island (unseen islands where the sea separates at low tide). Tour Includes: Hotel transfer, snorkel mask, life jacket, box lunch, fresh fruit, drinking water, first aid kit, insurance, tour guide. What to bring: Swimming suit, towel, sunscreen, hat and camera."},
+      {title: "Day 3: Phuket City Tour", copy: "Inter-Hotel Transfer Pickup from: Glow Ao Nang Krabi Drop at: Journey hub Phuket Patong. Transfers from Krabi Hotel to Phuket Hotel. Phuket City Tour (Including Chalong Temple, Karon View Point, Cashew Nut Factory, Old Town) | SIC. Explore Phuket's top sights including Chalong Temple, scenic Karon Viewpoint, a cashew nut factory, and the vibrant Old Town on this city tour."},
+      {title: "Day 4: Phi Phi Island Tour", copy: "Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee) | SIC. Experience the beauty of Phi Phi Island on our shared Speed Boat tour, complete with a satisfying lunch. Delight in pristine beaches, turquoise waters, and stunning vistas during this exhilarating adventure. Please note that the national park fee is not covered in the tour package. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time."},
+      {title: "Day 5: Bangkok City Temple Tour", copy: "Inter-Hotel Transfer Pickup from: Journey hub Phuket Patong Drop at: Phuket International Airport. Domestic Flight from Phuket to Bangkok. Pickup from: Suvarnabhumi Airport Drop at: Bangkok Palace Hotel. Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | SIC. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship."},
+      {title: "Day 6: Safari World", copy: "Safari World and Marine Park with Lunch (Mon Closed) SIC."},
+      {title: "Day 7: Departure", copy: "Departure Pickup from: Bangkok Palace Hotel Drop at: Suvarnabhumi Airport."}
+    ],
+    inclusions: [
+      "Krabi: GLOW Ao Nang Krabi (2 Nights)",
+      "Phuket: Journey hub Phuket Patong (2 Nights)",
+      "Bangkok: Bangkok Palace Hotel (2 Nights)",
+      "Krabi 4 Island Tour with Lunch SIC",
+      "Phi Phi Island Tour with Lunch SIC",
+      "Phuket City Tour SIC",
+      "Bangkok City Temple Tour SIC",
+      "Safari World and Marine Park with Lunch SIC",
+      "SIM and Insurance",
+      "Transfers (Private) - Airport & Inter-Hotel"
+    ],
+    exclusions: [
+      "National Park Fees",
+      "Personal Expenses",
+      "Any other services not mentioned"
+    ],
+    benefits: [
+      "Comprehensive Sightseeing",
+      "Private Transfers for Convenience",
+      "Three-City Experience"
+    ],
+    policies: [
+      {
+        title: "Important Transfer & Sightseeing Notes",
+        details: [
+          "a. National park fees has to be borne by the guest if not included in the package.",
+          "b. SIC Transfers in Island Tours are time specific. It is advisable for guests to be in the lobby at the pickup time.",
+          "c. If the height of the child is more than the permissible limit, the additional charges will have to be paid by the guest on ground.",
+          "d. The interhotel transfers in Phi Phi Island will be provided directly by the hotel or will be self-managed by the guests.",
+          "e. Pickup time in SIC transfers is subject to change +/- 30mins. However, please be ready and available for pickup at the mentioned time as the coach will not wait for more than 5 minutes for the guest.",
+          "f. Maximum waiting time for any PVT transfer is 20 mins. If the wait time exceeds the 20 mins mark additional waiting charges will be applicable.",
+          "g. We will not be responsible to process refund for any unutilized services. Moreover, in case of no show no refund or rescheduling is applicable.",
+          "Please Note: This is the tentative itinerary. Some selected sightseeings are not included in the day-wise itinerary. The final itinerary will be confirmed at the time of booking."
+        ]
+      }
+    ],
+    tagline: "Book Now with Tourswale"
+  },
+  {
+    slug: 'thailand-pattaya-bangkok-5n-aug2026',
+    title: "5N/6D Thailand Trip (Pattaya & Bangkok)",
+    location: "Thailand",
+    days: 6,
+    price: 53599,
+    image: "https://wallpapercave.com/wp/wp1916912.jpg",
+    desc: "Experience 5 Nights in Thailand covering Pattaya and Bangkok, including Coral Island, Alcazar Show, and Safari World.",
+    tags: ["Thailand", "5 Nights", "International"],
+    promoEyebrow: "Land of Smiles",
+    promoTitle: "Thailand Trip",
+    promoLine: "Beaches, Culture & City Lights",
+    specialHeading: "Tropical Adventure.",
+    stays: ["5 Nights / 6 Days", "Start: Bangkok Suvarnabhumi Airport", "End: Bangkok Suvarnabhumi Airport"],
+    gallery: [
+      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Thailand"},
+      {src: "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/piljuef8ykc7eewsaloh.jpg", alt: "Pattaya"},
+      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok"}
+    ],
+    galleryCaptions: ["Thailand Beauty", "Pattaya", "Bangkok"],
+    groupTitles: ["Dates & Prices", "Hotels & Flights", "Sightseeing"],
+    experienceGroups: [
+      ["Dates & Prices", "Start Date: 26 Aug, 2026", "Price: INR 53,599.00 per Person"],
+      ["Hotels & Flights", "Pattaya: Mind Resort Pattaya (3 Nights, Superior Room, Free breakfast) [26 Aug - 29 Aug]", "Bangkok: BAIYOKE SKY HOTEL (1 Night, Superior Standard Zone, Breakfast) [29 Aug - 30 Aug]", "Bangkok: Bangkok Palace Hotel (1 Night, Superior, Breakfast Included) [30 Aug - 31 Aug]", "Flight Onward: Thai Vietjet Air VZ-761 BOM (00:55) - BKK (06:50)", "Flight Return: Thai Vietjet Air VZ-760 BKK (21:05) - BOM (23:50)"],
+      ["Sightseeing", "Pattaya City Tour (Including Big Buddha, Pattaya View Point and Gems Gallery, without Guide) PVT", "Alcazar Show (Normal Seat) PVT", "Coral Island Tour with Lunch by Speed Boat (From Pattaya) SIC", "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) PRIVATE", "Safari World and Marine Park with Lunch (Mon Closed) PRIVATE"]
+    ],
+    itinerary: [
+      {title: "Day 1: Wednesday, August 26th, 2026 - Arrival & Pattaya City Tour", copy: "Pickup from: Bangkok Suvarnabhumi Airport Drop at: Mind Resort Pattaya. Transfers from BKK Airport to Pattaya Hotel. Pattaya City Tour (Including Big Buddha, Pattaya View Point and Gems Gallery, without Guide) | PRIVATE. Embark on a Pattaya City Tour to discover iconic landmarks like the Big Buddha, Pattaya View Point, and Gems Gallery at your own pace, without a guide. Explore the city's cultural and scenic highlights independently, ensuring a personalized experience tailored to your interests. Get ready for a day filled with sightseeing and exploration in vibrant Pattaya. Note: If big budhha is closed, the old town will be covered as an alternative."},
+      {title: "Day 2: Thursday, August 27th, 2026 - Coral Island Tour", copy: "Coral Island Tour with Lunch by Speed Boat (From Pattaya) | SIC. Embark on a thrilling Coral Island Tour by speedboat, whisking you away to pristine beaches and vibrant coral reefs. Enjoy a delicious lunch amidst stunning tropical surroundings, with opportunities for snorkeling and relaxation. Experience the beauty of Thailand's marine life on this unforgettable island adventure. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time."},
+      {title: "Day 3: Friday, August 28th, 2026 - Alcazar Show", copy: "Alcazar Show (Normal Seat) | PRIVATE. Experience the spectacular Alcazar Show in Thailand from the comfort of a normal seat. Prepare to be dazzled by extravagant costumes, mesmerizing performances, and vibrant entertainment that celebrates Thai culture in a breathtaking display of talent and beauty."},
+      {title: "Day 4: Saturday, August 29th, 2026 - Bangkok Transfer & Temple Tour", copy: "Inter-Hotel Transfer | PRIVATE Pickup from: Mind Resort Pattaya Drop at: Baiyoke Sky Hotel. Transfers from Pattaya Hotel to Bangkok Hotel. Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | PRIVATE. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship. Note: Mini Reclining Buddha Temple Bangkok Temporarily Closed from 17th April 2026 to 1st July 2026."},
+      {title: "Day 5: Sunday, August 30th, 2026 - Safari World", copy: "Pickup from: Baiyoke Sky Hotel Drop at: Bangkok Palace Hotel Transfers from Bangkok Hotel to Bangkok Hotel. Safari World and Marine Park with Lunch (Mon Closed) | PRIVATE. Join u on an exhilarating expedition to Safari World and Marine Park, inclusive of lunch (closed on Mondays). Encounter a diverse array of wildlife and witness captivating marine spectacles. With a delectable meal included, this experience promises a day of thrilling adventure and culinary delights, perfect for the whole family."},
+      {title: "Day 6: Monday, August 31st, 2026 - Departure", copy: "Pickup from: Bangkok Palace Hotel Drop at: Bangkok Suvarnabhumi Airport"}
+    ],
+    inclusions: [
+      "Pattaya: Mind Resort Pattaya (3 Nights, Superior Room, Free breakfast)",
+      "Bangkok: BAIYOKE SKY HOTEL (1 Night, Superior Standard Zone, Breakfast)",
+      "Bangkok: Bangkok Palace Hotel (1 Night, Superior, Breakfast Included)",
+      "Pattaya City Tour PVT",
+      "Alcazar Show PVT",
+      "Coral Island Tour with Lunch by Speed Boat SIC",
+      "Bangkok City Temple Tour PRIVATE",
+      "Safari World and Marine Park with Lunch PRIVATE",
+      "Airport Transfers & Inter-Hotel Transfers PVT"
+    ],
+    exclusions: [
+      "Personal Expenses",
+      "Any other services not mentioned"
+    ],
+    benefits: [
+      "Comprehensive Sightseeing",
+      "Private Transfers for Convenience",
+      "Multiple City Experience"
+    ],
+    policies: [
+      {
+        title: "Important Transfer & Sightseeing Notes",
+        details: [
+          "For SIC pick-ups, there is a 5-minute waiting time. Guests are urged to be in the lobby punctually; otherwise, it may be considered a no-show.",
+          "Upon arrival at the airport and after meeting the representative, there will be a waiting period of 15-20 minutes as the driver makes their way from the parking area.",
+          "Pickup time in SIC transfers is subject to change +/- 30mins. However, please be ready and available for pickup at the mentioned time as the coach will not wait for more than 5 minutes for the guest.",
+          "For island tour on private (PVT) basis, only the land transfers will be private. The boat/sea transfers will remain on a shared (SIC) basis. In case they wish to book a PVT boat the same will be separately charged.",
+          "Maximum waiting time for any PVT transfer is 20 minutes. If the wait time exceeds this limit, it will be considered a no-show, or additional waiting charges will apply if the guest agrees.",
+          "In case there is a delay by the guests by more than 20 minutes in case of private transfers, there will be an additional waiting charge (to be confirmed by the on-ground team) in case of SIC transfers, the same will be marked as no show after 10 minutes",
+          "The tickets for Sightseeing will be handed over by the Driver at the sightseeing.",
+          "Sightseeing tickets (if any) will be uploaded 24 hours prior to the activity.",
+          "Tiger kingdom tickets will get void if the transfers are marked as no show.",
+          "For certain sightseeing activities, if a child's height exceeds the permissible limit, any additional fees can be settled on-site.",
+          "Due to Ecological Restoration and for Long Term Sustainability, Maya Bay will be closed from 1st August 2024 to 30th September 2024.",
+          "Mini Reclining Buddha Temple Bangkok Temporarily Closed from 17th April 2026 to 1st July 2026.",
+          "Please note The Phuket - Krabi ferry operates only on Sundays, Wednesdays, and Fridays."
+        ]
+      },
+      {
+        title: "Hotel & Check-in Guidelines",
+        details: [
+          "Please note bed type is always subjected to availability at the time of Check-in, in case of Online Inventory.",
+          "Some hotels in Thailand may request a security deposit, which is typically refundable upon check-out provided there is no damage to the room. The amount varies based on the hotel's policy.",
+          "In some hotels like Centara Grand Krabi, the hotel is surrounded by water, in that case, the pick-up will be from the pier instead of the hotel lobby and the complimentary boat has to be booked directly by the guests a day before.",
+          "Standard check-in time ranges from 2 to 3 PM and early check-in is subject to availability.",
+          "Hotel Check-In/Check-Out Restrictions: Due to high demand during the festive season, hotel check-ins and check-outs may not be available on 25th, 30th, and 31st December, and 1st January at most properties.",
+          "Hotel Surcharges & Mandatory Fees: Any additional charges imposed by hotels—such as Gala Dinners, resort fees, or other mandatory surcharges—may not be included in the prices shown in the online inventory. These charges are at the sole discretion of the hotel and, if applicable, will be payable directly by the guest at the time of check-in."
+        ]
+      },
+      {
+        title: "General & Immigration Rules",
+        details: [
+          "We will not be responsible for processing refunds for any unutilized services. Moreover, in case of no show no refund or rescheduling is applicable.",
+          "Please inform the food preference well in advance if meals have been booked in the package. If not told the same will be considered as VEG.",
+          "Starting 1 May 2025, all non-Thai nationals entering Thailand by air, land, or sea must complete the Thailand Digital Arrival Card (TDAC) online before arrival. Register within 3 days before arrival. Apply here: https://tdac.immigration.go.th",
+          "Activities & Operational Feasibility: Activities scheduled for special dates are subject to operational feasibility and local authority regulations."
+        ]
+      }
+    ],
+    tagline: "Book Now with Tourswale"
+  },
+  {
+    slug: 'sri-lanka-5n',
+    title: '5N/6D Sri Lanka Tour',
+    location: 'Sri Lanka',
+    days: 6,
+    price: 38430,
+    image: 'https://www.cdn.travejar.com/storage/india_attraction_tour_image/17461684860.webp',
+    desc: 'Experience the best of Sri Lanka covering Mirissa, Yala, Nuwara Eliya, and Bentota.',
+    tags: ['Sri Lanka', '5 Nights', 'International'],
+    promoEyebrow: 'Tropical Escape',
+    promoTitle: 'Sri Lanka Getaway',
+    promoLine: 'Beaches, Wildlife & Heritage',
+    specialHeading: 'Island Serenity.',
+    stays: ['5 Nights / 6 Days', 'Start: Colombo Airport', 'End: Colombo Airport'],
+    gallery: [
+      {src: 'https://www.cdn.travejar.com/storage/india_attraction_tour_image/17461684860.webp', alt: 'Bentota Beach'},
+      {src: 'https://www.andbeyond.com/wp-content/uploads/sites/5/yala-national-park-sri-lanka-scenery-elephant.jpg', alt: 'Yala National Park'},
+      {src: 'https://tse1.mm.bing.net/th/id/OIP.2hKR3rsRU_CbUfBEJHOknwHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Nuwara Eliya'}
+    ],
+    galleryCaptions: ['Bentota Beach', 'Yala National Park', 'Nuwara Eliya'],
+    groupTitles: ['Prices & Details', 'Hotels', 'Sightseeing & Transfers'],
+    experienceGroups: [
+      ['Prices & Details', 'Per Adult (Double Sharing): INR 38,430/-', 'Child without Bed (CNB): INR 16,300/-', 'Pax: 04 Adults + 01 Child + 01 Infant (Reference ID: ltr8a)', 'Note: Quotation is based on the above pax travelling together. Any change in pax may affect the pricing.'],
+      ['Hotels', 'Mirissa (1N): Randiya Sea View Hotel – Deluxe Sea View Room (3★)', 'Yala (1N): Magampura Eco Resort – Deluxe Room (3★)', 'Nuwara Eliya (1N): Stamford Star Hotel – Deluxe Room (3★)', 'Bentota (2N): Cinnamon Bey Beruwala – Superior Ocean View Room (5★)'],
+      ['Sightseeing & Transfers', 'Transfers: Private Air-conditioned Flat Roof Van (6 Seater) with English-speaking chauffeur guide', 'Mirissa: Whale watching, Coconut Tree Hill, Secret Beach, Weligama Surf Bay', 'Yala: Morning Yala Safari', 'Nuwara Eliya: Ashok Vatika, Seetha Amman Temple, City Tour', 'Bentota: Spice & Herbal Garden, Pinnawala Elephant Orphanage, Madu River, Turtle Hatchery, Brief Garden', 'Colombo: City tour & shopping']
+    ],
+    itinerary: [
+      {title: 'Day 1: Arrival – Mirissa', copy: 'Arrival at Colombo Airport and transfer to Mirissa. Overnight stay in Mirissa.'},
+      {title: 'Day 2: Mirissa – Yala', copy: 'Early morning whale watching. Visit Coconut Tree Hill, Secret Beach & Mirissa Beach. Stop at Weligama Surf Bay. Proceed to Yala. Overnight stay in Yala.'},
+      {title: 'Day 3: Yala – Nuwara Eliya', copy: 'Morning Yala Safari. Transfer to Nuwara Eliya. En route visit Ashok Vatika (Hakgala Botanical Garden) & Seetha Amman Temple. Proceed for Nuwara Eliya city tour. Overnight stay in Nuwara Eliya.'},
+      {title: 'Day 4: Nuwara Eliya – Bentota', copy: 'Transfer to Bentota. En route visit Spice & Herbal Garden and Pinnawala Elephant Orphanage. Overnight stay in Bentota.'},
+      {title: 'Day 5: Bentota Sightseeing', copy: 'Visit Madu River, Turtle Hatchery & Brief Garden. Enjoy Bentota Beach & optional water sports. Overnight stay in Bentota.'},
+      {title: 'Day 6: Bentota – Colombo – Departure', copy: 'Transfer to Colombo. Proceed for city tour & shopping. Drop at airport for departure.'}
+    ],
+    inclusions: [
+      'Meet & greet assistance at Colombo Airport',
+      'Garland welcome on arrival',
+      'Accommodation in the mentioned hotels or similar',
+      'Daily breakfast at all hotels',
+      'Private Air-conditioned Flat Roof Van (6 Seater) with English-speaking chauffeur guide',
+      'All transfers & sightseeing as per itinerary',
+      'Fuel, insurance, parking, tolls & chauffeur expenses',
+      'All applicable taxes in Sri Lanka'
+    ],
+    exclusions: [
+      'Airfare & Visa (ETA)',
+      'Entrance fees to sites',
+      'Camera & video permits',
+      'Meals other than breakfast',
+      'Personal expenses',
+      'Early check-in & late check-out',
+      'Any services not mentioned in inclusions'
+    ],
+    benefits: [
+      'Premium Stay in Bentota',
+      'Private Chauffeur Guide',
+      'Comprehensive Sightseeing'
+    ],
+    policies: [
+      {
+        title: 'Terms & Conditions',
+        details: [
+          'Hotels are subject to availability at the time of booking.',
+          'Rates & taxes may change as per government regulations.',
+          'Standard check-in: 14:00 hrs | Check-out: 12:00 hrs.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'singapore-malaysia-6n',
+    title: '6N/7D Singapore with Malaysia Tour',
+    location: 'Singapore & Malaysia',
+    days: 7,
+    price: 324705,
+    image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Experience 6 Nights covering the best of Singapore and Kuala Lumpur featuring Night Safari, Universal Studios, and Genting Highlands.',
+    tags: ['Singapore', 'Malaysia', '6 Nights', 'International'],
+    promoEyebrow: 'Explore the Best of SE Asia',
+    promoTitle: 'Singapore & Malaysia',
+    promoLine: 'Cityscapes, Studios & Highlands',
+    specialHeading: 'Dual Nation Adventure.',
+    stays: ['6 Nights / 7 Days', 'Start: Singapore Changi Airport', 'End: Malaysia Airport'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80', alt: 'Singapore'},
+      {src: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f0a?auto=format&fit=crop&w=1200&q=80', alt: 'Kuala Lumpur'},
+      {src: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=1200&q=80', alt: 'Gardens by the Bay'}
+    ],
+    galleryCaptions: ['Singapore Skyline', 'Kuala Lumpur', 'Gardens by the Bay'],
+    groupTitles: ['Prices & Details', 'Hotels', 'Sightseeing & Transfers'],
+    experienceGroups: [
+      ['Prices & Details', 'Price: INR 3,24,705/- For All', 'Pax Details: 4 Adults + 2 Child (10 and 6 year)', 'Rooms: 2', 'Meal Plan: Breakfast'],
+      ['Hotels', 'Singapore (4 Nights): ibis Singapore Novena (Standard room) with Breakfast', 'Kuala Lumpur (2 Nights): Ramada Encore by Wyndham KL Chinatown (Family Triple Room) with Breakfast'],
+      ['Sightseeing & Transfers', 'Singapore Sightseeing: Night Safari, Universal Studios, Sentosa Magic, City Tour, Gardens by the Bay', 'Kuala Lumpur Sightseeing: Half Day City Tour with KL Tower, Full Day Genting Highlands with Batu Caves', 'Transfers: Private Airport Transfers, Singapore to Malaysia Coach Ticket']
+    ],
+    itinerary: [
+      {title: "Day 1: Arrival in Singapore & Night Safari", copy: "Singapore Airport Pickup and evening Night Safari on Sic basis."},
+      {title: "Day 2: Universal Studios", copy: "Full Day Universal Studio sightseeing."},
+      {title: "Day 3: Sentosa Island", copy: "Full Day Sentosa island (1 way Cable Car with Sentosa Cable Line, Madame Tussauds 5-in-1, and Wings of Time 7:30 PM)."},
+      {title: "Day 4: Singapore City Tour & Gardens by the Bay", copy: "Half Day City tour with Garden by the bay and Marina bay sky park."},
+      {title: "Day 5: Singapore to Malaysia Transfer", copy: "After breakfast check out and transfer to Malaysia by bus. Reach at Malaysia coach station transfer to hotel for stay."},
+      {title: "Day 6: Genting Highlands Tour", copy: "Full Day Genting Highlands Tour with Photo Stop at Batu Caves with Cable Car Tickets."},
+      {title: "Day 7: Departure", copy: "Half Day City Tour with KL Tower Tour and drop at Malaysia airport."}
+    ],
+    inclusions: [
+      'Singapore: ibis Singapore Novena (4 Nights, Standard room, Breakfast)',
+      'Kuala Lumpur: Ramada Encore by Wyndham KL Chinatown (2 Nights, Family Triple Room, Breakfast)',
+      'Private Airport Transfers in Singapore and Malaysia',
+      'Singapore Sightseeing (Night Safari, Universal Studios, Sentosa Magic, City Tour, Gardens by the Bay)',
+      'Kuala Lumpur Sightseeing (City Tour with KL Tower, Genting Highlands with Batu Caves)',
+      'Singapore to Malaysia Coach Ticket'
+    ],
+    exclusions: [
+      'Personal Expenses',
+      'Any other services not mentioned'
+    ],
+    benefits: [
+      'Multi-Country Experience',
+      'Comprehensive Sightseeing',
+      'Organized Inter-city Coach Transfers'
+    ],
+    policies: [
+      {
+        title: 'Important Transfer Notes',
+        details: [
+          'Available for pickup at the mentioned time as the coach will not wait for more than 5 minutes for the guest.',
+          'Maximum waiting time for any PVT transfer is 20 mins. If the wait time exceeds the 20 mins mark additional waiting charges will be applicable.',
+          'We will not be responsible to process refund for any unutilized services. Moreover, in case of no show no refund or rescheduling is applicable.',
+          'After the city tour on SIC, drop-off will be at Little India. Pick-up will also be from Little India for the next scheduled activity. If the client opts for only the City Tour SIC, the guest must arrange their transfer from Little India or request a private one-way transfer in advance from Little India to the hotel at an additional cost.',
+          'The maximum permissible occupancy for a 13-seater vehicle in airport transfers is 8 passengers, allowing for 6 normal luggage and 6 hand luggage.',
+          'Pickup time in SIC transfers is subject to change +/- 30mins.',
+          'Customers travelling from Singapore to Kuala Lumpur by Coach need to call the Hotline Number after crossing SUNGAI BESI TOLL PLAZA for timely pick up from Coach drop off point.',
+          'SIC Transfers are not applicable from 10:00 pm to 7:00 am. Only private vehicles will be applicable with a midnight surcharge.'
+        ]
+      },
+      {
+        title: 'Additional Guidelines',
+        details: [
+          'SIC Timings: Night Safari 5:30 PM(Pick) - 9:30 PM(Drop), City Tour 10 AM(Pick) - 1 PM(Drop), Universal Studios 8:30 AM(Pick) - 7 PM(Drop), Sentosa 8:30 AM/2 PM(Pick) - 8:30 PM(Drop), Gardens by the Bay 2 PM(Pick) - 8:30 PM(Drop).',
+          'The room size in Singapore is relatively small. Kindly go through the hotel’s website for better visibility.',
+          'Luge, Skyride (2 ride) (Slots are subject to availability). Bed type is subject to availability.',
+          'Coach Ticket prices are Dynamic and will be reconfirmed at the time of Booking.',
+          'Child age is mandatory to share as few hotels charge an extra bed above 5 years of age.',
+          'Any special request such as early check-in / late check-out is subject to availability upon arrival and solely depends on hotel discretion.',
+          'Malaysia Tourism Tax of RM 10.00 per room per night will be levied for all foreign tourists, not included in the room rate and collected directly at check-in.'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
+  {
+    slug: 'singapore-5n-aug2026',
+    title: '5N Singapore Trip (04 Aug, 2026 - 09 Aug, 2026)',
+    location: 'Singapore',
+    days: 6,
+    price: 102536,
+    image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',
+    desc: 'Experience 5 Nights in Singapore featuring Night Safari, Universal Studios, Gardens by the Bay, and Sentosa.',
+    tags: ['Singapore', '5 Nights', 'International'],
+    promoEyebrow: 'Explore the Lion City',
+    promoTitle: 'Singapore Trip',
+    promoLine: 'City Lights, Gardens & Studios',
+    specialHeading: 'Modern Marvels.',
+    stays: ['5 Nights / 6 Days', 'Start: Singapore Changi Airport', 'End: Singapore Changi Airport'],
+    gallery: [
+      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80', alt: 'Singapore'},
+      {src: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=1200&q=80', alt: 'Gardens by the Bay'},
+      {src: 'https://static.vecteezy.com/system/resources/previews/022/843/480/large_2x/singapore-oct-28-universal-studios-singapore-sign-on-october-28-2014-universal-studios-singapore-is-a-theme-park-located-within-resorts-world-sentosa-on-sentosa-island-singapore-free-photo.jpg', alt: 'Universal Studios'}
+    ],
+    galleryCaptions: ['Singapore Skyline', 'Gardens by the Bay', 'Universal Studios'],
+    groupTitles: ['Dates & Prices', 'Hotels & Flights', 'Sightseeing', 'Rajesh\'s 4N Option'],
+    experienceGroups: [
+      ['Dates & Prices', '04 Aug, 2026 - 09 Aug, 2026', 'Price: INR 1,02,536.00 Per Person'],
+      ['Hotels & Flights', 'Hotel Boss, Singapore (5 Nights)', '1 Superior Double Room, City View (Breakfast), 1 Queen Bed', 'Flight IndiGo BOM (01:20) - SIN (09:45)', 'Flight IndiGo SIN (19:45) - BOM (22:45)'],
+      ['Sightseeing', 'Universal Studios SIC', 'City Tour with Guide (3 Hours) SIC', 'Gardens by the Bay & Marina Bay SkyPark', 'Sentosa Popular (1 way Cable Car, Oceanarium, Wings of Time)', 'Night Safari SIC'],
+      ['Rajesh\'s 4N Option', 'Price: INR 79,937/- per person (8 Rooms | 16 Adults)', 'Hotel: V Hotel Lavender, Singapore (4 Nights, Superior Double with Breakfast)', 'Transfers: Private (Pick up/Drop Singapore Changi)', 'Sightseeing: Night Safari, Full day Universal Studios', 'Sightseeing: Sentosa Magic (1 way Cable Car, Madame Tussauds 5-in-1, Wings of Time 7:30 PM)', 'Sightseeing: City Tour with Guide (3 Hours) with Gardens by the Bay (New Flower Dome and Cloud Forest) and Marina Bay SkyPark (Before 3.30)']
+    ],
+    itinerary: [
+      {title: 'Day 1: Tuesday, August 4th, 2026 - Arrival & Night Safari', copy: 'Arrival Pickup from: Singapore Changi Airport Drop at: Hotel Boss. Night Safari | SIC. Discover Night Safari Singapore, the world\'s first nocturnal zoo. Encounter over 2,500 animals from diverse habitats as night falls. Night Safari Hours of Operation: Daily 6.30 PM - Midnight (last entry 11.15 PM)'},
+      {title: 'Day 2: Wednesday, August 5th, 2026 - Universal Studios', copy: 'Universal Studios | SIC. Universal Studios Singapore offers an exhilarating adventure for all ages featuring blockbuster movie-themed attractions thrilling rides live entertainment and immersive experiences. Hours of Operation: Daily 10:00 AM to 8:00 PM.'},
+      {title: 'Day 3: Thursday, August 6th, 2026 - City Tour', copy: 'City Tour with Guide (3 Hours) | SIC. Embark on an exclusive exploration of Singapore with our private 3-hour city tour. Drive through Financial District, Suntec City, Merlion Park. Note that the city tour concludes at Little India. For SIC Tour- Guests will be dropped at Little India.'},
+      {title: 'Day 4: Friday, August 7th, 2026 - Free Time', copy: 'Free time for shopping.'},
+      {title: 'Day 5: Saturday, August 8th, 2026 - Gardens by the Bay & MBS SkyPark', copy: 'Gardens by the Bay (New Flower Dome and Cloud Forest with Jurassic World) and Marina Bay SkyPark (Peak) | TICKETS ONLY. Flower Dome, Cloud Forest, and Marina Bay SkyPark (Entry from 5:00 P.M.) offering breathtaking 360-degree views of Singapore\'s skyline.'},
+      {title: 'Day 6: Sunday, August 9th, 2026 - Departure', copy: 'Departure Pickup from: Hotel Boss Drop at: Singapore Changi Airport.'}
+    ],
+    inclusions: [
+      '5 Nights accommodation at Hotel Boss, Singapore with Breakfast',
+      'Universal Studios SIC',
+      'City Tour with Guide (3 Hours) SIC',
+      'Gardens by the Bay and Marina Bay SkyPark',
+      'Sentosa Popular',
+      'Night Safari SIC',
+      'Airport Transfers'
+    ],
+    exclusions: [
+      'Personal Expenses',
+      'Visa fees if applicable',
+      'Any other services not mentioned'
+    ],
+    benefits: [
+      'Premium Hotel Stay',
+      'Comprehensive Sightseeing',
+      'Organized Transfers'
+    ],
+    policies: [
+      {
+        title: 'Important T&C',
+        details: [
+          'The maximum permissible occupancy for a 13-seater vehicle in airport transfers is 8 passengers, allowing for 6 normal luggage and 6 hand luggage.',
+          'The room size in Singapore is relatively small. Kindly go through the hotel’s website for better visibility.',
+          'Bed type is subject to availability.',
+          'Any special request such as early check-in / late check-out is subject to availability upon arrival and solely depends on hotel discretion.',
+          'There will be no Honeymoon freebies provided, unless confirmed by the hotel in writing.',
+          'In Singapore Airport Transfers, per person single luggage is allowed. Additional vehicle used for extra luggage will be charged extra.',
+          'Pickup time in SIC transfers is subject to change +/- 30mins. However, please be ready and available for pickup at the mentioned time as the coach will not wait for more than 5 minutes for the guest.',
+          'Maximum waiting time for any PVT transfer is 20 mins. If the wait time exceeds the 20 mins mark additional waiting charges will be applicable.',
+          'We will not be responsible to process refund for any unutilized services. Moreover, in case of no show no refund or rescheduling is applicable.'
+        ]
+      },
+      {
+        title: 'General Terms and Conditions',
+        details: [
+          'Prior to arrival in Singapore, all travelers must submit their SG Arrival Card using the provided link: https://eservices.ica.gov.sg/sgarrivalcard.',
+          'Upon clearing immigration and collecting luggage, please proceed directly to the Information Counter located near the exit door. Complimentary Wi-Fi is available at the airport for your convenience.',
+          'Please note bed type is always subjected to availability at the time of Check-in, in case of Online Inventory.',
+          'Local SIM cards are easily obtainable at stores near your hotel. It\'s advisable not to purchase them at the airport, as your driver will be awaiting your pickup.',
+          'The standard check-in time in Singapore is 15:00 Hrs, and checkout time is 12:00 Hrs.',
+          'There is no waiting time for SIC transfers. Kindly adhere to your itinerary and be prepared at your designated pickup point.',
+          'Amendments to SIC tours are not possible. Amendments to private tours are subject to availability, with no changes permitted after 3:00 PM (Singapore time).',
+          'For itineraries including the Singapore Oceanarium and Madame Tussaud, it\'s recommended to visit these attractions first as they close at 4:00 PM.',
+          'Begin your tour at the MBS Skypark before visiting the Gardens by the Bay, as entry after 4:00 PM is based on time slots. Plan to visit the MBS Skypark before this time.',
+          'To book a slot for Madame Tussauds, please refer to the link provided in your tickets.',
+          'In Singapore City tour the default drop point is Little India. If you want to get dropped at Hotel , you can directly ask the driver for the same. Additionally, in case of any activity scheduled after city tour the default pickup will be from Little India. In case you want to get picked at Hotel, you can directly ask the driver for pickup.',
+          'Infant with height less than 1.05 m will not be allowed at certain sightseeings like sky helix etc.',
+          'Sightseeing tickets (if any) will be uploaded 24 hours prior to the activity.',
+          'Please note that the hotel may require a refundable security deposit at the time of check-in. The amount varies based on the hotel\'s policy and will be returned at the time of check-out, subject to any incidental charges.',
+          'Maximum waiting time for any PVT transfer is 10 minutes. If the wait time exceeds this limit, it will be considered a no-show, or additional waiting charges will apply if the guest agrees.',
+          'Hotel Check-In/Check-Out Restrictions: Due to high demand during the festive season, hotel check-ins and check-outs may not be available on 25th, 30th, and 31st December, and 1st January at most properties.',
+          'Hotel Surcharges & Mandatory Fees: Any additional charges imposed by hotels may not be included in the prices shown in the online inventory. These charges are payable directly by the guest at check-in.',
+          'Activities & Operational Feasibility: Activities scheduled for 25th, 30th, 31st December, and 1st January are subject to operational feasibility and local authority regulations.'
+        ]
+      },
+      {
+        title: 'Instructions for Guests',
+        details: [
+          '1. Madame Tussauds Booking: Guests must book their slot for Madame Tussauds themselves once they receive their tickets.',
+          '2. Madame Tussauds Timing: Please inform guests to visit Madame Tussauds first, as it closes at 4 PM.',
+          '3. MBS Skypark and Gardens by the Bay: Guests should visit MBS Skypark first, as the last entry is at 3:30 PM. Afterward, they can visit Gardens by the Bay, where entry after 4 PM will be on a slot basis. The slot for MBS Skypark is booked between 3-4 PM.',
+          '4. Singapore Oceanarium: Please inform guests to cover the Singapore Oceanarium as it closes by 4 PM.',
+          '5. Changing Private Tour Timings: If you wish to change the timing of any private tour, please inform us at least one day prior, before 4 PM (local Singapore time).',
+          '6. Driver Waiting Time: For private tours and transfers, the driver will wait up to limits as advised.',
+          '7. Private Transfers: Private transfers will be provided using a 13-seater combi.',
+          '8. Tour Pickup Location: Pickup for tours will be from the hotel concierge (lobby).'
+        ]
+      }
+    ],
+    tagline: 'Book Now with Tourswale'
+  },
   {
     slug: 'thailand-phuket-pattaya-bangkok-7d',
     title: '6N/7D Thailand Highlights (Phuket, Pattaya, Bangkok)',
