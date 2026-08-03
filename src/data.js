@@ -1,5 +1,5 @@
-export const images={hero:'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2200&q=85',kashmir:'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80',rajasthan:'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80',kerala:'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',ladakh:'https://wallpapercave.com/wp/wp7029244.jpg',andaman:'https://travelogyindia.b-cdn.net/storage/app/upload/havelock-island-in-andaman-banner.jpg',himachal:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',switzerland:'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80',italy:'https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=80',japan:'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80',bali:'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80',dubai:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80',singapore:'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',turkiye:'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80',usa:'https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1200&q=80'};
-export const domestic=[
+export const images = { hero: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2200&q=85', kashmir: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80', rajasthan: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80', kerala: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80', ladakh: 'https://wallpapercave.com/wp/wp7029244.jpg', andaman: 'https://travelogyindia.b-cdn.net/storage/app/upload/havelock-island-in-andaman-banner.jpg', himachal: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80', switzerland: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80', italy: 'https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=80', japan: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80', bali: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80', dubai: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80', singapore: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80', turkiye: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80', usa: 'https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1200&q=80' };
+export const domestic = [
   {
     slug: 'andaman-6n-7d-ariees-grand',
     title: "6N/7D Andaman Tour (Port Blair, Havelock, Neil)",
@@ -15,9 +15,9 @@ export const domestic=[
     specialHeading: "Tropical Escape.",
     stays: ["6 Nights / 7 Days", "Start: Port Blair", "End: Port Blair"],
     gallery: [
-      {src: "https://mediaim.expedia.com/destination/1/e85c8b7e12b52bc84e5ec9c77a73fcf0.jpg", alt: "Port Blair"},
-      {src: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800", alt: "Havelock Island"},
-      {src: "https://tse1.mm.bing.net/th/id/OIP.it80vPqs0DxV4wzt5SAbZQHaDm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3", alt: "Neil Island"}
+      { src: "https://mediaim.expedia.com/destination/1/e85c8b7e12b52bc84e5ec9c77a73fcf0.jpg", alt: "Port Blair" },
+      { src: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800", alt: "Havelock Island" },
+      { src: "https://tse1.mm.bing.net/th/id/OIP.it80vPqs0DxV4wzt5SAbZQHaDm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3", alt: "Neil Island" }
     ],
     galleryCaptions: ["Port Blair", "Havelock", "Neil Island"],
     groupTitles: ["Details", "Hotels", "Inclusions"],
@@ -27,13 +27,13 @@ export const domestic=[
       ["Inclusions", "Accommodation on twin sharing basis", "Land transportation (MUV 6 Pax) from pick up till drop as per itinerary", "Complimentary use of hotel recreation facilities (subject to availability)", "Vehicle cost includes fuel, Driver allowance, Toll/Parking", "Ferry: Port Blair to Havelock, Havelock to Neil, Neil to Port Blair"]
     ],
     itinerary: [
-      {title: "Day 1: Arrive Port Blair. Corbyn's Cove beach & Cellular Jail", copy: "Arrive at Veer Savarkar Airport, Port Blair. Meet our local representative and get transferred to your pre-booked hotel. Check in & fresh up. Later in the afternoon, visit Corbyn’s Cove beach. 09 Kms from Port Blair - a coconut palm fringed beach, ideal for swimming, sun-basking & bathing. Visit Cellular jail. Famously known as 'Kala Paani' which is a national memorial now. Also, eyewitness the enthralling light and sound show at the cellular jail where heroic saga of our great freedom fighters bought alive. Later return back to our hotel. Overnight at Port Blair."},
-      {title: "Day 2: Port Blair - Ross Island – North Bay", copy: "After breakfast, get ready for a full day trip to North Island (Coral island) and Ross Island. North Bay is famous for its exotic variety of corals and colorful ornamental fishes. Optional activities available. Later, visit Ross Island from where the Britishers ruled the entire A& N islands. Today, the island is in ruins and its scenic beauty attracts many history buffs. Overnight at Port Blair. (Note: Entry ticket of Ross Island is directly paid. Itinerary depends on weather conditions)."},
-      {title: "Day 3: Port Blair to Havelock Island. Visit Radha Nagar Beach", copy: "Today, get transferred to the jetty to catch your luxury tourist ferry to Havelock Island (57 km by sea). On arrival at Havelock jetty, meet our local representative and board our vehicle to visit world famous Radha Nagar beach. It truly is a mesmerizing curve of white sand with perfectly colored blue waters, all lined by lush forest and palm trees. Overnight at Havelock Island."},
-      {title: "Day 4: Havelock Island - Day Free for Leisure", copy: "After breakfast, day free for leisure activities/ Game Fishing/water sports on direct payment basis. Activities available: Snorkeling, Scuba diving, Game fishing, Kayaking and Sea walk. Overnight at Havelock Island. (No vehicle included for this day)"},
-      {title: "Day 5: Transfer from Havelock to Neil Island - Laxmanpur beach", copy: "After breakfast, check out from your hotel. Later return back to Havelock jetty to catch your luxury tourist ferry to Neil Island (18 km by sea). Upon arrival, meet our local representative and get transferred to your hotel. Neil Island is known as Vegetable bowl of Andaman Islands. Later visit Laxmanpur beach where you can get a chance to visit Natural Bridge (subject to low tides). Overnight at Neil Island."},
-      {title: "Day 6: Neil Island to Port Blair.", copy: "After breakfast, check out and board your vehicle to Bharatpur beach. This beach is ideal for swimming and water sports activities are available at extra cost. Later in the evening, reach to Bharatpur jetty to board your luxury tourist ferry to Port Blair. On arrival get transferred to your hotel. Overnight at Port Blair."},
-      {title: "Day 7: Port Blair hotel to Airport Drop.", copy: "After breakfast, get transferred to Veer Savarkar airport, Port Blair to catch your return flight back to home. Return home with wonderful memories."}
+      { title: "Day 1: Arrive Port Blair. Corbyn's Cove beach & Cellular Jail", copy: "Arrive at Veer Savarkar Airport, Port Blair. Meet our local representative and get transferred to your pre-booked hotel. Check in & fresh up. Later in the afternoon, visit Corbyn’s Cove beach. 09 Kms from Port Blair - a coconut palm fringed beach, ideal for swimming, sun-basking & bathing. Visit Cellular jail. Famously known as 'Kala Paani' which is a national memorial now. Also, eyewitness the enthralling light and sound show at the cellular jail where heroic saga of our great freedom fighters bought alive. Later return back to our hotel. Overnight at Port Blair." },
+      { title: "Day 2: Port Blair - Ross Island – North Bay", copy: "After breakfast, get ready for a full day trip to North Island (Coral island) and Ross Island. North Bay is famous for its exotic variety of corals and colorful ornamental fishes. Optional activities available. Later, visit Ross Island from where the Britishers ruled the entire A& N islands. Today, the island is in ruins and its scenic beauty attracts many history buffs. Overnight at Port Blair. (Note: Entry ticket of Ross Island is directly paid. Itinerary depends on weather conditions)." },
+      { title: "Day 3: Port Blair to Havelock Island. Visit Radha Nagar Beach", copy: "Today, get transferred to the jetty to catch your luxury tourist ferry to Havelock Island (57 km by sea). On arrival at Havelock jetty, meet our local representative and board our vehicle to visit world famous Radha Nagar beach. It truly is a mesmerizing curve of white sand with perfectly colored blue waters, all lined by lush forest and palm trees. Overnight at Havelock Island." },
+      { title: "Day 4: Havelock Island - Day Free for Leisure", copy: "After breakfast, day free for leisure activities/ Game Fishing/water sports on direct payment basis. Activities available: Snorkeling, Scuba diving, Game fishing, Kayaking and Sea walk. Overnight at Havelock Island. (No vehicle included for this day)" },
+      { title: "Day 5: Transfer from Havelock to Neil Island - Laxmanpur beach", copy: "After breakfast, check out from your hotel. Later return back to Havelock jetty to catch your luxury tourist ferry to Neil Island (18 km by sea). Upon arrival, meet our local representative and get transferred to your hotel. Neil Island is known as Vegetable bowl of Andaman Islands. Later visit Laxmanpur beach where you can get a chance to visit Natural Bridge (subject to low tides). Overnight at Neil Island." },
+      { title: "Day 6: Neil Island to Port Blair.", copy: "After breakfast, check out and board your vehicle to Bharatpur beach. This beach is ideal for swimming and water sports activities are available at extra cost. Later in the evening, reach to Bharatpur jetty to board your luxury tourist ferry to Port Blair. On arrival get transferred to your hotel. Overnight at Port Blair." },
+      { title: "Day 7: Port Blair hotel to Airport Drop.", copy: "After breakfast, get transferred to Veer Savarkar airport, Port Blair to catch your return flight back to home. Return home with wonderful memories." }
     ],
     inclusions: [
       "Accommodation on twin sharing basis in mentioned hotels",
@@ -94,9 +94,9 @@ export const domestic=[
     specialHeading: "Tropical Escape.",
     stays: ["4 Nights / 5 Days", "Start: Port Blair", "End: Port Blair"],
     gallery: [
-      {src: "https://mediaim.expedia.com/destination/1/e85c8b7e12b52bc84e5ec9c77a73fcf0.jpg", alt: "Port Blair"},
-      {src: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800", alt: "Havelock Island"},
-      {src: "https://tse1.mm.bing.net/th/id/OIP.it80vPqs0DxV4wzt5SAbZQHaDm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3", alt: "Neil Island"}
+      { src: "https://mediaim.expedia.com/destination/1/e85c8b7e12b52bc84e5ec9c77a73fcf0.jpg", alt: "Port Blair" },
+      { src: "https://lp-cms-production.imgix.net/2019-06/GettyImages-526836625_medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800", alt: "Havelock Island" },
+      { src: "https://tse1.mm.bing.net/th/id/OIP.it80vPqs0DxV4wzt5SAbZQHaDm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3", alt: "Neil Island" }
     ],
     galleryCaptions: ["Port Blair", "Havelock", "Neil Island"],
     groupTitles: ["Details", "Hotels", "Inclusions"],
@@ -106,11 +106,11 @@ export const domestic=[
       ["Inclusions", "Accommodation on twin sharing basis", "Land transportation by Sedan (Capacity 4 Pax)", "Complimentary use of hotel recreation facilities (subject to availability)", "Vehicle cost includes fuel, Driver allowance, Toll/Parking", "Candle Light Dinner Beach Side (1 Couple at Aquays Resorts)", "Flower Bed Decoration (1 Couple at Aquays Resorts)", "Ferry: Port Blair to Havelock, Havelock to Neil, Neil to Port Blair"]
     ],
     itinerary: [
-      {title: "Day 1: Arrive Port Blair. Corbyn's Cove beach & Cellular Jail", copy: "Arrive at Veer Savarkar Airport, Port Blair. Meet our local representative and get transferred to your pre-booked hotel. Check in & fresh up. Later in the afternoon, visit Corbyn’s Cove beach. 09 Kms from Port Blair - a coconut palm fringed beach, ideal for swimming, sun-basking & bathing. Visit Cellular jail. Famously known as 'Kala Paani' which is a national memorial now. Also, eyewitness the enthralling light and sound show at the cellular jail where heroic saga of our great freedom fighters bought alive. Later return back to our hotel. Overnight at Port Blair."},
-      {title: "Day 2: Port Blair to Havelock Island (by private ferry). Visit Radha Nagar Beach & Elephant beach trip", copy: "Today, get transferred to the jetty to catch your luxury tourist ferry to Havelock Island (57 km by sea). On arrival at Havelock jetty, meet our local representative and get transferred to hotel, check in & immediately board your vehicle to Havelock island jetty for your visit to Elephant beach. Elephant beach is approximately 20 minutes from Havelock Island and can be reached by speedboat. This place offers beautiful white sand beach along with an amazing coral reef. Later, visit Radha Nagar beach. It truly is a mesmerizing curve of white sand with perfectly coloured blue waters, all lined by lush forest and palm trees. Overnight at Havelock Island."},
-      {title: "Day 3: Kalapathar Visit. Transfer to Neil Island from Havelock - Laxmanpur beach", copy: "After breakfast, check out from your hotel and board your vehicle to Kalapathar beach. This is an ideal spot for photography or picnic. Later return back to Havelock jetty to catch your luxury tourist ferry to Neil Island (18 km by sea). Upon arrival, meet our local representative and get transferred to your hotel. Neil Island is known as Vegetable bowl of Andaman Islands. Later visit Laxmanpur beach where you can get a chance to visit Natural Bridge (subject to low tides). Overnight at Neil Island."},
-      {title: "Day 4: Neil Island to Port Blair. Chidiyatapu Sightseeing.", copy: "After breakfast in the morning, check out and get transferred to Neil Island jetty for your transfers back to Port Blair. On arrival, get transferred to your hotel and immediately after that, we will take you to the southernmost tip of South Andaman, Chidiyatapu (35 kms from Port Blair). The lush green mangroves, forest cover with numerous chirping birds and the Sylvan sands and Munda Pahar beaches make it an ideal picnic site. Later, return back to the hotel. Overnight at Port Blair."},
-      {title: "Day 5: Port Blair hotel to Airport Drop.", copy: "After breakfast, get transferred to Veer Savarkar airport, Port Blair to catch your return flight back to home. Return home with wonderful memories."}
+      { title: "Day 1: Arrive Port Blair. Corbyn's Cove beach & Cellular Jail", copy: "Arrive at Veer Savarkar Airport, Port Blair. Meet our local representative and get transferred to your pre-booked hotel. Check in & fresh up. Later in the afternoon, visit Corbyn’s Cove beach. 09 Kms from Port Blair - a coconut palm fringed beach, ideal for swimming, sun-basking & bathing. Visit Cellular jail. Famously known as 'Kala Paani' which is a national memorial now. Also, eyewitness the enthralling light and sound show at the cellular jail where heroic saga of our great freedom fighters bought alive. Later return back to our hotel. Overnight at Port Blair." },
+      { title: "Day 2: Port Blair to Havelock Island (by private ferry). Visit Radha Nagar Beach & Elephant beach trip", copy: "Today, get transferred to the jetty to catch your luxury tourist ferry to Havelock Island (57 km by sea). On arrival at Havelock jetty, meet our local representative and get transferred to hotel, check in & immediately board your vehicle to Havelock island jetty for your visit to Elephant beach. Elephant beach is approximately 20 minutes from Havelock Island and can be reached by speedboat. This place offers beautiful white sand beach along with an amazing coral reef. Later, visit Radha Nagar beach. It truly is a mesmerizing curve of white sand with perfectly coloured blue waters, all lined by lush forest and palm trees. Overnight at Havelock Island." },
+      { title: "Day 3: Kalapathar Visit. Transfer to Neil Island from Havelock - Laxmanpur beach", copy: "After breakfast, check out from your hotel and board your vehicle to Kalapathar beach. This is an ideal spot for photography or picnic. Later return back to Havelock jetty to catch your luxury tourist ferry to Neil Island (18 km by sea). Upon arrival, meet our local representative and get transferred to your hotel. Neil Island is known as Vegetable bowl of Andaman Islands. Later visit Laxmanpur beach where you can get a chance to visit Natural Bridge (subject to low tides). Overnight at Neil Island." },
+      { title: "Day 4: Neil Island to Port Blair. Chidiyatapu Sightseeing.", copy: "After breakfast in the morning, check out and get transferred to Neil Island jetty for your transfers back to Port Blair. On arrival, get transferred to your hotel and immediately after that, we will take you to the southernmost tip of South Andaman, Chidiyatapu (35 kms from Port Blair). The lush green mangroves, forest cover with numerous chirping birds and the Sylvan sands and Munda Pahar beaches make it an ideal picnic site. Later, return back to the hotel. Overnight at Port Blair." },
+      { title: "Day 5: Port Blair hotel to Airport Drop.", copy: "After breakfast, get transferred to Veer Savarkar airport, Port Blair to catch your return flight back to home. Return home with wonderful memories." }
     ],
     inclusions: [
       "Accommodation on twin sharing basis in mentioned hotels",
@@ -172,9 +172,9 @@ export const domestic=[
     specialHeading: 'Mystical Himalayas.',
     stays: ['6 Nights / 7 Days', 'Start: Bagdogra/NJP', 'End: Bagdogra/NJP'],
     gallery: [
-      {src: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4', alt: 'Darjeeling'},
-      {src: 'https://nomadicweekends.com/blog/wp-content/uploads/2019/02/30127578_1691986214228436_4746460975484370944_o-1.jpg', alt: 'Sikkim Valley'},
-      {src: 'https://static.toiimg.com/photo/56621791/.jpg', alt: 'Monastery'}
+      { src: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4', alt: 'Darjeeling' },
+      { src: 'https://nomadicweekends.com/blog/wp-content/uploads/2019/02/30127578_1691986214228436_4746460975484370944_o-1.jpg', alt: 'Sikkim Valley' },
+      { src: 'https://static.toiimg.com/photo/56621791/.jpg', alt: 'Monastery' }
     ],
     galleryCaptions: ['Darjeeling', 'Sikkim Valley', 'Monastery'],
     groupTitles: ['Inclusions', 'Transportation & Flights', 'Hotels & Pricing'],
@@ -184,13 +184,13 @@ export const domestic=[
       ['Hotels & Pricing', 'Option 1 (3 Star Deluxe): ₹1,81,300/- for 3 Adults', 'Option 2 (4 Star): ₹1,89,200/- for 3 Adults', 'Gangtok (3N): Avianna / Yashshree Sikkim Blossom', 'Pelling (1N): Voyage Dream Villa / Yashshree Chekhim', 'Darjeeling (2N): RJ Resort / Yashshree Mall Road']
     ],
     itinerary: [
-      {title: 'Day 1 : Bagdogra Airport / NJP to Gangtok', copy: 'On arrival at New Jalpaiguri Junction Railway Station/Ixb Airport, our driver will meet and greet you and board you to the vehicle. Then you will make your way to the hotel in Gangtok. Stay overnight at Gangtok.'},
-      {title: 'Day 2 : Gangtok - Local Sightseeing', copy: 'Post breakfast start for a Full day city tour covering Tashi view point, Ganesh Tok, Hanuman Tok, Plant Conservatory, Cottage Industry and Handicraft Centre, Institute of Tibetology, Dro-dul Chorten, and Banjhakri Waterfalls. Stay overnight at Gangtok.'},
-      {title: 'Day 3 : Gangtok - Excursion to Tsomgo Lake & New Baba Mandir', copy: 'Post breakfast, visit Tsomgo Lake (12,400 ft.), a high altitude sacred lake. Then visit New Baba Mandir (13,200 ft.). Later you are returned to the hotel. Stay overnight at Gangtok.'},
-      {title: 'Day 4 : Gangtok to Pelling', copy: 'Post breakfast transfer to Pelling. On your way, pass through attractions of Namchi Siddheshwar Dham (Chardham). Then visit Ravangla Buddha Park. On arrival at Pelling, check in to the hotel. Stay overnight at Pelling.'},
-      {title: 'Day 5 : Pelling to Darjeeling', copy: 'Post breakfast check out and visit Skywalk, Pemayangtse Monastery, Rabdentse Ruins, and Bird Sanctuary. After sightseeing, transfer to Darjeeling. Rest of the day is free. Stay overnight at Darjeeling.'},
-      {title: 'Day 6 : Darjeeling - Local Sightseeing', copy: 'Early visit to Tiger hill to watch sunrise over Mt. Khangchendzonga. On way back see Ghoom Monastery and Batasia Loop. After breakfast, tour covers Japanese Temple, Peace Pagoda, Himalayan Mountaineering Institute, Padmaja Naidu Zoological Park, Tenzing Rock, Tibetan Refugee Centre, and Tea Garden. Stay overnight at Darjeeling.'},
-      {title: 'Day 7 : Darjeeling to Departure', copy: 'Enjoy your breakfast & then check out. Drive to New Jalpaiguri Junction Railway Station/Ixb Airport to continue with your onward journey.'}
+      { title: 'Day 1 : Bagdogra Airport / NJP to Gangtok', copy: 'On arrival at New Jalpaiguri Junction Railway Station/Ixb Airport, our driver will meet and greet you and board you to the vehicle. Then you will make your way to the hotel in Gangtok. Stay overnight at Gangtok.' },
+      { title: 'Day 2 : Gangtok - Local Sightseeing', copy: 'Post breakfast start for a Full day city tour covering Tashi view point, Ganesh Tok, Hanuman Tok, Plant Conservatory, Cottage Industry and Handicraft Centre, Institute of Tibetology, Dro-dul Chorten, and Banjhakri Waterfalls. Stay overnight at Gangtok.' },
+      { title: 'Day 3 : Gangtok - Excursion to Tsomgo Lake & New Baba Mandir', copy: 'Post breakfast, visit Tsomgo Lake (12,400 ft.), a high altitude sacred lake. Then visit New Baba Mandir (13,200 ft.). Later you are returned to the hotel. Stay overnight at Gangtok.' },
+      { title: 'Day 4 : Gangtok to Pelling', copy: 'Post breakfast transfer to Pelling. On your way, pass through attractions of Namchi Siddheshwar Dham (Chardham). Then visit Ravangla Buddha Park. On arrival at Pelling, check in to the hotel. Stay overnight at Pelling.' },
+      { title: 'Day 5 : Pelling to Darjeeling', copy: 'Post breakfast check out and visit Skywalk, Pemayangtse Monastery, Rabdentse Ruins, and Bird Sanctuary. After sightseeing, transfer to Darjeeling. Rest of the day is free. Stay overnight at Darjeeling.' },
+      { title: 'Day 6 : Darjeeling - Local Sightseeing', copy: 'Early visit to Tiger hill to watch sunrise over Mt. Khangchendzonga. On way back see Ghoom Monastery and Batasia Loop. After breakfast, tour covers Japanese Temple, Peace Pagoda, Himalayan Mountaineering Institute, Padmaja Naidu Zoological Park, Tenzing Rock, Tibetan Refugee Centre, and Tea Garden. Stay overnight at Darjeeling.' },
+      { title: 'Day 7 : Darjeeling to Departure', copy: 'Enjoy your breakfast & then check out. Drive to New Jalpaiguri Junction Railway Station/Ixb Airport to continue with your onward journey.' }
     ],
     inclusions: [
       'Accommodation in rooms as mentioned in the itinerary',
@@ -280,7 +280,7 @@ export const domestic=[
     ],
     tagline: 'Book Now with Tourswale'
   },
-{
+  {
     slug: 'sikkim-darjeeling-8n',
     title: '8N/9D Sikkim-Darjeeling (Gangtok, Lachung, Pelling, Darjeeling)',
     location: 'Sikkim & Darjeeling',
@@ -295,9 +295,9 @@ export const domestic=[
     specialHeading: 'Mystical Himalayas.',
     stays: ['8 Nights / 9 Days', 'Start: Bagdogra/NJP', 'End: Bagdogra/NJP'],
     gallery: [
-      {src: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4', alt: 'Darjeeling'},
-      {src: 'https://nomadicweekends.com/blog/wp-content/uploads/2019/02/30127578_1691986214228436_4746460975484370944_o-1.jpg', alt: 'Yumthang Valley'},
-      {src: 'https://static.toiimg.com/photo/56621791/.jpg', alt: 'Monastery'}
+      { src: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4', alt: 'Darjeeling' },
+      { src: 'https://nomadicweekends.com/blog/wp-content/uploads/2019/02/30127578_1691986214228436_4746460975484370944_o-1.jpg', alt: 'Yumthang Valley' },
+      { src: 'https://static.toiimg.com/photo/56621791/.jpg', alt: 'Monastery' }
     ],
     galleryCaptions: ['Darjeeling', 'Yumthang Valley', 'Monastery'],
     groupTitles: ['Inclusions', 'Transportation', 'Hotels & Pricing'],
@@ -307,15 +307,15 @@ export const domestic=[
       ['Hotels & Pricing', 'Total Price: ₹1,56,400/- for 3 Adults', 'Gangtok (2N+1N): Magpie Libing Grand (4 Star) - Comfort Room', 'Lachung (2N): Yashshree Dewathang Resort & Spa (4 Star) - Premium Room', 'Pelling (1N): Magpie Pachhu Village Resorts (4 Star) - Cottage Super Deluxe', 'Darjeeling (2N): Yashshree Mall Road (4 Star) - Deluxe Room']
     ],
     itinerary: [
-      {title: '1st Day : Bagdogra Airport / NJP to Gangtok', copy: 'On arrival at New Jalpaiguri Junction Railway Station/IXB Airport, our driver will meet and greet you and board you to the vehicle. Then you will make your way to the hotel in Gangtok. Stay overnight at Gangtok.'},
-      {title: '2nd Day : Gangtok - Excursion to Tsomgo Lake & New Baba Mandir', copy: 'Post breakfast, visit Tsomgo Lake (12,400 ft. / 37 km / 02 hr from Gangtok), a high altitude sacred lake. Then you will visit New Baba Mandir (13,200 ft. / 16 km / 01 hr from Tsomgo Lake). Later you are returned to the hotel. Stay overnight at Gangtok.'},
-      {title: '3rd Day : Gangtok to Lachung', copy: 'After breakfast, check out from the hotel with limited luggage and proceed to Lachung (8,700 ft.), North Sikkim. On arrival at Lachung, check into your hotel. Stay overnight at Lachung.'},
-      {title: '4th Day : Lachung - Yumthang Valley Excursion', copy: 'Early morning, drive to Yumthang Valley (12,000 ft), which is also known as the valley of flowers. On your way back to the hotel from Yumthang Valley, you will be visiting hot spring. Head back to the hotel. Rest of the evening will be free for leisure. Stay overnight at Lachung.'},
-      {title: '5th Day : Lachung to Gangtok', copy: 'Post breakfast check out from the hotel. On arrival at Gangtok, check-in to your hotel. Rest of the evening will be free for leisure. Stay overnight at Gangtok.'},
-      {title: '6th Day : Gangtok to Pelling', copy: 'Post breakfast transfer to Pelling. On your way to Pelling, you will pass through some attractions of Namchi Siddheshwar Dham (Chardham). Then visit Ravangla "Buddha Park". On arrival at Pelling, you will check in to the hotel. Stay overnight at Pelling.'},
-      {title: '7th Day : Pelling to Darjeeling', copy: 'Post breakfast check out from the hotel and you will be visiting Skywalk, Pemayangtse Monastery, Rabdentse Ruins, and Bird Sanctuary. After the sightseeing tour, you are transferred to Darjeeling. Rest of the day is free. Stay overnight at Darjeeling.'},
-      {title: '8th Day : Darjeeling - Local Sightseeing', copy: 'Visit Tiger hill early morning to watch sunrise over Mt. Khangchendzonga. Visit Ghoom Monastery and Batasia Loop. After breakfast, sightseeing covers Japanese Temple, Peace Pagoda, Himalayan Mountaineering Institute, Padmaja Naidu Himalayan Zoological Park, Tenzing Rock, Tibetan Refugee self-help Centre, and Tea Garden. Stay overnight at Darjeeling.'},
-      {title: '9th Day : Darjeeling to Departure', copy: 'After breakfast, transfer to Bagdogra Airport/NJP Railway Station for your onward journey.'}
+      { title: '1st Day : Bagdogra Airport / NJP to Gangtok', copy: 'On arrival at New Jalpaiguri Junction Railway Station/IXB Airport, our driver will meet and greet you and board you to the vehicle. Then you will make your way to the hotel in Gangtok. Stay overnight at Gangtok.' },
+      { title: '2nd Day : Gangtok - Excursion to Tsomgo Lake & New Baba Mandir', copy: 'Post breakfast, visit Tsomgo Lake (12,400 ft. / 37 km / 02 hr from Gangtok), a high altitude sacred lake. Then you will visit New Baba Mandir (13,200 ft. / 16 km / 01 hr from Tsomgo Lake). Later you are returned to the hotel. Stay overnight at Gangtok.' },
+      { title: '3rd Day : Gangtok to Lachung', copy: 'After breakfast, check out from the hotel with limited luggage and proceed to Lachung (8,700 ft.), North Sikkim. On arrival at Lachung, check into your hotel. Stay overnight at Lachung.' },
+      { title: '4th Day : Lachung - Yumthang Valley Excursion', copy: 'Early morning, drive to Yumthang Valley (12,000 ft), which is also known as the valley of flowers. On your way back to the hotel from Yumthang Valley, you will be visiting hot spring. Head back to the hotel. Rest of the evening will be free for leisure. Stay overnight at Lachung.' },
+      { title: '5th Day : Lachung to Gangtok', copy: 'Post breakfast check out from the hotel. On arrival at Gangtok, check-in to your hotel. Rest of the evening will be free for leisure. Stay overnight at Gangtok.' },
+      { title: '6th Day : Gangtok to Pelling', copy: 'Post breakfast transfer to Pelling. On your way to Pelling, you will pass through some attractions of Namchi Siddheshwar Dham (Chardham). Then visit Ravangla "Buddha Park". On arrival at Pelling, you will check in to the hotel. Stay overnight at Pelling.' },
+      { title: '7th Day : Pelling to Darjeeling', copy: 'Post breakfast check out from the hotel and you will be visiting Skywalk, Pemayangtse Monastery, Rabdentse Ruins, and Bird Sanctuary. After the sightseeing tour, you are transferred to Darjeeling. Rest of the day is free. Stay overnight at Darjeeling.' },
+      { title: '8th Day : Darjeeling - Local Sightseeing', copy: 'Visit Tiger hill early morning to watch sunrise over Mt. Khangchendzonga. Visit Ghoom Monastery and Batasia Loop. After breakfast, sightseeing covers Japanese Temple, Peace Pagoda, Himalayan Mountaineering Institute, Padmaja Naidu Himalayan Zoological Park, Tenzing Rock, Tibetan Refugee self-help Centre, and Tea Garden. Stay overnight at Darjeeling.' },
+      { title: '9th Day : Darjeeling to Departure', copy: 'After breakfast, transfer to Bagdogra Airport/NJP Railway Station for your onward journey.' }
     ],
     inclusions: [
       'Accommodation in rooms as mentioned in the itinerary',
@@ -370,9 +370,9 @@ export const domestic=[
     specialHeading: 'A Spiritual Awakening.',
     stays: ['6 Nights / 7 Days', 'Start: Madurai', 'End: Trivandrum'],
     gallery: [
-      {src: 'https://wallpapercave.com/wp/wp9198776.jpg', alt: 'Madurai Temple'},
-      {src: 'https://media1.thrillophilia.com/filestore/723xzm0xxclmd3z5akd8ndk9y6uy_1580530775_shutterstock_1487153798.jpg', alt: 'Kanyakumari Sunset'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1402&q=80', alt: 'Kovalam Beach'}
+      { src: 'https://wallpapercave.com/wp/wp9198776.jpg', alt: 'Madurai Temple' },
+      { src: 'https://media1.thrillophilia.com/filestore/723xzm0xxclmd3z5akd8ndk9y6uy_1580530775_shutterstock_1487153798.jpg', alt: 'Kanyakumari Sunset' },
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1402&q=80', alt: 'Kovalam Beach' }
     ],
     galleryCaptions: ['Meenakshi Temple', 'Kanyakumari', 'Kovalam'],
     groupTitles: ['Inclusions', 'Hotels & Pricing', 'Policies & T&C'],
@@ -382,13 +382,13 @@ export const domestic=[
       ['Policies & T&C', 'Child below 5 yrs sharing same bed with parents is complimentary', 'No changes in hotels without your consent', 'Base category rooms provided unless mentioned', 'Advance payment required for confirmation']
     ],
     itinerary: [
-      {title: 'Arrival at Madurai | Local Sightseeing', copy: 'Arrival at Madurai Airport/Railway Station. Pickup and transfer to the hotel for check-in. Proceed for Madurai sightseeing covering Meenakshi Amman Temple, Thirumalai Nayakkar Palace, Gandhi Memorial Museum and an evening visit to Meenakshi Temple for darshan. Overnight stay in Madurai.'},
-      {title: 'Madurai – Trichy | Temple Tour', copy: 'After breakfast, check-out and proceed towards Trichy. En route visit Srirangam Ranganathaswamy Temple. Later visit Rockfort Temple and Jambukeswarar Temple. Check-in at the hotel. Overnight stay in Trichy.'},
-      {title: 'Trichy – Thanjavur | Heritage Sightseeing', copy: 'After breakfast, check-out and proceed to Thanjavur. Visit Brihadeeswarar Temple (UNESCO World Heritage Site), Thanjavur Palace and Art Gallery. Evening free for local shopping. Overnight stay in Thanjavur.'},
-      {title: 'Thanjavur – Rameshwaram | Pilgrimage Drive', copy: 'After breakfast, check-out and proceed towards Rameshwaram. On arrival, check-in at the hotel. Visit Ramanathaswamy Temple, Agni Theertham and local temples. Evening at leisure. Overnight stay in Rameshwaram.'},
-      {title: 'Rameshwaram – Kanyakumari | Coastal Journey', copy: 'Early morning temple darshan (optional). After breakfast, proceed towards Kanyakumari. Evening visit to Vivekananda Rock Memorial (by ferry), Thiruvalluvar Statue and enjoy sunset at Kanyakumari Beach. Overnight stay in Kanyakumari.'},
-      {title: 'Kanyakumari – Trivandrum – Kovalam', copy: 'After breakfast, proceed to Kovalam via Trivandrum. En route sightseeing: Padmanabhaswamy Temple, Napier Museum, Shankumugham Beach. Check-in at the beachside resort in Kovalam. Leisure time at Kovalam Beach. Overnight stay in Kovalam.'},
-      {title: 'Kovalam – Trivandrum | Departure', copy: 'After breakfast, check-out from hotel and proceed to Trivandrum Railway Station for drop. Tour concludes with pleasant memories.'}
+      { title: 'Arrival at Madurai | Local Sightseeing', copy: 'Arrival at Madurai Airport/Railway Station. Pickup and transfer to the hotel for check-in. Proceed for Madurai sightseeing covering Meenakshi Amman Temple, Thirumalai Nayakkar Palace, Gandhi Memorial Museum and an evening visit to Meenakshi Temple for darshan. Overnight stay in Madurai.' },
+      { title: 'Madurai – Trichy | Temple Tour', copy: 'After breakfast, check-out and proceed towards Trichy. En route visit Srirangam Ranganathaswamy Temple. Later visit Rockfort Temple and Jambukeswarar Temple. Check-in at the hotel. Overnight stay in Trichy.' },
+      { title: 'Trichy – Thanjavur | Heritage Sightseeing', copy: 'After breakfast, check-out and proceed to Thanjavur. Visit Brihadeeswarar Temple (UNESCO World Heritage Site), Thanjavur Palace and Art Gallery. Evening free for local shopping. Overnight stay in Thanjavur.' },
+      { title: 'Thanjavur – Rameshwaram | Pilgrimage Drive', copy: 'After breakfast, check-out and proceed towards Rameshwaram. On arrival, check-in at the hotel. Visit Ramanathaswamy Temple, Agni Theertham and local temples. Evening at leisure. Overnight stay in Rameshwaram.' },
+      { title: 'Rameshwaram – Kanyakumari | Coastal Journey', copy: 'Early morning temple darshan (optional). After breakfast, proceed towards Kanyakumari. Evening visit to Vivekananda Rock Memorial (by ferry), Thiruvalluvar Statue and enjoy sunset at Kanyakumari Beach. Overnight stay in Kanyakumari.' },
+      { title: 'Kanyakumari – Trivandrum – Kovalam', copy: 'After breakfast, proceed to Kovalam via Trivandrum. En route sightseeing: Padmanabhaswamy Temple, Napier Museum, Shankumugham Beach. Check-in at the beachside resort in Kovalam. Leisure time at Kovalam Beach. Overnight stay in Kovalam.' },
+      { title: 'Kovalam – Trivandrum | Departure', copy: 'After breakfast, check-out from hotel and proceed to Trivandrum Railway Station for drop. Tour concludes with pleasant memories.' }
     ],
     inclusions: [
       '06 nights accommodation on twin sharing basis (03 Double Rooms)',
@@ -446,9 +446,9 @@ export const domestic=[
     specialHeading: 'God\'s Own Country Awaits.',
     stays: ['5 Nights / 6 Days', 'Start/End: Cochin', 'Beaches & Backwaters'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Backwaters'},
-      {src: 'https://wildlifezones.com/wp-content/uploads/2020/03/Pothamedu-Viewpoint-Munnar.jpg', alt: 'Munnar Hills'},
-      {src: 'https://keralaevents.in/wp-content/uploads/2017/06/thekaddy.jpg', alt: 'Thekkady Wildlife'}
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Backwaters' },
+      { src: 'https://wildlifezones.com/wp-content/uploads/2020/03/Pothamedu-Viewpoint-Munnar.jpg', alt: 'Munnar Hills' },
+      { src: 'https://keralaevents.in/wp-content/uploads/2017/06/thekaddy.jpg', alt: 'Thekkady Wildlife' }
     ],
     galleryCaptions: ['Alleppey', 'Munnar', 'Thekkady'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
@@ -458,12 +458,12 @@ export const domestic=[
       ['Hotels & Pricing', 'Adults: ₹29,950/-', 'Child Above 5 Years: ₹22,100/-', 'Child Below 4 Years: ₹17,300/-', 'Munnar (2N): Ayur Green Resort / Similar (Non A/C)', 'Thekkady (1N): Jungle Park / Similar (Non A/C)', 'Alleppey (1N): Grand Alleppey / Similar', 'Kovalam (1N): Jasmine Palace / Similar']
     ],
     itinerary: [
-      {title: 'Cochin to Munnar', copy: 'Meet our representative at Cochin Airport/Railway station. Drive to Munnar (135km/4.5hrs). Enroute visit Cheyyara waterfalls, Valara waterfalls, Attukadu waterfalls, and spice plantations. Overnight stay at Munnar.'},
-      {title: 'Munnar Sightseeing', copy: 'Full day sightseeing in Munnar. Visit Eravikulam National Park (Raja Malai), Mattupetty dam, tea estates, eco point, rose garden, photo point, honey bee tree, tea museum, and blossom park. Overnight stay at Munnar.'},
-      {title: 'Munnar to Thekkady (Periyar)', copy: 'After breakfast, drive to Thekkady (105km/3.5hrs). Visit Periyar Wildlife Sanctuary where you can see wild elephants, boars, deer, and the great Indian tiger (during boating). In the evening, enjoy optional activities like Kathakali, Kalarippayattu, or an Ayurvedic massage. Overnight stay at Thekkady.'},
-      {title: 'Thekkady to Alleppey', copy: 'Drive to Alleppey in the morning. Enjoy the backwaters (at your own cost), scenery, beach, lighthouse, and local temples. Overnight stay in the hotel in Alleppey.'},
-      {title: 'Alleppey to Kovalam', copy: 'Proceed to Kovalam (165km/4hrs). Sightseeing includes Lighthouse beach, Howah Beach, Ashoka beach. Visit Sree Padmanabhaswamy Temple, Kuthiramalika Palace museum, Napier museum, Sree Chithra art gallery, Kanakakunnu Palace, and planetarium. Overnight stay at Kovalam.'},
-      {title: 'Kovalam to Cochin Drop', copy: 'Drive back to Cochin (240km/6hrs). You can do shopping at Cochin and visit Marine drive if time permits. Our representative will drop you at Cochin/Trivandrum Airport/Railway station/Bus stand for your onward journey back home with sweet memories.'}
+      { title: 'Cochin to Munnar', copy: 'Meet our representative at Cochin Airport/Railway station. Drive to Munnar (135km/4.5hrs). Enroute visit Cheyyara waterfalls, Valara waterfalls, Attukadu waterfalls, and spice plantations. Overnight stay at Munnar.' },
+      { title: 'Munnar Sightseeing', copy: 'Full day sightseeing in Munnar. Visit Eravikulam National Park (Raja Malai), Mattupetty dam, tea estates, eco point, rose garden, photo point, honey bee tree, tea museum, and blossom park. Overnight stay at Munnar.' },
+      { title: 'Munnar to Thekkady (Periyar)', copy: 'After breakfast, drive to Thekkady (105km/3.5hrs). Visit Periyar Wildlife Sanctuary where you can see wild elephants, boars, deer, and the great Indian tiger (during boating). In the evening, enjoy optional activities like Kathakali, Kalarippayattu, or an Ayurvedic massage. Overnight stay at Thekkady.' },
+      { title: 'Thekkady to Alleppey', copy: 'Drive to Alleppey in the morning. Enjoy the backwaters (at your own cost), scenery, beach, lighthouse, and local temples. Overnight stay in the hotel in Alleppey.' },
+      { title: 'Alleppey to Kovalam', copy: 'Proceed to Kovalam (165km/4hrs). Sightseeing includes Lighthouse beach, Howah Beach, Ashoka beach. Visit Sree Padmanabhaswamy Temple, Kuthiramalika Palace museum, Napier museum, Sree Chithra art gallery, Kanakakunnu Palace, and planetarium. Overnight stay at Kovalam.' },
+      { title: 'Kovalam to Cochin Drop', copy: 'Drive back to Cochin (240km/6hrs). You can do shopping at Cochin and visit Marine drive if time permits. Our representative will drop you at Cochin/Trivandrum Airport/Railway station/Bus stand for your onward journey back home with sweet memories.' }
     ],
     inclusions: [
       'Accommodation as mentioned on twin sharing basis',
@@ -522,9 +522,9 @@ export const domestic=[
     specialHeading: 'God\'s Own Country Awaits.',
     stays: ['5 Nights / 6 Days', 'Start/End: Cochin', 'Couples/Honeymoon'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Houseboat'},
-      {src: 'https://wildlifezones.com/wp-content/uploads/2020/03/Pothamedu-Viewpoint-Munnar.jpg', alt: 'Munnar Tea Gardens'},
-      {src: 'https://keralaevents.in/wp-content/uploads/2017/06/thekaddy.jpg', alt: 'Thekkady Wildlife'}
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Houseboat' },
+      { src: 'https://wildlifezones.com/wp-content/uploads/2020/03/Pothamedu-Viewpoint-Munnar.jpg', alt: 'Munnar Tea Gardens' },
+      { src: 'https://keralaevents.in/wp-content/uploads/2017/06/thekaddy.jpg', alt: 'Thekkady Wildlife' }
     ],
     galleryCaptions: ['Alleppey', 'Munnar', 'Thekkady'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
@@ -534,12 +534,12 @@ export const domestic=[
       ['Hotels & Pricing', 'Package Price: ₹37,250/- per person (₹74,500 per couple)', 'Munnar (2N): Ayur Green Resort / Similar (Non A/C)', 'Thekkady (1N): Jungle Park / Similar (Non A/C)', 'Alleppey (1N): One Bedroom Deluxe Houseboat', 'Cochin (1N): Broad Bean / Similar']
     ],
     itinerary: [
-      {title: 'Cochin to Munnar', copy: 'Meet our representative at Cochin Airport/Railway station. Drive to Munnar (135km/4.5hrs). Enroute visit Cheyyara waterfalls, Valara waterfalls, Attukadu waterfalls, and spice plantations. Overnight stay at Munnar.'},
-      {title: 'Munnar Sightseeing', copy: 'Full day sightseeing in Munnar. Visit Eravikulam National Park (Raja Malai), Mattupetty dam, tea estates, eco point, rose garden, photo point, honey bee tree, tea museum, and blossom park. Overnight stay at Munnar.'},
-      {title: 'Munnar to Thekkady (Periyar)', copy: 'After breakfast, drive to Thekkady (105km/3.5hrs). Visit Periyar Wildlife Sanctuary where you can see wild elephants, boars, deer, and the great Indian tiger (during boating). In the evening, enjoy optional activities like Kathakali, Kalarippayattu, or an Ayurvedic massage. Overnight stay at Thekkady.'},
-      {title: 'Thekkady to Alleppey Houseboat', copy: 'Drive to Alleppey in the morning (150km/3.5hrs). Check-in to your exclusive 1-Bedroom Deluxe Houseboat at 12 Noon. Enjoy a scenic 21-hour cruise through the backwaters. All meals (lunch, dinner, breakfast) and welcome drinks are served onboard. Overnight stay in the Houseboat.'},
-      {title: 'Alleppey to Cochin', copy: 'After checkout at 9 AM, proceed to Cochin (80km/1.5hrs). Sightseeing includes Fort Cochin, St. Francis church, Chinese fishing nets, Santa Cruz Basilica, Mattancherry palace, Jewish synagogue, and Marine drive. Find some time for shopping. Overnight stay at Cochin.'},
-      {title: 'Departure from Cochin', copy: 'If time permits, enjoy shopping at Lulu Mall. Our representative will drop you at Cochin Airport/Railway station/Bus stand for your onward journey back home with sweet memories.'}
+      { title: 'Cochin to Munnar', copy: 'Meet our representative at Cochin Airport/Railway station. Drive to Munnar (135km/4.5hrs). Enroute visit Cheyyara waterfalls, Valara waterfalls, Attukadu waterfalls, and spice plantations. Overnight stay at Munnar.' },
+      { title: 'Munnar Sightseeing', copy: 'Full day sightseeing in Munnar. Visit Eravikulam National Park (Raja Malai), Mattupetty dam, tea estates, eco point, rose garden, photo point, honey bee tree, tea museum, and blossom park. Overnight stay at Munnar.' },
+      { title: 'Munnar to Thekkady (Periyar)', copy: 'After breakfast, drive to Thekkady (105km/3.5hrs). Visit Periyar Wildlife Sanctuary where you can see wild elephants, boars, deer, and the great Indian tiger (during boating). In the evening, enjoy optional activities like Kathakali, Kalarippayattu, or an Ayurvedic massage. Overnight stay at Thekkady.' },
+      { title: 'Thekkady to Alleppey Houseboat', copy: 'Drive to Alleppey in the morning (150km/3.5hrs). Check-in to your exclusive 1-Bedroom Deluxe Houseboat at 12 Noon. Enjoy a scenic 21-hour cruise through the backwaters. All meals (lunch, dinner, breakfast) and welcome drinks are served onboard. Overnight stay in the Houseboat.' },
+      { title: 'Alleppey to Cochin', copy: 'After checkout at 9 AM, proceed to Cochin (80km/1.5hrs). Sightseeing includes Fort Cochin, St. Francis church, Chinese fishing nets, Santa Cruz Basilica, Mattancherry palace, Jewish synagogue, and Marine drive. Find some time for shopping. Overnight stay at Cochin.' },
+      { title: 'Departure from Cochin', copy: 'If time permits, enjoy shopping at Lulu Mall. Our representative will drop you at Cochin Airport/Railway station/Bus stand for your onward journey back home with sweet memories.' }
     ],
     inclusions: [
       'Accommodation as mentioned on twin sharing basis',
@@ -607,9 +607,9 @@ export const domestic=[
     specialHeading: 'Sacred Himalayan Heights.',
     stays: ['3 Nights / 4 Days', 'Start: Haridwar', 'Trek or Heli options'],
     gallery: [
-      {src: 'https://wallpapers.com/images/hd/kedarnath-temple-banners-4k-9pd6c84fjldyenjg.jpg', alt: 'Kedarnath Temple'},
-      {src: 'https://thumbs.dreamstime.com/b/divine-ganga-aarti-har-ki-pauri-haridwar-har-ki-pauri-haridwar-sacred-ghat-banks-ganges-river-known-348258111.jpg', alt: 'Haridwar Ganga Aarti'},
-      {src: 'https://outdoorawaits.com/wp-content/uploads/2026/04/Kedarnath-Trek.webp', alt: 'Himalayan Trek'}
+      { src: 'https://wallpapers.com/images/hd/kedarnath-temple-banners-4k-9pd6c84fjldyenjg.jpg', alt: 'Kedarnath Temple' },
+      { src: 'https://thumbs.dreamstime.com/b/divine-ganga-aarti-har-ki-pauri-haridwar-har-ki-pauri-haridwar-sacred-ghat-banks-ganges-river-known-348258111.jpg', alt: 'Haridwar Ganga Aarti' },
+      { src: 'https://outdoorawaits.com/wp-content/uploads/2026/04/Kedarnath-Trek.webp', alt: 'Himalayan Trek' }
     ],
     galleryCaptions: ['Kedarnath', 'Haridwar', 'The Trek'],
     groupTitles: ['Inclusions', 'Flight & Transport Options', 'Hotels & Pricing'],
@@ -619,10 +619,10 @@ export const domestic=[
       ['Hotels & Pricing', 'Bhakti Yatra (Dzire): ₹35,406 | Divya Yatra (Dzire): ₹37,940', 'Bhakti Yatra (Ertiga): ₹36,300 | Divya Yatra (Ertiga): ₹38,900', 'Bhakti Yatra (Crysta): ₹38,000 | Divya Yatra (Crysta): ₹40,500', 'Guptkashi/Sitapur (2N): Rudransh / Camp Nirvana', 'Kedarnath (1N): Rudra Camps / Bikaner House (Bed Only, No Meals)']
     ],
     itinerary: [
-      {title: 'Haridwar to Sitapur', copy: 'Arrival Haridwar proceed to Sitapur Via Devprayag Rudraprayag, Guptkashi. We should leave Haridwar for almost day long drive to Sitapur. Enroute S/S of Rudprayag (confluence of Alaknanda & Mandakini). Here we can have Darshan of Maa Chamunda Devi Shakti Peeth. Upon reach Sitapur/Rampur/Guptkashi we will take rest. Night stay in Hotel.'},
-      {title: 'Sitapur to Kedarnath', copy: 'After breakfast Morning drive to Sonprayag -Gaurikund. The trek is 19 KM long from Sonprayag. Rest slow, calm and breathful walking strategies are always helpful in completing this kind of trek. On arrival Kedarnath freshening up, perform Pooja and also Darshan at Shri Kedarnath. Rituals & Activities: Visit Gauri Kund, Darshan of Kedarnath Temple, Bhim Shila and Chance to meet Gurus and Sadhus meditating for long time in Kedarnath.'},
-      {title: 'Return Trek to Sitapur', copy: 'After morning darshan and pooja, downward trek to Sonpryag (approx 6 hrs). Our vehicle pick you up from there and take you to hotel for leisure stay for Night.'},
-      {title: 'Sitapur to Dehradun via Rishikesh', copy: 'Early morning after breakfast, we will proceed to Haridwar / Dehradun and on the way we will view of 05th and last Parayag- Dev Parayag. Arrive Rishikesh and you will visit Laxamn Jhula and Ram Jhula on your own as this is not motorable. You can also see many Ghats and temples and beautiful Ashrams. Rishikesh is next home of Sadhus & Saints. It is also called Capital land of Yoga. Evening drop at Haridwar / Dehradun.'}
+      { title: 'Haridwar to Sitapur', copy: 'Arrival Haridwar proceed to Sitapur Via Devprayag Rudraprayag, Guptkashi. We should leave Haridwar for almost day long drive to Sitapur. Enroute S/S of Rudprayag (confluence of Alaknanda & Mandakini). Here we can have Darshan of Maa Chamunda Devi Shakti Peeth. Upon reach Sitapur/Rampur/Guptkashi we will take rest. Night stay in Hotel.' },
+      { title: 'Sitapur to Kedarnath', copy: 'After breakfast Morning drive to Sonprayag -Gaurikund. The trek is 19 KM long from Sonprayag. Rest slow, calm and breathful walking strategies are always helpful in completing this kind of trek. On arrival Kedarnath freshening up, perform Pooja and also Darshan at Shri Kedarnath. Rituals & Activities: Visit Gauri Kund, Darshan of Kedarnath Temple, Bhim Shila and Chance to meet Gurus and Sadhus meditating for long time in Kedarnath.' },
+      { title: 'Return Trek to Sitapur', copy: 'After morning darshan and pooja, downward trek to Sonpryag (approx 6 hrs). Our vehicle pick you up from there and take you to hotel for leisure stay for Night.' },
+      { title: 'Sitapur to Dehradun via Rishikesh', copy: 'Early morning after breakfast, we will proceed to Haridwar / Dehradun and on the way we will view of 05th and last Parayag- Dev Parayag. Arrive Rishikesh and you will visit Laxamn Jhula and Ram Jhula on your own as this is not motorable. You can also see many Ghats and temples and beautiful Ashrams. Rishikesh is next home of Sadhus & Saints. It is also called Capital land of Yoga. Evening drop at Haridwar / Dehradun.' }
     ],
     inclusions: [
       'Neat, clean, hygienic accommodation on Double /Triple Sharing as per preferences & group size.',
@@ -679,9 +679,9 @@ export const domestic=[
     specialHeading: 'Divine Blessings. Majestic Himalayas.',
     stays: ['5 Nights / 6 Days', 'Start: Delhi', 'Trek or Heli options'],
     gallery: [
-      {src: 'https://wallpapers.com/images/hd/kedarnath-temple-banners-4k-9pd6c84fjldyenjg.jpg', alt: 'Kedarnath Temple'},
-      {src: 'https://thumbs.dreamstime.com/b/divine-ganga-aarti-har-ki-pauri-haridwar-har-ki-pauri-haridwar-sacred-ghat-banks-ganges-river-known-348258111.jpg', alt: 'Haridwar Ganga Aarti'},
-      {src: 'https://outdoorawaits.com/wp-content/uploads/2026/04/Kedarnath-Trek.webp', alt: 'Himalayan Trek'}
+      { src: 'https://wallpapers.com/images/hd/kedarnath-temple-banners-4k-9pd6c84fjldyenjg.jpg', alt: 'Kedarnath Temple' },
+      { src: 'https://thumbs.dreamstime.com/b/divine-ganga-aarti-har-ki-pauri-haridwar-har-ki-pauri-haridwar-sacred-ghat-banks-ganges-river-known-348258111.jpg', alt: 'Haridwar Ganga Aarti' },
+      { src: 'https://outdoorawaits.com/wp-content/uploads/2026/04/Kedarnath-Trek.webp', alt: 'Himalayan Trek' }
     ],
     galleryCaptions: ['Kedarnath', 'Haridwar', 'The Trek'],
     groupTitles: ['Inclusions', 'Flight & Transport Options', 'Hotels & Pricing'],
@@ -691,12 +691,12 @@ export const domestic=[
       ['Hotels & Pricing', 'Bhakti Yatra (Dzire): ₹36,100 | Divya Yatra (Dzire): ₹39,400', 'Bhakti Yatra (Ertiga): ₹37,800 | Divya Yatra (Ertiga): ₹41,100', 'Bhakti Yatra (Crysta): ₹39,900 | Divya Yatra (Crysta): ₹43,200', 'Haridwar (2N): The Urmi / Hotel Lakshya', 'Guptkashi/Sitapur (2N): Rudransh / Camp Nirvana', 'Kedarnath (1N): Rudra Camps / Bikaner House (Bed Only, No Meals)']
     ],
     itinerary: [
-      {title: 'Arrival in Delhi & Transfer to Haridwar', copy: 'Meet our assistance on arrival in Delhi and proceed to Haridwar. Check into your hotel. You can proceed for Ganga Aarti at Har Ki Pouri on your own. Overnight stay in Haridwar.'},
-      {title: 'Haridwar to Sitapur/Guptkashi', copy: 'Leave early morning for a day-long drive to Sitapur via Guptkashi. Pass Devprayag & Rudraprayag along the scenic route. Overnight stay at Sitapur/Guptkashi.'},
-      {title: 'Trek to Kedarnath', copy: 'Morning drive to Sonprayag/Gaurikund. Begin the 19 KM trek to Kedarnath. Upon arrival, freshen up, perform Pooja, and have Darshan of Shri Kedarnath. Overnight stay in Kedarnath (Bed basis only).'},
-      {title: 'Return Trek to Sitapur', copy: 'After morning darshan, begin your downward trek (approx 6 hrs) back to Sonprayag. Our vehicle will pick you up and transfer you to your hotel for a relaxing evening. Overnight in Sitapur/Guptkashi.'},
-      {title: 'Sitapur to Haridwar', copy: 'Early morning checkout and proceed to Haridwar. You have another chance to attend the evening Ganga Aarti at Har-Ki-Pouri. Enjoy local shopping in Haridwar and Rishikesh. Overnight in Haridwar.'},
-      {title: 'Departure from Delhi', copy: 'Morning drive to Delhi (210 kms / 6-7 hrs). Drop at the Airport/Railway station for your onward journey, bringing back glorious spiritual memories.'}
+      { title: 'Arrival in Delhi & Transfer to Haridwar', copy: 'Meet our assistance on arrival in Delhi and proceed to Haridwar. Check into your hotel. You can proceed for Ganga Aarti at Har Ki Pouri on your own. Overnight stay in Haridwar.' },
+      { title: 'Haridwar to Sitapur/Guptkashi', copy: 'Leave early morning for a day-long drive to Sitapur via Guptkashi. Pass Devprayag & Rudraprayag along the scenic route. Overnight stay at Sitapur/Guptkashi.' },
+      { title: 'Trek to Kedarnath', copy: 'Morning drive to Sonprayag/Gaurikund. Begin the 19 KM trek to Kedarnath. Upon arrival, freshen up, perform Pooja, and have Darshan of Shri Kedarnath. Overnight stay in Kedarnath (Bed basis only).' },
+      { title: 'Return Trek to Sitapur', copy: 'After morning darshan, begin your downward trek (approx 6 hrs) back to Sonprayag. Our vehicle will pick you up and transfer you to your hotel for a relaxing evening. Overnight in Sitapur/Guptkashi.' },
+      { title: 'Sitapur to Haridwar', copy: 'Early morning checkout and proceed to Haridwar. You have another chance to attend the evening Ganga Aarti at Har-Ki-Pouri. Enjoy local shopping in Haridwar and Rishikesh. Overnight in Haridwar.' },
+      { title: 'Departure from Delhi', copy: 'Morning drive to Delhi (210 kms / 6-7 hrs). Drop at the Airport/Railway station for your onward journey, bringing back glorious spiritual memories.' }
     ],
     inclusions: [
       'Neat, hygienic accommodation on Double/Triple Sharing',
@@ -746,9 +746,9 @@ export const domestic=[
     specialHeading: 'Paradise Found.',
     stays: ['5 Nights / 6 Days', 'Departure: BOM'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake'},
-      {src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow'},
-      {src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley'}
+      { src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake' },
+      { src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow' },
+      { src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley' }
     ],
     galleryCaptions: ['Srinagar', 'Gulmarg', 'Pahalgam'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
@@ -758,12 +758,12 @@ export const domestic=[
       ['Hotels & Pricing', 'Package Price: ₹39,000/- per person', 'Srinagar: Hotel Gurcoo Residency (2N) & Dawn Deluxe Houseboats (1N)', 'Gulmarg: Zahgeer Continental (1N)', 'Pahalgam: Hotel Grand Salween / Classic Crown (1N)']
     ],
     itinerary: [
-      {title: 'Arrival in Srinagar', copy: 'Arrival at Srinagar Airport. Transfer to Hotel. Visit famous Mughal Gardens (Nishat Bagh, Chesham Shahi, Shalimar Bagh), Hazratbal Shrine, and Shankaracharya temple.'},
-      {title: 'Sonamarg Day Trip', copy: 'Leave for Sonamarg (Meadow of Gold). Enjoy the scenic valley. You can hire a local union taxi to visit Thajiwas Glacier or Zero Point at Zojila Pass. Return to Srinagar.'},
-      {title: 'Srinagar to Gulmarg', copy: 'Drive to Gulmarg (Meadow of Flowers). Check into your hotel. Enjoy a Gondola ride (at own cost) or an optional sledge ride on the snow-covered slopes. Overnight stay in Gulmarg.'},
-      {title: 'Gulmarg to Pahalgam', copy: 'Drive to Pahalgam (Valley of Shepherds) via Srinagar. Enroute visit Saffron fields and Awantipura ruins. Proceed for a trip to Aru Valley. Overnight in Pahalgam.'},
-      {title: 'Pahalgam to Srinagar & Houseboat', copy: 'Transfer to Srinagar. Explore local markets famous for Kashmiri shawls. Check into your houseboat at Nigeen Lake and enjoy a complimentary 1-hour Shikara ride. Overnight in Houseboat.'},
-      {title: 'Departure', copy: 'After breakfast, depending on your flight timing, you can visit the local market. Drop at Srinagar Airport for your onward journey.'}
+      { title: 'Arrival in Srinagar', copy: 'Arrival at Srinagar Airport. Transfer to Hotel. Visit famous Mughal Gardens (Nishat Bagh, Chesham Shahi, Shalimar Bagh), Hazratbal Shrine, and Shankaracharya temple.' },
+      { title: 'Sonamarg Day Trip', copy: 'Leave for Sonamarg (Meadow of Gold). Enjoy the scenic valley. You can hire a local union taxi to visit Thajiwas Glacier or Zero Point at Zojila Pass. Return to Srinagar.' },
+      { title: 'Srinagar to Gulmarg', copy: 'Drive to Gulmarg (Meadow of Flowers). Check into your hotel. Enjoy a Gondola ride (at own cost) or an optional sledge ride on the snow-covered slopes. Overnight stay in Gulmarg.' },
+      { title: 'Gulmarg to Pahalgam', copy: 'Drive to Pahalgam (Valley of Shepherds) via Srinagar. Enroute visit Saffron fields and Awantipura ruins. Proceed for a trip to Aru Valley. Overnight in Pahalgam.' },
+      { title: 'Pahalgam to Srinagar & Houseboat', copy: 'Transfer to Srinagar. Explore local markets famous for Kashmiri shawls. Check into your houseboat at Nigeen Lake and enjoy a complimentary 1-hour Shikara ride. Overnight in Houseboat.' },
+      { title: 'Departure', copy: 'After breakfast, depending on your flight timing, you can visit the local market. Drop at Srinagar Airport for your onward journey.' }
     ],
     inclusions: [
       'Accommodation as per plan (Hotels & Houseboat)',
@@ -825,9 +825,9 @@ export const domestic=[
     specialHeading: 'Pristine Lakes. Snow-capped Peaks.',
     stays: ['5 Nights / 6 Days', 'Ex-Srinagar', 'Couples & Family'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake'},
-      {src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow'},
-      {src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley'}
+      { src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake' },
+      { src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow' },
+      { src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley' }
     ],
     galleryCaptions: ['Srinagar', 'Gulmarg', 'Pahalgam'],
     groupTitles: ['Inclusions', 'Optional Packages', 'Hotels & Pricing'],
@@ -837,12 +837,12 @@ export const domestic=[
       ['Hotels & Pricing', 'Option 1 Price: ₹40,500/- per couple (₹20,250 per person)', 'Option 2 Price: ₹39,000/- per couple (₹19,500 per person)', 'Srinagar (2N): Hotel Stay Villa / Royal Heritage', 'Houseboat (1N): Deluxe Houseboat', 'Gulmarg (1N): Hotel Meadows / Zahgeer Continental', 'Pahalgam (1N - Opt 1): Hotel Misty Mountains']
     ],
     itinerary: [
-      {title: 'Arrival in Srinagar & Shikara Ride', copy: 'Meet our representative at Srinagar airport and transfer to your hotel/houseboat. In the evening, enjoy a relaxing 1-hour Shikara ride on the world-famous Dal Lake. Overnight stay at Srinagar.'},
-      {title: 'Srinagar to Gulmarg', copy: 'After breakfast, transfer to Gulmarg (54 kms) via Tangmarg. Check in at the hotel. Enjoy the world\'s highest cable car "Gondola" (book online in advance), play golf, or visit Rani Temple by pony (at own cost). Overnight stay at Gulmarg.'},
-      {title: 'Gulmarg to Pahalgam', copy: 'After breakfast, transfer to Pahalgam (148 kms). Enroute visit Saffron Fields, Apple Orchards, & Bat Factory. In Pahalgam, you can hire local transport to visit Aru Valley, Betaab Valley, or take a horse ride to Baisaran (at own cost). Overnight stay at Pahalgam.'},
-      {title: 'Pahalgam to Srinagar & Mughal Gardens', copy: 'After breakfast, transfer back to Srinagar (119 kms). In the afternoon, embark on local sightseeing visiting the beautiful Mughal Gardens: Chesma Shahi, Nishat Bagh, and Shalimar Bagh. Overnight stay at Srinagar.'},
-      {title: 'Sonmarg Day Trip', copy: 'After breakfast, take a beautiful drive to Sonmarg via Gagangir. Enjoy the views of paddy fields and rivers. In Sonmarg ("Meadow of Gold"), hire a local taxi to visit Thajiwas Glacier. Return to Srinagar for overnight stay.'},
-      {title: 'Departure', copy: 'After breakfast, check out and transfer to Srinagar Airport for your onward journey.'}
+      { title: 'Arrival in Srinagar & Shikara Ride', copy: 'Meet our representative at Srinagar airport and transfer to your hotel/houseboat. In the evening, enjoy a relaxing 1-hour Shikara ride on the world-famous Dal Lake. Overnight stay at Srinagar.' },
+      { title: 'Srinagar to Gulmarg', copy: 'After breakfast, transfer to Gulmarg (54 kms) via Tangmarg. Check in at the hotel. Enjoy the world\'s highest cable car "Gondola" (book online in advance), play golf, or visit Rani Temple by pony (at own cost). Overnight stay at Gulmarg.' },
+      { title: 'Gulmarg to Pahalgam', copy: 'After breakfast, transfer to Pahalgam (148 kms). Enroute visit Saffron Fields, Apple Orchards, & Bat Factory. In Pahalgam, you can hire local transport to visit Aru Valley, Betaab Valley, or take a horse ride to Baisaran (at own cost). Overnight stay at Pahalgam.' },
+      { title: 'Pahalgam to Srinagar & Mughal Gardens', copy: 'After breakfast, transfer back to Srinagar (119 kms). In the afternoon, embark on local sightseeing visiting the beautiful Mughal Gardens: Chesma Shahi, Nishat Bagh, and Shalimar Bagh. Overnight stay at Srinagar.' },
+      { title: 'Sonmarg Day Trip', copy: 'After breakfast, take a beautiful drive to Sonmarg via Gagangir. Enjoy the views of paddy fields and rivers. In Sonmarg ("Meadow of Gold"), hire a local taxi to visit Thajiwas Glacier. Return to Srinagar for overnight stay.' },
+      { title: 'Departure', copy: 'After breakfast, check out and transfer to Srinagar Airport for your onward journey.' }
     ],
     inclusions: [
       '01 night stay at Deluxe Houseboat (Srinagar)',
@@ -906,9 +906,9 @@ export const domestic=[
     specialHeading: 'Paradise on Earth. Spiritual Bliss.',
     stays: ['7 Nights / 8 Days', 'Departure: NMI', 'Excludes Flight Cost'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake'},
-      {src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow'},
-      {src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley'}
+      { src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Srinagar Dal Lake' },
+      { src: 'https://images.news9live.com/wp-content/uploads/2024/11/kashmir-snowfall-3-scaled.jpg', alt: 'Gulmarg Snow' },
+      { src: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1402&q=80', alt: 'Pahalgam Valley' }
     ],
     galleryCaptions: ['Srinagar', 'Gulmarg', 'Pahalgam'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
@@ -918,14 +918,14 @@ export const domestic=[
       ['Hotels & Pricing', 'Package Price: ₹31,250/- per adult (Group of 4)', 'Flight Price: Approx ₹20,000/- per person', 'Srinagar: Hotel Rozan Jaai (2N) & Dawn Deluxe Houseboats (1N)', 'Gulmarg (Tangmarg): Hotel Grand Hillview (1N)', 'Pahalgam: Hotel Woods Resorts / Skyfarm Resort (1N)', 'Katra: Hotel Maa Gayatri (2N)']
     ],
     itinerary: [
-      {title: 'Arrival in Srinagar', copy: 'Arrival at Srinagar Airport (SXR). Transfer to Hotel. Visit famous Mughal Gardens (Nishat Bagh, Chesham Shahi, Shalimar Bagh), Hazratbal Shrine, and Shankaracharya temple.'},
-      {title: 'Sonamarg Day Trip', copy: 'Leave for Sonamarg (Meadow of Gold). Enjoy the scenic valley. You can hire a local union taxi to visit Thajiwas Glacier or Zero Point at Zojila Pass. Return to Srinagar.'},
-      {title: 'Doodhpathri Day Trip', copy: 'Day trip to Doodhpathri (Valley of Milk). Enjoy the lush green meadows and silver shining streams of cold water. Late evening return to Srinagar.'},
-      {title: 'Srinagar to Gulmarg', copy: 'Check out and drive to Gulmarg. Experience the world-famous Gondola cable car ride (at own cost). Indulge in horse-riding and enjoy the snow-capped peaks. Overnight stay in Tangmarg/Gulmarg.'},
-      {title: 'Gulmarg to Pahalgam', copy: 'Drive to Pahalgam (Valley of Shepherds). Enroute visit Saffron fields and Awantipura ruins. Proceed for a trip to Aru Valley, a scenic meadow and base camp for treks. Overnight in Pahalgam.'},
-      {title: 'Pahalgam to Katra', copy: 'After breakfast, embark on a beautiful 7-hour drive from Pahalgam to Katra. Check into your hotel in Katra for dinner and overnight stay.'},
-      {title: 'Mata Vaishnodevi Darshan', copy: 'Early morning leave for Mata Vaishnodevi Darshan. Trek about 14 kms or hire ponies/battery vehicles. Return to the hotel by late evening.'},
-      {title: 'Departure from Katra', copy: 'After an early breakfast, drop at Jammu Airport (IXJ) or Railway station for your onward journey.'}
+      { title: 'Arrival in Srinagar', copy: 'Arrival at Srinagar Airport (SXR). Transfer to Hotel. Visit famous Mughal Gardens (Nishat Bagh, Chesham Shahi, Shalimar Bagh), Hazratbal Shrine, and Shankaracharya temple.' },
+      { title: 'Sonamarg Day Trip', copy: 'Leave for Sonamarg (Meadow of Gold). Enjoy the scenic valley. You can hire a local union taxi to visit Thajiwas Glacier or Zero Point at Zojila Pass. Return to Srinagar.' },
+      { title: 'Doodhpathri Day Trip', copy: 'Day trip to Doodhpathri (Valley of Milk). Enjoy the lush green meadows and silver shining streams of cold water. Late evening return to Srinagar.' },
+      { title: 'Srinagar to Gulmarg', copy: 'Check out and drive to Gulmarg. Experience the world-famous Gondola cable car ride (at own cost). Indulge in horse-riding and enjoy the snow-capped peaks. Overnight stay in Tangmarg/Gulmarg.' },
+      { title: 'Gulmarg to Pahalgam', copy: 'Drive to Pahalgam (Valley of Shepherds). Enroute visit Saffron fields and Awantipura ruins. Proceed for a trip to Aru Valley, a scenic meadow and base camp for treks. Overnight in Pahalgam.' },
+      { title: 'Pahalgam to Katra', copy: 'After breakfast, embark on a beautiful 7-hour drive from Pahalgam to Katra. Check into your hotel in Katra for dinner and overnight stay.' },
+      { title: 'Mata Vaishnodevi Darshan', copy: 'Early morning leave for Mata Vaishnodevi Darshan. Trek about 14 kms or hire ponies/battery vehicles. Return to the hotel by late evening.' },
+      { title: 'Departure from Katra', copy: 'After an early breakfast, drop at Jammu Airport (IXJ) or Railway station for your onward journey.' }
     ],
     inclusions: [
       'Accommodation as per plan (Hotels & Houseboat)',
@@ -988,9 +988,9 @@ export const domestic=[
     specialHeading: 'Mountain Peaks. Historic Valleys.',
     stays: ['5 Nights / 6 Days', 'Departure: Pune', 'Flights Included'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1400&q=80', alt: 'Manali Snow'},
-      {src: 'https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1401&q=80', alt: 'Shimla Ridge'},
-      {src: 'https://thetravelshots.com/wp-content/uploads/2022/10/Solang-Valley.jpg', alt: 'Solang Valley'}
+      { src: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1400&q=80', alt: 'Manali Snow' },
+      { src: 'https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1401&q=80', alt: 'Shimla Ridge' },
+      { src: 'https://thetravelshots.com/wp-content/uploads/2022/10/Solang-Valley.jpg', alt: 'Solang Valley' }
     ],
     galleryCaptions: ['Manali', 'Shimla', 'Solang Valley'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
@@ -1000,12 +1000,12 @@ export const domestic=[
       ['Hotels & Pricing', 'Adults: ₹28,900/- per person', 'Child (Below 5 Years): ₹15,500/- per child', 'Manali: Hotel Surya The Mall (3 Nights)', 'Shimla: The Alpine Retreat (2 Nights)']
     ],
     itinerary: [
-      {title: 'Delhi to Manali', copy: 'Arrival in Delhi. Pick up from Railway Station/Airport and drive to Manali. Check into the hotel for dinner and overnight stay.'},
-      {title: 'Manali Local Sightseeing', copy: 'Visit Hadimba Temple, known for its superbly crafted four tiered pagoda roof. Visit the Club House, Tibetan Monastery, Van Vihar, and Vashist Hot Springs. Return to the hotel.'},
-      {title: 'Solang Valley & Atal Tunnel', copy: 'Visit Solang Valley offering views of glaciers and snow capped peaks. Experience the Atal Tunnel (9.02 km long) and visit Sissu Village. Return to Manali.'},
-      {title: 'Manali - Kullu - Shimla', copy: 'Drive to Shimla (270 kms). Enroute visit Sundernagar lake, Mandi, Kullu Valley, Pandoh dam, Vaishno Devi Temple (Kullu), and Beas River. Arrival and check into Shimla hotel.'},
-      {title: 'Kufri & Shimla Sightseeing', copy: 'Full day excursion to Kufri. Enjoy breathtaking views via Green Valley, Indira Holiday home and Fagu. Visit Advance study centre, Sankat Mochan, Bird Park, Mall Road, Ridge, and famous Kali Temple.'},
-      {title: 'Departure to Delhi', copy: 'Check out from the hotel and drive to Delhi. Drop at the Airport/Railway Station for your onward journey.'}
+      { title: 'Delhi to Manali', copy: 'Arrival in Delhi. Pick up from Railway Station/Airport and drive to Manali. Check into the hotel for dinner and overnight stay.' },
+      { title: 'Manali Local Sightseeing', copy: 'Visit Hadimba Temple, known for its superbly crafted four tiered pagoda roof. Visit the Club House, Tibetan Monastery, Van Vihar, and Vashist Hot Springs. Return to the hotel.' },
+      { title: 'Solang Valley & Atal Tunnel', copy: 'Visit Solang Valley offering views of glaciers and snow capped peaks. Experience the Atal Tunnel (9.02 km long) and visit Sissu Village. Return to Manali.' },
+      { title: 'Manali - Kullu - Shimla', copy: 'Drive to Shimla (270 kms). Enroute visit Sundernagar lake, Mandi, Kullu Valley, Pandoh dam, Vaishno Devi Temple (Kullu), and Beas River. Arrival and check into Shimla hotel.' },
+      { title: 'Kufri & Shimla Sightseeing', copy: 'Full day excursion to Kufri. Enjoy breathtaking views via Green Valley, Indira Holiday home and Fagu. Visit Advance study centre, Sankat Mochan, Bird Park, Mall Road, Ridge, and famous Kali Temple.' },
+      { title: 'Departure to Delhi', copy: 'Check out from the hotel and drive to Delhi. Drop at the Airport/Railway Station for your onward journey.' }
     ],
     inclusions: [
       'Return Flights (PNQ - DEL - PNQ)',
@@ -1067,9 +1067,9 @@ export const domestic=[
     specialHeading: 'Beaches. History. Adventure.',
     stays: ['4 Nights / 5 Days', 'Departure: Mumbai', 'Flights Included'],
     gallery: [
-      {src: 'https://www.andamanocean.in/wp-content/uploads/2023/10/Radhanagar-Beach-Havelock-Island-Andaman-India-3.jpg', alt: 'Andaman Beach'},
-      {src: 'https://cdn.experienceandamans.com/images/elephant-beach-havelock-island-visit.jpg', alt: 'Havelock Island'},
-      {src: 'https://tse3.mm.bing.net/th/id/OIP.V51-3SrzjhpXR5zK2lR5UgHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Cellular Jail'}
+      { src: 'https://www.andamanocean.in/wp-content/uploads/2023/10/Radhanagar-Beach-Havelock-Island-Andaman-India-3.jpg', alt: 'Andaman Beach' },
+      { src: 'https://cdn.experienceandamans.com/images/elephant-beach-havelock-island-visit.jpg', alt: 'Havelock Island' },
+      { src: 'https://tse3.mm.bing.net/th/id/OIP.V51-3SrzjhpXR5zK2lR5UgHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Cellular Jail' }
     ],
     galleryCaptions: ['Andaman Beach', 'Havelock Island', 'Cellular Jail'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels'],
@@ -1079,11 +1079,11 @@ export const domestic=[
       ['Hotels', 'Port Blair: Heritage MNR (Luxury) - Heritage Club Room', 'Havelock: Aparupa Sands Marina (Luxury) - Executive Room']
     ],
     itinerary: [
-      {title: 'Port Blair Arrival - Cellular Jail & Corbyn\'s Cove', copy: 'Arrival, Meet-Greet with our airport representative and Transfer to your booked hotel / resort. Late Afternoon, visit historic Cellular Jail and its Museum. Later proceed to Corbyn’s Cove Beach- Port Blair’s only sandy, palm-fringed beach and enroute take a photo opportunity halt at Tiranga Park.'},
-      {title: 'Port Blair to Havelock - Radha Nagar Beach', copy: 'Pick up from hotel to Port Blair Jetty for your onward journey to Havelock via Private Catamaran Ferry (Premium). Arrival, Meet-Greet by our local representative and transfer to your resort. Afternoon, Visit the Blue Flag certified "Radha Nagar Beach" for swim and relaxation.'},
-      {title: 'Havelock - Elephanta Beach', copy: 'Morning Breakfast and proceed to Elephanta Beach via shared boat. Enjoy water-based activities like Snorkelling, Jet Ski ride, Banana Ride, Sea Walk. (Includes 5-min complimentary snorkelling subject to operator). Return to hotel.'},
-      {title: 'Havelock to Port Blair - L&S Show at Cellular Jail', copy: 'Breakfast, check out and proceed to jetty for onward journey to Port Blair via Private Catamaran Ferry (Premium). Arrival in Port Blair, Transfer to hotel. Evening, Experience the 3D Light & Sound Show at Cellular Jail.'},
-      {title: 'Port Blair Departure', copy: 'Breakfast, Transfer to airport. Tour Ends with sweet memories.'}
+      { title: 'Port Blair Arrival - Cellular Jail & Corbyn\'s Cove', copy: 'Arrival, Meet-Greet with our airport representative and Transfer to your booked hotel / resort. Late Afternoon, visit historic Cellular Jail and its Museum. Later proceed to Corbyn’s Cove Beach- Port Blair’s only sandy, palm-fringed beach and enroute take a photo opportunity halt at Tiranga Park.' },
+      { title: 'Port Blair to Havelock - Radha Nagar Beach', copy: 'Pick up from hotel to Port Blair Jetty for your onward journey to Havelock via Private Catamaran Ferry (Premium). Arrival, Meet-Greet by our local representative and transfer to your resort. Afternoon, Visit the Blue Flag certified "Radha Nagar Beach" for swim and relaxation.' },
+      { title: 'Havelock - Elephanta Beach', copy: 'Morning Breakfast and proceed to Elephanta Beach via shared boat. Enjoy water-based activities like Snorkelling, Jet Ski ride, Banana Ride, Sea Walk. (Includes 5-min complimentary snorkelling subject to operator). Return to hotel.' },
+      { title: 'Havelock to Port Blair - L&S Show at Cellular Jail', copy: 'Breakfast, check out and proceed to jetty for onward journey to Port Blair via Private Catamaran Ferry (Premium). Arrival in Port Blair, Transfer to hotel. Evening, Experience the 3D Light & Sound Show at Cellular Jail.' },
+      { title: 'Port Blair Departure', copy: 'Breakfast, Transfer to airport. Tour Ends with sweet memories.' }
     ],
     inclusions: [
       'Round Trip Flights (Indigo 6E-5285 / 6E-5286)',
@@ -1111,12 +1111,13 @@ export const domestic=[
     ],
     tagline: 'Book Now with Tourswale'
   },
- {slug:'kashmir-signature-escape',title:'Kashmir Signature Escape',location:'Kashmir',days:6,price:38999,image:images.kashmir,desc:'Shikara mornings, alpine valleys and warm Kashmiri hospitality.',tags:['Dal Lake','Gulmarg']},
- {slug:'royal-rajasthan-journey',title:'Royal Rajasthan Journey',location:'Rajasthan',days:7,price:44999,image:images.rajasthan,desc:'Palace stays, desert sunsets and stories of living heritage.',tags:['Jaipur','Jaisalmer']},
- {slug:'kerala-backwater-retreat',title:'Kerala Backwater Retreat',location:'Kerala',days:6,price:36500,image:images.kerala,desc:'Tea country, tranquil waterways and coastal flavours.',tags:['Munnar','Alleppey']},
- {slug:'ladakh-adventure',title:'Ladakh High-Altitude Adventure',location:'Ladakh',days:7,price:48999,image:images.ladakh,desc:'Otherworldly passes, blue lakes and mountain monasteries.',tags:['Pangong','Nubra']},
- {slug:'andaman-getaway',title:'Andaman Island Getaway',location:'Andaman',days:5,price:42500,image:images.andaman,desc:'Pristine beaches and unhurried island days.',tags:['Havelock','Snorkelling']},
- {slug:'himachal-escape',title:'Himachal Mountain Escape',location:'Himachal Pradesh',days:6,price:31999,image:images.himachal,desc:'Pine forests, mountain cafés and quiet Himalayan trails.',tags:['Manali','Solang']},  {slug:'guwahati-spiritual-assam',title:'Spiritual Guwahati',location:'Guwahati, Assam',days:4,price:39900,image:'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400',desc:'Three nights in Guwahati with return flights from Mumbai, Kamakhya VIP darshan, a Brahmaputra sunset cruise and Pobitora wildlife safari.',tags:['Flights Included','Twin Sharing','Minimum 4 Guests'],promoEyebrow:'Your Journey, Our Responsibility',promoTitle:'Discover Spiritual Guwahati',promoLine:'The Spiritual Heart of Assam',specialHeading:'Spiritual. Nature. Culture. Shopping.',stays:['3 Nights / 4 Days','Departure: Mumbai','Flights Included'],gallery:[{src:'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400',alt:'Kamakhya Temple in Guwahati, Assam'},{src:'https://unsplash.com/photos/5WDMT98VnSI/download?force=true&w=1400',alt:'Sunset over the Brahmaputra River in Assam'},{src:'https://unsplash.com/photos/Iw8NcX9q7dM/download?force=true&w=1400',alt:'One-horned rhinoceros in Assam'}],galleryCaptions:['Kamakhya Temple · Guwahati','Brahmaputra sunset cruise','One-horned rhino · Assam'],groupTitles:['Spiritual Guwahati','River & Culture','Nature & Shopping'],experienceGroups:[['Spiritual Guwahati','Kamakhya Temple VIP darshan','Umananda Temple','Navagraha Temple','Sukreswar Ghat'],['River & Culture','Peacock Island','Brahmaputra sunset cruise','Srimanta Sankardev Kalakshetra','Assam State Zoo'],['Nature & Shopping','Pobitora Wildlife Sanctuary','One-horned rhinoceros safari','Private sightseeing vehicle','Fancy Bazaar shopping']],itinerary:[{title:'Arrival & Kamakhya Temple Darshan',copy:'Arrive at Guwahati Airport, proceed for assisted VIP darshan at Kamakhya Temple, check in to your hotel and enjoy an evening at leisure.'},{title:'River Island & Brahmaputra Cruise',copy:'Visit Umananda Temple on Peacock Island, Navagraha Temple and Sukreswar Ghat, followed by a Brahmaputra sunset cruise.'},{title:'Pobitora Wildlife Sanctuary Excursion',copy:'Take a jeep safari in Pobitora Wildlife Sanctuary to spot one-horned rhinoceroses and other wildlife, then return for shopping at Fancy Bazaar.'},{title:'Local Sightseeing & Departure',copy:'Depending on flight time, visit Assam State Zoo and Srimanta Sankardev Kalakshetra before your airport transfer and return flight to Mumbai.'}],inclusions:['Mumbai–Guwahati return economy airfare','Three nights’ hotel stay','Brahmaputra sunset cruise','Airport transfers','Private vehicle for sightseeing','Kamakhya Temple VIP darshan assistance','Pobitora Wildlife Jeep Safari','Driver allowance, toll tax and parking charges'],exclusions:['Lunch and dinner','Personal expenses','Camera fees, if applicable','Travel insurance','Anything not mentioned under inclusions'],benefits:['Twin-sharing basis','Minimum four persons required','Spiritual and cultural experience','Private sightseeing vehicle','Flights included from Mumbai'],tagline:'Book Now with Tourswale'},
+  { slug: 'kashmir-signature-escape', title: 'Kashmir Signature Escape', location: 'Kashmir', days: 6, price: 38999, image: images.kashmir, desc: 'Shikara mornings, alpine valleys and warm Kashmiri hospitality.', tags: ['Dal Lake', 'Gulmarg'] },
+  { slug: 'royal-rajasthan-journey', title: 'Royal Rajasthan Journey', location: 'Rajasthan', days: 7, price: 44999, image: images.rajasthan, desc: 'Palace stays, desert sunsets and stories of living heritage.', tags: ['Jaipur', 'Jaisalmer'] },
+  { slug: 'kerala-backwater-retreat', title: 'Kerala Backwater Retreat', location: 'Kerala', days: 6, price: 36500, image: images.kerala, desc: 'Tea country, tranquil waterways and coastal flavours.', tags: ['Munnar', 'Alleppey'] },
+  { slug: 'ladakh-adventure', title: 'Ladakh High-Altitude Adventure', location: 'Ladakh', days: 7, price: 48999, image: images.ladakh, desc: 'Otherworldly passes, blue lakes and mountain monasteries.', tags: ['Pangong', 'Nubra'] },
+  { slug: 'andaman-getaway', title: 'Andaman Island Getaway', location: 'Andaman', days: 5, price: 42500, image: images.andaman, desc: 'Pristine beaches and unhurried island days.', tags: ['Havelock', 'Snorkelling'] },
+  { slug: 'himachal-escape', title: 'Himachal Mountain Escape', location: 'Himachal Pradesh', days: 6, price: 31999, image: images.himachal, desc: 'Pine forests, mountain cafés and quiet Himalayan trails.', tags: ['Manali', 'Solang'] },
+  { slug: 'guwahati-spiritual-assam', title: 'Spiritual Guwahati', location: 'Guwahati, Assam', days: 4, price: 39900, image: 'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400', desc: 'Three nights in Guwahati with return flights from Mumbai, Kamakhya VIP darshan, a Brahmaputra sunset cruise and Pobitora wildlife safari.', tags: ['Flights Included', 'Twin Sharing', 'Minimum 4 Guests'], promoEyebrow: 'Your Journey, Our Responsibility', promoTitle: 'Discover Spiritual Guwahati', promoLine: 'The Spiritual Heart of Assam', specialHeading: 'Spiritual. Nature. Culture. Shopping.', stays: ['3 Nights / 4 Days', 'Departure: Mumbai', 'Flights Included'], gallery: [{ src: 'https://unsplash.com/photos/NhM4blzqpIs/download?force=true&w=1400', alt: 'Kamakhya Temple in Guwahati, Assam' }, { src: 'https://unsplash.com/photos/5WDMT98VnSI/download?force=true&w=1400', alt: 'Sunset over the Brahmaputra River in Assam' }, { src: 'https://unsplash.com/photos/Iw8NcX9q7dM/download?force=true&w=1400', alt: 'One-horned rhinoceros in Assam' }], galleryCaptions: ['Kamakhya Temple · Guwahati', 'Brahmaputra sunset cruise', 'One-horned rhino · Assam'], groupTitles: ['Spiritual Guwahati', 'River & Culture', 'Nature & Shopping'], experienceGroups: [['Spiritual Guwahati', 'Kamakhya Temple VIP darshan', 'Umananda Temple', 'Navagraha Temple', 'Sukreswar Ghat'], ['River & Culture', 'Peacock Island', 'Brahmaputra sunset cruise', 'Srimanta Sankardev Kalakshetra', 'Assam State Zoo'], ['Nature & Shopping', 'Pobitora Wildlife Sanctuary', 'One-horned rhinoceros safari', 'Private sightseeing vehicle', 'Fancy Bazaar shopping']], itinerary: [{ title: 'Arrival & Kamakhya Temple Darshan', copy: 'Arrive at Guwahati Airport, proceed for assisted VIP darshan at Kamakhya Temple, check in to your hotel and enjoy an evening at leisure.' }, { title: 'River Island & Brahmaputra Cruise', copy: 'Visit Umananda Temple on Peacock Island, Navagraha Temple and Sukreswar Ghat, followed by a Brahmaputra sunset cruise.' }, { title: 'Pobitora Wildlife Sanctuary Excursion', copy: 'Take a jeep safari in Pobitora Wildlife Sanctuary to spot one-horned rhinoceroses and other wildlife, then return for shopping at Fancy Bazaar.' }, { title: 'Local Sightseeing & Departure', copy: 'Depending on flight time, visit Assam State Zoo and Srimanta Sankardev Kalakshetra before your airport transfer and return flight to Mumbai.' }], inclusions: ['Mumbai–Guwahati return economy airfare', 'Three nights’ hotel stay', 'Brahmaputra sunset cruise', 'Airport transfers', 'Private vehicle for sightseeing', 'Kamakhya Temple VIP darshan assistance', 'Pobitora Wildlife Jeep Safari', 'Driver allowance, toll tax and parking charges'], exclusions: ['Lunch and dinner', 'Personal expenses', 'Camera fees, if applicable', 'Travel insurance', 'Anything not mentioned under inclusions'], benefits: ['Twin-sharing basis', 'Minimum four persons required', 'Spiritual and cultural experience', 'Private sightseeing vehicle', 'Flights included from Mumbai'], tagline: 'Book Now with Tourswale' },
   {
     slug: 'south-india-leisure',
     title: 'South India Heritage & Leisure Tour',
@@ -1132,9 +1133,9 @@ export const domestic=[
     specialHeading: 'Heritage. Nature. Spirituality. Culture.',
     stays: ['13 Nights / 14 Days', 'Multiple Destinations', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Meenakshi Temple Madurai'},
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'}
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' },
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Meenakshi Temple Madurai' },
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar' }
     ],
     galleryCaptions: ['Kerala Backwaters', 'Madurai Temple', 'Munnar Tea Gardens'],
     groupTitles: ['Kerala Experiences', 'Temple Cities', 'Coastal Heritage'],
@@ -1144,20 +1145,20 @@ export const domestic=[
       ['Coastal Heritage', 'Velankanni Church', 'Pondicherry Beaches', 'French War Memorial', 'Marina Beach Chennai']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Cochin', copy: 'On Arrival Cochin Airport by Flight will meet and transfer to hotel. After check in hotel, freshen up. Day of leisure free rest for own activities, etc.'},
-      {title: 'Day 2 : Cochin', copy: 'After Morning Breakfast, Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel.'},
-      {title: 'Day 3 : Cochin – Thekkady', copy: 'After Morning Breakfast check out from the hotel and drive to Thekkady. Transfer to hotel & relax. Afternoon, proceed for sightseeing – The Periyar wildlife sanctuary is thick evergreen forest, declared a Tiger Reserve in 1978. The splendid artificial lake formed by the Mullaperiyar Dam across the Periyar river adds to the charm of the park. You can also go for Boat Cruises on the Periyar lake, visit cardamom, pepper, tea & coffee plantation.'},
-      {title: 'Day 4 : Thekkady – Munnar', copy: 'After Morning Breakfast check out from the hotel and drive to Munnar. After check in Hotel, you will proceed for full Day sightseeing across Munnar. Places & Activities of Interest – Echo Point, Kundala Lake, Kundala Dam, Indo Swiss Livestock Project, Mattupetty Lake & Mattupetty Dam, Munnar Boating, Munnar Tea gardens, Munnar Tea museum & Tea factory, Blossom Park, Munnar Elephant Ride, Pothamedu View Point, Hydel Park, Photo Shooting Points, Rajamalai Eravikulam National Park, Anamudi peak.'},
-      {title: 'Day 5 : Munnar – Palani', copy: 'After Morning Breakfast check out and drive to Palani. After check in hotel, proceed to visit dharshan at Murugan Temple. Evening do some shopping and own activities, etc.'},
-      {title: 'Day 6 : Palani – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam.'},
-      {title: 'Day 7 : Madurai – Trichy', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam.'},
-      {title: 'Day 8 : Trichy – Tanjore – Velankanni', copy: 'After Morning Breakfast check out and drive to Velankanni. On the way to visit Tanjore - brihadeeswara temple, gangaikonda cholapuram. After visit drive to check in hotel at Velankanni. After check in hotel, proceed to visit Shrine Basilica of our Lady of Good Health.'},
-      {title: 'Day 9 : Velankanni – Chidambaram – Pondicherry', copy: 'After Morning Breakfast check out and drive to Pondicherry. On the way to visit Chidambaram – Thillai Nataraja Temple. After visit drive to check in hotel at Pondicherry. Proceed to visit arulmigu manakula vinayagar temple, seaside promenade, paradise beach, serenity beach, church of the sacred heart of jesus, bharati government park, french war memorial, sri varadharaja perumal temple, auroville beach.'},
-      {title: 'Day 10 : Pondicherry – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Tiruvannamalai. After check in hotel, Proceed to visit Arunachaleshwara Temple, Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram.'},
-      {title: 'Day 11 : Tiruvannamalai – Vellore – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit Vellore – Golden Temple. After drive to check in hotel at Tirupati. After check in hotel, proceed whole day sightseeing and dharshan at tirupati. Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, sri varahaswami temple, kapila theertham, talakona water falls, papavinasam theertham.'},
-      {title: 'Day 12 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, day of leisure free rest and own activities, etc.'},
-      {title: 'Day 13 : Chennai', copy: 'After Morning Breakfast proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach.'},
-      {title: 'Day 14 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".'}
+      { title: 'Day 1 : Arrival Cochin', copy: 'On Arrival Cochin Airport by Flight will meet and transfer to hotel. After check in hotel, freshen up. Day of leisure free rest for own activities, etc.' },
+      { title: 'Day 2 : Cochin', copy: 'After Morning Breakfast, Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel.' },
+      { title: 'Day 3 : Cochin – Thekkady', copy: 'After Morning Breakfast check out from the hotel and drive to Thekkady. Transfer to hotel & relax. Afternoon, proceed for sightseeing – The Periyar wildlife sanctuary is thick evergreen forest, declared a Tiger Reserve in 1978. The splendid artificial lake formed by the Mullaperiyar Dam across the Periyar river adds to the charm of the park. You can also go for Boat Cruises on the Periyar lake, visit cardamom, pepper, tea & coffee plantation.' },
+      { title: 'Day 4 : Thekkady – Munnar', copy: 'After Morning Breakfast check out from the hotel and drive to Munnar. After check in Hotel, you will proceed for full Day sightseeing across Munnar. Places & Activities of Interest – Echo Point, Kundala Lake, Kundala Dam, Indo Swiss Livestock Project, Mattupetty Lake & Mattupetty Dam, Munnar Boating, Munnar Tea gardens, Munnar Tea museum & Tea factory, Blossom Park, Munnar Elephant Ride, Pothamedu View Point, Hydel Park, Photo Shooting Points, Rajamalai Eravikulam National Park, Anamudi peak.' },
+      { title: 'Day 5 : Munnar – Palani', copy: 'After Morning Breakfast check out and drive to Palani. After check in hotel, proceed to visit dharshan at Murugan Temple. Evening do some shopping and own activities, etc.' },
+      { title: 'Day 6 : Palani – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam.' },
+      { title: 'Day 7 : Madurai – Trichy', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam.' },
+      { title: 'Day 8 : Trichy – Tanjore – Velankanni', copy: 'After Morning Breakfast check out and drive to Velankanni. On the way to visit Tanjore - brihadeeswara temple, gangaikonda cholapuram. After visit drive to check in hotel at Velankanni. After check in hotel, proceed to visit Shrine Basilica of our Lady of Good Health.' },
+      { title: 'Day 9 : Velankanni – Chidambaram – Pondicherry', copy: 'After Morning Breakfast check out and drive to Pondicherry. On the way to visit Chidambaram – Thillai Nataraja Temple. After visit drive to check in hotel at Pondicherry. Proceed to visit arulmigu manakula vinayagar temple, seaside promenade, paradise beach, serenity beach, church of the sacred heart of jesus, bharati government park, french war memorial, sri varadharaja perumal temple, auroville beach.' },
+      { title: 'Day 10 : Pondicherry – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Tiruvannamalai. After check in hotel, Proceed to visit Arunachaleshwara Temple, Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram.' },
+      { title: 'Day 11 : Tiruvannamalai – Vellore – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit Vellore – Golden Temple. After drive to check in hotel at Tirupati. After check in hotel, proceed whole day sightseeing and dharshan at tirupati. Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, sri varahaswami temple, kapila theertham, talakona water falls, papavinasam theertham.' },
+      { title: 'Day 12 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, day of leisure free rest and own activities, etc.' },
+      { title: 'Day 13 : Chennai', copy: 'After Morning Breakfast proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach.' },
+      { title: 'Day 14 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".' }
     ],
     inclusions: [
       'Accommodation on Double / Triple sharing basis',
@@ -1198,9 +1199,9 @@ export const domestic=[
     specialHeading: 'Devotion. Heritage. Architecture. Spirituality.',
     stays: ['4 Nights / 5 Days', 'Temple Darshans', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'}
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple' },
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' },
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar' }
     ],
     galleryCaptions: ['Spiritual Darshan', 'Heritage Architecture', 'South India'],
     groupTitles: ['Sacred Darshans', 'Heritage Temples', 'Chennai Experience'],
@@ -1210,11 +1211,11 @@ export const domestic=[
       ['Chennai Experience', 'Kapaleeswarar Temple', 'Fort St.George', 'Marina Beach', 'San Thome Church']
     ],
     itinerary: [
-      {title: 'Day 1 : Chennai – Tirupati (via Srikalahasthi)', copy: 'On Arrival Chennai Airport by Flight will meet and transfer to Tirupati. On the way to visit dharshan at Srikalahasthi temple. After visit drive to check in hotel. Day of leisure free for rest and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 2 : Tirupati Dharshan', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel.'},
-      {title: 'Day 3 : Tirupati – Vellore – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit Vellore – Golden Temple. After dharshan drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 4 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
-      {title: 'Day 5 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".'}
+      { title: 'Day 1 : Chennai – Tirupati (via Srikalahasthi)', copy: 'On Arrival Chennai Airport by Flight will meet and transfer to Tirupati. On the way to visit dharshan at Srikalahasthi temple. After visit drive to check in hotel. Day of leisure free for rest and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 2 : Tirupati Dharshan', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel.' },
+      { title: 'Day 3 : Tirupati – Vellore – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit Vellore – Golden Temple. After dharshan drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 4 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.' },
+      { title: 'Day 5 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".' }
     ],
     inclusions: [
       'Accommodation on Double / Triple sharing basis',
@@ -1255,9 +1256,9 @@ export const domestic=[
     specialHeading: 'Nature. Wildlife. Backwaters. Leisure.',
     stays: ['4 Nights / 5 Days', 'Scenic Stays', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'},
-      {src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Landscape'}
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' },
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar' },
+      { src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Landscape' }
     ],
     galleryCaptions: ['Kumarakom Backwaters', 'Munnar Tea Estates', 'Kerala Landscapes'],
     groupTitles: ['Munnar Experiences', 'Kumarakom Serenity', 'Cochin Heritage'],
@@ -1267,11 +1268,11 @@ export const domestic=[
       ['Cochin Heritage', 'Dutch Palace', 'Jewish Synagogue', 'Chinese Fishing Nets', 'Marine Drive']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. Its unending expanse of tea plantations, pristine valleys & Mountains, the aroma of spice scented cool air, exotic species of flora & fauna in its wildlife sanctuaries & forests. It's the place you would love to visit and never wish to leave. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds."},
-      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak "Anamudi" & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Rest of the day at leisure.'},
-      {title: 'Day 3 : Munnar – Kumarakom', copy: 'After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations and travel magazines. It has also ranked above Taj Mahal in a latest statistics. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Rest of the day at leisure.'},
-      {title: 'Day 4 : Kumarakom – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Rest of the day at leisure.'},
-      {title: 'Day 5 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+      { title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. Its unending expanse of tea plantations, pristine valleys & Mountains, the aroma of spice scented cool air, exotic species of flora & fauna in its wildlife sanctuaries & forests. It's the place you would love to visit and never wish to leave. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds." },
+      { title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak "Anamudi" & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Rest of the day at leisure.' },
+      { title: 'Day 3 : Munnar – Kumarakom', copy: 'After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations and travel magazines. It has also ranked above Taj Mahal in a latest statistics. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Rest of the day at leisure.' },
+      { title: 'Day 4 : Kumarakom – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Rest of the day at leisure.' },
+      { title: 'Day 5 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.' }
     ],
     inclusions: [
       'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
@@ -1331,9 +1332,9 @@ export const domestic=[
     specialHeading: 'Faith. Heritage. Devotion. Peace.',
     stays: ['9 Nights / 10 Days', 'Extensive Temple Darshans', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/1280px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg', alt: 'Brihadisvara Temple'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Parameswara_Vinnagaram.JPG/1280px-Parameswara_Vinnagaram.JPG', alt: 'Kanchipuram Temple'}
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/1280px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg', alt: 'Brihadisvara Temple' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Parameswara_Vinnagaram.JPG/1280px-Parameswara_Vinnagaram.JPG', alt: 'Kanchipuram Temple' }
     ],
     galleryCaptions: ['Madurai Meenakshi', 'Temple Heritage', 'South India'],
     groupTitles: ['Murugan Temples', 'Navagraha Stalams', 'Heritage & Leisure'],
@@ -1343,16 +1344,16 @@ export const domestic=[
       ['Heritage & Leisure', 'Kancheepuram Temples', 'Chembarambakkam Lake', 'Chennai City Tour', 'Marina Beach']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Trichy – Palani', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Palani. After check in hotel, Proceed to visit Murugan Temple dharshan. After do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 2 : Palani – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit dharshan at Murugan Temple. After do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 3 : Tiruchendur – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Thiruparankundram – Murugan Temple, Pazhamudhircholai – Murugan Temple. Later return back to hotel.'},
-      {title: 'Day 4 : Madurai – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, proceed to visit Dharshan at Swamimalai – Murugan Temple. Evening do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 5 : Kumbakonam (Raahu, Guru, Chandra)', copy: 'After Morning Breakfast proceed to visit dharshan at Raahu Navagrahastalam – Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. Later return back to hotel.'},
-      {title: 'Day 6 : Kumbakonam – Chidambaram (Surya, Sukra, Shani)', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. After drive to check in hotel at Chidambaram.'},
-      {title: 'Day 7 : Chidambaram (Ketu, Budha, Angaarakan)', copy: 'After Morning Breakfast proceed to visit dharshan at Ketu Navagrahastalam — Keezahperumpallam, Budha Navagrahastalam — Thiruvenkadu, Angaarakan Navagrahastalam — Vaitheeswaran Kovil. Later return back to hotel.'},
-      {title: 'Day 8 : Chidambaram – Tiruthani – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit dharshan at Tiruthani – Murugan Temple. After drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 9 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
-      {title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".'}
+      { title: 'Day 1 : Arrival Trichy – Palani', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Palani. After check in hotel, Proceed to visit Murugan Temple dharshan. After do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 2 : Palani – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit dharshan at Murugan Temple. After do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 3 : Tiruchendur – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Thiruparankundram – Murugan Temple, Pazhamudhircholai – Murugan Temple. Later return back to hotel.' },
+      { title: 'Day 4 : Madurai – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, proceed to visit Dharshan at Swamimalai – Murugan Temple. Evening do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 5 : Kumbakonam (Raahu, Guru, Chandra)', copy: 'After Morning Breakfast proceed to visit dharshan at Raahu Navagrahastalam – Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. Later return back to hotel.' },
+      { title: 'Day 6 : Kumbakonam – Chidambaram (Surya, Sukra, Shani)', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. After drive to check in hotel at Chidambaram.' },
+      { title: 'Day 7 : Chidambaram (Ketu, Budha, Angaarakan)', copy: 'After Morning Breakfast proceed to visit dharshan at Ketu Navagrahastalam — Keezahperumpallam, Budha Navagrahastalam — Thiruvenkadu, Angaarakan Navagrahastalam — Vaitheeswaran Kovil. Later return back to hotel.' },
+      { title: 'Day 8 : Chidambaram – Tiruthani – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit dharshan at Tiruthani – Murugan Temple. After drive to check in hotel at Kancheepuram. Proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 9 : Kancheepuram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.' },
+      { title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of " Tourswale ".' }
     ],
     inclusions: [
       'Accommodation on Double / Triple sharing basis',
@@ -1393,9 +1394,9 @@ export const domestic=[
     specialHeading: 'Nature. Wildlife. Backwaters. Leisure.',
     stays: ['5 Nights / 6 Days', 'Houseboat Stay Option', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar'},
-      {src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Landscape'}
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' },
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Tea Gardens Munnar' },
+      { src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Landscape' }
     ],
     galleryCaptions: ['Alleppey Backwaters', 'Munnar Tea Estates', 'Kerala Landscapes'],
     groupTitles: ['Munnar Experiences', 'Thekkady Wildlife', 'Alleppey Backwaters'],
@@ -1405,12 +1406,12 @@ export const domestic=[
       ['Alleppey Backwaters', 'Houseboat / Shikara Ride', 'Venice of the East', 'Inland Canals', 'Sunset Views']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. Its unending expanse of tea plantations, pristine valleys & Mountains, the aroma of spice scented cool air, exotic species of flora & fauna in its wildlife sanctuaries & forests. It's the place you would love to visit and never wish to leave. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds."},
-      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak "Anamudi" & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Rest of the day at leisure.'},
-      {title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Rest of the day at leisure.'},
-      {title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey- With large network of inland canals earning it the sobriquet "Venice of the East". Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. A glide in a Houseboat through the enchanting backwater is sure to rob your Mind & Heart. Check in at Hotel/Houseboat & experience the life beyond this world while cruising in Houseboat or Shikara Ride. Evening enjoy the sunset from the backwater. Rest of the day at leisure.'},
-      {title: 'Day 5 : Alleppey – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Rest of the day at leisure.'},
-      {title: 'Day 6 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+      { title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. Its unending expanse of tea plantations, pristine valleys & Mountains, the aroma of spice scented cool air, exotic species of flora & fauna in its wildlife sanctuaries & forests. It's the place you would love to visit and never wish to leave. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds." },
+      { title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak "Anamudi" & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Rest of the day at leisure.' },
+      { title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Rest of the day at leisure.' },
+      { title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey- With large network of inland canals earning it the sobriquet "Venice of the East". Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. A glide in a Houseboat through the enchanting backwater is sure to rob your Mind & Heart. Check in at Hotel/Houseboat & experience the life beyond this world while cruising in Houseboat or Shikara Ride. Evening enjoy the sunset from the backwater. Rest of the day at leisure.' },
+      { title: 'Day 5 : Alleppey – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Rest of the day at leisure.' },
+      { title: 'Day 6 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.' }
     ],
     inclusions: [
       'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
@@ -1482,9 +1483,9 @@ export const domestic=[
     specialHeading: 'Mountains. Valleys. Heritage. Leisure.',
     stays: ['6 Nights / 7 Days', 'Scenic Hill Stays', 'Guided Sightseeing'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1400&q=80', alt: 'Shimla'},
-      {src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Manali'},
-      {src: 'https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1400&q=80', alt: 'Chandigarh'}
+      { src: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1400&q=80', alt: 'Shimla' },
+      { src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Manali' },
+      { src: 'https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1400&q=80', alt: 'Chandigarh' }
     ],
     galleryCaptions: ['Shimla · The Ridge', 'Manali · Solang Valley', 'Chandigarh · Rock Garden'],
     groupTitles: ['Shimla Highlights', 'Manali Experiences', 'Chandigarh Sightseeing'],
@@ -1494,13 +1495,13 @@ export const domestic=[
       ['Chandigarh Sightseeing', 'Rock Garden', 'Rose Garden', 'Sukhna Lake']
     ],
     itinerary: [
-      {title: 'Day 1 : Delhi – Shimla', copy: "Arrival in Delhi, meet & greet with our representative & Transfer to Shimla (370 k.m. and 9 hours journey) check in to hotel. Dinner and night stay."},
-      {title: 'Day 2 : Shimla – Kufri', copy: "Today morning after breakfast sight seeing of kufri for full day fun. India's one of the best holiday paradise Kufri in Shimla is beautifully tucked on an altitude of 2,622 meter, Via green valley, wild flower hall, Indira Holiday home and Fagu. Overnight stay at hotel in Shimla."},
-      {title: 'Day 3 : Shimla – Kullu - Manali', copy: 'Today morning after breakfast leave for Manali, on the way sight-seeing like Sundernagar lake, Pandoh dam, Vaishno Devi Temple (Kullu) and overnight stay in Manali.'},
-      {title: 'Day 4 : Manali Local Sightseeing', copy: 'After breakfast Half day local sightseeing of Manali "HADIMBA TEMPLE" Built in 1553 with a superbly crafted four tiered pagoda roof, it is famous for its exquisitely carved doorway. "CLUB HOUSE" with its comprehensive facilities, Tibetan Monastery, Van Vihar, and "VASHIST" Well known for its hot springs. Overnight stay at Hotel in Manali.'},
-      {title: 'Day 5 : Manali – Solang Valley', copy: 'Car will be available for Solang Valley visit: 13 kms. is a splendid valley between Solang village and Beas Kund. Solang valley offers the view of glaciers and snow capped mountains and peaks. It has fine ski slopes. Overnight stay in Manali.'},
-      {title: 'Day 6 : Manali – Chandigarh', copy: 'Today morning after breakfast drive to Chandigarh (320 k.m. 8-9 hours journey) Check in to hotel Dinner and night stay.'},
-      {title: 'Day 7 : Chandigarh Sightseeing - Delhi', copy: 'Today morning after breakfast visit to Chandigarh local sightseeing Rose Garden, Rock Garden & Sukhna lake. After sightseeing continue drive back to Delhi Drop at Railway Station / airport.'}
+      { title: 'Day 1 : Delhi – Shimla', copy: "Arrival in Delhi, meet & greet with our representative & Transfer to Shimla (370 k.m. and 9 hours journey) check in to hotel. Dinner and night stay." },
+      { title: 'Day 2 : Shimla – Kufri', copy: "Today morning after breakfast sight seeing of kufri for full day fun. India's one of the best holiday paradise Kufri in Shimla is beautifully tucked on an altitude of 2,622 meter, Via green valley, wild flower hall, Indira Holiday home and Fagu. Overnight stay at hotel in Shimla." },
+      { title: 'Day 3 : Shimla – Kullu - Manali', copy: 'Today morning after breakfast leave for Manali, on the way sight-seeing like Sundernagar lake, Pandoh dam, Vaishno Devi Temple (Kullu) and overnight stay in Manali.' },
+      { title: 'Day 4 : Manali Local Sightseeing', copy: 'After breakfast Half day local sightseeing of Manali "HADIMBA TEMPLE" Built in 1553 with a superbly crafted four tiered pagoda roof, it is famous for its exquisitely carved doorway. "CLUB HOUSE" with its comprehensive facilities, Tibetan Monastery, Van Vihar, and "VASHIST" Well known for its hot springs. Overnight stay at Hotel in Manali.' },
+      { title: 'Day 5 : Manali – Solang Valley', copy: 'Car will be available for Solang Valley visit: 13 kms. is a splendid valley between Solang village and Beas Kund. Solang valley offers the view of glaciers and snow capped mountains and peaks. It has fine ski slopes. Overnight stay in Manali.' },
+      { title: 'Day 6 : Manali – Chandigarh', copy: 'Today morning after breakfast drive to Chandigarh (320 k.m. 8-9 hours journey) Check in to hotel Dinner and night stay.' },
+      { title: 'Day 7 : Chandigarh Sightseeing - Delhi', copy: 'Today morning after breakfast visit to Chandigarh local sightseeing Rose Garden, Rock Garden & Sukhna lake. After sightseeing continue drive back to Delhi Drop at Railway Station / airport.' }
     ],
     inclusions: [
       'Welcome Drink on arrival (non-alcoholic)',
@@ -1574,9 +1575,9 @@ export const domestic=[
     specialHeading: 'Faith. Heritage. Devotion. Peace.',
     stays: ['14 Nights / 15 Days', 'Extensive Temple Darshans', 'Immersive Experience'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/1280px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg', alt: 'Brihadisvara Temple'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Parameswara_Vinnagaram.JPG/1280px-Parameswara_Vinnagaram.JPG', alt: 'Kanchipuram Temple'}
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1400&q=80', alt: 'Madurai Temple' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/1280px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg', alt: 'Brihadisvara Temple' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Parameswara_Vinnagaram.JPG/1280px-Parameswara_Vinnagaram.JPG', alt: 'Kanchipuram Temple' }
     ],
     galleryCaptions: ['Madurai Meenakshi', 'Temple Heritage', 'South India'],
     groupTitles: ['Murugan Temples', 'Navagraha Stalams', 'Pancha Bootham & Heritage'],
@@ -1586,21 +1587,21 @@ export const domestic=[
       ['Pancha Bootham & Heritage', 'Jambukeshwarar (Water)', 'Thillai Nataraja (Sky)', 'Arunachaleswara (Fire)', 'Ekambareswarar (Earth)', 'Srikalahasteeswara (Air)']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Trichy – Palani', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Palani. After check in hotel, Proceed to visit dharshan at Murugan Temple. Later return back to hotel.'},
-      {title: 'Day 2 : Palani – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit dharshan at Murugan Temple. Later return back to hotel.'},
-      {title: 'Day 3 : Tiruchendur – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, proceed to visit dharshan at Thiruparankundram – Murugan Temple, Pazhamudhircholai – Mururgan Temple. Later return back to hotel.'},
-      {title: 'Day 4 : Madurai – Trichy', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, proceed to visit dharshan at Jambukeshwarar Temple (Water). Later return back to hotel.'},
-      {title: 'Day 5 : Madurai – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, proceed to visit dharshan at Swamimalai Murugan Temple. Later return back to hotel.'},
-      {title: 'Day 6 : Kumbakonam', copy: 'After Morning Breakfast proceed to visit dharshan at Raahu Navagrahastalam — Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. Later return back to hotel.'},
-      {title: 'Day 7 : Kumbakonam – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. Later return back to check in hotel at Chidambaram.'},
-      {title: 'Day 8 : Chidambaram', copy: 'After Morning Breakfast proceed to visit dharshan at Ketu Navagrahastalam — Keezahperumpallam, Budha Navagrahastalam — Thiruvenkadu, Angaarakan Navagrahastalam — Vaitheeswaran Kovil. Later return back to hotel.'},
-      {title: 'Day 9 : Chidambaram', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple (Sky). Evening do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 10 : Chidambaram – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Chidambaram. After check in hotel, Proceed to visit Arunachaleshwara Temple (Fire), Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram. Evening do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 11 : Tiruvannamali – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. After check in hotel, proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple (Earth), chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.'},
-      {title: 'Day 12 : Kancheepuram – Tiruthani – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit dharshan at Tiruthani – Mururgan Temple, Srikalahasthi Temple. After drive to check in hotel, Day of leisure free for rest and own activities, etc.'},
-      {title: 'Day 13 : Tirupati – Srikalahasthi', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham, Srikalahasteeswara Temple (Air). Later return back to hotel.'},
-      {title: 'Day 14 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.'},
-      {title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
+      { title: 'Day 1 : Arrival Trichy – Palani', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Palani. After check in hotel, Proceed to visit dharshan at Murugan Temple. Later return back to hotel.' },
+      { title: 'Day 2 : Palani – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit dharshan at Murugan Temple. Later return back to hotel.' },
+      { title: 'Day 3 : Tiruchendur – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, proceed to visit dharshan at Thiruparankundram – Murugan Temple, Pazhamudhircholai – Mururgan Temple. Later return back to hotel.' },
+      { title: 'Day 4 : Madurai – Trichy', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, proceed to visit dharshan at Jambukeshwarar Temple (Water). Later return back to hotel.' },
+      { title: 'Day 5 : Madurai – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, proceed to visit dharshan at Swamimalai Murugan Temple. Later return back to hotel.' },
+      { title: 'Day 6 : Kumbakonam', copy: 'After Morning Breakfast proceed to visit dharshan at Raahu Navagrahastalam — Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. Later return back to hotel.' },
+      { title: 'Day 7 : Kumbakonam – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. Later return back to check in hotel at Chidambaram.' },
+      { title: 'Day 8 : Chidambaram', copy: 'After Morning Breakfast proceed to visit dharshan at Ketu Navagrahastalam — Keezahperumpallam, Budha Navagrahastalam — Thiruvenkadu, Angaarakan Navagrahastalam — Vaitheeswaran Kovil. Later return back to hotel.' },
+      { title: 'Day 9 : Chidambaram', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple (Sky). Evening do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 10 : Chidambaram – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Chidambaram. After check in hotel, Proceed to visit Arunachaleshwara Temple (Fire), Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram. Evening do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 11 : Tiruvannamali – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. After check in hotel, proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple, ekambareswarar temple (Earth), chembarambakkam lake. After do some shopping and own activities, etc. Later return back to hotel.' },
+      { title: 'Day 12 : Kancheepuram – Tiruthani – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit dharshan at Tiruthani – Mururgan Temple, Srikalahasthi Temple. After drive to check in hotel, Day of leisure free for rest and own activities, etc.' },
+      { title: 'Day 13 : Tirupati – Srikalahasthi', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham, Srikalahasteeswara Temple (Air). Later return back to hotel.' },
+      { title: 'Day 14 : Tirupati – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel.' },
+      { title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".' }
     ],
     inclusions: [
       'Accommodation at mentioned hotels or similar on Double / Triple sharing basis',
@@ -1680,9 +1681,9 @@ export const domestic=[
     specialHeading: 'Nature. Wildlife. Backwaters. Beaches.',
     stays: ['6 Nights / 7 Days', 'Premium Stays', 'AC Houseboat (Optional)'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://www.holidify.com/images/cmsuploads/compressed/Munnar66_20171216205538.jpg', alt: 'Munnar Tea Gardens'},
-      {src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach'}
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' },
+      { src: 'https://www.holidify.com/images/cmsuploads/compressed/Munnar66_20171216205538.jpg', alt: 'Munnar Tea Gardens' },
+      { src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach' }
     ],
     galleryCaptions: ['Alleppey Backwaters', 'Munnar Plantations', 'Kovalam Beach'],
     groupTitles: ['Hill Stations', 'Wildlife & Backwaters', 'Beach Experiences'],
@@ -1692,13 +1693,13 @@ export const domestic=[
       ['Beach Experiences', 'Kovalam Golden Sands', 'Sri Padmanabhaswamy Temple', 'Veli Tourist Village', 'Shangumugham Beach Sunset']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar."},
-      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point. Stay At Munnar.'},
-      {title: 'Day 3 : Munnar – Thekkady', copy: 'After breakfast, proceed to Thekkady. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Check in at Hotel/Resort & go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Stay At Thekkady.'},
-      {title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey. Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. A glide in a Houseboat through the enchanting backwater is sure to rob your Mind & Heart. Check in at Hotel/Houseboat. Evening enjoy the sunset from the backwater. Stay At Alleppey.'},
-      {title: 'Day 5 : Alleppey – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the "Paradise of the South". Reach & check-in at the hotel. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.'},
-      {title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.'},
-      {title: 'Day 7 : Kovalam – Cochin / Trivandrum Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer do some Local Shopping and Sightseeing. Depart as per schedule with Happy Memories.'}
+      { title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar." },
+      { title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point. Stay At Munnar.' },
+      { title: 'Day 3 : Munnar – Thekkady', copy: 'After breakfast, proceed to Thekkady. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Check in at Hotel/Resort & go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Stay At Thekkady.' },
+      { title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey. Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. A glide in a Houseboat through the enchanting backwater is sure to rob your Mind & Heart. Check in at Hotel/Houseboat. Evening enjoy the sunset from the backwater. Stay At Alleppey.' },
+      { title: 'Day 5 : Alleppey – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the "Paradise of the South". Reach & check-in at the hotel. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.' },
+      { title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.' },
+      { title: 'Day 7 : Kovalam – Cochin / Trivandrum Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer do some Local Shopping and Sightseeing. Depart as per schedule with Happy Memories.' }
     ],
     inclusions: [
       'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
@@ -1771,9 +1772,9 @@ export const domestic=[
     specialHeading: 'Nature. Wildlife. Backwaters. Beaches.',
     stays: ['7 Nights / 8 Days', 'Premium Stays', 'AC Houseboat (Optional)'],
     gallery: [
-      {src: 'https://www.holidify.com/images/bgImages/MUNNAR.jpg', alt: 'Munnar Tea Gardens'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach'}
+      { src: 'https://www.holidify.com/images/bgImages/MUNNAR.jpg', alt: 'Munnar Tea Gardens' },
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' },
+      { src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach' }
     ],
     galleryCaptions: ['Munnar Plantations', 'Kumarakom Backwaters', 'Kovalam Beach'],
     groupTitles: ['Hill Stations', 'Wildlife & Backwaters', 'Beach & Heritage'],
@@ -1783,14 +1784,14 @@ export const domestic=[
       ['Beach & Heritage', 'Kovalam Golden Sands', 'Sri Padmanabhaswamy Temple', 'Dutch Palace & Synagogue', 'Chinese fishing nets']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar."},
-      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Stay At Munnar.'},
-      {title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Stay At Thekkady.'},
-      {title: 'Day 4 : Thekkady – Kumarakom', copy: 'After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations and travel magazines. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Stay At Kumarakom.'},
-      {title: 'Day 5 : Kumarakom – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.'},
-      {title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.'},
-      {title: 'Day 7 : Kovalam – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Stay At Cochin.'},
-      {title: 'Day 8 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+      { title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar." },
+      { title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Stay At Munnar.' },
+      { title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Stay At Thekkady.' },
+      { title: 'Day 4 : Thekkady – Kumarakom', copy: 'After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations and travel magazines. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Stay At Kumarakom.' },
+      { title: 'Day 5 : Kumarakom – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.' },
+      { title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.' },
+      { title: 'Day 7 : Kovalam – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Stay At Cochin.' },
+      { title: 'Day 8 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.' }
     ],
     inclusions: [
       'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
@@ -1852,9 +1853,9 @@ export const domestic=[
     specialHeading: 'Nature. Wildlife. Backwaters. Beaches.',
     stays: ['7 Nights / 8 Days', 'Premium Stays', 'AC Houseboat (Optional)'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Tea Gardens'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach'}
+      { src: 'https://images.unsplash.com/photo-1593693397690-362cb9666c89?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Tea Gardens' },
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Alleppey Backwaters' },
+      { src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach' }
     ],
     galleryCaptions: ['Munnar Plantations', 'Alleppey Backwaters', 'Kovalam Beach'],
     groupTitles: ['Hill Stations', 'Wildlife & Backwaters', 'Beach & Heritage'],
@@ -1864,14 +1865,14 @@ export const domestic=[
       ['Beach & Heritage', 'Kovalam Golden Sands', 'Sri Padmanabhaswamy Temple', 'Dutch Palace & Synagogue', 'Chinese fishing nets']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar."},
-      {title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Stay At Munnar.'},
-      {title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Stay At Thekkady.'},
-      {title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey- With large network of inland canals earning it the sobriquet “Venice of the East”. Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. Check in at Hotel/Houseboat & experience the life beyond this world along the backwater while cursing in Houseboat (If stay in Houseboat) or else Shikara Ride (If stay in hotel/Resort; at own cost) – Evening enjoy the sunset from the backwater. Stay At Alleppey.'},
-      {title: 'Day 5 : Alleppey – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.'},
-      {title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.'},
-      {title: 'Day 7 : Kovalam – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Stay At Cochin.'},
-      {title: 'Day 8 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.'}
+      { title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and drive to Munnar enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort. Stay At Munnar." },
+      { title: 'Day 2 : Munnar Sightseeing', copy: 'After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Evening spend time in local Munnar market enjoying Shopping. Stay At Munnar.' },
+      { title: 'Day 3 : Munnar – Thekkady', copy: 'After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh up go on an evening game viewing cruise on the Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Stay At Thekkady.' },
+      { title: 'Day 4 : Thekkady – Alleppey', copy: 'After Breakfast drive down to Alleppey- With large network of inland canals earning it the sobriquet “Venice of the East”. Famous for its Backwaters & Houseboat which you can’t find anywhere else in the world. Check in at Hotel/Houseboat & experience the life beyond this world along the backwater while cursing in Houseboat (If stay in Houseboat) or else Shikara Ride (If stay in hotel/Resort; at own cost) – Evening enjoy the sunset from the backwater. Stay At Alleppey.' },
+      { title: 'Day 5 : Alleppey – Kovalam', copy: 'After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Stay At Kovalam.' },
+      { title: 'Day 6 : Kovalam (with Trivandrum)', copy: 'After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Stay At Kovalam.' },
+      { title: 'Day 7 : Kovalam – Cochin', copy: 'After breakfast check out from the hotel and drive to check-in to the hotel at Cochin. Later go for local sightseeing of Cochin where you can visit Dutch Palace, Jewish Synagogue, Chinese fishing nets, St. Franchise church, Marine Drive. Evening back to hotel. Stay At Cochin.' },
+      { title: 'Day 8 : Cochin Departure', copy: 'After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local shopping. Depart as per schedule with Happy Memories.' }
     ],
     inclusions: [
       'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
@@ -1945,9 +1946,9 @@ export const domestic=[
     specialHeading: 'Sacred Temples. Divine Heritage. Inner Peace.',
     stays: ['9 Nights / 10 Days', 'Premium Stays', 'Spiritual Journey'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
-      {src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture'},
-      {src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City'}
+      { src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple' },
+      { src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture' },
+      { src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City' }
     ],
     galleryCaptions: ['Sacred Architecture', 'Divine Heritage', 'Chennai Coast'],
     groupTitles: ['Andhra Pradesh', 'Tamil Nadu Temples', 'Chennai Heritage'],
@@ -1957,16 +1958,16 @@ export const domestic=[
       ['Chennai Heritage', 'Kapaleeswarar Temple', 'Fort St.George', 'Marina Beach', 'San Thome Church']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Chennai – Tirupati (via Srikalahasthi) Srikalahasteeswara Temple', copy: "On Arrival Chennai Airport by Flight will meet and transfer to Tirupati. On the way to visit dharshan at Srikalahasthi Temple. After drive to check in hotel, Day of leisure free for rest and own activities. Stay at Tirupati."},
-      {title: 'Day 2 : Tirupati Dharshan', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel. Stay at Tirupati.'},
-      {title: 'Day 3 : Tirupati – Vellore – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit Vellore – Golden Temple. After check in hotel, proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple. Stay at Kancheepuram.'},
-      {title: 'Day 4 : Kancheepuram Ekambareswarar Temple (Earth)', copy: 'After Morning Breakfast proceed to visit dharshan at Ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities. Stay at Kancheepuram.'},
-      {title: 'Day 5 : Kancheepuram – Tiruvannamalai Arunachaleswara Temple (Fire)', copy: 'After Morning Breakfast check out and drive to Chidambaram. After check in hotel, Proceed to visit Arunachaleshwara Temple, Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram. Stay at Tiruvannamalai.'},
-      {title: 'Day 6 : Tiruvannamalai – Trichy (Jambukeshwarar Temple (Water))', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, proceed to visit dharshan at Jambukeshwarar Temple. Stay at Trichy.'},
-      {title: 'Day 7 : Trichy – Tanjore – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to brihadeeswara temple, gangaikonda cholapuram, garbarakshambigai temple, guru bhagavan temple. Later drive to check in hotel at Chidamabram.'},
-      {title: 'Day 8 : Chidambaram Thillai Nataraja Temple (Sky)', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple. Evening do some shopping and own activities. Stay at Chidambaram.'},
-      {title: 'Day 9 : Chidambaram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Stay at Chennai.'},
-      {title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of Tourswale.'}
+      { title: 'Day 1 : Arrival Chennai – Tirupati (via Srikalahasthi) Srikalahasteeswara Temple', copy: "On Arrival Chennai Airport by Flight will meet and transfer to Tirupati. On the way to visit dharshan at Srikalahasthi Temple. After drive to check in hotel, Day of leisure free for rest and own activities. Stay at Tirupati." },
+      { title: 'Day 2 : Tirupati Dharshan', copy: 'After Morning Breakfast Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel. Stay at Tirupati.' },
+      { title: 'Day 3 : Tirupati – Vellore – Kancheepuram', copy: 'After Morning Breakfast check out and drive to Kancheepuram. On the way to visit Vellore – Golden Temple. After check in hotel, proceed to visit dharshan at kanchi kamakshi amman temple, varadharaja perumal temple, kanchi kailasanathar temple. Stay at Kancheepuram.' },
+      { title: 'Day 4 : Kancheepuram Ekambareswarar Temple (Earth)', copy: 'After Morning Breakfast proceed to visit dharshan at Ekambareswarar temple, chembarambakkam lake. After do some shopping and own activities. Stay at Kancheepuram.' },
+      { title: 'Day 5 : Kancheepuram – Tiruvannamalai Arunachaleswara Temple (Fire)', copy: 'After Morning Breakfast check out and drive to Chidambaram. After check in hotel, Proceed to visit Arunachaleshwara Temple, Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram. Stay at Tiruvannamalai.' },
+      { title: 'Day 6 : Tiruvannamalai – Trichy (Jambukeshwarar Temple (Water))', copy: 'After Morning Breakfast check out and drive to Trichy. After check in hotel, proceed to visit dharshan at Jambukeshwarar Temple. Stay at Trichy.' },
+      { title: 'Day 7 : Trichy – Tanjore – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to brihadeeswara temple, gangaikonda cholapuram, garbarakshambigai temple, guru bhagavan temple. Later drive to check in hotel at Chidamabram.' },
+      { title: 'Day 8 : Chidambaram Thillai Nataraja Temple (Sky)', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple. Evening do some shopping and own activities. Stay at Chidambaram.' },
+      { title: 'Day 9 : Chidambaram – Chennai', copy: 'After Morning Breakfast check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Stay at Chennai.' },
+      { title: 'Day 10 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of Tourswale.' }
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar on Double / Triple sharing basis',
@@ -2029,9 +2030,9 @@ export const domestic=[
     specialHeading: 'Nature. Wildlife. Backwaters. Beaches.',
     stays: ['8 Nights / 9 Days', 'Premium Stays', 'AC Houseboat (Optional)'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Tea Gardens'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'},
-      {src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach'}
+      { src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Tea Gardens' },
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' },
+      { src: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1400&q=80', alt: 'Kovalam Beach' }
     ],
     galleryCaptions: ['Munnar Plantations', 'Kumarakom Backwaters', 'Kovalam Beach'],
     groupTitles: ['Hill Stations', 'Wildlife & Backwaters', 'Beach & Heritage'],
@@ -2041,15 +2042,15 @@ export const domestic=[
       ['Beach & Heritage', 'Kovalam Golden Sands', 'Sri Padmanabhaswamy Temple', 'Kuthiramalika Palace', 'Shangumugham Beach']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and transfer to Munnar. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds. After check in hotel, freshen up day of leisure free for rest and own activities. Stay At Munnar."},
-      {title: 'Day 2 : Munnar Sightseeing', copy: "After breakfast proceed to visit Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. You can visit Blossom Park, Pothenmedu View Point and Tea Museum. Evening spend time in local Munnar market enjoying Shopping. Later return back to hotel. Stay At Munnar."},
-      {title: 'Day 3 : Munnar Sightseeing', copy: "After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Rest of the day at leisure. Stay At Munnar."},
-      {title: 'Day 4 : Munnar – Thekkady', copy: "After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh and rest of the day at leisure. Stay At Thekkady."},
-      {title: 'Day 5 : Thekkady Sightseeing', copy: "After Morning Breakfast, proceed to visit Local attractions like Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Rest of the day at leisure. Stay At Thekkady."},
-      {title: 'Day 6 : Thekkady – Kumarakom', copy: "After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Rest of the day at leisure. Stay At Kumarakom."},
-      {title: 'Day 7 : Kumarakom – Kovalam', copy: "After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Rest of the day at leisure. Stay At Kovalam."},
-      {title: 'Day 8 : Kovalam (with Trivandrum)', copy: "After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Later return back to hotel. Rest of the day at leisure. Stay At Kovalam."},
-      {title: 'Day 9 : Kovalam – Cochin Departure', copy: "After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local sightseeing – covering Mattancherry & Fort Kochi sightseeing which includes Dutch Palace, Jew Synagogue, Jew Street, Chinese Fishing Net, St.Francis Church & Fort Kochi Beach. Depart as per schedule with Happy Memories."}
+      { title: 'Day 1 : Arrival Cochin – Munnar', copy: "On Arrival Cochin Airport will meet and transfer to Munnar. En-route enjoy the Cheeyapara waterfalls & Valara Waterfalls. On arrival, check-in in at Hotel/Resort & Spend the rest of the day at leisure enjoying with the mist & clouds. After check in hotel, freshen up day of leisure free for rest and own activities. Stay At Munnar." },
+      { title: 'Day 2 : Munnar Sightseeing', copy: "After breakfast proceed to visit Munnar (an idyllic tourised destination in Kerala) enjoying the stunning panoramic view of the green Carpets of tea plantation en-route. You can visit Blossom Park, Pothenmedu View Point and Tea Museum. Evening spend time in local Munnar market enjoying Shopping. Later return back to hotel. Stay At Munnar." },
+      { title: 'Day 3 : Munnar Sightseeing', copy: "After an early morning breakfast move towards Munnar local sightseeing visiting Eravikulam National Park famous for watching Nilgiry Thar & also south India’s highest peak “Anamudi” & thereafter visit Rose Garden. Post Lunch enjoy random clicks at Munnar Photo Point, Enjoy beauty of Mattupetty Dam, Be screaming crazy at Eco Point & Get in love with Tea Plantations. Rest of the day at leisure. Stay At Munnar." },
+      { title: 'Day 4 : Munnar – Thekkady', copy: "After an early breakfast, check out from the Munnar hotel & proceed to Thekkady which is also famously called Periyar. En-route visit the Spice Garden for a short journey into the spice life of Kerala & thereafter go on adventure ride with Elephant Safari. Checks in at Hotel/Resort & after fresh and rest of the day at leisure. Stay At Thekkady." },
+      { title: 'Day 5 : Thekkady Sightseeing', copy: "After Morning Breakfast, proceed to visit Local attractions like Periyar Lake at Periyar Tiger Reserve. Other attraction includes Jungle Boarder Jeep Safari, Kathakali Show, Martial Arts Show, Ayurvedic Message & last but not the least Local Shopping. Rest of the day at leisure. Stay At Thekkady." },
+      { title: 'Day 6 : Thekkady – Kumarakom', copy: "After having breakfast, Check out your hotel & drive towards Kumarakom (165 Kms), the Icon of Kerala’s tourism prosperity. Today, Kumarakom is world’s best known back water destination and recognized by many international tourism organizations. Check in your resort and later visit Kumarakom bird sanctuary and near by water scapes. Later return back to hotel. Rest of the day at leisure. Stay At Kumarakom." },
+      { title: 'Day 7 : Kumarakom – Kovalam', copy: "After Breakfast drive down to Kovalam. Kovalam beach is known as the “Paradise of the South”. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. Rest of the day at leisure. Stay At Kovalam." },
+      { title: 'Day 8 : Kovalam (with Trivandrum)', copy: "After Breakfast drive visit the sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Other sightseeing places are Kuthiramalika Palace Museum, Veli Tourist Village, which has an excellent waterfront park with a wide range of aqua entertainment facilities. Shangumugham Beach where one can watch the amazing sunset. Later return back to hotel. Rest of the day at leisure. Stay At Kovalam." },
+      { title: 'Day 9 : Kovalam – Cochin Departure', copy: "After Breakfast, Proceed towards your onwards Journey to Cochin Airport/Station-If time permits can offer cochin local sightseeing – covering Mattancherry & Fort Kochi sightseeing which includes Dutch Palace, Jew Synagogue, Jew Street, Chinese Fishing Net, St.Francis Church & Fort Kochi Beach. Depart as per schedule with Happy Memories." }
     ],
     inclusions: [
       'Hotel / Resort / Private Houseboat Accommodation on DBL / Twin Sharing Basis',
@@ -2111,9 +2112,9 @@ export const domestic=[
     specialHeading: 'Mountains. Monasteries. Heritage.',
     stays: ['9 Nights / 10 Days', 'Premium Stays', 'Tempo Traveller'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Himachal Mountains'},
-      {src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Mountain Valleys'},
-      {src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Dalhousie Hills'}
+      { src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Himachal Mountains' },
+      { src: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1400&q=80', alt: 'Mountain Valleys' },
+      { src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Dalhousie Hills' }
     ],
     galleryCaptions: ['Himachal Mountains', 'Manali Valleys', 'Amritsar Heritage'],
     groupTitles: ['Shimla & Manali', 'Dharamshala & Dalhousie', 'Amritsar Highlights'],
@@ -2123,16 +2124,16 @@ export const domestic=[
       ['Amritsar Highlights', 'Golden Temple', 'Jallianwala Bagh', 'Wagah Border Retreat', 'Heritage Walk']
     ],
     itinerary: [
-      {title: 'Day 1: DELHI – SHIMLA (370KM/8-9 hours)', copy: 'Arrival in Delhi, pick up from Delhi Railway station or Airport and then depart for Shimla. On arrival check in hotel dinner and overstay at hotel.'},
-      {title: 'Day 2: SHIMLA – KUFRI & SHIMLA LOCAL SIGHTSEEING', copy: 'Today after morning breakfast.Enjoy Full day excursion visiting to Shimla & “KUFRI”. Visit the Nature Park, Mahasu Peak, Advance study centre, sankat mochan, Vaishu devi gufa and Bird Park. Enjoy the cool atmosphere of Shimla Visit Mall, Ridge, Lower Bazaar and famous Kali Temple. Evening free for mall road, scandal point, lakkar bazaar. Stay at Shimla.'},
-      {title: 'Day 3: SHIMLA - KULLU - MANALI (270 kms/ 7-8 Hours)', copy: 'Check out from the hotel & leave for Manali. Enroute visit Sundernagar lake, Mandi, Kullu Valley, Pandoh dam, Vaishno Devi Temple (Kullu), Beas River. In the evening after arrival check into the hotel. Dinner & Overnight stay at hotel in Manali.'},
-      {title: 'Day 4: MANALI LOCAL SIGHTSEEING', copy: 'Morning local sightseeing of Manali. Visit Hadimba Temple, Club House, Tibetan Monastery, Van Vihar, and Vashist Hot Springs. After sightseeing return back to hotel Dinner & overnight stay at Hotel in Manali.'},
-      {title: 'Day 5: MANALI – SOLANG VALLEY – MANALI', copy: 'Today morning after breakfast car will be available for Solang Valley visit. Solang valley offers the view of glaciers and snow capped mountains and peaks. After sightseeing return back to hotel Dinner & overnight stay at Hotel in Manali.'},
-      {title: 'Day 6: MANALI– DHARMSHALA (240 KM 8-9 HOURS)', copy: 'After having breakfast check out from the hotel and then depart for Dharamshala (240 k.m. 9 hr. Journey) enroute visit Palampur tea garden. Check in to Hotel and overnight stay at Dharamshala.'},
-      {title: 'Day 7: DHARMSHALA LOCAL SIGHTSEEING - DALHOUSIE', copy: "Today after morning breakfast drive to visit local sightseeing of Dharamshala like city tour of McLeodganj visiting Dal Lake, Church, Bhagsu Nag Temple and Tibetan Monastery (Dalai Lama's Palace). After complete sightseeing drive to Dalhousie. In the evening reach at Dalhousie , check into the hotel. Dinner & over night stay at hotel."},
-      {title: 'Day 8: DALHOUSIE – KHAJJIAR (23 km)', copy: "Today morning breakfast Full day excursion to Kalatope and Khajjiar, India's Mini Switzerland. Khajjiar is a forest glade of great beauty, 6400 feet above sea level. After Sightseeing drive back to hotel for Dinner & Overnight stay at hotel."},
-      {title: 'Day 9: DALHOUSIE - AMRITSAR (210 KM /4-5 Hours)', copy: 'Today morning after breakfast checkout from the hotel & drive for Amritsar After arrival Check into the hotel & after fresh up Evening visit India-Pakistan Attari Border to watch Flag Retreat Ceremony- Attari Wagah. Return back to hotel Dinner & night stay at hotel.'},
-      {title: 'Day 10: AMRITSAR SIGHTSEEING - DELHI (450 KM /9-10 Hours)', copy: 'Today morning after breakfast sightseeing of Amritsar blessings of Golden Temple and Jallianwala Bagh. After sightseeing drive for Delhi drop at Delhi Railway Station or Airport. Departure with great memories.'}
+      { title: 'Day 1: DELHI – SHIMLA (370KM/8-9 hours)', copy: 'Arrival in Delhi, pick up from Delhi Railway station or Airport and then depart for Shimla. On arrival check in hotel dinner and overstay at hotel.' },
+      { title: 'Day 2: SHIMLA – KUFRI & SHIMLA LOCAL SIGHTSEEING', copy: 'Today after morning breakfast.Enjoy Full day excursion visiting to Shimla & “KUFRI”. Visit the Nature Park, Mahasu Peak, Advance study centre, sankat mochan, Vaishu devi gufa and Bird Park. Enjoy the cool atmosphere of Shimla Visit Mall, Ridge, Lower Bazaar and famous Kali Temple. Evening free for mall road, scandal point, lakkar bazaar. Stay at Shimla.' },
+      { title: 'Day 3: SHIMLA - KULLU - MANALI (270 kms/ 7-8 Hours)', copy: 'Check out from the hotel & leave for Manali. Enroute visit Sundernagar lake, Mandi, Kullu Valley, Pandoh dam, Vaishno Devi Temple (Kullu), Beas River. In the evening after arrival check into the hotel. Dinner & Overnight stay at hotel in Manali.' },
+      { title: 'Day 4: MANALI LOCAL SIGHTSEEING', copy: 'Morning local sightseeing of Manali. Visit Hadimba Temple, Club House, Tibetan Monastery, Van Vihar, and Vashist Hot Springs. After sightseeing return back to hotel Dinner & overnight stay at Hotel in Manali.' },
+      { title: 'Day 5: MANALI – SOLANG VALLEY – MANALI', copy: 'Today morning after breakfast car will be available for Solang Valley visit. Solang valley offers the view of glaciers and snow capped mountains and peaks. After sightseeing return back to hotel Dinner & overnight stay at Hotel in Manali.' },
+      { title: 'Day 6: MANALI– DHARMSHALA (240 KM 8-9 HOURS)', copy: 'After having breakfast check out from the hotel and then depart for Dharamshala (240 k.m. 9 hr. Journey) enroute visit Palampur tea garden. Check in to Hotel and overnight stay at Dharamshala.' },
+      { title: 'Day 7: DHARMSHALA LOCAL SIGHTSEEING - DALHOUSIE', copy: "Today after morning breakfast drive to visit local sightseeing of Dharamshala like city tour of McLeodganj visiting Dal Lake, Church, Bhagsu Nag Temple and Tibetan Monastery (Dalai Lama's Palace). After complete sightseeing drive to Dalhousie. In the evening reach at Dalhousie , check into the hotel. Dinner & over night stay at hotel." },
+      { title: 'Day 8: DALHOUSIE – KHAJJIAR (23 km)', copy: "Today morning breakfast Full day excursion to Kalatope and Khajjiar, India's Mini Switzerland. Khajjiar is a forest glade of great beauty, 6400 feet above sea level. After Sightseeing drive back to hotel for Dinner & Overnight stay at hotel." },
+      { title: 'Day 9: DALHOUSIE - AMRITSAR (210 KM /4-5 Hours)', copy: 'Today morning after breakfast checkout from the hotel & drive for Amritsar After arrival Check into the hotel & after fresh up Evening visit India-Pakistan Attari Border to watch Flag Retreat Ceremony- Attari Wagah. Return back to hotel Dinner & night stay at hotel.' },
+      { title: 'Day 10: AMRITSAR SIGHTSEEING - DELHI (450 KM /9-10 Hours)', copy: 'Today morning after breakfast sightseeing of Amritsar blessings of Golden Temple and Jallianwala Bagh. After sightseeing drive for Delhi drop at Delhi Railway Station or Airport. Departure with great memories.' }
     ],
     inclusions: [
       'Welcome Drink on arrival (Non alcoholic)',
@@ -2197,9 +2198,9 @@ export const domestic=[
     specialHeading: 'Sacred Temples. Divine Heritage.',
     stays: ['5 Nights / 6 Days', 'Premium Stays', 'Spiritual Journey'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
-      {src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture'},
-      {src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City'}
+      { src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple' },
+      { src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture' },
+      { src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City' }
     ],
     galleryCaptions: ['Sacred Architecture', 'Divine Heritage', 'Chennai Coast'],
     groupTitles: ['Trichy & Tanjore', 'Kumbakonam & Chidambaram', 'Chennai Heritage'],
@@ -2209,12 +2210,12 @@ export const domestic=[
       ['Chennai Heritage', 'Kapaleeswarar Temple', 'Fort St.George', 'Marina Beach', 'San Thome Church']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Trichy', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Hotel. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do someshopping and own activities. Later return back to hotel. Overnight Stay at Trichy.'},
-      {title: 'Day 2 : Trichy – Tanjore – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. On the way to visit dharshan at Tanjore - Brihadeeswara temple. Then proceed to visit dharshan at Raahu Navagrahastalam — Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. After drive to check in hotel. Overnight Stay at Kumbakonam.'},
-      {title: 'Day 3 : Kumbakonam – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. Later return back to check in hotel at Chidambaram. Overnight Stay at Chidambaram.'},
-      {title: 'Day 4 : Chidambaram – Chennai', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple. Evening do some shopping and own activities, etc. Later drive to check in hotel at Chennai. Overnight Stay at Chennai.'},
-      {title: 'Day 5 : Chennai', copy: 'After Morning Breakfast, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.'},
-      {title: 'Day 6 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
+      { title: 'Day 1 : Arrival Trichy', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Hotel. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do someshopping and own activities. Later return back to hotel. Overnight Stay at Trichy.' },
+      { title: 'Day 2 : Trichy – Tanjore – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. On the way to visit dharshan at Tanjore - Brihadeeswara temple. Then proceed to visit dharshan at Raahu Navagrahastalam — Thirunageswaram, Guru Navagrahastalam — Alangudi, Chandra Navagrahastalam — Thingaloor. After drive to check in hotel. Overnight Stay at Kumbakonam.' },
+      { title: 'Day 3 : Kumbakonam – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit dharshan at Surya Navagrahastalam — Sooriyanar Kovil, Sukra Navagrahastalam — Kanjanur, Shani Navagrahastalam — Thirunallar. Later return back to check in hotel at Chidambaram. Overnight Stay at Chidambaram.' },
+      { title: 'Day 4 : Chidambaram – Chennai', copy: 'After Morning Breakfast proceed to visit dharshan at Thillai Nataraja Temple. Evening do some shopping and own activities, etc. Later drive to check in hotel at Chennai. Overnight Stay at Chennai.' },
+      { title: 'Day 5 : Chennai', copy: 'After Morning Breakfast, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.' },
+      { title: 'Day 6 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".' }
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -2277,9 +2278,9 @@ export const domestic=[
     specialHeading: 'Heritage. Hills. Temples.',
     stays: ['11 Nights / 12 Days', 'Premium Stays', 'Extensive Journey'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
-      {src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Hill Stations'},
-      {src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City'}
+      { src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple' },
+      { src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Hill Stations' },
+      { src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City' }
     ],
     galleryCaptions: ['South Indian Temples', 'Ooty Hills', 'Chennai Heritage'],
     groupTitles: ['Andhra & Karnataka', 'Tamil Nadu Hills & Heritage', 'Coastal Coromandel'],
@@ -2289,18 +2290,18 @@ export const domestic=[
       ['Coastal Coromandel', 'Velankanni Church', 'Pondicherry French Quarter', 'Mahabalipuram Shore Temple', 'Chennai City Tour']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Chennai – Tirupati', copy: 'On Arrival Chennai Airport by Flight will meet and transfer to Tirupati. After check in hotel, Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, sri varahaswami temple, kapila theertham. Later return back to hotel. Overnight Stay at Tirupati.'},
-      {title: 'Day 2 : Tirupati – Bangalore', copy: 'After Morning Breakfast check out and drive to Bangalore. After check in hotel, Proceed to visit lal bagh, cubbon park, bannerghatta national park, vidhana soudha, iskcon temple, tippu sultan summer palace, gavi gangadhareshwara temple, bangalore fort, hesaraghatta lake, bellandur lake, shopping and own activities. Later return back to hotel. Overnight Stay at Bangalore.'},
-      {title: 'Day 3 : Bangalore – Mysore', copy: 'After Breakfast check out from the hotel and drive to Mysore. After check in hotel, Proceed to visit Brindavan Garden, Mysore Palace, Chamundeshwari Temple, St.Philomena’s Church, karanji Lake, Mysore Zoo, Krishna Raja Sagara, Lalitha Mahal. Later return back to hotel. Overnight Stay at Mysore.'},
-      {title: 'Day 4 : Mysore – Ooty', copy: 'After Breakfast check out and proceed to Ooty. On arrival check in to hotel. Later proceed to visit -Ooty Lake, Rose Garden and Botanical Garden, Doddabetta Peak. Later do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Ooty.'},
-      {title: 'Day 5 : Ooty – Coimbatore', copy: 'After Morning Breakfast check out and proceed to Coimbatore. After check in hotel, proceed to visit Dhyanalinga Temple, Adiyogi Shiva, Marudamalai Temple. Later return back to hotel. Overnight Stay at Coimbatore.'},
-      {title: 'Day 6 : Coimbatore – Madurai', copy: 'After Morning Breakfast check out and proceed to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam. Later return back to hotel. Overnight Stay at Madurai.'},
-      {title: 'Day 7 : Madurai – Trichy', copy: 'After Morning Breakfast check out and proceed to Trichy. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do someshopping and own activities. Later return back to hotel. Overnight Stay at Trichy.'},
-      {title: 'Day 8 : Trichy – Tanjore – Velankanni', copy: 'After Morning Breakfast check out and proceed to Velankanni. On the way to visit Tanjore - brihadeeswara temple, gangaikonda cholapuram, garbarakshambigai temple, guru bhagavan temple. Later drive to check in hotel at Velankanni. Then proceed to visit Annai Velankanni church. After visit walk on the beach, own activities, etc. Later return back to hotel. Overnight Stay at Velankanni.'},
-      {title: 'Day 9 : Velankanni – Pondicherry', copy: 'After Morning breakfast check out from the hotel and drive to Pondicherry. After check in hotel, proceed to visit Arulmigu Manakula Vinayagar Temple, French War Memorial, Sri Varadharaja Perumal Temple, Auroville Beach. Later retun back to hotel. Overnight stay at Pondicherry.'},
-      {title: 'Day 10 : Pondicherry – Mahabalipruam – Chennai', copy: 'After breakfast check out from the hotel and drive to Chennai. On the way to visit Mahabalipuram - Pancha Rathas, Shore Temple, Varaha Cave Temple, Tiger Cave, Thirukadalmallai. Later drive to check in hotel at Chennai. Overnight stay at Chennai.'},
-      {title: 'Day 11 : Chennai', copy: 'After Morning Breakfast, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.'},
-      {title: 'Day 12 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
+      { title: 'Day 1 : Arrival Chennai – Tirupati', copy: 'On Arrival Chennai Airport by Flight will meet and transfer to Tirupati. After check in hotel, Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, sri varahaswami temple, kapila theertham. Later return back to hotel. Overnight Stay at Tirupati.' },
+      { title: 'Day 2 : Tirupati – Bangalore', copy: 'After Morning Breakfast check out and drive to Bangalore. After check in hotel, Proceed to visit lal bagh, cubbon park, bannerghatta national park, vidhana soudha, iskcon temple, tippu sultan summer palace, gavi gangadhareshwara temple, bangalore fort, hesaraghatta lake, bellandur lake, shopping and own activities. Later return back to hotel. Overnight Stay at Bangalore.' },
+      { title: 'Day 3 : Bangalore – Mysore', copy: 'After Breakfast check out from the hotel and drive to Mysore. After check in hotel, Proceed to visit Brindavan Garden, Mysore Palace, Chamundeshwari Temple, St.Philomena’s Church, karanji Lake, Mysore Zoo, Krishna Raja Sagara, Lalitha Mahal. Later return back to hotel. Overnight Stay at Mysore.' },
+      { title: 'Day 4 : Mysore – Ooty', copy: 'After Breakfast check out and proceed to Ooty. On arrival check in to hotel. Later proceed to visit -Ooty Lake, Rose Garden and Botanical Garden, Doddabetta Peak. Later do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Ooty.' },
+      { title: 'Day 5 : Ooty – Coimbatore', copy: 'After Morning Breakfast check out and proceed to Coimbatore. After check in hotel, proceed to visit Dhyanalinga Temple, Adiyogi Shiva, Marudamalai Temple. Later return back to hotel. Overnight Stay at Coimbatore.' },
+      { title: 'Day 6 : Coimbatore – Madurai', copy: 'After Morning Breakfast check out and proceed to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam. Later return back to hotel. Overnight Stay at Madurai.' },
+      { title: 'Day 7 : Madurai – Trichy', copy: 'After Morning Breakfast check out and proceed to Trichy. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do someshopping and own activities. Later return back to hotel. Overnight Stay at Trichy.' },
+      { title: 'Day 8 : Trichy – Tanjore – Velankanni', copy: 'After Morning Breakfast check out and proceed to Velankanni. On the way to visit Tanjore - brihadeeswara temple, gangaikonda cholapuram, garbarakshambigai temple, guru bhagavan temple. Later drive to check in hotel at Velankanni. Then proceed to visit Annai Velankanni church. After visit walk on the beach, own activities, etc. Later return back to hotel. Overnight Stay at Velankanni.' },
+      { title: 'Day 9 : Velankanni – Pondicherry', copy: 'After Morning breakfast check out from the hotel and drive to Pondicherry. After check in hotel, proceed to visit Arulmigu Manakula Vinayagar Temple, French War Memorial, Sri Varadharaja Perumal Temple, Auroville Beach. Later retun back to hotel. Overnight stay at Pondicherry.' },
+      { title: 'Day 10 : Pondicherry – Mahabalipruam – Chennai', copy: 'After breakfast check out from the hotel and drive to Chennai. On the way to visit Mahabalipuram - Pancha Rathas, Shore Temple, Varaha Cave Temple, Tiger Cave, Thirukadalmallai. Later drive to check in hotel at Chennai. Overnight stay at Chennai.' },
+      { title: 'Day 11 : Chennai', copy: 'After Morning Breakfast, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.' },
+      { title: 'Day 12 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".' }
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -2369,9 +2370,9 @@ export const domestic=[
     specialHeading: 'Grand Spiritual Journey.',
     stays: ['14 Nights / 15 Days', 'Premium Stays', 'Extensive Journey'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
-      {src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture'},
-      {src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City'}
+      { src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple' },
+      { src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=80', alt: 'Temple Architecture' },
+      { src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City' }
     ],
     galleryCaptions: ['South Indian Temples', 'Sacred Architecture', 'Chennai Heritage'],
     groupTitles: ['Trichy & Madurai', 'Rameshwaram & Tanjore', 'Tirupati & Chennai'],
@@ -2381,21 +2382,21 @@ export const domestic=[
       ['Tirupati & Chennai', 'Tirupati Balaji Darshan', 'Vellore Golden Temple', 'Kancheepuram Temples', 'Chennai City Tour']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Trichy', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Hotel. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do some shopping and own activities. Later return back to hotel. Overnight Stay at Trichy.'},
-      {title: 'Day 2 : Trichy – Palani', copy: 'After Morning Breakfast check out and drive to Palani. After check in hotel, proceed to visit dharshan at Palani – Murugan Temple. Evening do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Palani.'},
-      {title: 'Day 3 : Palani – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam. Later return back to hotel. Overnight Stay at Madurai.'},
-      {title: 'Day 4 : Madurai – Kanyakumari', copy: 'After Morning Breakfast check out and drive to Kanyakumari. After check in hotel, proceed to visit Vivekanandar Rock Memorial, Thiruvalluvar Statue, Padmanabhapuram Palace, Thanumalayan Temple, Kumari Amman Temple, Vattakottai Fort. Later return back to hotel. Overnight Stay at Kanyakumari.'},
-      {title: 'Day 5 : Kanyakuamri – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit Tiruchendur – Murugan Temple. Evening do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Tiruchendur.'},
-      {title: 'Day 6 : Tiruchendur – Rameshwaram', copy: 'After Morning Breakfast check out and drive to Rameshwaram. After check in hotel, proceed to visit ramanathaswamy temple, agni tirtham, pamban bridge, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Rameshwaram.'},
-      {title: 'Day 7 : Rameshwaram – Pillayarpatti – Tanjore', copy: 'After Morning Breakfast check out and drive to Tanjore. On the way to visit Pillayarpatti – Vinayagar Temple. After visit drive to check in hotel, proceed to visit brihadeeswara temple, gangaikonda cholapuram, garbarakshambigai temple, guru bhagavan temple. Later return back to hotel. Overnight Stay at Tanjore.'},
-      {title: 'Day 8 : Tanjore – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, adi kumbeswarar temple, airavatesvara temple, ramaswamy temple, kasi viswanathar temple, mahalingeswarar temple. Later return back to hotel. Overnight Stay at Kumbakonam.'},
-      {title: 'Day 9 : Kumbakonam – Thirunallar – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit Thirunallar, thillai nataraja temple, thillai kali amman temple, pichavaram mangrove forest, shopping and own activities, etc. Then drive to check in hotel. Overnight Stay at Chidambaram.'},
-      {title: 'Day 10 : Chidambaram – Pondicherry', copy: 'After Morning Breakfast check out and drive to Pondicherry. After check in hotel, Proceed to visit arulmigu manakula vinayagar temple, church of the sacred heart of jesus, bharati government park, french war memorial, sri varadharaja perumal temple, auroville beach, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Pondicherry.'},
-      {title: 'Day 11 : Pondicherry – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Tiruvannamalai. check in hotel, Proceed to visit Arunachaleshwara Temple, Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram. Evening do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Tiruvannamalai.'},
-      {title: 'Day 12 : Tiruvannamalai – Vellore – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit Vellore – Golden Temple. After check in hotel, Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel. Overnight Stay at Tirupati.'},
-      {title: 'Day 13 : Tirupati – Kalahasthi – Tiruthani – Kancheepuram', copy: 'After Morning Breakfast, check out and drive to Kancheepuram. On the way to visit dharshan at SriKalahasthi Temple, Tiruthani – Murugan Temple. Then drive to check in hotel at Kancheepuram. After proceed to visit, kanchi kailasanathar temple, ekambareswarar temple. After do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Kancheepuram.'},
-      {title: 'Day 14 : Kancheepuram – Chennai', copy: 'After Morning Breakfast, check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.'},
-      {title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
+      { title: 'Day 1 : Arrival Trichy', copy: 'On Arrival Trichy Airport by Flight will meet and transfer to Hotel. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do some shopping and own activities. Later return back to hotel. Overnight Stay at Trichy.' },
+      { title: 'Day 2 : Trichy – Palani', copy: 'After Morning Breakfast check out and drive to Palani. After check in hotel, proceed to visit dharshan at Palani – Murugan Temple. Evening do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Palani.' },
+      { title: 'Day 3 : Palani – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam. Later return back to hotel. Overnight Stay at Madurai.' },
+      { title: 'Day 4 : Madurai – Kanyakumari', copy: 'After Morning Breakfast check out and drive to Kanyakumari. After check in hotel, proceed to visit Vivekanandar Rock Memorial, Thiruvalluvar Statue, Padmanabhapuram Palace, Thanumalayan Temple, Kumari Amman Temple, Vattakottai Fort. Later return back to hotel. Overnight Stay at Kanyakumari.' },
+      { title: 'Day 5 : Kanyakuamri – Tiruchendur', copy: 'After Morning Breakfast check out and drive to Tiruchendur. After check in hotel, proceed to visit Tiruchendur – Murugan Temple. Evening do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Tiruchendur.' },
+      { title: 'Day 6 : Tiruchendur – Rameshwaram', copy: 'After Morning Breakfast check out and drive to Rameshwaram. After check in hotel, proceed to visit ramanathaswamy temple, agni tirtham, pamban bridge, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Rameshwaram.' },
+      { title: 'Day 7 : Rameshwaram – Pillayarpatti – Tanjore', copy: 'After Morning Breakfast check out and drive to Tanjore. On the way to visit Pillayarpatti – Vinayagar Temple. After visit drive to check in hotel, proceed to visit brihadeeswara temple, gangaikonda cholapuram, garbarakshambigai temple, guru bhagavan temple. Later return back to hotel. Overnight Stay at Tanjore.' },
+      { title: 'Day 8 : Tanjore – Kumbakonam', copy: 'After Morning Breakfast check out and drive to Kumbakonam. After check in hotel, adi kumbeswarar temple, airavatesvara temple, ramaswamy temple, kasi viswanathar temple, mahalingeswarar temple. Later return back to hotel. Overnight Stay at Kumbakonam.' },
+      { title: 'Day 9 : Kumbakonam – Thirunallar – Chidambaram', copy: 'After Morning Breakfast check out and drive to Chidambaram. On the way to visit Thirunallar, thillai nataraja temple, thillai kali amman temple, pichavaram mangrove forest, shopping and own activities, etc. Then drive to check in hotel. Overnight Stay at Chidambaram.' },
+      { title: 'Day 10 : Chidambaram – Pondicherry', copy: 'After Morning Breakfast check out and drive to Pondicherry. After check in hotel, Proceed to visit arulmigu manakula vinayagar temple, church of the sacred heart of jesus, bharati government park, french war memorial, sri varadharaja perumal temple, auroville beach, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Pondicherry.' },
+      { title: 'Day 11 : Pondicherry – Tiruvannamalai', copy: 'After Morning Breakfast check out and drive to Tiruvannamalai. check in hotel, Proceed to visit Arunachaleshwara Temple, Sri Ramana Ashram, Virupaksha Cave, Sattanur Dam, Seshadri Swamigal Ashram. Evening do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Tiruvannamalai.' },
+      { title: 'Day 12 : Tiruvannamalai – Vellore – Tirupati', copy: 'After Morning Breakfast check out and drive to Tirupati. On the way to visit Vellore – Golden Temple. After check in hotel, Proceed to visit sri venkatachalapathy temple (tirumala), sri padmavathi ammavari temple, kapila theertham, papavinasam theertham. Later return back to hotel. Overnight Stay at Tirupati.' },
+      { title: 'Day 13 : Tirupati – Kalahasthi – Tiruthani – Kancheepuram', copy: 'After Morning Breakfast, check out and drive to Kancheepuram. On the way to visit dharshan at SriKalahasthi Temple, Tiruthani – Murugan Temple. Then drive to check in hotel at Kancheepuram. After proceed to visit, kanchi kailasanathar temple, ekambareswarar temple. After do some shopping and own activities, etc. Later return back to hotel. Overnight Stay at Kancheepuram.' },
+      { title: 'Day 14 : Kancheepuram – Chennai', copy: 'After Morning Breakfast, check out and drive to Chennai. After check in hotel, proceed to visit Kapaleeswarar Temple, Vadapalani Murugan Temple, Fort St.George, Arignar Anna Zoological Park, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.' },
+      { title: 'Day 15 : Chennai Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Detroit of Asia. You will depart to Chennai Airport for onward journey, along with unforgettable memoirs of "Tourswale".' }
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -2468,9 +2469,9 @@ export const domestic=[
     specialHeading: 'Palaces. Plantations. Parks.',
     stays: ['5 Nights / 6 Days', 'Comfortable Stays', 'Scenic Journey'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Coorg Hills'},
-      {src: 'https://images.unsplash.com/photo-1588628566587-bd728f3cb295?auto=format&fit=crop&w=1400&q=80', alt: 'Mysore Palace'},
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f7415e?auto=format&fit=crop&w=1400&q=80', alt: 'Bangalore City'}
+      { src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Coorg Hills' },
+      { src: 'https://images.unsplash.com/photo-1588628566587-bd728f3cb295?auto=format&fit=crop&w=1400&q=80', alt: 'Mysore Palace' },
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f7415e?auto=format&fit=crop&w=1400&q=80', alt: 'Bangalore City' }
     ],
     galleryCaptions: ['Coorg Plantations', 'Mysore Heritage', 'Bangalore Parks'],
     groupTitles: ['Bangalore City', 'Coorg Landscapes', 'Mysore Heritage'],
@@ -2480,12 +2481,12 @@ export const domestic=[
       ['Mysore Heritage', 'Mysore Palace', 'Brindavan Garden', 'Chamundeshwari Temple', 'Mysore Zoo']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Bangalore', copy: 'On Arrival Bangalore Airport by Flight will meet and transfer to Hotel. After check in hotel, proceed to visit lal bagh, cubbon park, bannerghatta national park, vidhana soudha. Later return back to hotel. Overnight Stay at Bangalore.'},
-      {title: 'Day 2 : Bangalore – Coorg', copy: 'After Morning Breakfast check out and proceed to Coorg. After check into the hotel at Coorg. Today visit Golden Temple and the Buddhist settlement at Bylekuppe, Kaveri Nisargadhama, Ecological Park, a deer Park. Later return back to hotel. Overrnight stay at Coorg.'},
-      {title: 'Day 3 : Coorg', copy: 'After Breakfast proceed for a sightseeing of Madikeri. Visit Omkareshwara Temple, Abbey Falls, Madikeri fort and Raja\'s Tomb, Raja\'s Seat. Later return back to hotel. Overnight stay at Coorg.'},
-      {title: 'Day 4 : Coorg – Mysore', copy: 'After Morning Breakfast check out from the hotel and drive to Mysore. After check in hotel, Proceed to visit Brindavan Garden, Mysore Palace, Chamundeshwari Temple, St.Philomena’s Church, karanji Lake, Mysore Zoo, Krishna Raja Sagara, Lalitha Mahal. Later return back to hotel. Overnight Stay at Mysore.'},
-      {title: 'Day 5 : Mysore – Bangalore', copy: 'After Morning Breakfast check out and drive to Bangalore. After check in hotel, proceed to visit Iskcon temple, tippu sultan summer palace, bangalore fort, hesaraghatta lake, bellandur lake, shopping and own activities. Later return back to hotel. Overnight Stay at Bangalore.'},
-      {title: 'Day 6 : Bangalore Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Silicon Valley of India. You will depart to Bangalore Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
+      { title: 'Day 1 : Arrival Bangalore', copy: 'On Arrival Bangalore Airport by Flight will meet and transfer to Hotel. After check in hotel, proceed to visit lal bagh, cubbon park, bannerghatta national park, vidhana soudha. Later return back to hotel. Overnight Stay at Bangalore.' },
+      { title: 'Day 2 : Bangalore – Coorg', copy: 'After Morning Breakfast check out and proceed to Coorg. After check into the hotel at Coorg. Today visit Golden Temple and the Buddhist settlement at Bylekuppe, Kaveri Nisargadhama, Ecological Park, a deer Park. Later return back to hotel. Overrnight stay at Coorg.' },
+      { title: 'Day 3 : Coorg', copy: 'After Breakfast proceed for a sightseeing of Madikeri. Visit Omkareshwara Temple, Abbey Falls, Madikeri fort and Raja\'s Tomb, Raja\'s Seat. Later return back to hotel. Overnight stay at Coorg.' },
+      { title: 'Day 4 : Coorg – Mysore', copy: 'After Morning Breakfast check out from the hotel and drive to Mysore. After check in hotel, Proceed to visit Brindavan Garden, Mysore Palace, Chamundeshwari Temple, St.Philomena’s Church, karanji Lake, Mysore Zoo, Krishna Raja Sagara, Lalitha Mahal. Later return back to hotel. Overnight Stay at Mysore.' },
+      { title: 'Day 5 : Mysore – Bangalore', copy: 'After Morning Breakfast check out and drive to Bangalore. After check in hotel, proceed to visit Iskcon temple, tippu sultan summer palace, bangalore fort, hesaraghatta lake, bellandur lake, shopping and own activities. Later return back to hotel. Overnight Stay at Bangalore.' },
+      { title: 'Day 6 : Bangalore Departure', copy: 'After Breakfast check out from the Hotel and get ready to say adios to Silicon Valley of India. You will depart to Bangalore Airport for onward journey, along with unforgettable memoirs of "Tourswale".' }
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -2548,9 +2549,9 @@ export const domestic=[
     specialHeading: 'Heritage. Coastlines. Hills.',
     stays: ['11 Nights / 12 Days', 'Premium Stays', 'Scenic Journey'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple'},
-      {src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Hills'},
-      {src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters'}
+      { src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple' },
+      { src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Munnar Hills' },
+      { src: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1400&q=80', alt: 'Kerala Backwaters' }
     ],
     galleryCaptions: ['Tamil Nadu Heritage', 'Munnar Tea Estates', 'Kerala Backwaters'],
     groupTitles: ['Tamil Nadu Heritage', 'Coastal Landscapes', 'Kerala Hill Stations'],
@@ -2560,18 +2561,18 @@ export const domestic=[
       ['Kerala Hill Stations', 'Thekkady Wildlife Sanctuary', 'Periyar Lake Cruise', 'Munnar Tea Gardens', 'Eravikulam National Park']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival Chennai', copy: 'On Arrival Chennai Airport by Flight will meet and transfer to hotel. After check in hotel, proceed to visit Kapaleeswarar Temple, Fort St.George, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.'},
-      {title: 'Day 2 : Chennai – Mahabalipuram – Pondicherry', copy: 'After Morning Breakfast check out from the hotel and drive to Pondicherry. On the way to visit Mahabalipuram - Pancha Rathas, Shore Temple, Varaha Cave Temple, Tiger Cave, Thirukadalmallai. After visit drive to Pondicherry. After check in hotel, freshen up. Day of leisure free for rest. Overnight Stay at Pondicherry.'},
-      {title: 'Day 3 : Pondicherry', copy: 'After Morning Breakfast proceed to visit arulmigu manakula vinayagar temple, church of the sacred heart of jesus, bharati government park, french war memorial, sri varadharaja perumal temple, auroville beach, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Pondicherry.'},
-      {title: 'Day 4 : Pondicherry – Trichy', copy: 'After Morning Breakfast check out from the hotel and drive to Trichy. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do some shopping and own activities. Later return back to hotel. Overnight Stay at Trichy.'},
-      {title: 'Day 5 : Trichy – Rameshwaram', copy: 'After Morning Breakfast check out and drive to Rameshwaram. After check in hotel, proceed to visit ramanathaswamy temple, agni tirtham, pamban bridge, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Rameshwaram.'},
-      {title: 'Day 6 : Rameshwaram – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam. Later return back to hotel. Overnight Stay at Madurai.'},
-      {title: 'Day 7 : Madurai – Kanyakumari', copy: 'After Morning Breakfast check out and drive to Kanyakumari. After check in hotel, proceed to visit Vivekanandar Rock Memorial, Thiruvalluvar Statue, Padmanabhapuram Palace, Thanumalayan Temple, Kumari Amman Temple, Vattakottai Fort. Later return back to hotel. Overnight Stay at Kanyakumari.'},
-      {title: 'Day 8 : Kanyakumari – Kovalam', copy: 'After Morning breakfast check out and drive to Kovalam. On the way sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Kovalam beach is known as the "Paradise of the South". This dreamland is an evergreen, serene, pleasant climatic and enticing beach destination. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. With high rock promontory and a calm bay of blue waters, this beach paradise creates a unique aquarelle on moonlight nights. Later return back to hotel. Overnight Stay at Kovalam.'},
-      {title: 'Day 9 : Kovalam – Thekkady', copy: 'After Morning Breakfast check out from the hotel and drive to Thekkady. Transfer to hotel & relax. Afternoon, proceed for sightseeing – The Periyar wildlife sanctuary is thick evergreen forest, declared a Tiger Reserve in 1978. The splendid artificial lake formed by the Mullaperiyar Dam across the Periyar river adds to the charm of the park. You can also go for Boat Cruises on the Periyar lake, visit cardamom, pepper, tea & coffee plantation. You may like to experience Kathakali Show-the local dance depicting the God & the devil, Kalaripayattu Show-ancient form of martial Arts practised across this part of India, Thekkady Elephant Ride, on your own. Later return back to hotel. Overnight Stay at Thekkady.'},
-      {title: 'Day 10 : Thekkady – Munnar', copy: 'After Morning breakfast, proceed to Munnar. Munnar is a land of Misty Mountains and spectacular tea plantations. The best hill station of Kerala. Watch the spectacular beauty of Tea Gardens; enjoy the nature, where the cloud turns into mist, which may touch you with a romantic feeling. Sprawling tea plantations, picture book towns, winding lanes and holiday facilities make this is a popular and most wanted tourist place of Kerala. After check in to hotel and take rest. Later you can visit Blossom Park, Pothenmedu View point, and Tea museum (will be closed on all Mondays). At the evening you have the opportunity of shopping at Munnar Town. Later return back to hotel. Overnight Stay at Munnar.'},
-      {title: 'Day 11 : Munnar', copy: 'Following the breakfast proceed for sightseeing, which includes Photo Point, Honey tree, Mattupetty Dam (boating at own cost, coordinate with driver), Echo point (The natural Echo phenomenon is always happening here), Shooting point, kundala lake, the Eravikulam (Rajamalai) National Park (will be closed on February and March in every year) which is a 30 minutes’ drive away from Munnar town (where you can see the rare species of Mountain Goat). Later return back to hotel. Overnight Stay at Munnar.'},
-      {title: 'Day 12 : Munnar – Cochin Departure', copy: 'After Morning Breakfast check out from the Hotel and get ready to say adios to God’s Own Country. You will depart to Cochin Airport for onward journey, along with unforgettable memoirs of "Tourswale".'}
+      { title: 'Day 1 : Arrival Chennai', copy: 'On Arrival Chennai Airport by Flight will meet and transfer to hotel. After check in hotel, proceed to visit Kapaleeswarar Temple, Fort St.George, San Thome Church, Guindy National Park, Valluvar Kottam, Marina Beach and Besant Nagar Beach. Evening do some shopping and own activities. Later return back to hotel. Overnight Stay at Chennai.' },
+      { title: 'Day 2 : Chennai – Mahabalipuram – Pondicherry', copy: 'After Morning Breakfast check out from the hotel and drive to Pondicherry. On the way to visit Mahabalipuram - Pancha Rathas, Shore Temple, Varaha Cave Temple, Tiger Cave, Thirukadalmallai. After visit drive to Pondicherry. After check in hotel, freshen up. Day of leisure free for rest. Overnight Stay at Pondicherry.' },
+      { title: 'Day 3 : Pondicherry', copy: 'After Morning Breakfast proceed to visit arulmigu manakula vinayagar temple, church of the sacred heart of jesus, bharati government park, french war memorial, sri varadharaja perumal temple, auroville beach, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Pondicherry.' },
+      { title: 'Day 4 : Pondicherry – Trichy', copy: 'After Morning Breakfast check out from the hotel and drive to Trichy. After check in hotel, Proceed to visit Ranganathaswamy Temple, Ucchi Pillayar Temple, Srirangam, Kallanai Dam. Later do some shopping and own activities. Later return back to hotel. Overnight Stay at Trichy.' },
+      { title: 'Day 5 : Trichy – Rameshwaram', copy: 'After Morning Breakfast check out and drive to Rameshwaram. After check in hotel, proceed to visit ramanathaswamy temple, agni tirtham, pamban bridge, shopping and own activities, etc. Later return back to hotel. Overnight Stay at Rameshwaram.' },
+      { title: 'Day 6 : Rameshwaram – Madurai', copy: 'After Morning Breakfast check out and drive to Madurai. After check in hotel, Proceed to visit Meenakshi Amman Temple, Thirumalai Nayakkar Mahal, Gandhi Memorial Museum, Koodal Azhagar Temple, Thirupparamkumram Murugan Temple, Vandiyur Mariamman Teppakulam. Later return back to hotel. Overnight Stay at Madurai.' },
+      { title: 'Day 7 : Madurai – Kanyakumari', copy: 'After Morning Breakfast check out and drive to Kanyakumari. After check in hotel, proceed to visit Vivekanandar Rock Memorial, Thiruvalluvar Statue, Padmanabhapuram Palace, Thanumalayan Temple, Kumari Amman Temple, Vattakottai Fort. Later return back to hotel. Overnight Stay at Kanyakumari.' },
+      { title: 'Day 8 : Kanyakumari – Kovalam', copy: 'After Morning breakfast check out and drive to Kovalam. On the way sightseeing of Trivandrum. The Sri Padmanabhaswamy temple is the most religious icon of the city. Kovalam beach is known as the "Paradise of the South". This dreamland is an evergreen, serene, pleasant climatic and enticing beach destination. Reach & check-in at the hotel and relax for a while amidst the comforts of your room. Kovalam is the place where one can see the golden sand at the day time & silver sand in the night. With high rock promontory and a calm bay of blue waters, this beach paradise creates a unique aquarelle on moonlight nights. Later return back to hotel. Overnight Stay at Kovalam.' },
+      { title: 'Day 9 : Kovalam – Thekkady', copy: 'After Morning Breakfast check out from the hotel and drive to Thekkady. Transfer to hotel & relax. Afternoon, proceed for sightseeing – The Periyar wildlife sanctuary is thick evergreen forest, declared a Tiger Reserve in 1978. The splendid artificial lake formed by the Mullaperiyar Dam across the Periyar river adds to the charm of the park. You can also go for Boat Cruises on the Periyar lake, visit cardamom, pepper, tea & coffee plantation. You may like to experience Kathakali Show-the local dance depicting the God & the devil, Kalaripayattu Show-ancient form of martial Arts practised across this part of India, Thekkady Elephant Ride, on your own. Later return back to hotel. Overnight Stay at Thekkady.' },
+      { title: 'Day 10 : Thekkady – Munnar', copy: 'After Morning breakfast, proceed to Munnar. Munnar is a land of Misty Mountains and spectacular tea plantations. The best hill station of Kerala. Watch the spectacular beauty of Tea Gardens; enjoy the nature, where the cloud turns into mist, which may touch you with a romantic feeling. Sprawling tea plantations, picture book towns, winding lanes and holiday facilities make this is a popular and most wanted tourist place of Kerala. After check in to hotel and take rest. Later you can visit Blossom Park, Pothenmedu View point, and Tea museum (will be closed on all Mondays). At the evening you have the opportunity of shopping at Munnar Town. Later return back to hotel. Overnight Stay at Munnar.' },
+      { title: 'Day 11 : Munnar', copy: 'Following the breakfast proceed for sightseeing, which includes Photo Point, Honey tree, Mattupetty Dam (boating at own cost, coordinate with driver), Echo point (The natural Echo phenomenon is always happening here), Shooting point, kundala lake, the Eravikulam (Rajamalai) National Park (will be closed on February and March in every year) which is a 30 minutes’ drive away from Munnar town (where you can see the rare species of Mountain Goat). Later return back to hotel. Overnight Stay at Munnar.' },
+      { title: 'Day 12 : Munnar – Cochin Departure', copy: 'After Morning Breakfast check out from the Hotel and get ready to say adios to God’s Own Country. You will depart to Cochin Airport for onward journey, along with unforgettable memoirs of "Tourswale".' }
     ],
     inclusions: [
       'Accommodation at mentioned the above hotels or similar',
@@ -2639,9 +2640,9 @@ export const domestic=[
     specialHeading: 'Mountains. Valleys. Spirituality.',
     stays: ['10 Days Group Tour', 'Comfortable Stays', 'Scenic Journey'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Manali Snow'},
-      {src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Himalayan Valleys'},
-      {src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f7415e?auto=format&fit=crop&w=1400&q=80', alt: 'Golden Temple'}
+      { src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Manali Snow' },
+      { src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Himalayan Valleys' },
+      { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f7415e?auto=format&fit=crop&w=1400&q=80', alt: 'Golden Temple' }
     ],
     galleryCaptions: ['Snowy Manali', 'Himalayan Valleys', 'Golden Temple'],
     groupTitles: ['Himalayan Valleys', 'Spiritual Centers', 'Scenic Drives'],
@@ -2651,16 +2652,16 @@ export const domestic=[
       ['Scenic Drives', 'Rock Garden & Sukhna Lake', 'Water Rafting in Kullu', 'Wagha Border Ceremony']
     ],
     itinerary: [
-      {title: 'Day 1 : Mumbai Departure', copy: 'Assemble at Bandra Terminus (Old Building) by 11.30 hrs. to board 12925 Paschim Express departure to Ambala Cant. by 12.00 Hrs. Overnight en-route.'},
-      {title: 'Day 2 : Arrival Ambala', copy: 'Arrive Ambala Cant by 14.50 Hrs & transfer to hotel check in at hotel. free time for shopping. Enjoy DJ at 31st night.. Dinner & overnight stay at the hotel.'},
-      {title: 'Day 3 : Chandigarh – Manali', copy: 'Breakfast at hotel. After breakfast departure to visit Rock Garden and Sukhna Lake for boating (at own cost). Lunch at the hotel after lunch proceed for Pinjor Garden. Dinner & overnight journey to Manali.'},
-      {title: 'Day 4 : Manali Sightseeing', copy: 'Arrive Manali check in at the hotel. Breakfast will be served at the hotel on arriving at Manali - (An enchanting & picturesque Himalayan Valley) Lunch at hotel. After lunch small Trek to Jogini waterfall and then evening visit to Tibetan Monasteries & free time for Shopping at underground Market. Dinner and overnight stay at the hotel.'},
-      {title: 'Day 5 : Solang Valley / Snow Point', copy: 'After breakfast depart for the full day visit to Snow Point: Solang valley/ Gulaba / Madhi Vashisth Kund (Depends on the road conditions) Solang Valley . Evening free time for Leisure..Bon fire, dinner & overnight stay at the hotel.'},
-      {title: 'Day 6 : Manali – Dharamshala', copy: 'After Breakfast free time for Leisure. Lunch will be served at the hotel. After lunch check out & depart to Dharamshala . En-route enjoy Water Rafting( FREE ) at kullu, also visit Sai Shawl factory and manufacturing unit at Kullu . Dinner will be served en-route at camp side . After dinner, we departure to Dharamshala . Overnight en-route dinner.'},
-      {title: 'Day 7 : Dharamshala Sightseeing', copy: 'Reach Dharamshala check in at hotel. breakfast & lunch at the hotel. After lunch proceed for Dalailama temple, St. John Church, Bhagsunag temple and Bhagsunag waterfall and visit Dal lake , then Dinner & overnight stay at the hotel.'},
-      {title: 'Day 8 : Dharamshala – Amritsar', copy: 'After early breakfast check out & directly proceed for Amritsar. Enroute visit HPCA stadium, Lunch will be served en route. After reaching amritsar visit Golden Temple to enjoy the eligant night view.Dinner,DJ night, & overnight stay at hotel.'},
-      {title: 'Day 9 : Amritsar & Departure', copy: 'Breakfast at the hotel after breakfast check out & visit Golden temple & Jalianwala baugh and free time for leisure. Lunch at the hotel after lunch departs for Wagha border for flag off ceremony. After function directly proceeds to Amritsar station to catch golden temple mail 21.25 hrs. Overnight en route in train.'},
-      {title: 'Day 10 : Arrival Mumbai', copy: 'Reach Mumbai By 5.20 Hrs, Disappear with happy & unforgettable memories.....!!'}
+      { title: 'Day 1 : Mumbai Departure', copy: 'Assemble at Bandra Terminus (Old Building) by 11.30 hrs. to board 12925 Paschim Express departure to Ambala Cant. by 12.00 Hrs. Overnight en-route.' },
+      { title: 'Day 2 : Arrival Ambala', copy: 'Arrive Ambala Cant by 14.50 Hrs & transfer to hotel check in at hotel. free time for shopping. Enjoy DJ at 31st night.. Dinner & overnight stay at the hotel.' },
+      { title: 'Day 3 : Chandigarh – Manali', copy: 'Breakfast at hotel. After breakfast departure to visit Rock Garden and Sukhna Lake for boating (at own cost). Lunch at the hotel after lunch proceed for Pinjor Garden. Dinner & overnight journey to Manali.' },
+      { title: 'Day 4 : Manali Sightseeing', copy: 'Arrive Manali check in at the hotel. Breakfast will be served at the hotel on arriving at Manali - (An enchanting & picturesque Himalayan Valley) Lunch at hotel. After lunch small Trek to Jogini waterfall and then evening visit to Tibetan Monasteries & free time for Shopping at underground Market. Dinner and overnight stay at the hotel.' },
+      { title: 'Day 5 : Solang Valley / Snow Point', copy: 'After breakfast depart for the full day visit to Snow Point: Solang valley/ Gulaba / Madhi Vashisth Kund (Depends on the road conditions) Solang Valley . Evening free time for Leisure..Bon fire, dinner & overnight stay at the hotel.' },
+      { title: 'Day 6 : Manali – Dharamshala', copy: 'After Breakfast free time for Leisure. Lunch will be served at the hotel. After lunch check out & depart to Dharamshala . En-route enjoy Water Rafting( FREE ) at kullu, also visit Sai Shawl factory and manufacturing unit at Kullu . Dinner will be served en-route at camp side . After dinner, we departure to Dharamshala . Overnight en-route dinner.' },
+      { title: 'Day 7 : Dharamshala Sightseeing', copy: 'Reach Dharamshala check in at hotel. breakfast & lunch at the hotel. After lunch proceed for Dalailama temple, St. John Church, Bhagsunag temple and Bhagsunag waterfall and visit Dal lake , then Dinner & overnight stay at the hotel.' },
+      { title: 'Day 8 : Dharamshala – Amritsar', copy: 'After early breakfast check out & directly proceed for Amritsar. Enroute visit HPCA stadium, Lunch will be served en route. After reaching amritsar visit Golden Temple to enjoy the eligant night view.Dinner,DJ night, & overnight stay at hotel.' },
+      { title: 'Day 9 : Amritsar & Departure', copy: 'Breakfast at the hotel after breakfast check out & visit Golden temple & Jalianwala baugh and free time for leisure. Lunch at the hotel after lunch departs for Wagha border for flag off ceremony. After function directly proceeds to Amritsar station to catch golden temple mail 21.25 hrs. Overnight en route in train.' },
+      { title: 'Day 10 : Arrival Mumbai', copy: 'Reach Mumbai By 5.20 Hrs, Disappear with happy & unforgettable memories.....!!' }
     ],
     inclusions: [
       'Train travel from Mumbai',
@@ -2715,9 +2716,9 @@ export const domestic=[
     specialHeading: 'India’s First Domestic Cruise Ship.',
     stays: ['1 Night on Cruise', 'Exquisite Celebrations', 'Eight Stay Options'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?auto=format&fit=crop&w=1400&q=80', alt: 'Angriya Cruise Ship'},
-      {src: 'https://images.unsplash.com/photo-1511316695145-4992006ffddb?auto=format&fit=crop&w=1400&q=80', alt: 'Lounge and Dining'},
-      {src: 'https://images.unsplash.com/photo-1599640842225-85d111c60e6b?auto=format&fit=crop&w=1400&q=80', alt: 'Stunning Sea Views'}
+      { src: 'https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?auto=format&fit=crop&w=1400&q=80', alt: 'Angriya Cruise Ship' },
+      { src: 'https://images.unsplash.com/photo-1511316695145-4992006ffddb?auto=format&fit=crop&w=1400&q=80', alt: 'Lounge and Dining' },
+      { src: 'https://images.unsplash.com/photo-1599640842225-85d111c60e6b?auto=format&fit=crop&w=1400&q=80', alt: 'Stunning Sea Views' }
     ],
     galleryCaptions: ['Angriya Cruise Ship', 'Lounge and Dining', 'Stunning Sea Views'],
     groupTitles: ['Cruise Highlights', 'Stay Options', 'Onboard Amenities'],
@@ -2727,8 +2728,8 @@ export const domestic=[
       ['Onboard Amenities', '6 uniquely themed bars', '2 exquisite restaurants', 'Dry dock spa therapy', 'One exclusive fathom lounge', 'Infinity Pool & 3 open decks']
     ],
     itinerary: [
-      {title: 'Day 1 : Embarkation at Mumbai', copy: 'Board the Angriya cruise at Mumbai. Enjoy a welcome refreshment on arrival and take in the stunning views from the open decks. Settle into your chosen accommodation and spend the afternoon at the infinity pool or exploring the ship’s amenities. In the evening, enjoy a buffet dinner (veg and non-veg options), tea/juice, and snacks. Dance the night away at the boomers disco. Overnight stay on the cruise.'},
-      {title: 'Day 2 : Arrival in Goa', copy: 'Wake up to the beautiful views of the Arabian Sea. Enjoy a delicious breakfast on board as the ship approaches the scenic coast of Goa. Disembark with unforgettable memories of India\'s first domestic cruise.'}
+      { title: 'Day 1 : Embarkation at Mumbai', copy: 'Board the Angriya cruise at Mumbai. Enjoy a welcome refreshment on arrival and take in the stunning views from the open decks. Settle into your chosen accommodation and spend the afternoon at the infinity pool or exploring the ship’s amenities. In the evening, enjoy a buffet dinner (veg and non-veg options), tea/juice, and snacks. Dance the night away at the boomers disco. Overnight stay on the cruise.' },
+      { title: 'Day 2 : Arrival in Goa', copy: 'Wake up to the beautiful views of the Arabian Sea. Enjoy a delicious breakfast on board as the ship approaches the scenic coast of Goa. Disembark with unforgettable memories of India\'s first domestic cruise.' }
     ],
     inclusions: [
       'Welcome refreshment on arrival',
@@ -2779,9 +2780,9 @@ export const domestic=[
     specialHeading: 'Discover the City of Light.',
     stays: ['Customizable Stays', 'Private Experiences', 'Registered Guides'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Varanasiganga.jpg', alt: 'Varanasi Ghat'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Assi_Ghat_Varanasi_morning_Aarti.jpg', alt: 'Ganga Aarti'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg/1280px-Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg', alt: 'Sarnath Heritage'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Varanasiganga.jpg', alt: 'Varanasi Ghat' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Assi_Ghat_Varanasi_morning_Aarti.jpg', alt: 'Ganga Aarti' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg/1280px-Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg', alt: 'Sarnath Heritage' }
     ],
     galleryCaptions: ['Varanasi Ghats', 'Ganga Aarti Ceremony', 'Sarnath Heritage'],
     groupTitles: ['Evening Aarti', 'Morning Boat Tour', 'Sarnath Heritage'],
@@ -2791,9 +2792,9 @@ export const domestic=[
       ['Sarnath Heritage', 'Rishipatan / Ishipatan', 'Chaukandi & Dhamek Stupa', 'Main Temple & Jain Temple', 'Archeological museum & Lion Capital']
     ],
     itinerary: [
-      {title: 'Experience 1 : Sunset Boat Ride & Evening Ganga Aarti', copy: 'After relaxation, get ready for a sensational evening in the Old City. Include a Sunset Boat ride from the Small Burning ghat to the Big Burning Ghat. Experience the world-famous evening Ganga Aarti Ceremony event from 6:15 pm to 7 pm. Get a front-row peek on the Ganges for the legendary fire prayer, known as aarti. (Duration: 3 hours, 17:00 to 20:00)'},
-      {title: 'Experience 2 : Subah-E-Benaras with Boat Tour', copy: 'You will be picked up from your hotel for the amazing Subah-e-Benaras ceremony at Assi Ghat, Shivala. Followed by a traditional boat ride passing through different colourful & heritage ghats and buildings. Experience complete peace away from the city hustle with a nice storyteller waiting for the sun to come out. (Duration: 3-4 hours, 05:00 to 09:00)'},
-      {title: 'Experience 3 : Sarnath Tour', copy: 'Visit Sarnath, located 15 km from the city centre, where Lord Buddha delivered his first sermon. Explore historically relevant places like Chaukandi Stupa, Dhamek Stupa, the Main Temple, Jain Temple & the Archeological museum. See the Lion Capital, the National Emblem of India. (Duration: 3 hours, according to customer departure)'}
+      { title: 'Experience 1 : Sunset Boat Ride & Evening Ganga Aarti', copy: 'After relaxation, get ready for a sensational evening in the Old City. Include a Sunset Boat ride from the Small Burning ghat to the Big Burning Ghat. Experience the world-famous evening Ganga Aarti Ceremony event from 6:15 pm to 7 pm. Get a front-row peek on the Ganges for the legendary fire prayer, known as aarti. (Duration: 3 hours, 17:00 to 20:00)' },
+      { title: 'Experience 2 : Subah-E-Benaras with Boat Tour', copy: 'You will be picked up from your hotel for the amazing Subah-e-Benaras ceremony at Assi Ghat, Shivala. Followed by a traditional boat ride passing through different colourful & heritage ghats and buildings. Experience complete peace away from the city hustle with a nice storyteller waiting for the sun to come out. (Duration: 3-4 hours, 05:00 to 09:00)' },
+      { title: 'Experience 3 : Sarnath Tour', copy: 'Visit Sarnath, located 15 km from the city centre, where Lord Buddha delivered his first sermon. Explore historically relevant places like Chaukandi Stupa, Dhamek Stupa, the Main Temple, Jain Temple & the Archeological museum. See the Lion Capital, the National Emblem of India. (Duration: 3 hours, according to customer departure)' }
     ],
     inclusions: [
       'All transfers to experiences listed',
@@ -2846,9 +2847,9 @@ export const domestic=[
     specialHeading: 'Himalayan Landscapes & Hot Springs.',
     stays: ['6 Nights / 7 Days', 'Swiss Campsite', 'AC Volvo Transport'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Kasol_mountain_view.jpg', alt: 'Kasol Mountain View'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tosh_in_Monsoon%2C_July_2017.jpg/1280px-Tosh_in_Monsoon%2C_July_2017.jpg', alt: 'Parvati Valley Landscapes'},
-      {src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Kheerganga Trekking'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Kasol_mountain_view.jpg', alt: 'Kasol Mountain View' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tosh_in_Monsoon%2C_July_2017.jpg/1280px-Tosh_in_Monsoon%2C_July_2017.jpg', alt: 'Parvati Valley Landscapes' },
+      { src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80', alt: 'Kheerganga Trekking' }
     ],
     galleryCaptions: ['Kasol Mountains', 'Parvati Valley', 'Himalayan Trekking'],
     groupTitles: ['The Journey', 'Trekking Experience', 'Camps & Meals'],
@@ -2858,13 +2859,13 @@ export const domestic=[
       ['Camps & Meals', 'Overnight Kheerganga Camps', 'Overnight Kasol Stay', 'Meals: Dinner & Breakfast included', 'Local Support Team']
     ],
     itinerary: [
-      {title: 'Day 1 : Departure from Mumbai', copy: 'Board the train from Mumbai Central at 9:25 pm for Delhi and enjoy the overnight journey.'},
-      {title: 'Day 2 : Arrival & Departure from Delhi', copy: 'Reach Delhi by 6:45 pm. At 7:30 pm, board your AC Volvo bus and start your overnight journey to Kasol.'},
-      {title: 'Day 3 : Reach Kasol & Local Sightseeing', copy: 'Around 10 am, reach our Swiss campsite. Take rest, later explore the local market, themed cafes, take a walking tour to Chalal via the River Bridge, visit Nature Park, and try different cuisines. Dinner & overnight stay in Kasol.'},
-      {title: 'Day 4 : Kheerganga Trek from Barsheni', copy: 'After breakfast, our driver will pick you up for Barsheni where you will meet your local trek guide. Start your trek via Nakthan Village. Experience the best landscapes & waterfalls of Parvati valley. Enjoy hot water springs, visit Shiva temple & Kartik ji cave. Dinner & overnight stay at Kheerganga camps.'},
-      {title: 'Day 5 : Trek Down from Kheerganga', copy: 'Have breakfast and start the trek down from Kheerganga at 10 am. It will take around 4 to 5 hours to reach Barsheni. Board our vehicle, reach Kasol, and start your overnight journey back to Delhi.'},
-      {title: 'Day 6 : Delhi to Mumbai', copy: 'Arrive in Delhi by morning. Board the train from Delhi at 4:45 pm for Mumbai and enjoy the overnight journey.'},
-      {title: 'Day 7 : Arrival in Mumbai', copy: 'Reach Mumbai at 2:45 pm in the afternoon. Trip ends with beautiful memories to share with family & friends.'}
+      { title: 'Day 1 : Departure from Mumbai', copy: 'Board the train from Mumbai Central at 9:25 pm for Delhi and enjoy the overnight journey.' },
+      { title: 'Day 2 : Arrival & Departure from Delhi', copy: 'Reach Delhi by 6:45 pm. At 7:30 pm, board your AC Volvo bus and start your overnight journey to Kasol.' },
+      { title: 'Day 3 : Reach Kasol & Local Sightseeing', copy: 'Around 10 am, reach our Swiss campsite. Take rest, later explore the local market, themed cafes, take a walking tour to Chalal via the River Bridge, visit Nature Park, and try different cuisines. Dinner & overnight stay in Kasol.' },
+      { title: 'Day 4 : Kheerganga Trek from Barsheni', copy: 'After breakfast, our driver will pick you up for Barsheni where you will meet your local trek guide. Start your trek via Nakthan Village. Experience the best landscapes & waterfalls of Parvati valley. Enjoy hot water springs, visit Shiva temple & Kartik ji cave. Dinner & overnight stay at Kheerganga camps.' },
+      { title: 'Day 5 : Trek Down from Kheerganga', copy: 'Have breakfast and start the trek down from Kheerganga at 10 am. It will take around 4 to 5 hours to reach Barsheni. Board our vehicle, reach Kasol, and start your overnight journey back to Delhi.' },
+      { title: 'Day 6 : Delhi to Mumbai', copy: 'Arrive in Delhi by morning. Board the train from Delhi at 4:45 pm for Mumbai and enjoy the overnight journey.' },
+      { title: 'Day 7 : Arrival in Mumbai', copy: 'Reach Mumbai at 2:45 pm in the afternoon. Trip ends with beautiful memories to share with family & friends.' }
     ],
     inclusions: [
       'One night stay at Kheerganga Camps & One night stay at Kasol',
@@ -2911,9 +2912,9 @@ export const domestic=[
     specialHeading: 'Mountain Vistas. Beautiful Valleys. Unforgettable Memories.',
     stays: ['7 Days / 6 Nights', 'Super Deluxe Hotels', 'MAP Meal Plan'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg/1280px-Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg', alt: 'Shimla Landscape'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Beas_Valley_-_Palchan_-_Kullu_2014-05-10_2275.JPG/1280px-Beas_Valley_-_Palchan_-_Kullu_2014-05-10_2275.JPG', alt: 'Kullu Valley'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG/1280px-Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG', alt: 'Solang Valley'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg/1280px-Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg', alt: 'Shimla Landscape' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Beas_Valley_-_Palchan_-_Kullu_2014-05-10_2275.JPG/1280px-Beas_Valley_-_Palchan_-_Kullu_2014-05-10_2275.JPG', alt: 'Kullu Valley' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG/1280px-Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG', alt: 'Solang Valley' }
     ],
     galleryCaptions: ['Beautiful Shimla', 'Scenic Kullu Valley', 'Snowy Solang Valley'],
     groupTitles: ['Shimla Sightseeing', 'Manali & Valleys', 'Comfort & Inclusions'],
@@ -2923,13 +2924,13 @@ export const domestic=[
       ['Comfort & Inclusions', 'MAP Meal Plan (Breakfast & Dinner)', 'Individual Cab for Transfers & Sightseeing', 'Super Deluxe Hotels']
     ],
     itinerary: [
-      {title: 'Day 1 : Chandigarh to Shimla', copy: 'On arrival at Chandigarh Airport/Railway Station/Bus Stop, meet our representative. Drive to Shimla. On arrival, check in at the Shimla Hotel. Dinner and overnight stay at Hotel.'},
-      {title: 'Day 2 : Shimla Kufri & Local Sightseeing', copy: 'Morning after breakfast, proceed for Kufri sightseeing, tucked at an altitude of 2,622 meters. Visit Green Valley, Kufri, Indira Tourist Park, Mini Zoo & Fagu Valley. In the evening, visit Jakhu Temple, The Mall, Ridge, Scandal Point, Kalibari Temple, Lakkar Bazaar, Sankat Mochan Temple, Advanced Studies, and Christ Church. Back to hotel. Dinner and overnight stay.'},
-      {title: 'Day 3 : Shimla - Kullu - Manikaran - Manali (280 KM)', copy: 'After breakfast, check out and leave for Manali. On the way, visit sightseeing spots like Kullu Valley, Vyas River, Kullu world-famous Shawl Factories, and Manikaran. Reach Manali in the evening. Transfer to hotel. Dinner and overnight stay.'},
-      {title: 'Day 4 : Manali Local Sightseeing', copy: 'After breakfast, go for full day local sightseeing of Manali. Visit Hadimba Temple, built in 1553. Visit the Club House with its roller skating rink, library, and bar. Explore the Tibetan Monastery, Manu Temple, Van Vihar, and Vashist Hot Springs. Dinner and overnight stay.'},
-      {title: 'Day 5 : Manali - Solang Valley (51 KM)', copy: 'After breakfast, go for full day sightseeing of Solang valley. On the way back from snow point visit Gulaba. Take a sledge ride down the slopes & try luck climbing the little snow hills. In the afternoon return to Manali & then free to explore Mall & Local market on your own. Dinner and overnight stay.'},
-      {title: 'Day 6 : Naggar Castle Sightseeing', copy: 'Morning after breakfast, full day sightseeing of Naggar castle. Evening visit mall road for shopping. Back to hotel. Dinner & Overnight Stay at Hotel.'},
-      {title: 'Day 7 : Manali to Chandigarh Departure', copy: 'In the morning after having breakfast, check out from the hotel. Proceed to Chandigarh. Drop at Chandigarh Railway station/Airport. Sweet Memories with Happy Tour Ending.'}
+      { title: 'Day 1 : Chandigarh to Shimla', copy: 'On arrival at Chandigarh Airport/Railway Station/Bus Stop, meet our representative. Drive to Shimla. On arrival, check in at the Shimla Hotel. Dinner and overnight stay at Hotel.' },
+      { title: 'Day 2 : Shimla Kufri & Local Sightseeing', copy: 'Morning after breakfast, proceed for Kufri sightseeing, tucked at an altitude of 2,622 meters. Visit Green Valley, Kufri, Indira Tourist Park, Mini Zoo & Fagu Valley. In the evening, visit Jakhu Temple, The Mall, Ridge, Scandal Point, Kalibari Temple, Lakkar Bazaar, Sankat Mochan Temple, Advanced Studies, and Christ Church. Back to hotel. Dinner and overnight stay.' },
+      { title: 'Day 3 : Shimla - Kullu - Manikaran - Manali (280 KM)', copy: 'After breakfast, check out and leave for Manali. On the way, visit sightseeing spots like Kullu Valley, Vyas River, Kullu world-famous Shawl Factories, and Manikaran. Reach Manali in the evening. Transfer to hotel. Dinner and overnight stay.' },
+      { title: 'Day 4 : Manali Local Sightseeing', copy: 'After breakfast, go for full day local sightseeing of Manali. Visit Hadimba Temple, built in 1553. Visit the Club House with its roller skating rink, library, and bar. Explore the Tibetan Monastery, Manu Temple, Van Vihar, and Vashist Hot Springs. Dinner and overnight stay.' },
+      { title: 'Day 5 : Manali - Solang Valley (51 KM)', copy: 'After breakfast, go for full day sightseeing of Solang valley. On the way back from snow point visit Gulaba. Take a sledge ride down the slopes & try luck climbing the little snow hills. In the afternoon return to Manali & then free to explore Mall & Local market on your own. Dinner and overnight stay.' },
+      { title: 'Day 6 : Naggar Castle Sightseeing', copy: 'Morning after breakfast, full day sightseeing of Naggar castle. Evening visit mall road for shopping. Back to hotel. Dinner & Overnight Stay at Hotel.' },
+      { title: 'Day 7 : Manali to Chandigarh Departure', copy: 'In the morning after having breakfast, check out from the hotel. Proceed to Chandigarh. Drop at Chandigarh Railway station/Airport. Sweet Memories with Happy Tour Ending.' }
     ],
     inclusions: [
       'Welcome Drink on Arrival',
@@ -2985,7 +2986,604 @@ export const domestic=[
     tagline: 'Tourswale'
   }
 ];
-export const international=[
+export const international = [
+  {
+    slug: 'magical-europe-tour-aug22',
+    title: "12 Days Magical Europe Tour (22 Aug 2026)",
+    location: "Europe",
+    days: 12,
+    price: 320526,
+    image: "/images/magical-europe-aug13.png",
+    desc: "Explore the magic of Europe over 12 days, visiting 6 beautiful countries including a day at Disneyland Paris.",
+    tags: ["Europe", "12 Days", "International", "Available"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Magical Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Vatican",
+    specialHeading: "Available.",
+    stays: ["12 Days / 11 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      {src: "/images/magical-europe-aug13.png", alt: "Magical Europe"}
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "12 Days", "France, Belgium, Netherlands, Germany, Switzerland, Vatican"],
+      ["Pricing", "Adult: ₹3,20,526"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      {title: "Day 1: Paris", copy: "Get ready to begin your magical journey to Europe. Enter the world of travel as your board your flight to International Airport On arrival at international Airport. Proceed to board your flight towards Paris International Airport. Arrive at Paris airport, after completing all immigration formalities and hop on to our Luxury coach. Have a good night sleep to kick start your dream vacation Proceed to our hotel and overnight stay at Paris."},
+      {title: "Day 2: Paris", copy: "Breakfast at the hotel. Check-out and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Paris city tour — covering Arc De Triomphe, Concord Square, Champs Elysees, Louvre Glass Pyramid. Overnight in Paris."},
+      {title: "Day 3: Disneyland", copy: "Breakfast at the Hotel. Proceed towards Disneyland Full-day visit in Disneyland. Explore magical lands such as Fantasyland, Adventureland, Discovery land, and Frontierland, meet your favorite Disney characters, and Experience spectacular shows and parades that bring the Disney magic to life or walt Disney studio. Overnight in Paris."},
+      {title: "Day 4: Paris - Belgium - Amsterdam", copy: "Breakfast at the Hotel. Checkout and Proceed towards Brussels. City tour of Brussels covering Grand Place, Manneken Pis, Brussels Town hall, Brussels city Museum Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Amsterdam."},
+      {title: "Day 5: Amsterdam - Germany", copy: "Breakfast at the Hotel. Checkout and Proceed to Amsterdam. Visit Keukenhof - Amsterdam's stunning garden with vibrant tulips or Zaanse Schaans Dutch village and explore natural beauty along wit ancient windmills, shoe factory, cheese factory City tour of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk and the war memorial, Walking tour through old city. Overnight in Germany."},
+      {title: "Day 6: Cologne - Frankfurt - Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Cologne Cologne city tour covering cologne cathedral, iron bridge Frankfurt city tour covering Romer, St. Bartholomew Church Rhine falls witness the largest plain waterfalls in Europe also known as European Niagara Overnight in Swiss"},
+      {title: "Day 7: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Grindelwald. Jungfrau, the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory,Ice Palace, Alpine Sensation Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes - turn and Brienz Yash Chopra brown statue. Overnight in Swiss"},
+      {title: "Day 8: Switzerland - Milan - Pisa", copy: "Breakfast at the Hotel. Checkout and Proceed towards Milan. Covering Milan Cathedral, Castela Safrazco, Immanuele Galleria Walking tour through the old city to experience the Roman history. Visit the most famous wonder of Italy - Leaning Tower of Pisa (Photostop) Proceed to see major attractions like - Cathedra di Pisa Overnight in Pisa"},
+      {title: "Day 9: Pisa - Rome", copy: "Breakfast at the Hotel. Checkout and Proceed towards Rome city tour Rome city tour - explore the old city of Rome, Pantheon, Piazza Venezia, Trevi Fountain, Trajan Column, Foro di Augusto Proceed towards Colosseum (photo stop) Vatican City tour - covering St. Peter's Basilica Overnight in Rome"},
+      {title: "Day 10: Rome - Venice", copy: "Breakfast at the Hotel. Checkout and Proceed towards Venive Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs, Campanile di San Marco, glass factory Overnight in Venice"},
+      {title: "Day 11: Venice - Padua - Milan", copy: "Breakfast at the Hotel. Checkout and Proceed towards Padua. St. Antony's Basilica - the famous church of the \"Patron Saint of Lost Things\" Covering Milan Cathedral, Castela Safrazco, Immanuele Galleria Walking tour through the old city to experience the Roman history. Proceed towards the airport to board your flight back Home."},
+      {title: "Day 12: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip."}
+    ],
+    inclusions: [
+      "Sightseeing in France + Belgium + Netherlands + Germany + Switzerland + Italy as per itinerary.",
+      "Daily Breakfast + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket",
+      "Free insurance for aged below 60",
+      "Visa charges",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Local Lunch Will Be burger/pizza/fish n chips/kebab/KFC/Mc Donald/ Indian Buffet/ or any local food.",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "12+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "3 Night accommodation in Italy /4*/3*/ similar",
+          "2 Night accommodation in Switzerland /4*/3*/ similar",
+          "1 Night accommodation in Austria / 4*/3*/ similar",
+          "1 Night accommodation in Germany /4*/3*/ similar",
+          "1 Night accommodation in Netherlands / 4*/3*/ similar",
+          "2 Night accommodation in France / 4*/3*/ similar"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'london-europe-tour-aug21',
+    title: "14 Days London and Europe Tour (21 Aug 2026)",
+    location: "Europe",
+    days: 14,
+    price: 408557,
+    image: "/images/london-europe-aug21.png",
+    desc: "An epic 14-day journey across the UK and 9 beautiful European countries.",
+    tags: ["Europe", "14 Days", "International", "Available"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "London and Europe Tour",
+    promoLine: "UK | Netherlands | Belgium | France | Germany | Switzerland | Italy | Austria | Liechtenstein | Vatican",
+    specialHeading: "Available.",
+    stays: ["14 Days / 13 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      {src: "/images/london-europe-aug21.png", alt: "London and Europe"}
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "14 Days", "UK, Netherlands, Belgium, France, Germany, Switzerland, Italy, Austria, Liechtenstein, Vatican"],
+      ["Pricing", "Adult: ₹4,08,557"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      {title: "Day 1: London", copy: "Get ready to begin your luxury journey to Europe. Enter the world of travel as your board your flight to Muscat International Airport. On arrival at Muscat international Airport. Proceed to board your flight towards London International Airport. Arrive at London airport, after completing all immigration formalities and hop on to our Luxury coach. Proceed to our Hotel and overnight stay at London. Have a good night sleep to kick start your dream vacation."},
+      {title: "Day 2: London", copy: "Breakfast At the Hotel. Proceed for guided city tour to London Madam Tussauds London Tower With Bridge (photo Stop) London Eye Thames cruise Overnight In hotel in London"},
+      {title: "Day 3: London - Amsterdam Cruise", copy: "Breakfast At the Hotel. Checkout and proceed to London Proceed for guided city tour to London Buckingham Palace, Hyde Park, Big Ben, Westminster Abbey, the Houses of Parliament, Trafalgar Square and Kensington Palace. Proceed to Amsterdam with unlimited entertainment Cruise from London. Overnight In Cruise from London to Amsterdam"},
+      {title: "Day 4: Amsterdam - Germany", copy: "Breakfast at the hotel and check out and proceed to Zaanse Schanes. Visit Zaanse Schans, the wind village that offers you an astonishing view of the Wooden windmills, Wooden houses, cheese factory and Wooden shoe factory. Amsterdam city tour — covering Dam Square, War Memorial, Walking tour through old city Overnight in Germany"},
+      {title: "Day 5: Germany - Brussels - France", copy: "Breakfast at the hotel. Check-out and proceed to Cologne city tour. Cologne city tour covering cologne cathedral, iron bridge Brussels city tour covering — Grand Palace, Statue of Manneken Pis, etc. Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Valenciennes."},
+      {title: "Day 6: Paris", copy: "Breakfast at the hotel. Check-out and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero, Louvre Glass Pyramid, Notre dame Cathedral, Champs Elysees, Fontaine des Fleuves, Fontaine des Mers Overnight in Paris."},
+      {title: "Day 7: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Seine. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Overnight stay at Swiss"},
+      {title: "Day 8: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Jungfrau. Jungfrau the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through breathtaking alpine landscapes to snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory, Ice Palace, Alpine Sensation. Witness the beauty of Grindelwald with its stunning mountains and its glaciers. Visit the majestic Interlaken and get ready to drown in the beauty of the lakes. Yash Chopra brown statue. Overnight in Swiss"},
+      {title: "Day 9: Swiss - Vaduz - Innsbruck", copy: "Breakfast at the hotel. Checkout and Proceed towards Vaduz Zurich city tour visiting the historic Grossmünster Church and the beautiful Lake Zurich. Visit Vaduz city tours - insights into Liechtenstein's history and scenic landscape Innsbruck city tour — covering Altstadt Innsbruck, Coldenes Dachl, Leopold Brunnen, Stadtturn Swarovski kristallwelten (Photostop) Overnight in Innsbruck."},
+      {title: "Day 10: Innsbruck - Padua - Venice - Bologna", copy: "Breakfast at the Hotel. Checkout and Proceed towards Padua St. Antony's Basilica - the famous church of the \"Patron Saint of Lost Things\" Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge Of Sighs, Campanile di San Marco, glass factory Overnight in Bologna."},
+      {title: "Day 11: Bologna - Pisa - Florence - Arezzo", copy: "Breakfast at the Hotel. Checkout and Proceed towards Pisa Visit the most famous wonder of Italy — Leaning Tower of Pisa (Photostop) Proceed to see major attractions like - Cathedra di Pisa Florence city tour — covering Santa Maria del Cathedral, Piazza della signoria, walking tour through old city Overnight in Arezzo"},
+      {title: "Day 12: Arezzo - Rome", copy: "Breakfast at the hotel and check out and proceed to Rome city tour. Rome city tour — explore the old city of Rome, Pantheon, Piazza Venezia, Trevi Fountain, Trajan Column, Foro di Augusto. Proceed towards Colosseum (photo stop) Vatican City tour— covering St. Peter's Basilica Overnight Stay in Rome"},
+      {title: "Day 13: Rome - Airport", copy: "Breakfast at the hotel and check out and proceed to Rome airport. Enjoy last minute Shopping at Rome Proceed to Rome airport for your flight back to home."},
+      {title: "Day 14: Muscat - Airport", copy: "Arrive at international Airport. Free time for shopping in international Airport. Board your flight and arrive with sweet memories of Switrus Holidays Europe package."}
+    ],
+    inclusions: [
+      "Sightseeing in London + France + Netherlands + Germany + Belgium + Switzerland + Italy + Austria as per itinerary.",
+      "Daily Breakfast + Local Lunch + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket",
+      "Free insurance for aged below 60",
+      "Visa charges (Rs 10500)",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Local Lunch Will Be burger/pizza/fish n chips/kebab/KFC/Mc Donald/ Indian Buffet/ or any local food.",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "12+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "2 Nights’ accommodation in London / similar 3*/ 4*",
+          "1 Night accommodation in Cruise/ similar 3*/4*",
+          "1 Night accommodation in Austria/ similar 3*/4*",
+          "1 Night accommodation in Germany / similar 3*/4*",
+          "2 Night accommodation in France / similar 3*/4*",
+          "2 Night accommodation in Switzerland / similar 3*/4*",
+          "2 Night accommodation in Italy / similar 3*/4*"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'enchanting-europe-tour-aug15',
+    title: "10 Days Enchanting Europe Tour (15 Aug 2026)",
+    location: "Europe",
+    days: 10,
+    price: 283631,
+    image: "/images/enchanting-europe-aug15.png",
+    desc: "Experience a luxury 10-day journey across 8 beautiful European countries.",
+    tags: ["Europe", "10 Days", "International", "Available"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Enchanting Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy | Austria | Liechtenstein",
+    specialHeading: "Available.",
+    stays: ["10 Days / 9 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      {src: "/images/enchanting-europe-aug15.png", alt: "Enchanting Europe"}
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "10 Days", "France, Belgium, Netherlands, Germany, Switzerland, Italy, Austria, Liechtenstein"],
+      ["Pricing", "Adult: ₹2,83,631"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      {title: "Day 1: Amsterdam", copy: "Get ready to begin your luxury journey to Europe. Enter the world of travel as your board your flight to International Airport. On arrival at international Airport. Proceed to board your flight towards Amsterdam International Airport. Arrive at Amsterdam airport, after completing all immigration formalities and hop on to our Luxury coach. Have a good night sleep to kick start your dream vacation. Proceed to our Hotel and overnight stay at Amsterdam"},
+      {title: "Day 2: Amsterdam - Germany", copy: "Breakfast at the Hotel. Checkout and Proceed to Zaanse Schanes Visit Kuekenhof or Zaanse Schane windmills and Village factory, Wooden shoe factory, Cheese factory. City tour of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk, National monument and the war memorial, Walking tour through old city. Overnight in Germany"},
+      {title: "Day 3: Germany - Brussels - Valenciennes", copy: "Breakfast at the hotel. Check-out and proceed to Cologne city tour. Cologne city tour covering cologne cathedral, iron bridge Brussels city tour covering — Grand Palace, Statue of Manneken Pis, etc. Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Valenciennes."},
+      {title: "Day 4: Paris", copy: "Breakfast at the Hotel and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero, Louvre Glass Pyramid, Notre dame Cathedral, Champs Elysees, Fontaine des Fleuves, Fontaine des Mers Overnight in Paris."},
+      {title: "Day 5: Paris - Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Seine. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Overnight in Swiss."},
+      {title: "Day 6: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Grindelwald. Jungfrau, the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory, Ice Palace, Alpine Sensation Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes Yash Chopra brown statue. Overnight in Switzerland ."},
+      {title: "Day 7: Swiss - Vaduz - Innsbruck", copy: "Breakfast at the Hotel. Checkout and Proceed towards Zurich. Zurich City Tour - Explore Zurich's highlights including the magnificent Grossmünster Church and the scenic Lake Zurich. Visit Vaduz city tours - insights into Liechtenstein's history and scenic landscape Innsbruck city tour - covering Altstadt Innsbruck, Goldenes Dachl, Leopold Brunnen, Stadtturn Swarovski kristallwelten (Photostop) Overnight in Innsbruck"},
+      {title: "Day 8: Innsbruck - Padua - Venice", copy: "Breakfast at the Hotel. Checkout and Proceed towards Padua St. Antony's Basilica - the famous church of the \"Patron Saint of Lost Things\" Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs, Campanile di San Marco, glass factory. Overnight in Venice."},
+      {title: "Day 9: Venice - Milan", copy: "Breakfast at the Hotel. Checkout and Proceed towards Milan Covering Milan Cathedral, Castela Safrazco, Immanuele Galleria Walking tour through the old city to experience the Roman history. Enjoy last minute Shopping at Milan one of the capitals of the world Fashion. Proceed towards the airport to board your flight back Home."},
+      {title: "Day 10: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip."}
+    ],
+    inclusions: [
+      "Sightseeing in France + Belgium + Netherlands + Germany + Switzerland + Italy + Austria + Liechtenstein as per itinerary.",
+      "Daily Breakfast + Local Lunch + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket (Domestic & International)",
+      "Free insurance for aged below 60",
+      "Visa charges (10,500 INR)",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Local Lunch Will Be burger/pizza/fish n chips/kebab/KFC/Mc Donald/ Indian Buffet/ or any local food.",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "12+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "2 Nights accommodation in France / similar 3*/ 4*",
+          "1 Nights accommodation in Netherlands / similar 3*/4*",
+          "1 Night accommodation in Germany / similar 3*/4*",
+          "1 Night accommodation in Switzerland / similar 3*/4*",
+          "1 Night accommodation in Italy / similar 3*/4*",
+          "1 Night accommodation in Austria / similar 3*/4*"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'enchanting-europe-tour-aug14',
+    title: "10 Days Enchanting Europe Tour (14 Aug 2026)",
+    location: "Europe",
+    days: 10,
+    price: 270631,
+    image: "/images/enchanting-europe-aug14.png",
+    desc: "Experience the magic of Europe in 10 days, visiting 6 beautiful countries.",
+    tags: ["Europe", "10 Days", "International", "Fast Filling"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Enchanting Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy",
+    specialHeading: "Fast Filling.",
+    stays: ["10 Days / 9 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      {src: "/images/enchanting-europe-aug14.png", alt: "Enchanting Europe"}
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "10 Days", "France, Belgium, Netherlands, Germany, Switzerland, Italy"],
+      ["Pricing", "Adult: ₹2,70,631"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      {title: "Day 1: Paris", copy: "Get ready to begin your magical journey to Europe. Enter the world of travel as your board your flight to International Airport On arrival at International Airport. Proceed to board your flight towards Paris International Airport. Arrive at Paris airport, after completing all immigration formalities and hop on to our Luxury coach. Have a good night sleep to kick start your dream vacation Proceed to our hotel and overnight stay at Paris."},
+      {title: "Day 2: Paris Sightseeing", copy: "Breakfast at the Hotel and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks Of Paris. Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero, Louvre Glass Pyramid Overnight in Paris."},
+      {title: "Day 3: Paris - Belgium - Amsterdam", copy: "Breakfast at the Hotel. Checkout and Proceed towards Brussels. City tour of Brussels covering Grand Place, Manneken Pis, Brussels Town hall, Brussels city Museum Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Amsterdam."},
+      {title: "Day 4: Amsterdam - Germany", copy: "Breakfast at the Hotel. Checkout and Proceed to Amsterdam. Visit Kuekenhof or Zaanse Schane windmills and Village factory, Wooden shoe factory, Cheese factory. City tour of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk and the war memorial, Walking tour through old city. Overnight in Germany."},
+      {title: "Day 5: Cologne - Frankfurt - Zurich", copy: "Breakfast at the Hotel. Checkout and Proceed towards Cologne. Cologne city tour covering cologne cathedral, iron bridge Frankfurt city tour covering Romer, St. Bartholomew Church Titisee village - experience the flavours and essence of Swiss - German village Overnight in Swiss."},
+      {title: "Day 6: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Grindelwald. Jungfrau, the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory, Ice Palace, Alpine Sensation Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes Yash Chopra brown statue. Overnight in Switzerland."},
+      {title: "Day 7: Switzerland - Bergamo", copy: "Breakfast at the Hotel. Checkout and Proceed towards Zurich. Zurich city tour visiting the historic Grossmünster Church and the beautiful Lake Zurich Rhine falls witness the largest plain waterfalls in Europe also known as European Niagara Overnight in Bergamo"},
+      {title: "Day 8: Milan - Padua - Venice", copy: "Breakfast at the Hotel. Checkout and Proceed towards Milan St. Antony's Basilica - the famous church of the \"Patron Saint of Lost Things\" Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs, Campanile di San Marco, glass factory Overnight in Padua"},
+      {title: "Day 9: Padua - Milan", copy: "Breakfast at the Hotel. Checkout and Proceed towards Milan Covering Milan Cathedral, Castela Safrazco, Immanuele Galleria. Walking tour through the old city to experience the Roman history. Enjoy last minute Shopping at Milan one of the capitals of the world Fashion. Proceed towards the airport to board your flight back Home."},
+      {title: "Day 10: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip."}
+    ],
+    inclusions: [
+      "Sightseeing in France + Belgium + Netherlands + Germany + Switzerland + Italy as per itinerary.",
+      "Daily Breakfast + Local Lunch + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket",
+      "Free insurance for aged below 60",
+      "Visa charges",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Local Lunch Will Be burger/pizza/fish n chips/kebab/KFC/Mc Donald/ Indian Buffet/ or any local food.",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "12+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "2 Nights' accommodation in Italy / similar 4*/3*",
+          "2 Nights accommodation in Switzerland / similar",
+          "1 Night accommodation in Germany / similar 4*/3*",
+          "1 Night accommodation in Netherlands / similar",
+          "2 Nights accommodation in France / similar"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'magical-europe-tour-aug13',
+    title: "12 Days Magical Europe Tour (13 Aug 2026)",
+    location: "Europe",
+    days: 12,
+    price: 322357,
+    image: "/images/magical-europe-aug13.png",
+    desc: "Explore the very best of Europe over 12 magical days, visiting 9 beautiful countries.",
+    tags: ["Europe", "12 Days", "International", "Fast Filling"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Magical Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy | Liechtenstein | Austria | Vatican",
+    specialHeading: "Fast Filling.",
+    stays: ["12 Days / 11 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      {src: "/images/magical-europe-aug13.png", alt: "Magical Europe"}
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "12 Days", "France, Belgium, Netherlands, Germany, Switzerland, Italy, Liechtenstein, Austria, Vatican"],
+      ["Pricing", "Adult: ₹3,22,357"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      {title: "Day 1: Paris", copy: "Get ready to begin your magical journey to Europe. Enter the world of travel as your board your flight to International Airport On arrival at international Airport. Proceed to board your flight towards Paris International Airport. Arrive at Paris airport, after completing all immigration formalities and hop on to our Luxury coach. Have a good night sleep to kick start your dream vacation Proceed to our hotel and overnight stay at Paris."},
+      {title: "Day 2: Paris Sightseeing", copy: "Breakfast at the Hotel and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero, Louvre Glass Pyramid Overnight in Paris."},
+      {title: "Day 3: Paris - Brussels - Amsterdam", copy: "Breakfast at the hotel. Check-out and proceed to Brussels city tour. Brussels city tour covering — Grand Palace, Statue of Manneken Pis. Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Amsterdam."},
+      {title: "Day 4: Amsterdam - Germany", copy: "Breakfast at the Hotel. Checkout and Proceed to Amsterdam. Visit Kuekenhof or Zaanse Schane windmills and Village factory, Wooden shoe factory, Cheese factory. City tour Of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk and the war memorial, Walking tour through old city. Overnight in Germany."},
+      {title: "Day 5: Cologne - Frankfurt - Zurich", copy: "Breakfast at the Hotel. Checkout and Proceed towards Cologne Cologne city tour covering cologne cathedral, iron bridge Frankfurt city tour covering Romer, St. Bartholomew Church Rhine falls witness the largest plain waterfalls in Europe also known as European Niagara Overnight in Zurich."},
+      {title: "Day 6: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Grindelwald. Jungfrau, the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory, Ice Palace, Alpine Sensation Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes. Yash Chopra brown statue. Overnight in Swiss."},
+      {title: "Day 7: Swiss - Vaduz - Innsbruck", copy: "Breakfast at the Hotel. Checkout and Proceed towards Zurich. Zurich city tour visiting the historic Crossmunster Church and the beautiful Lake Zurich. Visit Vaduz city tours - insights into Liechtenstein's history and scenic landscape Innsbruck city tour - covering Altstadt Innsbruck, Goldenes Dachl, Leopold Brunnen, Stadtturn Overnight in Innsbruck"},
+      {title: "Day 8: Innsbruck - Padua - Venice - Bologna", copy: "Breakfast at the Hotel. Checkout and Proceed towards Padua St. Antony's Basilica - the famous church of the \"Patron Saint of Lost Things\" Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs Overnight in Bologna"},
+      {title: "Day 9: Bologna - Rome - Vatican - Rome", copy: "Breakfast at the Hotel. Checkout and Proceed towards Rome city tour. Rome city tour — explore the old city of Rome, Pantheon, Piazza Venezia, Trevi Fountain, Trajan Column, Foro di Augusto. Proceed towards Colosseum (photo stop). Vatican City tour — covering St. Peter's Basilica, Sistine Chapel. Overnight in Rome."},
+      {title: "Day 10: Rome - Pisa - Parma", copy: "Breakfast at the Hotel. Checkout and Proceed towards Pisa. Visit the most famous wonder of Italy - Leaning Tower Of Pisa (Photostop). Proceed to see major attractions like — Cathedra di Pisa. Overnight in Parma."},
+      {title: "Day 11: Parma - Milan", copy: "Breakfast at the Hotel. Checkout and Proceed towards Milan Covering Milan Cathedral, Castela Safrazco, Immanuele Galleria Walking tour through the old city to experience the Roman history. Enjoy last minute Shopping at Milan one of the capitals of the world Fashion. Proceed towards the airport to board your flight back Home."},
+      {title: "Day 12: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip."}
+    ],
+    inclusions: [
+      "Sightseeing in France + Belgium + Netherlands + Germany + Switzerland + Italy as per itinerary.",
+      "Daily Breakfast + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket",
+      "Free insurance for aged below 60",
+      "Visa charges",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Local Lunch Will Be burger/pizza/fish n chips/kebab/KFC/Mc Donald/ Indian Buffet/ or any local food.",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "12+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "3 Night accommodation in Italy /4*/3*/ similar",
+          "2 Night accommodation in Switzerland /4*/3*/ similar",
+          "1 Night accommodation in Austria / 4*/3*/ similar",
+          "1 Night accommodation in Germany /4*/3*/ similar",
+          "1 Night accommodation in Netherlands / 4*/3*/ similar",
+          "2 Night accommodation in France / 4*/3*/ similar"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'dream-europe-tour-8d',
+    title: "08 Days Dream Europe Tour (09 & 16 Aug 2026)",
+    location: "Europe",
+    days: 8,
+    price: 258201,
+    image: "/images/dream-europe.png",
+    desc: "An unforgettable 8-day journey covering the best of France, Belgium, Netherlands, Germany, and Switzerland.",
+    tags: ["Europe", "8 Days", "International", "Available"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Dream Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland",
+    specialHeading: "Available.",
+    stays: ["8 Days / 7 Nights", "Group Tour", "All Meals Included"],
+    departures: ["09 Aug 2026", "16 Aug 2026"],
+    departureMonths: "August 2026",
+    departureCities: ["Mumbai"],
+    gallery: [
+      { src: "/images/dream-europe.png", alt: "Dream Europe" }
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "8 Days", "France, Belgium, Netherlands, Germany, Switzerland"],
+      ["Pricing", "Adult: ₹2,58,201"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      { title: "Day 1: Paris", copy: "Get ready to begin your magical journey to Europe. Enter the world of travel as your board your flight to International Airport On arrival at International Airport. Proceed to board your flight towards Paris International Airport. Arrive at Paris airport, after completing all immigration formalities and hop on to our Luxury coach. Have a good night sleep to kick start your dream vacation Proceed to our hotel and overnight stay at Paris." },
+      { title: "Day 2: Paris Sightseeing", copy: "Breakfast at the Hotel and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero, Louvre Glass Pyramid, Notre dame Cathedral, Champs Elysees, Fontaine des Fleuves, Fontaine des Mers Overnight in Paris." },
+      { title: "Day 3: Paris - Belgium - Amsterdam", copy: "Breakfast at the Hotel. Checkout and Proceed towards Brussels. City tour of Brussels covering Grand Place, Manneken Pis, Brussels Town hall Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Amsterdam." },
+      { title: "Day 4: Amsterdam - Germany", copy: "Breakfast at the Hotel. Checkout and Proceed to Amsterdam. Visit Kuekenhof or Zaanse Schane windmills and Village factory, Wooden shoe factory, Cheese factory. City tour of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk and the war memorial, Walking tour through old city. Overnight in Germany." },
+      { title: "Day 5: Cologne – Frankfurt – Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Cologne Cologne city tour covering cologne cathedral, iron bridge Frankfurt city tour covering Romer, St. Bartholomew Church Rhine falls witness the largest plain waterfalls in Europe also known as European Niagara Overnight in Switzerland." },
+      { title: "Day 6: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Grindelwald. OPTIONAL TOUR Jungfrau, the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory,Ice Palace, Alpine Sensation Frankfurt city tour covering Romer, St. Bartholomew Church Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes, Yash Chopra brown statue. Overnight in Switzerland" },
+      { title: "Day 7: Switzerland - Airport", copy: "Breakfast at the Hotel. Checkout and Proceed towards Zurich. Zurich city tour visiting the historic Grossmünster Church and the beautiful Lake Zurich. Proceed towards the airport to board your flight back Home." },
+      { title: "Day 8: Airport", copy: "Arrive International airport. Free time for shopping in International Airport, board your flight and arrive at International Airport with sweet memories of Switrus Holidays Europe package." }
+    ],
+    inclusions: [
+      "Sightseeing in France + Belgium + Netherlands + Germany + Switzerland as per itinerary.",
+      "Daily Breakfast + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket",
+      "Free insurance for aged below 60",
+      "Visa charges",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "13+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "2 Night accommodation in Switzerland / similar 4*/3*",
+          "1 Night accommodation in Germany / similar 4*/3*",
+          "1 Night accommodation in Netherlands / similar 4*/3*",
+          "1 Night accommodation in France / similar 4*/3*"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'enchanting-europe-tour-10d',
+    title: "10 Days Enchanting Europe Tour (09 Aug 2026)",
+    location: "Europe",
+    days: 10,
+    price: 275131,
+    image: "/images/netherlands.png",
+    desc: "Experience the magic of 8 European countries in 10 days with our Enchanting Europe Tour.",
+    tags: ["Europe", "10 Days", "International", "Fast Filling"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Enchanting Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy | Austria | Liechtenstein",
+    specialHeading: "Fast Filling.",
+    stays: ["10 Days / 9 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      { src: "/images/netherlands.png", alt: "Enchanting Europe" }
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "10 Days", "France, Belgium, Netherlands, Germany, Switzerland, Italy, Austria, Liechtenstein"],
+      ["Pricing", "Adult: ₹2,75,131"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      { title: "Day 1: Paris", copy: "Get ready to begin your magical journey to Europe. Enter the world of travel as you board your flight to International Airport. On arrival at International Airport proceed to board your flight towards Paris International Airport. Arrive at Paris International Airport. After completing all the immigration formalities hop on to our luxury coach. Overnight in Paris." },
+      { title: "Day 2: Paris Sightseeing", copy: "Breakfast at the hotel. Check-out and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Paris city tour — covering Arc De Triomphe, Concord Square, Champs Elysees, Louvre Glass Pyramid. Overnight in Paris." },
+      { title: "Day 3: Paris - Brussels - Amsterdam", copy: "Breakfast at the hotel. Check-out and proceed to Brussels city tour. Brussels city tour covering — Grand Palace, Statue of Manneken Pis. Walking tour through old city. Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Amsterdam." },
+      { title: "Day 4: Amsterdam - Cologne", copy: "Breakfast at the Hotel. Checkout and Proceed to Amsterdam. Visit Kuekenhof or Zaanse Schane windmills and Village factory, Wooden shoe factory, Cheese factory. City tour of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk and the war memorial, Walking tour through old city. Overnight in Cologne." },
+      { title: "Day 5: Cologne - Frankfurt - Zurich", copy: "Breakfast at the Hotel. Checkout and Proceed towards Cologne. Cologne city tour covering cologne cathedral, iron bridge. Frankfurt city tour covering Romer, St. Bartholomew Church. Rhine falls witness the largest plain waterfalls in Europe also known as European Niagara. Overnight in Zurich." },
+      { title: "Day 6: Switzerland", copy: "Breakfast at the hotel. Proceed towards Jungfraujoch. Jungfrau, the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through breathtaking alpine landscapes to snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory, Ice Palace, Alpine Sensation. Witness the beauty of Grindelwald village with its stunning mountains and its glaciers. Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes. Yash Chopra brown statue. Overnight in Zurich." },
+      { title: "Day 7: Lucerne - Vaduz - Innsbruck", copy: "Breakfast at the Hotel. Checkout and Proceed towards Vaduz. Visit Vaduz city tours - insights into Liechtenstein's history and scenic landscape. Innsbruck city tour — covering Altstadt Innsbruck, Goldenes Dachl, Leopold Brunnen, Stadtturm. Overnight in Innsbruck." },
+      { title: "Day 8: Innsbruck - Padua - Venice", copy: "Breakfast at the Hotel. Checkout and Proceed towards Padua. St. Antony's Basilica - the famous church Of the \"Patron Saint Of Lost Things\". Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs. Overnight in Venice." },
+      { title: "Day 9: Venice - Milan", copy: "Breakfast at the Hotel. Checkout and Proceed towards Milan. Covering Milan Cathedral, Castela Safrazco, Immanuele Galleria. Walking tour through the Old city to experience the Roman history. Enjoy last minute Shopping at Milan one of the capitals of the world Fashion. Proceed towards the airport to board your flight back Home." },
+      { title: "Day 10: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip." }
+    ],
+    inclusions: [
+      "Sightseeing in France + Netherlands + Germany + Belgium + Switzerland + Italy as per itinerary.",
+      "Daily Breakfast + Local Lunch + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket",
+      "Free insurance for aged below 60",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "13+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "1 Nights accommodation in France / similar 3*/ 4*",
+          "1 Nights accommodation in Netherlands / similar 3*/4*",
+          "1 Night accommodation in Germany / similar 3*/4*",
+          "2 Night accommodation in Switzerland / similar 3*/4*",
+          "2 Night accommodation in Italy / similar 3*/4*",
+          "1 Night accommodation in Austria / similar 3*/4*"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'magical-europe-tour-12d',
+    title: "12 Days Magical Europe Tour (07 Aug 2026)",
+    location: "Europe",
+    days: 12,
+    price: 306357,
+    image: "https://wallpaperaccess.com/full/1192229.jpg",
+    imagePosition: "right center",
+    desc: "Our 12-day Magical Europe tour package offers a fantastic way to explore top European cities with a well-organized group tour.",
+    tags: ["Europe", "12 Days", "International", "Fast Filling"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Magical Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy | Vatican",
+    specialHeading: "Fast Filling.",
+    stays: ["12 Days / 11 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      { src: "https://wallpaperaccess.com/full/1192229.jpg", alt: "Europe Tour" }
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "12 Days", "France, Belgium, Netherlands, Germany, Switzerland, Italy, Vatican"],
+      ["Pricing", "Adult: ₹3,06,357"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      { title: "Day 1: Arrival in Amsterdam", copy: "Get ready to begin your magical journey to Europe. Enter the world of travel as your board your flight to International Airport On arrival at international Airport. Proceed to board your flight towards Amsterdam International Airport. Arrive at Amsterdam airport, after completing all immigration formalities and hop on to our Luxury coach. Have a good night sleep to kick start your dream vacation Proceed to our hotel and overnight stay at Amsterdam" },
+      { title: "Day 2: Zaanse Schanes & Amsterdam", copy: "Breakfast at the Hotel. Checkout and Proceed to Zaanse Schanes Visit Keukenhof — Amsterdam's stunning garden with vibrant tulips or Zaanse Schaans Dutch village and explore natural beauty along with ancient windmills, shoe factory, cheese factory City tour Of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk and the war memorial, Walking tour through old city Overnight in Germany Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 3: Cologne & Brussels", copy: "Breakfast at the Hotel. Checkout and Proceed towards Cologne Cologne city tour covering cologne cathedral, iron bridge Procced to City tour of Brussels covering Grand Place, Manneken Pis, Brussels Town hall, Brussels city Museum Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Valenciennes Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 4: Paris Sightseeing", copy: "Breakfast at the Hotel and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero Louvre Glass Pyramid, Notre dame Cathedral, Champs Elysees, Fontaine des Fleuves, Fontaine des Mers Overnight in Paris. Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 5: Seine Cruise & Swiss", copy: "Breakfast at the Hotel. Checkout and Proceed towards Seine. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Overnight in Swiss. Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 6: Switzerland", copy: "Breakfast at the hotel. Proceed towards Grinderwald. Jungfrau, the 'TOP Of Europe' - The journey through your dreams iconic cogwheel train, through breathtaking alpine landscapes to snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory,Ice Palace, Alpine Sensation. Witness the beauty of Grindelwald village with its stunning mountains and its glaciers. Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes. Yash Chopra brown statue. Overnight in Swiss. Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 7: Zurich & Innsbruck", copy: "Breakfast at the Hotel. Checkout and Proceed towards Zurich. Zurich city tour visiting the historic Grossmünster Church and the beautiful Lake Zurich. Visit Vaduz city tours - insights into Liechtenstein's history and scenic landscape Innsbruck city tour - covering Altstadt Innsbruck, Goldenes Dachl, Leopold Brunnen, Stadtturn Swarovski kristallwelten (Photostop) Overnight in Innsbruck Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 8: Padua & Venice", copy: "Breakfast at the Hotel. Checkout and Proceed towards Padua St. Antony's Basilica - the famous church of the 'Patron Saint of Lost Things' Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs Overnight in Bologna Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 9: Pisa & Florence", copy: "Breakfast at the Hotel. Checkout and Proceed towards Pisa Visit the most famous wonder of Italy — Leaning Tower of Pisa (Photostop) Proceed to see major attractions like - Cathedra di Pisa Florence city tour — covering Michelangelo Square, Santa Maria del Cathedral, Piazza della signoria, walking tour through old city Overnight in Arezzo Meals: Breakfast | Lunch" },
+      { title: "Day 10: Rome & Vatican", copy: "Breakfast at the Hotel. Checkout and Proceed towards Rome city tour Rome city tour — explore the old city of Rome, Pantheon, Piazza Venezia, Trevi Fountain, Trajan Column, Foro di Augusto Proceed towards Colosseum (photo stop) Vatican City tour — covering St. Peter's Basilica Overnight in Rome Meals: Breakfast | Lunch | Dinner" },
+      { title: "Day 11: Rome airport", copy: "Breakfast at the Hotel. Checkout and Proceed towards Rome airport Enjoy last minute shopping at Rome Proceed to Rome airport for your flight back to home. Meals: Breakfast | Lunch" },
+      { title: "Day 12: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip." }
+    ],
+    inclusions: [
+      "Flight Tickets",
+      "Visa",
+      "Accommodation",
+      "All meals"
+    ],
+    exclusions: [
+      "Personal expenses",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "Value-for-Money holiday",
+      "Visit 7 countries in 12 days"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "Premium 3/4 Star Hotels"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
+    slug: 'golden-europe-tour-11d',
+    title: "11 Days Golden Europe Tour (01 Aug 2026)",
+    location: "Europe",
+    days: 11,
+    price: 290147,
+    image: "https://journeyz.co/wp-content/uploads/2020/08/Bern-scaled.jpg",
+    desc: "Our 11-day Europe tour packages offer a fantastic way to explore top European cities with a well-organized group tour.",
+    tags: ["Europe", "11 Days", "International", "Fast Filling"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Golden Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy | Vatican",
+    specialHeading: "Fast Filling.",
+    stays: ["11 Days / 10 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      { src: "https://journeyz.co/wp-content/uploads/2020/08/Bern-scaled.jpg", alt: "Europe Tour" }
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "11 Days", "France, Belgium, Netherlands, Germany, Switzerland, Italy, Vatican"],
+      ["Pricing", "Adult: ₹2,90,147"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      { title: "Day 1: Arrival in Paris", copy: "Get ready to begin your magical journey to Europe. Arrive at Paris airport, after completing all immigration formalities and hop on to our Luxury coach. Proceed to our hotel and overnight stay at Paris." },
+      { title: "Day 2: Paris Sightseeing", copy: "Visit Eiffel tower fall in love with second level. Enjoy the scenic ride through Seine Cruise. Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero, Louvre Class Pyramid, Notre dame Cathedral, Champs Elysees. Overnight in Paris." },
+      { title: "Day 3: Paris - Belgium - Amsterdam", copy: "Breakfast at the Hotel. Checkout and Proceed towards Brussels. City tour of Brussels covering Crand Place, Manneken Pis, Brussels Town hall. Visit Atomium (Photo stop). Overnight in Amsterdam." },
+      { title: "Day 4: Amsterdam - Germany", copy: "Visit Kuekenhof or Zaanse Schane windmills and Village factory, Wooden shoe factory, Cheese factory. City tour of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk. Overnight in Germany." },
+      { title: "Day 5: Cologne - Frankfurt - Zurich", copy: "Cologne city tour covering cologne cathedral. Frankfurt city tour. Rhine falls witness the largest plain waterfalls in Europe. Overnight in Swiss." },
+      { title: "Day 6: Switzerland", copy: "Jungfrau, the 'Top of Europe,' - The journey through your dreams iconic cogwheel train. Visit the majestic Interlaken city tour. Overnight in Swiss." },
+      { title: "Day 7: Switzerland - Milan", copy: "Zurich city tour visiting the historic Crossmünster Church and the beautiful Lake Zurich. Covering Milan Cathedral, Castela Safrazco, Immanuele Galleria. Walking tour through the old city to experience the Roman history. Overnight in Milan." },
+      { title: "Day 8: Milan - Padua - Venice", copy: "Breakfast at the Hotel. Checkout and Proceed towards Padua. St. Antony's Basilica - the famous church of the 'Patron Saint of Lost Things'. Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs, Campanile di San Marco, glass factory. Overnight in Venice." },
+      { title: "Day 9: Venice - Pisa - Arezzo", copy: "Breakfast at the Hotel. Checkout and Proceed towards Pisa. Visit the most famous wonder of Italy — Leaning Tower of Pisa (Photostop). Proceed to see major attractions like — Cathedra di Pisa. Overnight in Arezzo." },
+      { title: "Day 10: Arezzo - Rome", copy: "Breakfast at the Hotel. Checkout and Proceed towards Rome city tour. Explore the old city of Rome, Pantheon, Piazza Venezia, Trevi Fountain, Trajan Column, Foro di Augusto. Proceed towards Colosseum (photo stop). Vatican City tour - covering St. Peter's Basilica. Proceed towards the airport to board your flight back Home." },
+      { title: "Day 11: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip." }
+    ],
+    inclusions: [
+      "Flight Tickets",
+      "Visa",
+      "Accommodation",
+      "All meals"
+    ],
+    exclusions: [
+      "Personal expenses",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "Value-for-Money holiday",
+      "Visit 7 countries in 11 days"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "Premium 3/4 Star Hotels"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
   {
     slug: 'greece-athens-mykonos-santorini-7n',
     title: "7N/8D Greece Tour (Athens, Mykonos, Santorini)",
@@ -3001,9 +3599,9 @@ export const international=[
     specialHeading: "Aegean Magic.",
     stays: ["7 Nights / 8 Days", "Start: Athens", "End: Athens"],
     gallery: [
-      {src: "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80", alt: "Greece"},
-      {src: "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?auto=format&fit=crop&w=1200&q=80", alt: "Mykonos"},
-      {src: "https://www.en-vols.com/wp-content/uploads/afmm/2023/06/GettyImages-1397763152_Guide_Santorin_MED.jpg", alt: "Santorini"}
+      { src: "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80", alt: "Greece" },
+      { src: "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?auto=format&fit=crop&w=1200&q=80", alt: "Mykonos" },
+      { src: "https://www.en-vols.com/wp-content/uploads/afmm/2023/06/GettyImages-1397763152_Guide_Santorin_MED.jpg", alt: "Santorini" }
     ],
     galleryCaptions: ["Athens", "Mykonos", "Santorini"],
     groupTitles: ["Details", "Hotels", "Inclusions"],
@@ -3013,14 +3611,14 @@ export const international=[
       ["Inclusions", "Daily breakfast", "Private arrival & departure transfers in Athens, Mykonos, Santorini", "Ferries between Athens, Mykonos, and Santorini"]
     ],
     itinerary: [
-      {title: "Day 1: Arrival in Athens", copy: "Private transfer from airport to hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens."},
-      {title: "Day 2: Athens Sightseeing", copy: "After Breakfast, Today Enjoy Athens half-day sightseeing tour with Acropolis Museum. Overnight in Athens."},
-      {title: "Day 3: Athens to Mykonos", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Athens to Mykonos. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Mykonos."},
-      {title: "Day 4: Mykonos Tour", copy: "After Breakfast, Today Enjoy Mykonos Half Day City Tour. Overnight in Mykonos."},
-      {title: "Day 5: Mykonos to Santorini", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Mykonos to Santorini. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Santorini."},
-      {title: "Day 6: Santorini Tour", copy: "After Breakfast, Today Enjoy Santorini City Tour with Sunset Oia. Overnight in Santorini."},
-      {title: "Day 7: Santorini to Athens", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Santorini to Athens. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens."},
-      {title: "Day 8: Departure", copy: "After Breakfast, Private transfer from hotel to airport. Departure from Athens Airport for your flight."}
+      { title: "Day 1: Arrival in Athens", copy: "Private transfer from airport to hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens." },
+      { title: "Day 2: Athens Sightseeing", copy: "After Breakfast, Today Enjoy Athens half-day sightseeing tour with Acropolis Museum. Overnight in Athens." },
+      { title: "Day 3: Athens to Mykonos", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Athens to Mykonos. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Mykonos." },
+      { title: "Day 4: Mykonos Tour", copy: "After Breakfast, Today Enjoy Mykonos Half Day City Tour. Overnight in Mykonos." },
+      { title: "Day 5: Mykonos to Santorini", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Mykonos to Santorini. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Santorini." },
+      { title: "Day 6: Santorini Tour", copy: "After Breakfast, Today Enjoy Santorini City Tour with Sunset Oia. Overnight in Santorini." },
+      { title: "Day 7: Santorini to Athens", copy: "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Santorini to Athens. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens." },
+      { title: "Day 8: Departure", copy: "After Breakfast, Private transfer from hotel to airport. Departure from Athens Airport for your flight." }
     ],
     inclusions: [
       "03 Nights accommodation in ATHENS (Selina Athens Theatrou or Similar)",
@@ -3091,9 +3689,9 @@ export const international=[
     specialHeading: "Himalayan Kingdom.",
     stays: ["7 Nights / 8 Days", "Start: NJP Rly Station / IXB Airport", "End: NJP Rly Station / IXB Airport"],
     gallery: [
-      {src: "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/08/shutterstock_547416469.jpg", alt: "Bhutan"},
-      {src: "https://www.andbeyond.com/wp-content/uploads/sites/5/Bhutan-Paro-Tigers-Nest-6-Website-1920x1080-fill-gravityauto.jpg", alt: "Paro"},
-      {src: "https://lp-cms-production.imgix.net/2019-06/920de4c69eb8dc956b6687b1e78ae804-trashi-chhoe-dzong.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4", alt: "Thimphu"}
+      { src: "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/08/shutterstock_547416469.jpg", alt: "Bhutan" },
+      { src: "https://www.andbeyond.com/wp-content/uploads/sites/5/Bhutan-Paro-Tigers-Nest-6-Website-1920x1080-fill-gravityauto.jpg", alt: "Paro" },
+      { src: "https://lp-cms-production.imgix.net/2019-06/920de4c69eb8dc956b6687b1e78ae804-trashi-chhoe-dzong.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4", alt: "Thimphu" }
     ],
     galleryCaptions: ["Bhutan Monasteries", "Paro Taktsang", "Thimphu"],
     groupTitles: ["Details", "Hotels", "Inclusions"],
@@ -3103,14 +3701,14 @@ export const international=[
       ["Inclusions", "Accommodation on twin/triple sharing basis", "Meal Plan MAP", "Exclusive Non a/c vehicle for all transfers & sightseeing (9 AM to 5 PM)", "Guide charges for Bhutan portion only", "SDF", "Hotel taxes applicable"]
     ],
     itinerary: [
-      {title: "Day 1 - NJP Rly Station / IXB Airport - Phuentsholing", copy: "On arrival at NJP Railway Station / IXB Airport you will be transferred to Phuentsholing. On arrival check in at the hotel. Later in the day you would be greeted by your guide. Evening free for leisure. Overnight stay at the hotel in Phuentsholing."},
-      {title: "Day 2 - Phuentsholing - Thimphu", copy: "After breakfast complete the immigration formalities and get transferred to Thimphu. On the way stop at Kharbandi Goemba. Later continue your drive to Thimphu. On arrival check in at the hotel. Evening free for leisure. Overnight stay at the hotel in Thimphu."},
-      {title: "Day 3 - Thimphu Sightseeing", copy: "After breakfast you would be taken for tour of Thimphu City. You would be visiting Kuensel Phodrang, Buddha Statue; National Memorial Chorten, a Stupa built in 1974; Folk Heritage Museum, traditional 3 storied house; Changangkha Lhakhang, one of the oldest temple in Thimphu and Motithang Takin Reserve, a wildlife reserve centre for Takin. In the evening visit Tashichho Dzong, Fortress of the Glorious Religion. Overnight at the hotel in Thimphu."},
-      {title: "Day 4 - Thimphu - Punakha / Wangdue Sightseeing", copy: "After breakfast, you will be driven to Punakha. On the way, stop at Immigration Check Point in Hongtsho Village to get the permit stamped which is to be returned in your return journey. Later halt at Dochula Pass, situated at an altitude of 3,100 mts. The landmarks around the pass includes 108 Druk Wangyal Stupas. Continue your drive to Punakha / Wangdue. On arrival visit Chimi Lhakhang, the Temple of Fertility. It is a short hike of around 30 - 45 minutes. Later, visit Punakha Dzong, located at the confluence of Mo Chhu and Po Chhu Rivers. Later check in at the hotel. Evening is free for leisure. Overnight at the hotel in Punakha / Wangdue."},
-      {title: "Day 5 - Punakha / Wangdue - Paro Sightseeing", copy: "After breakfast, you would be driven to Paro. Enroute stop at Royal Botanical Garden at Lamperi, Bhutan’s first botanical park. Further on the way, stop at Immigration Check Point in Hongtsho Village to return the permit which was stamped earlier. Later stop at Tamchog Lhakhang. On arrival at Paro visit Ta Dzong, national museum; Paro Rimpung Dzong, Buddhist monastery and fortress; walk down to Nemi Zam Bridge, a traditional covered cantilever bridge. Later check in at the hotel. Evening free for leisure. Overnight at the hotel in Paro."},
-      {title: "Day 6 - Paro Sightseeing", copy: "After breakfast visit Taktsang Monastery (Tiger's Nest), home of gods and monks located at an altitude of 3100 mts in the Upper Paro Valley, Bhutan. The hike to the Monastery takes about 5 - 6 hours to complete. As the hike to Taktsang Monastery is steep coupled with stiff stairs, it is not recommended to take the hike with small children and elderly people. Evening is free for leisure. Overnight at the hotel in Paro."},
-      {title: "Day 7 - Paro - Phuentsholing", copy: "After breakfast check out from hotel. Later you would be driven to Phuentsholing. On arrival check in at the hotel. Overnight stay at the hotel in Phuentsholing."},
-      {title: "Day 8 - Phuentsholing - NJP Railway Station/IXB Airport", copy: "After breakfast check out from the hotel. Later you would be transferred to NJP Railway Station / IXB Airport for your onward journey. Tashi Delek!"}
+      { title: "Day 1 - NJP Rly Station / IXB Airport - Phuentsholing", copy: "On arrival at NJP Railway Station / IXB Airport you will be transferred to Phuentsholing. On arrival check in at the hotel. Later in the day you would be greeted by your guide. Evening free for leisure. Overnight stay at the hotel in Phuentsholing." },
+      { title: "Day 2 - Phuentsholing - Thimphu", copy: "After breakfast complete the immigration formalities and get transferred to Thimphu. On the way stop at Kharbandi Goemba. Later continue your drive to Thimphu. On arrival check in at the hotel. Evening free for leisure. Overnight stay at the hotel in Thimphu." },
+      { title: "Day 3 - Thimphu Sightseeing", copy: "After breakfast you would be taken for tour of Thimphu City. You would be visiting Kuensel Phodrang, Buddha Statue; National Memorial Chorten, a Stupa built in 1974; Folk Heritage Museum, traditional 3 storied house; Changangkha Lhakhang, one of the oldest temple in Thimphu and Motithang Takin Reserve, a wildlife reserve centre for Takin. In the evening visit Tashichho Dzong, Fortress of the Glorious Religion. Overnight at the hotel in Thimphu." },
+      { title: "Day 4 - Thimphu - Punakha / Wangdue Sightseeing", copy: "After breakfast, you will be driven to Punakha. On the way, stop at Immigration Check Point in Hongtsho Village to get the permit stamped which is to be returned in your return journey. Later halt at Dochula Pass, situated at an altitude of 3,100 mts. The landmarks around the pass includes 108 Druk Wangyal Stupas. Continue your drive to Punakha / Wangdue. On arrival visit Chimi Lhakhang, the Temple of Fertility. It is a short hike of around 30 - 45 minutes. Later, visit Punakha Dzong, located at the confluence of Mo Chhu and Po Chhu Rivers. Later check in at the hotel. Evening is free for leisure. Overnight at the hotel in Punakha / Wangdue." },
+      { title: "Day 5 - Punakha / Wangdue - Paro Sightseeing", copy: "After breakfast, you would be driven to Paro. Enroute stop at Royal Botanical Garden at Lamperi, Bhutan’s first botanical park. Further on the way, stop at Immigration Check Point in Hongtsho Village to return the permit which was stamped earlier. Later stop at Tamchog Lhakhang. On arrival at Paro visit Ta Dzong, national museum; Paro Rimpung Dzong, Buddhist monastery and fortress; walk down to Nemi Zam Bridge, a traditional covered cantilever bridge. Later check in at the hotel. Evening free for leisure. Overnight at the hotel in Paro." },
+      { title: "Day 6 - Paro Sightseeing", copy: "After breakfast visit Taktsang Monastery (Tiger's Nest), home of gods and monks located at an altitude of 3100 mts in the Upper Paro Valley, Bhutan. The hike to the Monastery takes about 5 - 6 hours to complete. As the hike to Taktsang Monastery is steep coupled with stiff stairs, it is not recommended to take the hike with small children and elderly people. Evening is free for leisure. Overnight at the hotel in Paro." },
+      { title: "Day 7 - Paro - Phuentsholing", copy: "After breakfast check out from hotel. Later you would be driven to Phuentsholing. On arrival check in at the hotel. Overnight stay at the hotel in Phuentsholing." },
+      { title: "Day 8 - Phuentsholing - NJP Railway Station/IXB Airport", copy: "After breakfast check out from the hotel. Later you would be transferred to NJP Railway Station / IXB Airport for your onward journey. Tashi Delek!" }
     ],
     inclusions: [
       "Accommodation on twin/triple sharing basis as mentioned",
@@ -3178,9 +3776,9 @@ export const international=[
     specialHeading: "Amazing Thailand.",
     stays: ["5 Nights / 6 Days", "Start: Bangkok Suvarnabhumi Airport", "End: Bangkok Suvarnabhumi Airport"],
     gallery: [
-      {src: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80", alt: "Thailand"},
-      {src: "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/piljuef8ykc7eewsaloh.jpg", alt: "Pattaya"},
-      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok"}
+      { src: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80", alt: "Thailand" },
+      { src: "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/piljuef8ykc7eewsaloh.jpg", alt: "Pattaya" },
+      { src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok" }
     ],
     galleryCaptions: ["Thailand Beauty", "Pattaya", "Bangkok"],
     groupTitles: ["Prices & Details", "Hotels", "Sightseeing"],
@@ -3190,12 +3788,12 @@ export const international=[
       ["Sightseeing", "Coral Island Tour with Lunch by Speed Boat (From Pattaya) SIC", "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) SIC", "Princess Chao Phraya Dinner Cruise (Indian) SIC", "Safari World and Marine Park with Lunch (Mon Closed) SIC"]
     ],
     itinerary: [
-      {title: "Day 1: Arrival & Pattaya Transfer", copy: "Arrival | PRIVATE Pickup from: Bangkok Suvarnabhumi Airport Drop at: Pattaya Transfers from BKK Airport to Pattaya Hotel."},
-      {title: "Day 2: Coral Island Tour", copy: "Coral Island Tour with Lunch by Speed Boat (From Pattaya) | SIC. Embark on a thrilling Coral Island Tour by speedboat, whisking you away to pristine beaches and vibrant coral reefs. Enjoy a delicious lunch amidst stunning tropical surroundings, with opportunities for snorkeling and relaxation. Experience the beauty of Thailand's marine life on this unforgettable island adventure. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time."},
-      {title: "Day 3: Bangkok Transfer", copy: "Inter-Hotel Transfer | PRIVATE Pickup from: Pattaya Drop at: Bangkok Transfers from Pattaya Hotel to Bangkok Hotel."},
-      {title: "Day 4: Temple Tour & Dinner Cruise", copy: "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | SIC. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship. Princess Chao Phraya Dinner Cruise (Indian) | SIC. Embark on a delightful culinary journey along the Chao Phraya River with our Princess Chao Phraya Dinner Cruise or Arena Dinner Cruise, offering authentic Indian cuisine. Indulge in a sumptuous Indian dinner buffet while enjoying panoramic views of Bangkok's iconic landmarks illuminated at night."},
-      {title: "Day 5: Safari World", copy: "Safari World and Marine Park with Lunch (Mon Closed) SIC."},
-      {title: "Day 6: Departure", copy: "Departure | PRIVATE Pickup from: Bangkok Drop at: Bangkok Suvarnabhumi Airport."}
+      { title: "Day 1: Arrival & Pattaya Transfer", copy: "Arrival | PRIVATE Pickup from: Bangkok Suvarnabhumi Airport Drop at: Pattaya Transfers from BKK Airport to Pattaya Hotel." },
+      { title: "Day 2: Coral Island Tour", copy: "Coral Island Tour with Lunch by Speed Boat (From Pattaya) | SIC. Embark on a thrilling Coral Island Tour by speedboat, whisking you away to pristine beaches and vibrant coral reefs. Enjoy a delicious lunch amidst stunning tropical surroundings, with opportunities for snorkeling and relaxation. Experience the beauty of Thailand's marine life on this unforgettable island adventure. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time." },
+      { title: "Day 3: Bangkok Transfer", copy: "Inter-Hotel Transfer | PRIVATE Pickup from: Pattaya Drop at: Bangkok Transfers from Pattaya Hotel to Bangkok Hotel." },
+      { title: "Day 4: Temple Tour & Dinner Cruise", copy: "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | SIC. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship. Princess Chao Phraya Dinner Cruise (Indian) | SIC. Embark on a delightful culinary journey along the Chao Phraya River with our Princess Chao Phraya Dinner Cruise or Arena Dinner Cruise, offering authentic Indian cuisine. Indulge in a sumptuous Indian dinner buffet while enjoying panoramic views of Bangkok's iconic landmarks illuminated at night." },
+      { title: "Day 5: Safari World", copy: "Safari World and Marine Park with Lunch (Mon Closed) SIC." },
+      { title: "Day 6: Departure", copy: "Departure | PRIVATE Pickup from: Bangkok Drop at: Bangkok Suvarnabhumi Airport." }
     ],
     inclusions: [
       "Pattaya: Citrus Grande Hotel Pattaya by Compass Hospitality",
@@ -3244,9 +3842,9 @@ export const international=[
     specialHeading: "Ultimate Thai Journey.",
     stays: ["6 Nights / 7 Days", "Start: Krabi Airport", "End: Suvarnabhumi Airport"],
     gallery: [
-      {src: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80", alt: "Thailand"},
-      {src: "https://cdn.audleytravel.com/5018/3588/79/16017015-railay-beach-krabi.jpg", alt: "Krabi"},
-      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok"}
+      { src: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1200&q=80", alt: "Thailand" },
+      { src: "https://cdn.audleytravel.com/5018/3588/79/16017015-railay-beach-krabi.jpg", alt: "Krabi" },
+      { src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok" }
     ],
     galleryCaptions: ["Thailand Beauty", "Krabi", "Bangkok"],
     groupTitles: ["Prices & Details", "Hotels & Flights", "Sightseeing"],
@@ -3256,13 +3854,13 @@ export const international=[
       ["Sightseeing", "Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee) SIC", "SIM and Insurance TICKETS ONLY", "Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee) SIC", "Phuket City Tour (Including Chalong Temple, Karon View Point, Cashew Nut Factory, Old Town) SIC", "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) SIC", "Safari World and Marine Park with Lunch (Mon Closed) SIC"]
     ],
     itinerary: [
-      {title: "Day 1: Arrival in Krabi", copy: "Arrival Pickup from: Krabi Airport Drop at: Glow Ao Nang Krabi Transfers from KBV Airport to Krabi Hotel."},
-      {title: "Day 2: Krabi 4 Island Tour", copy: "Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee) | SIC. Embark on a captivating 4 Island Tour by Long Tail Boat Excluding the National Park Fee. Places to cover: Phranang Cave (Princess Spirit House), Chicken Island (snorkeling & colorful fish), Poda Island (white sandy beach for sunbathing), Tup Island & Moh Island (unseen islands where the sea separates at low tide). Tour Includes: Hotel transfer, snorkel mask, life jacket, box lunch, fresh fruit, drinking water, first aid kit, insurance, tour guide. What to bring: Swimming suit, towel, sunscreen, hat and camera."},
-      {title: "Day 3: Phuket City Tour", copy: "Inter-Hotel Transfer Pickup from: Glow Ao Nang Krabi Drop at: Journey hub Phuket Patong. Transfers from Krabi Hotel to Phuket Hotel. Phuket City Tour (Including Chalong Temple, Karon View Point, Cashew Nut Factory, Old Town) | SIC. Explore Phuket's top sights including Chalong Temple, scenic Karon Viewpoint, a cashew nut factory, and the vibrant Old Town on this city tour."},
-      {title: "Day 4: Phi Phi Island Tour", copy: "Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee) | SIC. Experience the beauty of Phi Phi Island on our shared Speed Boat tour, complete with a satisfying lunch. Delight in pristine beaches, turquoise waters, and stunning vistas during this exhilarating adventure. Please note that the national park fee is not covered in the tour package. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time."},
-      {title: "Day 5: Bangkok City Temple Tour", copy: "Inter-Hotel Transfer Pickup from: Journey hub Phuket Patong Drop at: Phuket International Airport. Domestic Flight from Phuket to Bangkok. Pickup from: Suvarnabhumi Airport Drop at: Bangkok Palace Hotel. Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | SIC. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship."},
-      {title: "Day 6: Safari World", copy: "Safari World and Marine Park with Lunch (Mon Closed) SIC."},
-      {title: "Day 7: Departure", copy: "Departure Pickup from: Bangkok Palace Hotel Drop at: Suvarnabhumi Airport."}
+      { title: "Day 1: Arrival in Krabi", copy: "Arrival Pickup from: Krabi Airport Drop at: Glow Ao Nang Krabi Transfers from KBV Airport to Krabi Hotel." },
+      { title: "Day 2: Krabi 4 Island Tour", copy: "Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee) | SIC. Embark on a captivating 4 Island Tour by Long Tail Boat Excluding the National Park Fee. Places to cover: Phranang Cave (Princess Spirit House), Chicken Island (snorkeling & colorful fish), Poda Island (white sandy beach for sunbathing), Tup Island & Moh Island (unseen islands where the sea separates at low tide). Tour Includes: Hotel transfer, snorkel mask, life jacket, box lunch, fresh fruit, drinking water, first aid kit, insurance, tour guide. What to bring: Swimming suit, towel, sunscreen, hat and camera." },
+      { title: "Day 3: Phuket City Tour", copy: "Inter-Hotel Transfer Pickup from: Glow Ao Nang Krabi Drop at: Journey hub Phuket Patong. Transfers from Krabi Hotel to Phuket Hotel. Phuket City Tour (Including Chalong Temple, Karon View Point, Cashew Nut Factory, Old Town) | SIC. Explore Phuket's top sights including Chalong Temple, scenic Karon Viewpoint, a cashew nut factory, and the vibrant Old Town on this city tour." },
+      { title: "Day 4: Phi Phi Island Tour", copy: "Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee) | SIC. Experience the beauty of Phi Phi Island on our shared Speed Boat tour, complete with a satisfying lunch. Delight in pristine beaches, turquoise waters, and stunning vistas during this exhilarating adventure. Please note that the national park fee is not covered in the tour package. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time." },
+      { title: "Day 5: Bangkok City Temple Tour", copy: "Inter-Hotel Transfer Pickup from: Journey hub Phuket Patong Drop at: Phuket International Airport. Domestic Flight from Phuket to Bangkok. Pickup from: Suvarnabhumi Airport Drop at: Bangkok Palace Hotel. Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | SIC. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship." },
+      { title: "Day 6: Safari World", copy: "Safari World and Marine Park with Lunch (Mon Closed) SIC." },
+      { title: "Day 7: Departure", copy: "Departure Pickup from: Bangkok Palace Hotel Drop at: Suvarnabhumi Airport." }
     ],
     inclusions: [
       "Krabi: GLOW Ao Nang Krabi (2 Nights)",
@@ -3318,9 +3916,9 @@ export const international=[
     specialHeading: "Tropical Adventure.",
     stays: ["5 Nights / 6 Days", "Start: Bangkok Suvarnabhumi Airport", "End: Bangkok Suvarnabhumi Airport"],
     gallery: [
-      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Thailand"},
-      {src: "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/piljuef8ykc7eewsaloh.jpg", alt: "Pattaya"},
-      {src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok"}
+      { src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Thailand" },
+      { src: "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/piljuef8ykc7eewsaloh.jpg", alt: "Pattaya" },
+      { src: "https://wallpapercave.com/wp/wp1916912.jpg", alt: "Bangkok" }
     ],
     galleryCaptions: ["Thailand Beauty", "Pattaya", "Bangkok"],
     groupTitles: ["Dates & Prices", "Hotels & Flights", "Sightseeing"],
@@ -3330,12 +3928,12 @@ export const international=[
       ["Sightseeing", "Pattaya City Tour (Including Big Buddha, Pattaya View Point and Gems Gallery, without Guide) PVT", "Alcazar Show (Normal Seat) PVT", "Coral Island Tour with Lunch by Speed Boat (From Pattaya) SIC", "Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) PRIVATE", "Safari World and Marine Park with Lunch (Mon Closed) PRIVATE"]
     ],
     itinerary: [
-      {title: "Day 1: Wednesday, August 26th, 2026 - Arrival & Pattaya City Tour", copy: "Pickup from: Bangkok Suvarnabhumi Airport Drop at: Mind Resort Pattaya. Transfers from BKK Airport to Pattaya Hotel. Pattaya City Tour (Including Big Buddha, Pattaya View Point and Gems Gallery, without Guide) | PRIVATE. Embark on a Pattaya City Tour to discover iconic landmarks like the Big Buddha, Pattaya View Point, and Gems Gallery at your own pace, without a guide. Explore the city's cultural and scenic highlights independently, ensuring a personalized experience tailored to your interests. Get ready for a day filled with sightseeing and exploration in vibrant Pattaya. Note: If big budhha is closed, the old town will be covered as an alternative."},
-      {title: "Day 2: Thursday, August 27th, 2026 - Coral Island Tour", copy: "Coral Island Tour with Lunch by Speed Boat (From Pattaya) | SIC. Embark on a thrilling Coral Island Tour by speedboat, whisking you away to pristine beaches and vibrant coral reefs. Enjoy a delicious lunch amidst stunning tropical surroundings, with opportunities for snorkeling and relaxation. Experience the beauty of Thailand's marine life on this unforgettable island adventure. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time."},
-      {title: "Day 3: Friday, August 28th, 2026 - Alcazar Show", copy: "Alcazar Show (Normal Seat) | PRIVATE. Experience the spectacular Alcazar Show in Thailand from the comfort of a normal seat. Prepare to be dazzled by extravagant costumes, mesmerizing performances, and vibrant entertainment that celebrates Thai culture in a breathtaking display of talent and beauty."},
-      {title: "Day 4: Saturday, August 29th, 2026 - Bangkok Transfer & Temple Tour", copy: "Inter-Hotel Transfer | PRIVATE Pickup from: Mind Resort Pattaya Drop at: Baiyoke Sky Hotel. Transfers from Pattaya Hotel to Bangkok Hotel. Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | PRIVATE. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship. Note: Mini Reclining Buddha Temple Bangkok Temporarily Closed from 17th April 2026 to 1st July 2026."},
-      {title: "Day 5: Sunday, August 30th, 2026 - Safari World", copy: "Pickup from: Baiyoke Sky Hotel Drop at: Bangkok Palace Hotel Transfers from Bangkok Hotel to Bangkok Hotel. Safari World and Marine Park with Lunch (Mon Closed) | PRIVATE. Join u on an exhilarating expedition to Safari World and Marine Park, inclusive of lunch (closed on Mondays). Encounter a diverse array of wildlife and witness captivating marine spectacles. With a delectable meal included, this experience promises a day of thrilling adventure and culinary delights, perfect for the whole family."},
-      {title: "Day 6: Monday, August 31st, 2026 - Departure", copy: "Pickup from: Bangkok Palace Hotel Drop at: Bangkok Suvarnabhumi Airport"}
+      { title: "Day 1: Wednesday, August 26th, 2026 - Arrival & Pattaya City Tour", copy: "Pickup from: Bangkok Suvarnabhumi Airport Drop at: Mind Resort Pattaya. Transfers from BKK Airport to Pattaya Hotel. Pattaya City Tour (Including Big Buddha, Pattaya View Point and Gems Gallery, without Guide) | PRIVATE. Embark on a Pattaya City Tour to discover iconic landmarks like the Big Buddha, Pattaya View Point, and Gems Gallery at your own pace, without a guide. Explore the city's cultural and scenic highlights independently, ensuring a personalized experience tailored to your interests. Get ready for a day filled with sightseeing and exploration in vibrant Pattaya. Note: If big budhha is closed, the old town will be covered as an alternative." },
+      { title: "Day 2: Thursday, August 27th, 2026 - Coral Island Tour", copy: "Coral Island Tour with Lunch by Speed Boat (From Pattaya) | SIC. Embark on a thrilling Coral Island Tour by speedboat, whisking you away to pristine beaches and vibrant coral reefs. Enjoy a delicious lunch amidst stunning tropical surroundings, with opportunities for snorkeling and relaxation. Experience the beauty of Thailand's marine life on this unforgettable island adventure. Please stay in the lobby at the designated time. The driver will call your name upon arrival. Ensure you stay in the lobby until the pickup is complete. The driver will not wait for more than 5 mins so kindly ensure you are present in the lobby at the designated time." },
+      { title: "Day 3: Friday, August 28th, 2026 - Alcazar Show", copy: "Alcazar Show (Normal Seat) | PRIVATE. Experience the spectacular Alcazar Show in Thailand from the comfort of a normal seat. Prepare to be dazzled by extravagant costumes, mesmerizing performances, and vibrant entertainment that celebrates Thai culture in a breathtaking display of talent and beauty." },
+      { title: "Day 4: Saturday, August 29th, 2026 - Bangkok Transfer & Temple Tour", copy: "Inter-Hotel Transfer | PRIVATE Pickup from: Mind Resort Pattaya Drop at: Baiyoke Sky Hotel. Transfers from Pattaya Hotel to Bangkok Hotel. Bangkok City Temple Tour (Marble and Golden Buddha with Gems Gallery) | PRIVATE. Discover the spiritual heart of Bangkok with our City Temple Tour. Marvel at the exquisite Marble and Golden Buddha statues, symbols of Thai serenity and devotion. Explore these iconic temples and conclude your journey with a visit to the Gems Gallery, experiencing the artistry and beauty of Thai craftsmanship. Note: Mini Reclining Buddha Temple Bangkok Temporarily Closed from 17th April 2026 to 1st July 2026." },
+      { title: "Day 5: Sunday, August 30th, 2026 - Safari World", copy: "Pickup from: Baiyoke Sky Hotel Drop at: Bangkok Palace Hotel Transfers from Bangkok Hotel to Bangkok Hotel. Safari World and Marine Park with Lunch (Mon Closed) | PRIVATE. Join u on an exhilarating expedition to Safari World and Marine Park, inclusive of lunch (closed on Mondays). Encounter a diverse array of wildlife and witness captivating marine spectacles. With a delectable meal included, this experience promises a day of thrilling adventure and culinary delights, perfect for the whole family." },
+      { title: "Day 6: Monday, August 31st, 2026 - Departure", copy: "Pickup from: Bangkok Palace Hotel Drop at: Bangkok Suvarnabhumi Airport" }
     ],
     inclusions: [
       "Pattaya: Mind Resort Pattaya (3 Nights, Superior Room, Free breakfast)",
@@ -3414,9 +4012,9 @@ export const international=[
     specialHeading: 'Island Serenity.',
     stays: ['5 Nights / 6 Days', 'Start: Colombo Airport', 'End: Colombo Airport'],
     gallery: [
-      {src: 'https://www.cdn.travejar.com/storage/india_attraction_tour_image/17461684860.webp', alt: 'Bentota Beach'},
-      {src: 'https://www.andbeyond.com/wp-content/uploads/sites/5/yala-national-park-sri-lanka-scenery-elephant.jpg', alt: 'Yala National Park'},
-      {src: 'https://tse1.mm.bing.net/th/id/OIP.2hKR3rsRU_CbUfBEJHOknwHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Nuwara Eliya'}
+      { src: 'https://www.cdn.travejar.com/storage/india_attraction_tour_image/17461684860.webp', alt: 'Bentota Beach' },
+      { src: 'https://www.andbeyond.com/wp-content/uploads/sites/5/yala-national-park-sri-lanka-scenery-elephant.jpg', alt: 'Yala National Park' },
+      { src: 'https://tse1.mm.bing.net/th/id/OIP.2hKR3rsRU_CbUfBEJHOknwHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Nuwara Eliya' }
     ],
     galleryCaptions: ['Bentota Beach', 'Yala National Park', 'Nuwara Eliya'],
     groupTitles: ['Prices & Details', 'Hotels', 'Sightseeing & Transfers'],
@@ -3426,12 +4024,12 @@ export const international=[
       ['Sightseeing & Transfers', 'Transfers: Private Air-conditioned Flat Roof Van (6 Seater) with English-speaking chauffeur guide', 'Mirissa: Whale watching, Coconut Tree Hill, Secret Beach, Weligama Surf Bay', 'Yala: Morning Yala Safari', 'Nuwara Eliya: Ashok Vatika, Seetha Amman Temple, City Tour', 'Bentota: Spice & Herbal Garden, Pinnawala Elephant Orphanage, Madu River, Turtle Hatchery, Brief Garden', 'Colombo: City tour & shopping']
     ],
     itinerary: [
-      {title: 'Day 1: Arrival – Mirissa', copy: 'Arrival at Colombo Airport and transfer to Mirissa. Overnight stay in Mirissa.'},
-      {title: 'Day 2: Mirissa – Yala', copy: 'Early morning whale watching. Visit Coconut Tree Hill, Secret Beach & Mirissa Beach. Stop at Weligama Surf Bay. Proceed to Yala. Overnight stay in Yala.'},
-      {title: 'Day 3: Yala – Nuwara Eliya', copy: 'Morning Yala Safari. Transfer to Nuwara Eliya. En route visit Ashok Vatika (Hakgala Botanical Garden) & Seetha Amman Temple. Proceed for Nuwara Eliya city tour. Overnight stay in Nuwara Eliya.'},
-      {title: 'Day 4: Nuwara Eliya – Bentota', copy: 'Transfer to Bentota. En route visit Spice & Herbal Garden and Pinnawala Elephant Orphanage. Overnight stay in Bentota.'},
-      {title: 'Day 5: Bentota Sightseeing', copy: 'Visit Madu River, Turtle Hatchery & Brief Garden. Enjoy Bentota Beach & optional water sports. Overnight stay in Bentota.'},
-      {title: 'Day 6: Bentota – Colombo – Departure', copy: 'Transfer to Colombo. Proceed for city tour & shopping. Drop at airport for departure.'}
+      { title: 'Day 1: Arrival – Mirissa', copy: 'Arrival at Colombo Airport and transfer to Mirissa. Overnight stay in Mirissa.' },
+      { title: 'Day 2: Mirissa – Yala', copy: 'Early morning whale watching. Visit Coconut Tree Hill, Secret Beach & Mirissa Beach. Stop at Weligama Surf Bay. Proceed to Yala. Overnight stay in Yala.' },
+      { title: 'Day 3: Yala – Nuwara Eliya', copy: 'Morning Yala Safari. Transfer to Nuwara Eliya. En route visit Ashok Vatika (Hakgala Botanical Garden) & Seetha Amman Temple. Proceed for Nuwara Eliya city tour. Overnight stay in Nuwara Eliya.' },
+      { title: 'Day 4: Nuwara Eliya – Bentota', copy: 'Transfer to Bentota. En route visit Spice & Herbal Garden and Pinnawala Elephant Orphanage. Overnight stay in Bentota.' },
+      { title: 'Day 5: Bentota Sightseeing', copy: 'Visit Madu River, Turtle Hatchery & Brief Garden. Enjoy Bentota Beach & optional water sports. Overnight stay in Bentota.' },
+      { title: 'Day 6: Bentota – Colombo – Departure', copy: 'Transfer to Colombo. Proceed for city tour & shopping. Drop at airport for departure.' }
     ],
     inclusions: [
       'Meet & greet assistance at Colombo Airport',
@@ -3484,9 +4082,9 @@ export const international=[
     specialHeading: 'Dual Nation Adventure.',
     stays: ['6 Nights / 7 Days', 'Start: Singapore Changi Airport', 'End: Malaysia Airport'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80', alt: 'Singapore'},
-      {src: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f0a?auto=format&fit=crop&w=1200&q=80', alt: 'Kuala Lumpur'},
-      {src: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=1200&q=80', alt: 'Gardens by the Bay'}
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80', alt: 'Singapore' },
+      { src: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f0a?auto=format&fit=crop&w=1200&q=80', alt: 'Kuala Lumpur' },
+      { src: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=1200&q=80', alt: 'Gardens by the Bay' }
     ],
     galleryCaptions: ['Singapore Skyline', 'Kuala Lumpur', 'Gardens by the Bay'],
     groupTitles: ['Prices & Details', 'Hotels', 'Sightseeing & Transfers'],
@@ -3496,13 +4094,13 @@ export const international=[
       ['Sightseeing & Transfers', 'Singapore Sightseeing: Night Safari, Universal Studios, Sentosa Magic, City Tour, Gardens by the Bay', 'Kuala Lumpur Sightseeing: Half Day City Tour with KL Tower, Full Day Genting Highlands with Batu Caves', 'Transfers: Private Airport Transfers, Singapore to Malaysia Coach Ticket']
     ],
     itinerary: [
-      {title: "Day 1: Arrival in Singapore & Night Safari", copy: "Singapore Airport Pickup and evening Night Safari on Sic basis."},
-      {title: "Day 2: Universal Studios", copy: "Full Day Universal Studio sightseeing."},
-      {title: "Day 3: Sentosa Island", copy: "Full Day Sentosa island (1 way Cable Car with Sentosa Cable Line, Madame Tussauds 5-in-1, and Wings of Time 7:30 PM)."},
-      {title: "Day 4: Singapore City Tour & Gardens by the Bay", copy: "Half Day City tour with Garden by the bay and Marina bay sky park."},
-      {title: "Day 5: Singapore to Malaysia Transfer", copy: "After breakfast check out and transfer to Malaysia by bus. Reach at Malaysia coach station transfer to hotel for stay."},
-      {title: "Day 6: Genting Highlands Tour", copy: "Full Day Genting Highlands Tour with Photo Stop at Batu Caves with Cable Car Tickets."},
-      {title: "Day 7: Departure", copy: "Half Day City Tour with KL Tower Tour and drop at Malaysia airport."}
+      { title: "Day 1: Arrival in Singapore & Night Safari", copy: "Singapore Airport Pickup and evening Night Safari on Sic basis." },
+      { title: "Day 2: Universal Studios", copy: "Full Day Universal Studio sightseeing." },
+      { title: "Day 3: Sentosa Island", copy: "Full Day Sentosa island (1 way Cable Car with Sentosa Cable Line, Madame Tussauds 5-in-1, and Wings of Time 7:30 PM)." },
+      { title: "Day 4: Singapore City Tour & Gardens by the Bay", copy: "Half Day City tour with Garden by the bay and Marina bay sky park." },
+      { title: "Day 5: Singapore to Malaysia Transfer", copy: "After breakfast check out and transfer to Malaysia by bus. Reach at Malaysia coach station transfer to hotel for stay." },
+      { title: "Day 6: Genting Highlands Tour", copy: "Full Day Genting Highlands Tour with Photo Stop at Batu Caves with Cable Car Tickets." },
+      { title: "Day 7: Departure", copy: "Half Day City Tour with KL Tower Tour and drop at Malaysia airport." }
     ],
     inclusions: [
       'Singapore: ibis Singapore Novena (4 Nights, Standard room, Breakfast)',
@@ -3565,9 +4163,9 @@ export const international=[
     specialHeading: 'Modern Marvels.',
     stays: ['5 Nights / 6 Days', 'Start: Singapore Changi Airport', 'End: Singapore Changi Airport'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80', alt: 'Singapore'},
-      {src: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=1200&q=80', alt: 'Gardens by the Bay'},
-      {src: 'https://static.vecteezy.com/system/resources/previews/022/843/480/large_2x/singapore-oct-28-universal-studios-singapore-sign-on-october-28-2014-universal-studios-singapore-is-a-theme-park-located-within-resorts-world-sentosa-on-sentosa-island-singapore-free-photo.jpg', alt: 'Universal Studios'}
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80', alt: 'Singapore' },
+      { src: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=1200&q=80', alt: 'Gardens by the Bay' },
+      { src: 'https://static.vecteezy.com/system/resources/previews/022/843/480/large_2x/singapore-oct-28-universal-studios-singapore-sign-on-october-28-2014-universal-studios-singapore-is-a-theme-park-located-within-resorts-world-sentosa-on-sentosa-island-singapore-free-photo.jpg', alt: 'Universal Studios' }
     ],
     galleryCaptions: ['Singapore Skyline', 'Gardens by the Bay', 'Universal Studios'],
     groupTitles: ['Dates & Prices', 'Hotels & Flights', 'Sightseeing', 'Rajesh\'s 4N Option'],
@@ -3578,12 +4176,12 @@ export const international=[
       ['Rajesh\'s 4N Option', 'Price: INR 79,937/- per person (8 Rooms | 16 Adults)', 'Hotel: V Hotel Lavender, Singapore (4 Nights, Superior Double with Breakfast)', 'Transfers: Private (Pick up/Drop Singapore Changi)', 'Sightseeing: Night Safari, Full day Universal Studios', 'Sightseeing: Sentosa Magic (1 way Cable Car, Madame Tussauds 5-in-1, Wings of Time 7:30 PM)', 'Sightseeing: City Tour with Guide (3 Hours) with Gardens by the Bay (New Flower Dome and Cloud Forest) and Marina Bay SkyPark (Before 3.30)']
     ],
     itinerary: [
-      {title: 'Day 1: Tuesday, August 4th, 2026 - Arrival & Night Safari', copy: 'Arrival Pickup from: Singapore Changi Airport Drop at: Hotel Boss. Night Safari | SIC. Discover Night Safari Singapore, the world\'s first nocturnal zoo. Encounter over 2,500 animals from diverse habitats as night falls. Night Safari Hours of Operation: Daily 6.30 PM - Midnight (last entry 11.15 PM)'},
-      {title: 'Day 2: Wednesday, August 5th, 2026 - Universal Studios', copy: 'Universal Studios | SIC. Universal Studios Singapore offers an exhilarating adventure for all ages featuring blockbuster movie-themed attractions thrilling rides live entertainment and immersive experiences. Hours of Operation: Daily 10:00 AM to 8:00 PM.'},
-      {title: 'Day 3: Thursday, August 6th, 2026 - City Tour', copy: 'City Tour with Guide (3 Hours) | SIC. Embark on an exclusive exploration of Singapore with our private 3-hour city tour. Drive through Financial District, Suntec City, Merlion Park. Note that the city tour concludes at Little India. For SIC Tour- Guests will be dropped at Little India.'},
-      {title: 'Day 4: Friday, August 7th, 2026 - Free Time', copy: 'Free time for shopping.'},
-      {title: 'Day 5: Saturday, August 8th, 2026 - Gardens by the Bay & MBS SkyPark', copy: 'Gardens by the Bay (New Flower Dome and Cloud Forest with Jurassic World) and Marina Bay SkyPark (Peak) | TICKETS ONLY. Flower Dome, Cloud Forest, and Marina Bay SkyPark (Entry from 5:00 P.M.) offering breathtaking 360-degree views of Singapore\'s skyline.'},
-      {title: 'Day 6: Sunday, August 9th, 2026 - Departure', copy: 'Departure Pickup from: Hotel Boss Drop at: Singapore Changi Airport.'}
+      { title: 'Day 1: Tuesday, August 4th, 2026 - Arrival & Night Safari', copy: 'Arrival Pickup from: Singapore Changi Airport Drop at: Hotel Boss. Night Safari | SIC. Discover Night Safari Singapore, the world\'s first nocturnal zoo. Encounter over 2,500 animals from diverse habitats as night falls. Night Safari Hours of Operation: Daily 6.30 PM - Midnight (last entry 11.15 PM)' },
+      { title: 'Day 2: Wednesday, August 5th, 2026 - Universal Studios', copy: 'Universal Studios | SIC. Universal Studios Singapore offers an exhilarating adventure for all ages featuring blockbuster movie-themed attractions thrilling rides live entertainment and immersive experiences. Hours of Operation: Daily 10:00 AM to 8:00 PM.' },
+      { title: 'Day 3: Thursday, August 6th, 2026 - City Tour', copy: 'City Tour with Guide (3 Hours) | SIC. Embark on an exclusive exploration of Singapore with our private 3-hour city tour. Drive through Financial District, Suntec City, Merlion Park. Note that the city tour concludes at Little India. For SIC Tour- Guests will be dropped at Little India.' },
+      { title: 'Day 4: Friday, August 7th, 2026 - Free Time', copy: 'Free time for shopping.' },
+      { title: 'Day 5: Saturday, August 8th, 2026 - Gardens by the Bay & MBS SkyPark', copy: 'Gardens by the Bay (New Flower Dome and Cloud Forest with Jurassic World) and Marina Bay SkyPark (Peak) | TICKETS ONLY. Flower Dome, Cloud Forest, and Marina Bay SkyPark (Entry from 5:00 P.M.) offering breathtaking 360-degree views of Singapore\'s skyline.' },
+      { title: 'Day 6: Sunday, August 9th, 2026 - Departure', copy: 'Departure Pickup from: Hotel Boss Drop at: Singapore Changi Airport.' }
     ],
     inclusions: [
       '5 Nights accommodation at Hotel Boss, Singapore with Breakfast',
@@ -3673,9 +4271,9 @@ export const international=[
     specialHeading: 'The Ultimate Thai Experience.',
     stays: ['6 Nights / 7 Days', '3 City Tour', 'Couples/Honeymoon Focus'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=1400&q=80', alt: 'Phi Phi Islands'},
-      {src: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1401&q=80', alt: 'Grand Palace Bangkok'},
-      {src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1402&q=80', alt: 'Pattaya Coastal Views'}
+      { src: 'https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=1400&q=80', alt: 'Phi Phi Islands' },
+      { src: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1401&q=80', alt: 'Grand Palace Bangkok' },
+      { src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1402&q=80', alt: 'Pattaya Coastal Views' }
     ],
     galleryCaptions: ['Phi Phi Islands', 'Grand Palace', 'Pattaya'],
     groupTitles: ['Inclusions', 'Sightseeing', 'Hotels & Pricing'],
@@ -3685,13 +4283,13 @@ export const international=[
       ['Hotels & Pricing', 'Total Package Price: ₹1,75,157.00', 'For: 2 Adults (1 Room)', 'Phuket (2N): Best Western Patong Beach (Superior Room)', 'Pattaya (2N): Nova Platinum Hotel (Superior City View)', 'Bangkok (2N): Ramada D\'MA (Honeymoon Room)']
     ],
     itinerary: [
-      {title: 'Day 1: Arrival in Phuket', copy: 'Arrival Pickup from: Phuket International Airport. Drop at: Patong Beach. Check in to your Superior Room at Best Western Patong Beach and spend the evening relaxing.'},
-      {title: 'Day 2: Phi Phi Island Tour', copy: 'Phi Phi Island Tour with Lunch by Speed Boat (Shared). Delight in pristine beaches, turquoise waters, and stunning vistas. Please stay in the lobby at the designated time for pickup. (National park fee not included).'},
-      {title: 'Day 3: Phuket to Pattaya Transfer', copy: 'Private transfer from Best Western Patong Beach to Phuket International Airport. Fly to Bangkok (flight pre-booked). Private pickup from Bangkok Suvarnabhumi Airport and transfer to Nova Platinum Hotel in Pattaya.'},
-      {title: 'Day 4: Nong Nooch Garden', copy: 'Nong Nooch Garden (Including Entry Ticket and Indian Breakfast) on SIC basis. Explore meticulously landscaped gardens, vibrant floral displays, and cultural shows. Indulge in a flavorful Indian breakfast amidst the serene surroundings.'},
-      {title: 'Day 5: Pattaya to Bangkok & Grand Palace', copy: 'Private transfer from Nova Platinum Hotel to Ramada D\'MA Bangkok. Later, enjoy a private tour of the Grand Palace and Emerald Buddha. Marvel at the intricate beauty of the palace\'s architecture and experience centuries of Thai history.'},
-      {title: 'Day 6: Safari World and Marine Park', copy: 'Join an exhilarating expedition to Safari World and Marine Park on SIC basis, inclusive of lunch. Encounter a diverse array of wildlife and witness captivating marine spectacles. (Closed on Mondays).'},
-      {title: 'Day 7: Departure', copy: 'Private departure transfer from Ramada D\'MA Bangkok to Bangkok Donmuang Airport for your onward journey.'}
+      { title: 'Day 1: Arrival in Phuket', copy: 'Arrival Pickup from: Phuket International Airport. Drop at: Patong Beach. Check in to your Superior Room at Best Western Patong Beach and spend the evening relaxing.' },
+      { title: 'Day 2: Phi Phi Island Tour', copy: 'Phi Phi Island Tour with Lunch by Speed Boat (Shared). Delight in pristine beaches, turquoise waters, and stunning vistas. Please stay in the lobby at the designated time for pickup. (National park fee not included).' },
+      { title: 'Day 3: Phuket to Pattaya Transfer', copy: 'Private transfer from Best Western Patong Beach to Phuket International Airport. Fly to Bangkok (flight pre-booked). Private pickup from Bangkok Suvarnabhumi Airport and transfer to Nova Platinum Hotel in Pattaya.' },
+      { title: 'Day 4: Nong Nooch Garden', copy: 'Nong Nooch Garden (Including Entry Ticket and Indian Breakfast) on SIC basis. Explore meticulously landscaped gardens, vibrant floral displays, and cultural shows. Indulge in a flavorful Indian breakfast amidst the serene surroundings.' },
+      { title: 'Day 5: Pattaya to Bangkok & Grand Palace', copy: 'Private transfer from Nova Platinum Hotel to Ramada D\'MA Bangkok. Later, enjoy a private tour of the Grand Palace and Emerald Buddha. Marvel at the intricate beauty of the palace\'s architecture and experience centuries of Thai history.' },
+      { title: 'Day 6: Safari World and Marine Park', copy: 'Join an exhilarating expedition to Safari World and Marine Park on SIC basis, inclusive of lunch. Encounter a diverse array of wildlife and witness captivating marine spectacles. (Closed on Mondays).' },
+      { title: 'Day 7: Departure', copy: 'Private departure transfer from Ramada D\'MA Bangkok to Bangkok Donmuang Airport for your onward journey.' }
     ],
     inclusions: [
       'Accommodation for 6 Nights for 2 Adults',
@@ -3753,9 +4351,9 @@ export const international=[
     specialHeading: 'Discover the Land of Smiles.',
     stays: ['5 Nights / 6 Days', '27 Jul 2026 - 01 Aug 2026', 'Family Quadruple/Triple Rooms'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1400&q=80', alt: 'Krabi Long Tail Boat'},
-      {src: 'https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=1401&q=80', alt: 'Phi Phi Islands'},
-      {src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1402&q=80', alt: 'Phuket Town'}
+      { src: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1400&q=80', alt: 'Krabi Long Tail Boat' },
+      { src: 'https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=1401&q=80', alt: 'Phi Phi Islands' },
+      { src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1402&q=80', alt: 'Phuket Town' }
     ],
     galleryCaptions: ['Krabi 4 Islands', 'Phi Phi Islands', 'Phuket City'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels & Pricing'],
@@ -3765,12 +4363,12 @@ export const international=[
       ['Hotels & Pricing', 'Total Package Price: ₹2,68,500.00', 'For: 2 Adults, 2 Children (7 yrs, 3 yrs)', 'Krabi (2N): GLOW Ao Nang (1 Family Triple)', 'Phuket (3N): ASHLEE Plaza Patong (1 Family Quadruple)']
     ],
     itinerary: [
-      {title: 'Day 1: Monday, July 27th, 2026 | Arrival in Krabi', copy: 'Arrival Pickup from: Phuket Airport. Drop at: GLOW Ao Nang Krabi. Settle in and prepare for your upcoming adventures.'},
-      {title: 'Day 2: Tuesday, July 28th, 2026 | Krabi 4 Island Tour', copy: 'Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee). Places to cover: Phranang Cave, Chicken Island, Poda Island, Tup Island & Moh Island. Includes snorkel mask, life jacket, box lunch, fresh fruit, drinking water, first aid kit, insurance, tour guide. What to bring: Swimming suit, towel, sunscreen, hat and camera.'},
-      {title: 'Day 3: Wednesday, July 29th, 2026 | Transfer to Phuket & City Tour', copy: 'Pickup from: GLOW Ao Nang Krabi. Drop at: ASHLEE Plaza Patong Hotel & Spa. Enjoy a 5-hour private city tour on your way from Krabi to Phuket, visiting Wat Chalong, Karon Viewpoint, and Old Phuket Town.'},
-      {title: 'Day 4: Thursday, July 30th, 2026 | Phuket Fantasea Show', copy: 'Phuket Fantasea Show (SIC). Immerse yourself in the enchanting world of Phuket Fantasea Show, a captivating blend of Thai culture, mythology, and entertainment. Witness extravagant performances featuring acrobatics, pyrotechnics, and mesmerizing special effects.'},
-      {title: 'Day 5: Friday, July 31st, 2026 | Phi Phi Island Tour', copy: 'Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee). Delight in pristine beaches, turquoise waters, and stunning vistas. The driver will not wait for more than 5 mins for pick-up from the lobby.'},
-      {title: 'Day 6: Saturday, August 1st, 2026 | Departure', copy: 'Departure from: ASHLEE Plaza Patong Hotel & Spa. Drop at: Phuket Airport for your return flight.'}
+      { title: 'Day 1: Monday, July 27th, 2026 | Arrival in Krabi', copy: 'Arrival Pickup from: Phuket Airport. Drop at: GLOW Ao Nang Krabi. Settle in and prepare for your upcoming adventures.' },
+      { title: 'Day 2: Tuesday, July 28th, 2026 | Krabi 4 Island Tour', copy: 'Krabi 4 Island Tour with Lunch by Long Tail Boat (Shared Excluding National Park Fee). Places to cover: Phranang Cave, Chicken Island, Poda Island, Tup Island & Moh Island. Includes snorkel mask, life jacket, box lunch, fresh fruit, drinking water, first aid kit, insurance, tour guide. What to bring: Swimming suit, towel, sunscreen, hat and camera.' },
+      { title: 'Day 3: Wednesday, July 29th, 2026 | Transfer to Phuket & City Tour', copy: 'Pickup from: GLOW Ao Nang Krabi. Drop at: ASHLEE Plaza Patong Hotel & Spa. Enjoy a 5-hour private city tour on your way from Krabi to Phuket, visiting Wat Chalong, Karon Viewpoint, and Old Phuket Town.' },
+      { title: 'Day 4: Thursday, July 30th, 2026 | Phuket Fantasea Show', copy: 'Phuket Fantasea Show (SIC). Immerse yourself in the enchanting world of Phuket Fantasea Show, a captivating blend of Thai culture, mythology, and entertainment. Witness extravagant performances featuring acrobatics, pyrotechnics, and mesmerizing special effects.' },
+      { title: 'Day 5: Friday, July 31st, 2026 | Phi Phi Island Tour', copy: 'Phi Phi Island Tour with Lunch by Speed Boat (Shared Excluding National Park Fee). Delight in pristine beaches, turquoise waters, and stunning vistas. The driver will not wait for more than 5 mins for pick-up from the lobby.' },
+      { title: 'Day 6: Saturday, August 1st, 2026 | Departure', copy: 'Departure from: ASHLEE Plaza Patong Hotel & Spa. Drop at: Phuket Airport for your return flight.' }
     ],
     inclusions: [
       'Accommodation for 2 Adults and 2 Children (7 yrs, 3 yrs)',
@@ -3861,9 +4459,9 @@ export const international=[
     specialHeading: 'A Tropical Paradise Awaits.',
     stays: ['4 Nights / 5 Days', '2N Beach Villa + 2N Water Villa', 'Half Board Meals'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1400&q=80', alt: 'Maldives Water Villa'},
-      {src: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1401&q=80', alt: 'Beachfront Dining'},
-      {src: 'https://tse3.mm.bing.net/th/id/OIP.SMLQi9hyhCgZzO_g6U0YqwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Ocean Views'}
+      { src: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1400&q=80', alt: 'Maldives Water Villa' },
+      { src: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1401&q=80', alt: 'Beachfront Dining' },
+      { src: 'https://tse3.mm.bing.net/th/id/OIP.SMLQi9hyhCgZzO_g6U0YqwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Ocean Views' }
     ],
     galleryCaptions: ['Water Villas', 'Romantic Dinners', 'Crystal Clear Lagoons'],
     groupTitles: ['Inclusions', 'Flight Details', 'Transfers & Details'],
@@ -3873,11 +4471,11 @@ export const international=[
       ['Transfers & Details', 'Male to Resort: 11:00 AM & 05:00 PM (Speedboat)', 'Resort to Male: 06:15 AM & 10:15 AM (Speedboat)', 'Note: Wait times of 1-4 hours possible for airport transfers']
     ],
     itinerary: [
-      {title: 'Arrival in Maldives & Transfer to Resort', copy: 'Arrive at Male International Airport. You will be greeted and transferred to Medhufushi Island Resort via Speedboat (Note: 1-4 hours wait time may apply). Check-in to your Beach Villa and enjoy your half-board dinner.'},
-      {title: 'Beach Villa Experience', copy: 'Spend the day relaxing at the outdoor pool, spa, or simply enjoying the pristine beaches. The beachfront restaurants are perfect for romantic dinners. Overnight in the Beach Villa.'},
-      {title: 'Transfer to Water Villa', copy: 'After breakfast, transition to the iconic Water Villa. Enjoy the rustic villas with lagoon views and your own private sun deck. Relax and soak in the Maldivian sun.'},
-      {title: 'Water Villa Leisure', copy: 'Enjoy a full day of leisure in your Water Villa. Experience the crystal-clear waters right from your deck. Half board meals are included.'},
-      {title: 'Departure', copy: 'After breakfast, check out from the resort. Take the morning speedboat back to Male International Airport for your return flight to Kochi.'}
+      { title: 'Arrival in Maldives & Transfer to Resort', copy: 'Arrive at Male International Airport. You will be greeted and transferred to Medhufushi Island Resort via Speedboat (Note: 1-4 hours wait time may apply). Check-in to your Beach Villa and enjoy your half-board dinner.' },
+      { title: 'Beach Villa Experience', copy: 'Spend the day relaxing at the outdoor pool, spa, or simply enjoying the pristine beaches. The beachfront restaurants are perfect for romantic dinners. Overnight in the Beach Villa.' },
+      { title: 'Transfer to Water Villa', copy: 'After breakfast, transition to the iconic Water Villa. Enjoy the rustic villas with lagoon views and your own private sun deck. Relax and soak in the Maldivian sun.' },
+      { title: 'Water Villa Leisure', copy: 'Enjoy a full day of leisure in your Water Villa. Experience the crystal-clear waters right from your deck. Half board meals are included.' },
+      { title: 'Departure', copy: 'After breakfast, check out from the resort. Take the morning speedboat back to Male International Airport for your return flight to Kochi.' }
     ],
     inclusions: [
       'Accommodation: 2 Nights Beach Villa + 2 Nights Water Villa',
@@ -3945,9 +4543,9 @@ export const international=[
     specialHeading: 'Tradition Meets Tomorrow.',
     stays: ['8 Nights / 9 Days', '02 Oct 2026 - 10 Oct 2026'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80', alt: 'Tokyo Skyline'},
-      {src: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1401&q=80', alt: 'Kyoto Fushimi Inari'},
-      {src: 'https://tse1.mm.bing.net/th/id/OIP.fenLplFhQfQ-b7_jVUcLLAHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Osaka City'}
+      { src: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80', alt: 'Tokyo Skyline' },
+      { src: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1401&q=80', alt: 'Kyoto Fushimi Inari' },
+      { src: 'https://tse1.mm.bing.net/th/id/OIP.fenLplFhQfQ-b7_jVUcLLAHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Osaka City' }
     ],
     galleryCaptions: ['Tokyo', 'Kyoto', 'Osaka'],
     groupTitles: ['Inclusions', 'Travel Dates', 'Hotels & Pricing'],
@@ -3957,15 +4555,15 @@ export const international=[
       ['Hotels & Pricing', 'Price: ₹1,79,500/- per person', 'Tokyo: APA Hotel Higashi Shinjuku Kabukicho Tower (4N, BBF)', 'Kyoto: Miyako Hotel Kyoto Hachijo (2N, BBF)', 'Osaka: Hearton Hotel Nishiumeda (2N, BBF)']
     ],
     itinerary: [
-      {title: 'Arrival in Tokyo (02 Oct)', copy: 'Arrival in Tokyo and transfer to your hotel. Relax and prepare for an exciting journey ahead.'},
-      {title: 'Tokyo City Tour (03 Oct)', copy: 'Enjoy a comprehensive Tokyo City Tour on a Shared (SIC) basis. This includes an entrance ticket to the iconic Tokyo Skytree (350m observation deck).'},
-      {title: 'Mount Fuji & Hakone (04 Oct)', copy: 'Embark on a magnificent Mount Fuji and Hakone Day Tour (SIC). Includes an entrance ticket to the breathtaking Hakone Ropeway.'},
-      {title: 'Tokyo Disneyland (05 Oct)', copy: 'Experience the magic of Tokyo Disneyland! Your entry tickets are included (Please note: Transfers are not included; you may travel at your own convenience).'},
-      {title: 'Bullet Train to Kyoto (06 Oct)', copy: 'Transfer from your Tokyo Hotel to Tokyo Station. Board the famous Shinkansen (Bullet Train) to Kyoto. Upon arrival, transfer from Kyoto Station to your hotel.'},
-      {title: 'Kyoto Highlights (07 Oct)', copy: 'Explore the cultural heart of Japan with a tour of Nara, the Fushimi Inari Taisha shrine, and the beautiful Arashiyama bamboo grove (SIC).'},
-      {title: 'Transfer to Osaka & City Tour (08 Oct)', copy: 'Transfer from your Kyoto Hotel to your Osaka Hotel. In the afternoon, enjoy an Osaka Half Day City Tour (PVT).'},
-      {title: 'Universal Studios Japan (09 Oct)', copy: 'Get ready for thrills at Universal Studios Japan! Entry tickets are included (Transfers are not included).'},
-      {title: 'Departure (10 Oct)', copy: 'After breakfast, check out and enjoy a private transfer to the airport for your onward journey.'}
+      { title: 'Arrival in Tokyo (02 Oct)', copy: 'Arrival in Tokyo and transfer to your hotel. Relax and prepare for an exciting journey ahead.' },
+      { title: 'Tokyo City Tour (03 Oct)', copy: 'Enjoy a comprehensive Tokyo City Tour on a Shared (SIC) basis. This includes an entrance ticket to the iconic Tokyo Skytree (350m observation deck).' },
+      { title: 'Mount Fuji & Hakone (04 Oct)', copy: 'Embark on a magnificent Mount Fuji and Hakone Day Tour (SIC). Includes an entrance ticket to the breathtaking Hakone Ropeway.' },
+      { title: 'Tokyo Disneyland (05 Oct)', copy: 'Experience the magic of Tokyo Disneyland! Your entry tickets are included (Please note: Transfers are not included; you may travel at your own convenience).' },
+      { title: 'Bullet Train to Kyoto (06 Oct)', copy: 'Transfer from your Tokyo Hotel to Tokyo Station. Board the famous Shinkansen (Bullet Train) to Kyoto. Upon arrival, transfer from Kyoto Station to your hotel.' },
+      { title: 'Kyoto Highlights (07 Oct)', copy: 'Explore the cultural heart of Japan with a tour of Nara, the Fushimi Inari Taisha shrine, and the beautiful Arashiyama bamboo grove (SIC).' },
+      { title: 'Transfer to Osaka & City Tour (08 Oct)', copy: 'Transfer from your Kyoto Hotel to your Osaka Hotel. In the afternoon, enjoy an Osaka Half Day City Tour (PVT).' },
+      { title: 'Universal Studios Japan (09 Oct)', copy: 'Get ready for thrills at Universal Studios Japan! Entry tickets are included (Transfers are not included).' },
+      { title: 'Departure (10 Oct)', copy: 'After breakfast, check out and enjoy a private transfer to the airport for your onward journey.' }
     ],
     inclusions: [
       '8 Nights Accommodation with Breakfast',
@@ -4017,9 +4615,9 @@ export const international=[
     specialHeading: 'Luxury Living. Magical Moments.',
     stays: ['6 Nights / 7 Days', 'Premium Twin City Tour'],
     gallery: [
-      {src: 'https://wallpapers.com/images/hd/hong-kong-victoria-peak-at-night-57uvzujiwoh9d7sh.jpg', alt: 'Hong Kong Harbour'},
-      {src: 'https://tse4.mm.bing.net/th/id/OIP.oRLfu1lDpRnvZL88khyzPgHaEg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'The Venetian Macau'},
-      {src: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/12/e7/7e/72.jpg', alt: 'Lantau Island Big Buddha'}
+      { src: 'https://wallpapers.com/images/hd/hong-kong-victoria-peak-at-night-57uvzujiwoh9d7sh.jpg', alt: 'Hong Kong Harbour' },
+      { src: 'https://tse4.mm.bing.net/th/id/OIP.oRLfu1lDpRnvZL88khyzPgHaEg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'The Venetian Macau' },
+      { src: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/12/e7/7e/72.jpg', alt: 'Lantau Island Big Buddha' }
     ],
     galleryCaptions: ['Hong Kong', 'The Venetian Macau', 'Lantau Island'],
     groupTitles: ['Inclusions', 'Transfers & Ferries', 'Hotels & Pricing'],
@@ -4029,13 +4627,13 @@ export const international=[
       ['Hotels & Pricing', 'HK: Intercontinental Grand Stanford (4 Nights, BBF)', 'Macau: The Venetian Macau "Royal Deluxe Suite" (2 Nights, BBF)', 'Adult (Twin): ₹1,54,468', 'Adult (Extra Bed): ₹1,06,000', 'Child (Extra Bed): ₹74,866 | Child (No Bed): ₹52,731', 'Infant Ferry: ₹8,500']
     ],
     itinerary: [
-      {title: 'Arrival in Hong Kong', copy: 'Transfer from Hong Kong International Airport (HKIA) to Hotel (PVT). Surcharge will be applied for pickups between 10 PM and 8 AM.'},
-      {title: 'Ocean Park Adventure', copy: 'Enjoy a thrilling day at Ocean Park with Entry and Return Transfers included (PVT). Services will start after 11:00 A.M.'},
-      {title: 'Hong Kong City Tour', copy: 'Hong Kong City Tour: Victoria Peak by 1 Way Peak tram, Star Ferry, Avenue of Star, Old Clock Tower, Victoria Harbour, Symphony of Lights Show & drop to hotel (Max 5 Hours - PVT).'},
-      {title: 'Hong Kong Disneyland', copy: 'Round Trip Transfers to Disneyland with a 1 Day Pass included (PVT). Spend the entire day enjoying the magical attractions.'},
-      {title: 'Lantau Island & Transfer to Macau', copy: 'Lantau Island tour with Return Transfers, 2 way Standard Cabin Cable Car, Po Lin Monastery, and the Big Buddha Statue (PVT). Afterwards, transfer to the Pier (PVT) and take the Ferry to Macau. Transfer to The Venetian Macau via free shuttle.'},
-      {title: 'Macau City Tour', copy: 'Macau City Tour (Max 4 Hrs - PVT) covering Ama Temple, Ruins of St Paul Church, Natcha Temple, Old City Walls, Senado Square, Kun Lam Statue Pass By, Fisherman\'s Wharf & Photo Stop at Macau Tower.'},
-      {title: 'Departure', copy: 'Transfer to Pier in Macau on Free Shuttle. Take the Ferry back to Hong Kong. Transfer from Pier to HKIA for your onward flight (PVT).'}
+      { title: 'Arrival in Hong Kong', copy: 'Transfer from Hong Kong International Airport (HKIA) to Hotel (PVT). Surcharge will be applied for pickups between 10 PM and 8 AM.' },
+      { title: 'Ocean Park Adventure', copy: 'Enjoy a thrilling day at Ocean Park with Entry and Return Transfers included (PVT). Services will start after 11:00 A.M.' },
+      { title: 'Hong Kong City Tour', copy: 'Hong Kong City Tour: Victoria Peak by 1 Way Peak tram, Star Ferry, Avenue of Star, Old Clock Tower, Victoria Harbour, Symphony of Lights Show & drop to hotel (Max 5 Hours - PVT).' },
+      { title: 'Hong Kong Disneyland', copy: 'Round Trip Transfers to Disneyland with a 1 Day Pass included (PVT). Spend the entire day enjoying the magical attractions.' },
+      { title: 'Lantau Island & Transfer to Macau', copy: 'Lantau Island tour with Return Transfers, 2 way Standard Cabin Cable Car, Po Lin Monastery, and the Big Buddha Statue (PVT). Afterwards, transfer to the Pier (PVT) and take the Ferry to Macau. Transfer to The Venetian Macau via free shuttle.' },
+      { title: 'Macau City Tour', copy: 'Macau City Tour (Max 4 Hrs - PVT) covering Ama Temple, Ruins of St Paul Church, Natcha Temple, Old City Walls, Senado Square, Kun Lam Statue Pass By, Fisherman\'s Wharf & Photo Stop at Macau Tower.' },
+      { title: 'Departure', copy: 'Transfer to Pier in Macau on Free Shuttle. Take the Ferry back to Hong Kong. Transfer from Pier to HKIA for your onward flight (PVT).' }
     ],
     inclusions: [
       '4 Nights Accommodation in Hong Kong with Breakfast',
@@ -4075,9 +4673,9 @@ export const international=[
     specialHeading: 'Vibrant Cities. Endless Magic.',
     stays: ['6 Nights / 7 Days', 'Tri-City Tour'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1400&q=80', alt: 'Hong Kong Skyline'},
-      {src: 'https://www.expat.com/images/guide-cover/macau-hero_size-t1524808170.jpg', alt: 'Macau Ruins of St Paul'},
-      {src: 'https://wallpaperaccess.com/full/7094990.jpg', alt: 'Shenzhen Skyline'}
+      { src: 'https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1400&q=80', alt: 'Hong Kong Skyline' },
+      { src: 'https://www.expat.com/images/guide-cover/macau-hero_size-t1524808170.jpg', alt: 'Macau Ruins of St Paul' },
+      { src: 'https://wallpaperaccess.com/full/7094990.jpg', alt: 'Shenzhen Skyline' }
     ],
     galleryCaptions: ['Hong Kong', 'Macau', 'Shenzhen'],
     groupTitles: ['Inclusions', 'Ferry & Transfers', 'Hotels'],
@@ -4087,13 +4685,13 @@ export const international=[
       ['Hotels', 'Macau: Regency Art Macau (2 Nights, BBF)', 'Shenzhen: Best Western Felicity (2 Nights, BBF)', 'Hong Kong: Harbour Plaza Metropolis (2 Nights, BBF)']
     ],
     itinerary: [
-      {title: 'Arrival & Transfer to Macau', copy: 'Transfer from Airport to Pier (PVT). Ferry to Macau, followed by transfer from the Ferry Pier to your hotel in Macau. (Surcharge applies for late night/early morning pickups).'},
-      {title: 'Macau City Tour', copy: 'Enjoy a Macau City Tour covering the Ama Temple, Ruins of St Paul Church, Natcha Temple, Old City Walls, Senado Square, Kun Lam Statue, and a coach view of Macau Tower (Max 4 Hours - PVT).'},
-      {title: 'Macau to Shenzhen', copy: 'Transfer from Hotel to Ferry Pier in Macau. Take the ferry to Shenzhen. Pick up from pier and proceed for Lunch, Windows of the World, Lotus Square, and Luohu Shopping Mall (PVT).'},
-      {title: 'Leisure Day in Shenzhen', copy: 'Enjoy a full day at leisure to explore the modern metropolis of Shenzhen on your own.'},
-      {title: 'Shenzhen to Hong Kong & City Tour', copy: 'Drop to Pier (SIC) and ferry to HK. Pick up from HK Hotel for the Hong Kong City Tour: Victoria Peak by 1 Way Peak tram, Madame Tussauds, Old Clock Tower, Victoria Harbour, and the Symphony of Lights show (Max 5 Hours - PVT).'},
-      {title: 'Hong Kong Disneyland', copy: 'Round Trip Transfers to Disneyland with a 1 Day Pass included (PVT). Enjoy the magic of the park all day!'},
-      {title: 'Departure', copy: 'Drop to HKIA for your onward flight (Early morning surcharge applicable for pick-ups between 10:00 PM and 8:00 AM).'}
+      { title: 'Arrival & Transfer to Macau', copy: 'Transfer from Airport to Pier (PVT). Ferry to Macau, followed by transfer from the Ferry Pier to your hotel in Macau. (Surcharge applies for late night/early morning pickups).' },
+      { title: 'Macau City Tour', copy: 'Enjoy a Macau City Tour covering the Ama Temple, Ruins of St Paul Church, Natcha Temple, Old City Walls, Senado Square, Kun Lam Statue, and a coach view of Macau Tower (Max 4 Hours - PVT).' },
+      { title: 'Macau to Shenzhen', copy: 'Transfer from Hotel to Ferry Pier in Macau. Take the ferry to Shenzhen. Pick up from pier and proceed for Lunch, Windows of the World, Lotus Square, and Luohu Shopping Mall (PVT).' },
+      { title: 'Leisure Day in Shenzhen', copy: 'Enjoy a full day at leisure to explore the modern metropolis of Shenzhen on your own.' },
+      { title: 'Shenzhen to Hong Kong & City Tour', copy: 'Drop to Pier (SIC) and ferry to HK. Pick up from HK Hotel for the Hong Kong City Tour: Victoria Peak by 1 Way Peak tram, Madame Tussauds, Old Clock Tower, Victoria Harbour, and the Symphony of Lights show (Max 5 Hours - PVT).' },
+      { title: 'Hong Kong Disneyland', copy: 'Round Trip Transfers to Disneyland with a 1 Day Pass included (PVT). Enjoy the magic of the park all day!' },
+      { title: 'Departure', copy: 'Drop to HKIA for your onward flight (Early morning surcharge applicable for pick-ups between 10:00 PM and 8:00 AM).' }
     ],
     inclusions: [
       'Accommodation for 6 Nights with Breakfast (BBF)',
@@ -4133,9 +4731,9 @@ export const international=[
     specialHeading: 'Iconic Sights. Desert Magic.',
     stays: ['4 Nights / 5 Days', 'Departure: Mumbai', 'Flights Included'],
     gallery: [
-      {src: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg', alt: 'Dubai Skyline'},
-      {src: 'https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg', alt: 'Burj Khalifa'},
-      {src: 'https://www.dubaidesertsafaris.com/wp-content/uploads/2024/09/c149f87896c9c6fa4f01bf3fc7040d57.webp', alt: 'Desert Safari'}
+      { src: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg', alt: 'Dubai Skyline' },
+      { src: 'https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg', alt: 'Burj Khalifa' },
+      { src: 'https://www.dubaidesertsafaris.com/wp-content/uploads/2024/09/c149f87896c9c6fa4f01bf3fc7040d57.webp', alt: 'Desert Safari' }
     ],
     galleryCaptions: ['Dubai Skyline', 'Burj Khalifa', 'Desert Safari'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels'],
@@ -4145,11 +4743,11 @@ export const international=[
       ['Hotels', 'Omega Hotel, Bur Dubai (Standard Room with Breakfast)']
     ],
     itinerary: [
-      {title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Abu Dhabi International Airport (AUH). Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (SIC).'},
-      {title: 'Dubai Frame', copy: 'Discover the Dubai Frame with included entrance tickets. Relish 360-degree views from the 150-meter high Sky Deck and traverse the breathtaking Glass Bridge (SIC).'},
-      {title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city (SIC).'},
-      {title: 'Desert Safari with BBQ Dinner', copy: 'Embark on the Standard Desert Safari, featuring 4x4 transfers, dune bashing, sunset photos, camel rides, henna painting, Shisha, cultural dances, and a buffet dinner with BBQ (SIC).'},
-      {title: 'Departure', copy: 'Pickup from Bur Dubai. Drop at Dubai International Airport (DXB) for your return flight.'}
+      { title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Abu Dhabi International Airport (AUH). Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (SIC).' },
+      { title: 'Dubai Frame', copy: 'Discover the Dubai Frame with included entrance tickets. Relish 360-degree views from the 150-meter high Sky Deck and traverse the breathtaking Glass Bridge (SIC).' },
+      { title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city (SIC).' },
+      { title: 'Desert Safari with BBQ Dinner', copy: 'Embark on the Standard Desert Safari, featuring 4x4 transfers, dune bashing, sunset photos, camel rides, henna painting, Shisha, cultural dances, and a buffet dinner with BBQ (SIC).' },
+      { title: 'Departure', copy: 'Pickup from Bur Dubai. Drop at Dubai International Airport (DXB) for your return flight.' }
     ],
     inclusions: [
       'Return Flights (BOM-AUH and DXB-BOM)',
@@ -4191,9 +4789,9 @@ export const international=[
     specialHeading: 'Future Marvels. Theme Park Thrills.',
     stays: ['5 Nights / 6 Days', 'Departure: Mumbai', 'Flights Included'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80', alt: 'Dubai Skyline'},
-      {src: 'https://tse1.mm.bing.net/th/id/OIP.psf5zJr9ZlEOTuo-S_gz2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Museum of the Future'},
-      {src: 'https://www.travelaroundtheworldblog.com/wp-content/uploads/2025/12/Abu-Dhabi-Yas-Island-1024x559.jpg', alt: 'Ferrari World Yas Island'}
+      { src: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80', alt: 'Dubai Skyline' },
+      { src: 'https://tse1.mm.bing.net/th/id/OIP.psf5zJr9ZlEOTuo-S_gz2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Museum of the Future' },
+      { src: 'https://www.travelaroundtheworldblog.com/wp-content/uploads/2025/12/Abu-Dhabi-Yas-Island-1024x559.jpg', alt: 'Ferrari World Yas Island' }
     ],
     galleryCaptions: ['Dubai Skyline', 'Museum of the Future', 'Yas Island Parks'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels'],
@@ -4203,12 +4801,12 @@ export const international=[
       ['Hotels', 'Dubai: Omega Hotel, Bur Dubai (Standard Room with Bathtub)', 'Abu Dhabi: Yas Island Hotel (Transfer specified)']
     ],
     itinerary: [
-      {title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Dubai International Airport. Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (Private/Shared basis).'},
-      {title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city.'},
-      {title: 'Museum of the Future & Desert Safari', copy: 'Experience admission to the Museum of the Future. Later, embark on the Standard Desert Safari, featuring luxury 4x4 transfers, dune bashing, sunset photos, camel rides, cultural dances, and a buffet dinner with BBQ.'},
-      {title: 'Global Village and Miracle Garden', copy: 'Immerse yourself in cultural diversity at Global Village. Wander through the breathtaking Miracle Garden, a floral oasis showcasing stunning blooms (Subject to Operations).'},
-      {title: 'Transfer to Yas Island & Theme Parks', copy: 'Inter-Hotel Transfer from Bur Dubai to Yas Island. Enjoy the Yas Island 2 Days 2 Parks ticket. Choose any two parks from Ferrari World Abu Dhabi, Warner Bros. World Abu Dhabi, Yas Waterworld, or Seaworld.'},
-      {title: 'Departure', copy: 'Pickup from Yas Island. Drop at Dubai International Airport for your return flight.'}
+      { title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Dubai International Airport. Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (Private/Shared basis).' },
+      { title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city.' },
+      { title: 'Museum of the Future & Desert Safari', copy: 'Experience admission to the Museum of the Future. Later, embark on the Standard Desert Safari, featuring luxury 4x4 transfers, dune bashing, sunset photos, camel rides, cultural dances, and a buffet dinner with BBQ.' },
+      { title: 'Global Village and Miracle Garden', copy: 'Immerse yourself in cultural diversity at Global Village. Wander through the breathtaking Miracle Garden, a floral oasis showcasing stunning blooms (Subject to Operations).' },
+      { title: 'Transfer to Yas Island & Theme Parks', copy: 'Inter-Hotel Transfer from Bur Dubai to Yas Island. Enjoy the Yas Island 2 Days 2 Parks ticket. Choose any two parks from Ferrari World Abu Dhabi, Warner Bros. World Abu Dhabi, Yas Waterworld, or Seaworld.' },
+      { title: 'Departure', copy: 'Pickup from Yas Island. Drop at Dubai International Airport for your return flight.' }
     ],
     inclusions: [
       'Return Flights on Indigo Airlines',
@@ -4251,9 +4849,9 @@ export const international=[
     specialHeading: 'Modern Marvels. Desert Wonders.',
     stays: ['6 Nights / 7 Days', 'Departure: Mumbai', 'Flights Included'],
     gallery: [
-      {src: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg', alt: 'Dubai Skyline'},
-      {src: 'https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg', alt: 'Burj Khalifa'},
-      {src: 'https://www.dubaidesertsafaris.com/wp-content/uploads/2024/09/c149f87896c9c6fa4f01bf3fc7040d57.webp', alt: 'Desert Safari'}
+      { src: 'https://www.dubai-infoguide.de/wp/wp-content/uploads/2016/04/dubai-marina-skyline-1024x768.jpg', alt: 'Dubai Skyline' },
+      { src: 'https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg', alt: 'Burj Khalifa' },
+      { src: 'https://www.dubaidesertsafaris.com/wp-content/uploads/2024/09/c149f87896c9c6fa4f01bf3fc7040d57.webp', alt: 'Desert Safari' }
     ],
     galleryCaptions: ['Dubai Marina', 'Burj Khalifa View', 'Desert Safari'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotel Options'],
@@ -4263,13 +4861,13 @@ export const international=[
       ['Hotel Options', 'Grand Excelsior Hotel Bur Dubai (4 Star) - Deluxe Room']
     ],
     itinerary: [
-      {title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Dubai International Airport. Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (Private/Shared basis).'},
-      {title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city.'},
-      {title: 'Global Village and Miracle Garden', copy: 'Immerse yourself in cultural diversity at Global Village. Wander through the breathtaking Miracle Garden, a floral oasis showcasing stunning blooms (Subject to Operations).'},
-      {title: 'Desert Safari with BBQ Dinner', copy: 'Embark on the Standard Desert Safari, featuring luxury 4x4 transfers, dune bashing, sunset photos, camel rides, henna painting, Shisha, cultural dances, and a buffet dinner with BBQ.'},
-      {title: 'Dubai Frame & Aya Universe', copy: 'Discover the Dubai Frame with its 150m high Sky Deck. Later, explore Aya Universe, an immersive entertainment park located in Wafi City Mall with 12 captivating space zones.'},
-      {title: 'Abu Dhabi City Tour & BAPS Hindu Temple', copy: 'Discover Abu Dhabi\'s blend of modernity and tradition. Includes a visit to the impressive BAPS Hindu Temple showcasing exquisite craftsmanship. (Sheikh Zayed Grand Mosque dress code applies).'},
-      {title: 'Departure', copy: 'Pickup from Bur Dubai hotel. Drop at Dubai International Airport for your return flight.'}
+      { title: 'Arrival & Dhow Marina Cruise', copy: 'Arrival Pickup from Dubai International Airport. Transfer to Bur Dubai. Embark on the Dhow Marina Cruise’s lower deck for a magical 90-minute journey with a buffet dinner and live entertainment (Private/Shared basis).' },
+      { title: 'Dubai City Tour & Burj Khalifa', copy: 'Discover Dubai\'s highlights on a City Tour. Followed by At The Top Burj Khalifa 124th Floor (Non-Prime Time) offering breathtaking views of the city.' },
+      { title: 'Global Village and Miracle Garden', copy: 'Immerse yourself in cultural diversity at Global Village. Wander through the breathtaking Miracle Garden, a floral oasis showcasing stunning blooms (Subject to Operations).' },
+      { title: 'Desert Safari with BBQ Dinner', copy: 'Embark on the Standard Desert Safari, featuring luxury 4x4 transfers, dune bashing, sunset photos, camel rides, henna painting, Shisha, cultural dances, and a buffet dinner with BBQ.' },
+      { title: 'Dubai Frame & Aya Universe', copy: 'Discover the Dubai Frame with its 150m high Sky Deck. Later, explore Aya Universe, an immersive entertainment park located in Wafi City Mall with 12 captivating space zones.' },
+      { title: 'Abu Dhabi City Tour & BAPS Hindu Temple', copy: 'Discover Abu Dhabi\'s blend of modernity and tradition. Includes a visit to the impressive BAPS Hindu Temple showcasing exquisite craftsmanship. (Sheikh Zayed Grand Mosque dress code applies).' },
+      { title: 'Departure', copy: 'Pickup from Bur Dubai hotel. Drop at Dubai International Airport for your return flight.' }
     ],
     inclusions: [
       'Return Flights on Emirates Airlines',
@@ -4313,9 +4911,9 @@ export const international=[
     specialHeading: 'Beaches. Temples. Jungle Swings.',
     stays: ['5 Nights / 6 Days', 'Departure: Mumbai', 'Flights Included'],
     gallery: [
-      {src: 'https://tse4.mm.bing.net/th/id/OIP.Poat96eAwY3YtVQfod5EkQHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Bali Vibes'},
-      {src: 'https://tse2.mm.bing.net/th/id/OIP.wxQn0aZpEMG8cZAohVv1nAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Nusa Penida'},
-      {src: 'https://media.villagetaways.com/villas/bali/1776/244f55edd3ef55024a19aedc4e135ed2_full.jpg', alt: 'Private Pool Villa'}
+      { src: 'https://tse4.mm.bing.net/th/id/OIP.Poat96eAwY3YtVQfod5EkQHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Bali Vibes' },
+      { src: 'https://tse2.mm.bing.net/th/id/OIP.wxQn0aZpEMG8cZAohVv1nAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Nusa Penida' },
+      { src: 'https://media.villagetaways.com/villas/bali/1776/244f55edd3ef55024a19aedc4e135ed2_full.jpg', alt: 'Private Pool Villa' }
     ],
     galleryCaptions: ['Bali Nature', 'Kelingking Beach', 'Ubud Villa'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotels', 'Travel Dates'],
@@ -4326,12 +4924,12 @@ export const international=[
       ['Travel Dates', '7 Jan 2027']
     ],
     itinerary: [
-      {title: 'Arrival in Bali', copy: 'Arrival Pickup from Denpasar International Airport. Drop at The Kana Kuta for check-in and relaxation.'},
-      {title: 'Nusa Penida West Tour', copy: 'Nusa Penida West Tour (Kelingking Beach, Broken Beach, Angel Billabong, 3 Point Snorkelling by Sharing Boat) with Local Lunch & 2-Way Ferry (Private land transfer, SIC ferry).'},
-      {title: 'Watersports & Tanah Lot', copy: 'Full Day Tour of Deluxe Watersports (Banana Boat, Jet Ski, Parasailing) and Tanah Lot Temple (Private).'},
-      {title: 'Bedugul Tour & Transfer to Ubud', copy: 'Bedugul Tour with Handara Gate, Beratan Temple and Jatiluwih Rice Terraces (Private). Transfer from Kuta Hotel to Ubud Raya Villa.'},
-      {title: 'Kintamani Tour', copy: 'Kintamani Tour Mount Batur View, Coffee Plantation, Tegalalang Rice Terraces, Tegenungan Falls, Bali Jungle Swing without Lunch and Ubud Art Market (Private).'},
-      {title: 'Departure', copy: 'Departure Pickup from Ubud Raya Villa. Drop at Denpasar International Airport for your return flight.'}
+      { title: 'Arrival in Bali', copy: 'Arrival Pickup from Denpasar International Airport. Drop at The Kana Kuta for check-in and relaxation.' },
+      { title: 'Nusa Penida West Tour', copy: 'Nusa Penida West Tour (Kelingking Beach, Broken Beach, Angel Billabong, 3 Point Snorkelling by Sharing Boat) with Local Lunch & 2-Way Ferry (Private land transfer, SIC ferry).' },
+      { title: 'Watersports & Tanah Lot', copy: 'Full Day Tour of Deluxe Watersports (Banana Boat, Jet Ski, Parasailing) and Tanah Lot Temple (Private).' },
+      { title: 'Bedugul Tour & Transfer to Ubud', copy: 'Bedugul Tour with Handara Gate, Beratan Temple and Jatiluwih Rice Terraces (Private). Transfer from Kuta Hotel to Ubud Raya Villa.' },
+      { title: 'Kintamani Tour', copy: 'Kintamani Tour Mount Batur View, Coffee Plantation, Tegalalang Rice Terraces, Tegenungan Falls, Bali Jungle Swing without Lunch and Ubud Art Market (Private).' },
+      { title: 'Departure', copy: 'Departure Pickup from Ubud Raya Villa. Drop at Denpasar International Airport for your return flight.' }
     ],
     inclusions: [
       'Return Flights on Malaysia Airlines',
@@ -4421,9 +5019,9 @@ export const international=[
     specialHeading: 'History. Fire. Mountains.',
     stays: ['6 Nights / 7 Days', 'Departure: Mumbai', 'Flights Included'],
     gallery: [
-      {src: 'https://www.wernersobek.com/wp-content/uploads/resized/2021/05/EP03535-024-1920x0-c-default.jpg', alt: 'Baku Flame Towers'},
-      {src: 'https://images.adsttc.com/media/images/5285/2033/e8e4/4e22/2500/0147/large_jpg/HAC_Exterior_Photo_by_Hufton_Crow_(3).jpg?1384456144', alt: 'Heydar Aliyev Center'},
-      {src: 'https://tse3.mm.bing.net/th/id/OIP.opc0HpIG1lcdM9-zO2Jj8QHaEW?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Old City Baku'}
+      { src: 'https://www.wernersobek.com/wp-content/uploads/resized/2021/05/EP03535-024-1920x0-c-default.jpg', alt: 'Baku Flame Towers' },
+      { src: 'https://images.adsttc.com/media/images/5285/2033/e8e4/4e22/2500/0147/large_jpg/HAC_Exterior_Photo_by_Hufton_Crow_(3).jpg?1384456144', alt: 'Heydar Aliyev Center' },
+      { src: 'https://tse3.mm.bing.net/th/id/OIP.opc0HpIG1lcdM9-zO2Jj8QHaEW?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', alt: 'Old City Baku' }
     ],
     galleryCaptions: ['Flame Towers', 'Heydar Aliyev Center', 'Baku Old City'],
     groupTitles: ['Inclusions', 'Flight Details', 'Hotel Options', 'Travel Dates'],
@@ -4434,13 +5032,13 @@ export const international=[
       ['Travel Dates', '14 Aug 2026 - 20 Aug 2026']
     ],
     itinerary: [
-      {title: 'Welcome to Baku & Panoramic Tour', copy: 'Arrival at Airport and transfer to hotel. In the evening, enjoy a city view tour. Visit Highland Park-Alley of Martyrs and the Flame Towers, the tallest skyscrapers in Baku.'},
-      {title: 'Baku City Tour', copy: 'Explore the Old City (Icheri Sheher), a UNESCO World Heritage Site including the Palace of the Shirvanshahs and Maiden Tower. Visit the Heydar Aliyev Center (photo stop) and walk along the scenic Baku Boulevard.'},
-      {title: 'Shahdag Tour', copy: 'Departure to Shahdag Mountain Resort Complex, the first and largest ski resort in Azerbaijan located in the Greater Caucasus Range. Enjoy mountain activities and return to Baku.'},
-      {title: 'Flames Tour', copy: 'Visit Ateshgah (Fire Worshippers Temple) and Yanardag (Fire Mountain), a natural gas fire burning continuously. Later, visit Ganjlik Mall for shopping.'},
-      {title: 'Qobustan Tour', copy: 'Explore Qobustan, famous for rock petroglyphs dating back to the 8th millennium BC (UNESCO site). Continue to Deniz Mall.'},
-      {title: 'Shopping Tour', copy: 'Enjoy a Bakhlava Tasting experience. Explore Nizami Street, famous for shopping, and visit Fountains Square.'},
-      {title: 'Departure', copy: 'Breakfast in Hotel. Departure to Airport for your return flight.'}
+      { title: 'Welcome to Baku & Panoramic Tour', copy: 'Arrival at Airport and transfer to hotel. In the evening, enjoy a city view tour. Visit Highland Park-Alley of Martyrs and the Flame Towers, the tallest skyscrapers in Baku.' },
+      { title: 'Baku City Tour', copy: 'Explore the Old City (Icheri Sheher), a UNESCO World Heritage Site including the Palace of the Shirvanshahs and Maiden Tower. Visit the Heydar Aliyev Center (photo stop) and walk along the scenic Baku Boulevard.' },
+      { title: 'Shahdag Tour', copy: 'Departure to Shahdag Mountain Resort Complex, the first and largest ski resort in Azerbaijan located in the Greater Caucasus Range. Enjoy mountain activities and return to Baku.' },
+      { title: 'Flames Tour', copy: 'Visit Ateshgah (Fire Worshippers Temple) and Yanardag (Fire Mountain), a natural gas fire burning continuously. Later, visit Ganjlik Mall for shopping.' },
+      { title: 'Qobustan Tour', copy: 'Explore Qobustan, famous for rock petroglyphs dating back to the 8th millennium BC (UNESCO site). Continue to Deniz Mall.' },
+      { title: 'Shopping Tour', copy: 'Enjoy a Bakhlava Tasting experience. Explore Nizami Street, famous for shopping, and visit Fountains Square.' },
+      { title: 'Departure', copy: 'Breakfast in Hotel. Departure to Airport for your return flight.' }
     ],
     inclusions: [
       'Return Flight from Mumbai to Baku (Azerbaijan Airlines)',
@@ -4481,9 +5079,9 @@ export const international=[
     specialHeading: 'City. Nature. Ocean.',
     stays: ['5 Nights / 6 Days', 'Departure: Delhi', 'Flights Included'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=80', alt: 'Singapore Skyline'},
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1401&q=80', alt: 'Gardens by the Bay'},
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1402&q=80', alt: 'Universal Studios Singapore'}
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=80', alt: 'Singapore Skyline' },
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1401&q=80', alt: 'Gardens by the Bay' },
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1402&q=80', alt: 'Universal Studios Singapore' }
     ],
     galleryCaptions: ['Singapore Skyline', 'Gardens by the Bay', 'Universal Studios'],
     groupTitles: ['Inclusions', 'Flight Details', 'Available Dates'],
@@ -4493,12 +5091,12 @@ export const international=[
       ['Available Dates (2026-2027)', '26 Sept - 1 Oct 2026', '2 Oct - 7 Oct 2026', '24 Oct - 29 Oct 2026', '31 Oct - 5 Nov 2026', '7 Nov - 12 Nov 2026', '21 Nov - 26 Nov 2026', '28 Nov - 3 Dec 2026', '5 Dec - 10 Dec 2026', '9 Jan - 14 Jan 2027', '16 Jan - 21 Jan 2027']
     ],
     itinerary: [
-      {title: 'Arrival in Singapore & Transfer', copy: 'Arrive in Singapore via Air India. Transfer to Holiday Inn Express & Suites Novena (4 Star) on SIC basis.'},
-      {title: 'Guided Singapore City Tour', copy: 'After breakfast, embark on a comprehensive Guided Singapore City Tour to explore the best landmarks.'},
-      {title: 'Gardens by the Bay', copy: 'Visit Gardens by the Bay, including entry to the stunning Cloud Forest & Flower Dome.'},
-      {title: 'Sentosa Island', copy: 'Experience Sentosa Island with a scenic Cable Car ride and the spectacular Wings of Time show.'},
-      {title: 'Board Star Dream Cruise', copy: 'Transfer to the cruise terminal and board the Star Dream Cruise. Enjoy your interior cabin and all meals onboard.'},
-      {title: 'Departure', copy: 'Disembark from the cruise and take your SIC transfer to the airport for your return Air India flight to Delhi.'}
+      { title: 'Arrival in Singapore & Transfer', copy: 'Arrive in Singapore via Air India. Transfer to Holiday Inn Express & Suites Novena (4 Star) on SIC basis.' },
+      { title: 'Guided Singapore City Tour', copy: 'After breakfast, embark on a comprehensive Guided Singapore City Tour to explore the best landmarks.' },
+      { title: 'Gardens by the Bay', copy: 'Visit Gardens by the Bay, including entry to the stunning Cloud Forest & Flower Dome.' },
+      { title: 'Sentosa Island', copy: 'Experience Sentosa Island with a scenic Cable Car ride and the spectacular Wings of Time show.' },
+      { title: 'Board Star Dream Cruise', copy: 'Transfer to the cruise terminal and board the Star Dream Cruise. Enjoy your interior cabin and all meals onboard.' },
+      { title: 'Departure', copy: 'Disembark from the cruise and take your SIC transfer to the airport for your return Air India flight to Delhi.' }
     ],
     inclusions: [
       'Round Trip Flights (Air India)',
@@ -4540,9 +5138,9 @@ export const international=[
     specialHeading: 'City. Nature. Entertainment.',
     stays: ['5 Nights / 6 Days', 'Departure: Delhi', 'Flights Included'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=80', alt: 'Singapore Skyline'},
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1401&q=80', alt: 'Gardens by the Bay'},
-      {src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1402&q=80', alt: 'Universal Studios Singapore'}
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=80', alt: 'Singapore Skyline' },
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1401&q=80', alt: 'Gardens by the Bay' },
+      { src: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1402&q=80', alt: 'Universal Studios Singapore' }
     ],
     galleryCaptions: ['Singapore Skyline', 'Gardens by the Bay', 'Universal Studios'],
     groupTitles: ['Inclusions', 'Flight Details', 'Available Dates'],
@@ -4552,12 +5150,12 @@ export const international=[
       ['Available Dates (2026-2027)', '26 Sept - 1 Oct 2026', '2 Oct - 7 Oct 2026', '24 Oct - 29 Oct 2026', '31 Oct - 5 Nov 2026', '7 Nov - 12 Nov 2026', '21 Nov - 26 Nov 2026', '28 Nov - 3 Dec 2026', '5 Dec - 10 Dec 2026', '9 Jan - 14 Jan 2027', '16 Jan - 21 Jan 2027']
     ],
     itinerary: [
-      {title: 'Arrival in Singapore & Night Safari', copy: 'Arrive in Singapore via Air India. Transfer to Holiday Inn Novena (4 Star) on SIC basis. In the evening, enjoy the world-famous Night Safari.'},
-      {title: 'Guided Singapore City Tour', copy: 'After breakfast, embark on a comprehensive Guided Singapore City Tour to explore the best landmarks.'},
-      {title: 'Universal Studios Singapore', copy: 'Enjoy a full day of thrilling rides and entertainment with included entry to Universal Studios Singapore.'},
-      {title: 'Gardens by the Bay', copy: 'Visit Gardens by the Bay, including entry to the stunning Cloud Forest & Flower Dome.'},
-      {title: 'Sentosa Island', copy: 'Experience Sentosa Island with a scenic Cable Car ride and the spectacular Wings of Time show.'},
-      {title: 'Departure', copy: 'After breakfast, time at leisure before your SIC transfer to the airport for your return Air India flight to Delhi.'}
+      { title: 'Arrival in Singapore & Night Safari', copy: 'Arrive in Singapore via Air India. Transfer to Holiday Inn Novena (4 Star) on SIC basis. In the evening, enjoy the world-famous Night Safari.' },
+      { title: 'Guided Singapore City Tour', copy: 'After breakfast, embark on a comprehensive Guided Singapore City Tour to explore the best landmarks.' },
+      { title: 'Universal Studios Singapore', copy: 'Enjoy a full day of thrilling rides and entertainment with included entry to Universal Studios Singapore.' },
+      { title: 'Gardens by the Bay', copy: 'Visit Gardens by the Bay, including entry to the stunning Cloud Forest & Flower Dome.' },
+      { title: 'Sentosa Island', copy: 'Experience Sentosa Island with a scenic Cable Car ride and the spectacular Wings of Time show.' },
+      { title: 'Departure', copy: 'After breakfast, time at leisure before your SIC transfer to the airport for your return Air India flight to Delhi.' }
     ],
     inclusions: [
       'Round Trip Flights (Air India AI-2118 / AI-2383)',
@@ -4600,9 +5198,9 @@ export const international=[
     specialHeading: 'Boutique Luxury. Ocean Views. Private Sightseeing.',
     stays: ['5 Nights / 6 Days', 'Superior Ocean Room', 'MAP (Breakfast & Dinner)'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1533669955142-6a73332af4db?auto=format&fit=crop&w=1400&q=80', alt: 'Mauritius Beach'},
-      {src: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1400&q=80', alt: 'Mauritius Resort'},
-      {src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1400&q=80', alt: 'Romantic Beach Dinner'}
+      { src: 'https://images.unsplash.com/photo-1533669955142-6a73332af4db?auto=format&fit=crop&w=1400&q=80', alt: 'Mauritius Beach' },
+      { src: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1400&q=80', alt: 'Mauritius Resort' },
+      { src: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1400&q=80', alt: 'Romantic Beach Dinner' }
     ],
     galleryCaptions: ['Pristine Beaches', 'Boutique Luxury', 'Romantic Settings'],
     groupTitles: ['Property Highlights', 'Private Sightseeing', 'Honeymoon Benefits'],
@@ -4612,12 +5210,12 @@ export const international=[
       ['Honeymoon Benefits', 'Fruit platter, sparkling wine & seasonal flowers on arrival', 'One romantic dinner during the stay', '30% discount on selected Spa treatments', 'Perfect adults-only setting for a romantic island getaway']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival in Mauritius', copy: 'Arrive in Mauritius and enjoy private airport transfers to Radisson Blu Poste Lafayette Resort & Spa. Check into your Superior Ocean Room. Enjoy your FREE lunch upon arrival (or on departure). Enjoy a relaxing evening.'},
-      {title: 'Day 2 : Full Day North Tour', copy: 'Experience a private full day tour exploring the vibrant North of Mauritius. No waiting in line as you explore local attractions.'},
-      {title: 'Day 3 : Full Day South Tour', copy: 'Embark on a private full day tour of the scenic South of Mauritius. Discover stunning landscapes, waterfalls, and nature parks at your own pace.'},
-      {title: 'Day 4 : Full-Day Île aux Cerfs Tour', copy: 'Take a private full-day trip to the beautiful Île aux Cerfs. Enjoy pristine beaches, turquoise waters, and optional water sports activities.'},
-      {title: 'Day 5 : Leisure & Romance', copy: 'Spend the day at your leisure. Enjoy the adults-only beachfront resort and avail your 30% discount on selected Spa treatments. In the evening, delight in a complimentary romantic dinner.'},
-      {title: 'Day 6 : Departure', copy: 'After breakfast, check out from the hotel and take your private transfer to the airport for your onward journey.'}
+      { title: 'Day 1 : Arrival in Mauritius', copy: 'Arrive in Mauritius and enjoy private airport transfers to Radisson Blu Poste Lafayette Resort & Spa. Check into your Superior Ocean Room. Enjoy your FREE lunch upon arrival (or on departure). Enjoy a relaxing evening.' },
+      { title: 'Day 2 : Full Day North Tour', copy: 'Experience a private full day tour exploring the vibrant North of Mauritius. No waiting in line as you explore local attractions.' },
+      { title: 'Day 3 : Full Day South Tour', copy: 'Embark on a private full day tour of the scenic South of Mauritius. Discover stunning landscapes, waterfalls, and nature parks at your own pace.' },
+      { title: 'Day 4 : Full-Day Île aux Cerfs Tour', copy: 'Take a private full-day trip to the beautiful Île aux Cerfs. Enjoy pristine beaches, turquoise waters, and optional water sports activities.' },
+      { title: 'Day 5 : Leisure & Romance', copy: 'Spend the day at your leisure. Enjoy the adults-only beachfront resort and avail your 30% discount on selected Spa treatments. In the evening, delight in a complimentary romantic dinner.' },
+      { title: 'Day 6 : Departure', copy: 'After breakfast, check out from the hotel and take your private transfer to the airport for your onward journey.' }
     ],
     inclusions: [
       '5 Nights accommodation in Superior Ocean Room',
@@ -4651,10 +5249,10 @@ export const international=[
     ],
     tagline: 'Book Now with Tourswale'
   },
- {slug:'switzerland-paris',title:'Switzerland & Paris',location:'Europe',days:9,price:189999,image:images.switzerland,desc:'Alpine rail journeys followed by the romance of Paris.',tags:['Lucerne','Paris']},
- {slug:'italy-heritage',title:'Italy Heritage Journey',location:'Europe',days:8,price:174999,image:images.italy,desc:'Art, architecture and timeless Italian cities.',tags:['Rome','Venice']},
- {slug:'japan-discovery',title:'Japan Tour Package',location:'Japan',days:8,price:165000,image:images.japan,desc:'Seven nights across Tokyo, Mt. Fuji, Hakone, Kyoto, Nara and Osaka with 4-star hotels, Indian meals and the iconic bullet train.',tags:['Land Package','4-Star Hotels','Bullet Train'],promoEyebrow:'Your Journey, Our Responsibility',promoTitle:'Experience the Magic of Japan',promoLine:'Tokyo · Mt. Fuji · Hakone · Kyoto · Nara · Osaka',specialHeading:'Timeless Culture. Breathtaking Views. Unforgettable Memories.',stays:['8 Days / 7 Nights','4-Star Hotels','Land Package Only'],gallery:[{src:'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80',alt:'Tokyo city lights in Japan'},{src:'https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1400&q=80',alt:'Mount Fuji in Japan'},{src:'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1400&q=80',alt:'Traditional Kyoto temple in Japan'}],galleryCaptions:['Tokyo · Modern Japan','Mt. Fuji · Hakone','Kyoto · Timeless culture'],groupTitles:['Tokyo Icons','Fuji & Hakone','Kyoto, Nara & Osaka'],experienceGroups:[['Tokyo Icons','Asakusa','Tokyo Skytree','Shibuya Crossing','Meiji Shrine','Odaiba'],['Fuji & Hakone','Mt. Fuji 5th Station','Lake Ashi Cruise','Hakone Ropeway','Owakudani Valley'],['Kyoto, Nara & Osaka','Fushimi Inari','Golden Pavilion','Arashiyama Bamboo Grove','Nara Park & Tōdai-ji','Osaka Castle & Dotonbori']],itinerary:[{title:'Arrival in Tokyo',copy:'Airport transfer to your hotel followed by leisure time to settle in and explore nearby at your own pace.'},{title:'Tokyo City Tour',copy:'Visit Asakusa, Tokyo Skytree, Shibuya Crossing, Meiji Shrine and the waterfront district of Odaiba.'},{title:'Mt. Fuji & Hakone Tour',copy:'Travel to Mt. Fuji 5th Station, cruise Lake Ashi, ride the Hakone Ropeway and discover Owakudani Valley.'},{title:'Bullet Train to Kyoto',copy:'Experience Japan’s iconic bullet train, then visit Fushimi Inari, Kinkaku-ji Golden Pavilion and Arashiyama Bamboo Grove.'},{title:'Kyoto & Nara Tour',copy:'Explore Kiyomizu-dera, Nara Park and Tōdai-ji Temple, with time for the famous deer-feeding experience.'},{title:'Kyoto to Osaka',copy:'Continue to Osaka Castle, vibrant Dotonbori Street and the Shinsaibashi shopping district.'},{title:'Osaka City Tour',copy:'Take in the views from Umeda Sky Building and experience the flavours and energy of Kuromon Market.'},{title:'Leisure Day & Departure',copy:'Enjoy free time until your scheduled transfer to the airport for departure.'}],inclusions:['7 nights in 4-star hotels with breakfast','Bullet train experience','7 Indian lunches','7 Indian dinners','Lake Ashi cruise','Sightseeing and entry tickets as per itinerary','Airport and railway station transfers','Visa assistance','Daily water bottle','Applicable taxes'],exclusions:['International air tickets','Travel insurance unless selected','Personal expenses','Anything not specified in the inclusions'],benefits:['Best-selling Japan itinerary','Perfect for families, couples and FITs','Centrally located 4-star hotels','Includes Japan’s iconic bullet train','Carefully curated experiences'],tagline:'Book Now with Tourswale'},
- {slug:'bali-luxury',title:'Bali Luxury Escape',location:'Bali, Indonesia',days:7,price:81500,image:images.bali,desc:'Six nights in Bali with return flights from Mumbai, premium resort stay, private pool villa, water sports and curated island sightseeing.',tags:['Flights Included','Private Pool Villa','July Departure'],promoEyebrow:'Your Trusted Travel Partner',promoTitle:'Summer in Amazing Bali',promoLine:'Luxury Escape · Ubud · Kintamani · Uluwatu',specialHeading:'Your Dream Bali Holiday Awaits',stays:['6 Nights / 7 Days','4 Nights Premium Resort','2 Nights Private Pool Villa'],departureMonths:'July Special Departure',departures:['Selected July dates'],departureCities:['Mumbai'],gallery:[{src:'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=85',alt:'Traditional temple and Gate of Heaven in Bali'},{src:'https://images.unsplash.com/photo-1533669955142-6a73332af4db?auto=format&fit=crop&w=1400&q=85',alt:'Nusa Penida coast in Bali'},{src:'https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&w=1400&q=85',alt:'Luxury private pool villa in Bali'}],galleryCaptions:['Gate of Heaven · East Bali','Nusa Penida · Bali','Private pool villa experience'],groupTitles:['Signature Experiences','Featured Attractions','Premium Stay'],experienceGroups:[['Signature Experiences','Water sports adventure','Bali Swing experience','Floating breakfast','Private pool villa stay'],['Featured Attractions','Nusa Penida','Lempuyang Gate of Heaven','Tirta Gangga Water Palace','Uluwatu Temple & Kecak Dance'],['Premium Stay','4 nights premium resort','Deluxe Sky View room or similar','2 nights private pool villa','Daily breakfast']],itinerary:[{title:'Arrival in Bali',copy:'Arrive in Bali and meet your representative for a comfortable transfer to the hotel. Check in and enjoy the rest of the day at leisure.'},{title:'Water Sports Adventure',copy:'Enjoy an exciting day of banana boat riding, jet skiing and parasailing with transfers arranged as per the itinerary.'},{title:'Uluwatu Tour',copy:'Visit spectacular Uluwatu Temple perched above the ocean and experience the traditional Kecak Dance at sunset.'},{title:'East Bali Tour',copy:'Discover Lempuyang Gate of Heaven and the elegant water gardens of Tirta Gangga Water Palace.'},{title:'Ubud & Kintamani Tour',copy:'Spend a full day exploring Ubud, Kintamani, scenic landscapes and memorable local attractions.'},{title:'Floating Breakfast & Villa Leisure',copy:'Enjoy a floating breakfast followed by leisure time in the privacy and comfort of your pool villa.'},{title:'Departure',copy:'Check out after breakfast and transfer to the airport for your return flight.'}],inclusions:['Return economy-class airfare from Mumbai','6 nights’ accommodation with breakfast','4 nights at Anantara Resort or similar','Deluxe Sky View room or similar','2 nights in a private pool villa','Airport transfers','Sightseeing tours as per the itinerary','Water sports activities','Private pool villa experience'],exclusions:['Visa fees unless specified','Travel insurance','Lunch and dinner unless specified','Personal expenses','Anything not mentioned under inclusions'],benefits:['Perfect for couples and honeymooners','Ideal for families and groups','Private pool villa experience','Premium resort accommodation','Visa, hotel and flight assistance available'],tagline:'Let’s make memories that last a lifetime.'},
+  { slug: 'switzerland-paris', title: 'Switzerland & Paris', location: 'Europe', days: 9, price: 189999, image: images.switzerland, desc: 'Alpine rail journeys followed by the romance of Paris.', tags: ['Lucerne', 'Paris'] },
+  { slug: 'italy-heritage', title: 'Italy Heritage Journey', location: 'Europe', days: 8, price: 174999, image: images.italy, desc: 'Art, architecture and timeless Italian cities.', tags: ['Rome', 'Venice'] },
+  { slug: 'japan-discovery', title: 'Japan Tour Package', location: 'Japan', days: 8, price: 165000, image: images.japan, desc: 'Seven nights across Tokyo, Mt. Fuji, Hakone, Kyoto, Nara and Osaka with 4-star hotels, Indian meals and the iconic bullet train.', tags: ['Land Package', '4-Star Hotels', 'Bullet Train'], promoEyebrow: 'Your Journey, Our Responsibility', promoTitle: 'Experience the Magic of Japan', promoLine: 'Tokyo · Mt. Fuji · Hakone · Kyoto · Nara · Osaka', specialHeading: 'Timeless Culture. Breathtaking Views. Unforgettable Memories.', stays: ['8 Days / 7 Nights', '4-Star Hotels', 'Land Package Only'], gallery: [{ src: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80', alt: 'Tokyo city lights in Japan' }, { src: 'https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1400&q=80', alt: 'Mount Fuji in Japan' }, { src: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1400&q=80', alt: 'Traditional Kyoto temple in Japan' }], galleryCaptions: ['Tokyo · Modern Japan', 'Mt. Fuji · Hakone', 'Kyoto · Timeless culture'], groupTitles: ['Tokyo Icons', 'Fuji & Hakone', 'Kyoto, Nara & Osaka'], experienceGroups: [['Tokyo Icons', 'Asakusa', 'Tokyo Skytree', 'Shibuya Crossing', 'Meiji Shrine', 'Odaiba'], ['Fuji & Hakone', 'Mt. Fuji 5th Station', 'Lake Ashi Cruise', 'Hakone Ropeway', 'Owakudani Valley'], ['Kyoto, Nara & Osaka', 'Fushimi Inari', 'Golden Pavilion', 'Arashiyama Bamboo Grove', 'Nara Park & Tōdai-ji', 'Osaka Castle & Dotonbori']], itinerary: [{ title: 'Arrival in Tokyo', copy: 'Airport transfer to your hotel followed by leisure time to settle in and explore nearby at your own pace.' }, { title: 'Tokyo City Tour', copy: 'Visit Asakusa, Tokyo Skytree, Shibuya Crossing, Meiji Shrine and the waterfront district of Odaiba.' }, { title: 'Mt. Fuji & Hakone Tour', copy: 'Travel to Mt. Fuji 5th Station, cruise Lake Ashi, ride the Hakone Ropeway and discover Owakudani Valley.' }, { title: 'Bullet Train to Kyoto', copy: 'Experience Japan’s iconic bullet train, then visit Fushimi Inari, Kinkaku-ji Golden Pavilion and Arashiyama Bamboo Grove.' }, { title: 'Kyoto & Nara Tour', copy: 'Explore Kiyomizu-dera, Nara Park and Tōdai-ji Temple, with time for the famous deer-feeding experience.' }, { title: 'Kyoto to Osaka', copy: 'Continue to Osaka Castle, vibrant Dotonbori Street and the Shinsaibashi shopping district.' }, { title: 'Osaka City Tour', copy: 'Take in the views from Umeda Sky Building and experience the flavours and energy of Kuromon Market.' }, { title: 'Leisure Day & Departure', copy: 'Enjoy free time until your scheduled transfer to the airport for departure.' }], inclusions: ['7 nights in 4-star hotels with breakfast', 'Bullet train experience', '7 Indian lunches', '7 Indian dinners', 'Lake Ashi cruise', 'Sightseeing and entry tickets as per itinerary', 'Airport and railway station transfers', 'Visa assistance', 'Daily water bottle', 'Applicable taxes'], exclusions: ['International air tickets', 'Travel insurance unless selected', 'Personal expenses', 'Anything not specified in the inclusions'], benefits: ['Best-selling Japan itinerary', 'Perfect for families, couples and FITs', 'Centrally located 4-star hotels', 'Includes Japan’s iconic bullet train', 'Carefully curated experiences'], tagline: 'Book Now with Tourswale' },
+  { slug: 'bali-luxury', title: 'Bali Luxury Escape', location: 'Bali, Indonesia', days: 7, price: 81500, image: images.bali, desc: 'Six nights in Bali with return flights from Mumbai, premium resort stay, private pool villa, water sports and curated island sightseeing.', tags: ['Flights Included', 'Private Pool Villa', 'July Departure'], promoEyebrow: 'Your Trusted Travel Partner', promoTitle: 'Summer in Amazing Bali', promoLine: 'Luxury Escape · Ubud · Kintamani · Uluwatu', specialHeading: 'Your Dream Bali Holiday Awaits', stays: ['6 Nights / 7 Days', '4 Nights Premium Resort', '2 Nights Private Pool Villa'], departureMonths: 'July Special Departure', departures: ['Selected July dates'], departureCities: ['Mumbai'], gallery: [{ src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=85', alt: 'Traditional temple and Gate of Heaven in Bali' }, { src: 'https://images.unsplash.com/photo-1533669955142-6a73332af4db?auto=format&fit=crop&w=1400&q=85', alt: 'Nusa Penida coast in Bali' }, { src: 'https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&w=1400&q=85', alt: 'Luxury private pool villa in Bali' }], galleryCaptions: ['Gate of Heaven · East Bali', 'Nusa Penida · Bali', 'Private pool villa experience'], groupTitles: ['Signature Experiences', 'Featured Attractions', 'Premium Stay'], experienceGroups: [['Signature Experiences', 'Water sports adventure', 'Bali Swing experience', 'Floating breakfast', 'Private pool villa stay'], ['Featured Attractions', 'Nusa Penida', 'Lempuyang Gate of Heaven', 'Tirta Gangga Water Palace', 'Uluwatu Temple & Kecak Dance'], ['Premium Stay', '4 nights premium resort', 'Deluxe Sky View room or similar', '2 nights private pool villa', 'Daily breakfast']], itinerary: [{ title: 'Arrival in Bali', copy: 'Arrive in Bali and meet your representative for a comfortable transfer to the hotel. Check in and enjoy the rest of the day at leisure.' }, { title: 'Water Sports Adventure', copy: 'Enjoy an exciting day of banana boat riding, jet skiing and parasailing with transfers arranged as per the itinerary.' }, { title: 'Uluwatu Tour', copy: 'Visit spectacular Uluwatu Temple perched above the ocean and experience the traditional Kecak Dance at sunset.' }, { title: 'East Bali Tour', copy: 'Discover Lempuyang Gate of Heaven and the elegant water gardens of Tirta Gangga Water Palace.' }, { title: 'Ubud & Kintamani Tour', copy: 'Spend a full day exploring Ubud, Kintamani, scenic landscapes and memorable local attractions.' }, { title: 'Floating Breakfast & Villa Leisure', copy: 'Enjoy a floating breakfast followed by leisure time in the privacy and comfort of your pool villa.' }, { title: 'Departure', copy: 'Check out after breakfast and transfer to the airport for your return flight.' }], inclusions: ['Return economy-class airfare from Mumbai', '6 nights’ accommodation with breakfast', '4 nights at Anantara Resort or similar', 'Deluxe Sky View room or similar', '2 nights in a private pool villa', 'Airport transfers', 'Sightseeing tours as per the itinerary', 'Water sports activities', 'Private pool villa experience'], exclusions: ['Visa fees unless specified', 'Travel insurance', 'Lunch and dinner unless specified', 'Personal expenses', 'Anything not mentioned under inclusions'], benefits: ['Perfect for couples and honeymooners', 'Ideal for families and groups', 'Private pool villa experience', 'Premium resort accommodation', 'Visa, hotel and flight assistance available'], tagline: 'Let’s make memories that last a lifetime.' },
   {
     slug: 'dubai-abu-dhabi',
     title: 'Dubai Getaway',
@@ -4670,9 +5268,9 @@ export const international=[
     specialHeading: 'Future-facing cities, desert evenings and iconic hospitality.',
     stays: ['4 Days / 3 Nights', 'Daily Breakfast', 'Shared Transfers'],
     gallery: [
-      {src: images.dubai, alt: 'Dubai Skyline'},
-      {src: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80', alt: 'Dubai Desert Safari'},
-      {src: 'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?auto=format&fit=crop&w=1400&q=80', alt: 'Stretch Limousine'}
+      { src: images.dubai, alt: 'Dubai Skyline' },
+      { src: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80', alt: 'Dubai Desert Safari' },
+      { src: 'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?auto=format&fit=crop&w=1400&q=80', alt: 'Stretch Limousine' }
     ],
     galleryCaptions: ['Dubai Skyline', 'Desert Safari', 'Complimentary Limousine'],
     groupTitles: ['Inaugural Offer', 'Included Tours', 'Important T&C'],
@@ -4682,10 +5280,10 @@ export const international=[
       ['Important T&C', 'Offer Valid for limited period only', 'First cum first serve basis', 'Tourism Dirham to be paid directly at the Hotel', 'Min 2 Pax required']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival & Dhow Cruise', copy: 'Arrive at Dubai Airport and transfer to your hotel on a shared basis. In the evening, enjoy a traditional Dhow creek cruise with dinner.'},
-      {title: 'Day 2 : Dubai City Tour & Dragon Mart', copy: 'After breakfast, embark on a Half Day Dubai City Tour followed by a Shopping Tour to Dragon Mart Dubai (includes a 2-hour stop). Enjoy a complimentary 1 Hour Night Tour of Dubai in a Stretch Limousine with a glass of non-alcoholic champagne.'},
-      {title: 'Day 3 : Desert Safari', copy: 'Enjoy a relaxed morning after breakfast. In the afternoon, head out for a thrilling Desert safari complete with a BBQ dinner at a Standard Camp.'},
-      {title: 'Day 4 : Departure', copy: 'After breakfast, check out from the hotel and take your departure transfer on a shared basis to Dubai Airport.'}
+      { title: 'Day 1 : Arrival & Dhow Cruise', copy: 'Arrive at Dubai Airport and transfer to your hotel on a shared basis. In the evening, enjoy a traditional Dhow creek cruise with dinner.' },
+      { title: 'Day 2 : Dubai City Tour & Dragon Mart', copy: 'After breakfast, embark on a Half Day Dubai City Tour followed by a Shopping Tour to Dragon Mart Dubai (includes a 2-hour stop). Enjoy a complimentary 1 Hour Night Tour of Dubai in a Stretch Limousine with a glass of non-alcoholic champagne.' },
+      { title: 'Day 3 : Desert Safari', copy: 'Enjoy a relaxed morning after breakfast. In the afternoon, head out for a thrilling Desert safari complete with a BBQ dinner at a Standard Camp.' },
+      { title: 'Day 4 : Departure', copy: 'After breakfast, check out from the hotel and take your departure transfer on a shared basis to Dubai Airport.' }
     ],
     inclusions: [
       '3N/4D accommodation',
@@ -4722,13 +5320,13 @@ export const international=[
     ],
     tagline: 'Book Now with Tourswale'
   },
- {slug:'singapore-malaysia',title:'Singapore & Malaysia',location:'Asia',days:7,price:89999,image:images.singapore,desc:'Sleek skylines, gardens and a vibrant culinary trail.',tags:['Singapore','Kuala Lumpur']},
- {slug:'turkiye-highlights',title:'Türkiye Highlights',location:'Middle East',days:8,price:114999,image:images.turkiye,desc:'Bazaars, minarets and Cappadocia skies.',tags:['Istanbul','Cappadocia']},
- {slug:'thailand-getaway',title:'Thailand Getaway: Phuket & Krabi',location:'Thailand',days:5,price:53500,image:'https://unsplash.com/photos/J7cEYPMEDT4/download?force=true&w=1400',desc:'Four nights across Phuket and Krabi with return flights from Mumbai, island tours and daily breakfast.',tags:['Flights Included','Phuket','Krabi'],stays:['2 Nights in Phuket','2 Nights in Krabi','Daily Breakfast'],departures:['Every Wednesday','Every Saturday'],departureMonths:'August & September',departureCities:['Mumbai','Pune','Nashik'],gallery:[{src:'https://unsplash.com/photos/eA59PzXybzY/download?force=true&w=1400',alt:'Big Buddha Phuket, Thailand'},{src:'https://unsplash.com/photos/J7cEYPMEDT4/download?force=true&w=1400',alt:'Maya Bay and Phi Phi Islands, Thailand'},{src:'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80',alt:'Krabi island landscape in Thailand'}],experienceGroups:[['Phuket City Tour','Big Buddha','Wat Chalong','Karon Viewpoint','Phuket Old Town'],['Phi Phi Island Tour','Maya Bay','Viking Cave','Snorkelling','Pileh Lagoon'],['Krabi 4 Islands Tour','Chicken Island','Tup Island','Poda Island','Phra Nang Cave']],exclusions:['Visa fees','Travel insurance unless selected','Lunches and dinners','Personal expenses and anything not specified'],itinerary:[{title:'Fly from Mumbai & arrive in Phuket',copy:'Board your included economy flight from Mumbai. On arrival, transfer to your Phuket hotel and enjoy the evening at leisure.'},{title:'Phuket city and cultural tour',copy:'Discover Big Buddha, Wat Chalong, Karon Viewpoint and colourful Phuket Old Town with time for Thai culture and cuisine.'},{title:'Phi Phi Islands by speedboat',copy:'Cruise to Maya Bay, Viking Cave and Pileh Lagoon, with time for snorkelling in crystal-clear tropical waters.'},{title:'Transfer from Phuket to Krabi',copy:'Travel onward to Krabi, check in for two nights and enjoy its dramatic limestone scenery at your own pace.'},{title:'Krabi 4 Islands & departure',copy:'Explore Chicken Island, Tup Island, Poda Island and Phra Nang Cave before your scheduled return arrangements.'}],inclusions:['Return economy-class flights ex-Mumbai','Hotel accommodation in Phuket and Krabi','Daily breakfast','Airport transfers','Phuket city tour','Phi Phi Island tour by speedboat','Krabi 4 Islands tour','Travel assistance during the tour'],benefits:['Trusted travel partner','Visa assistance available','Customised family and honeymoon tours','EMI options available','24×7 travel support']},
- {slug:'thailand-bangkok-pattaya',title:'Thailand: Bangkok & Pattaya',location:'Thailand',days:7,price:65000,image:'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=85',desc:'Six nights across Bangkok and Pattaya with 4-star stays, daily breakfast, airport transfers and included sightseeing.',tags:['Every Wednesday','Ex-Mumbai','4-Star Stay'],promoEyebrow:'Your Journey, Our Responsibility',promoTitle:'Explore Thailand',promoLine:'Bangkok + Pattaya',specialHeading:'City Energy. Island Days. Thai Culture.',stays:['6 Nights / 7 Days','3 Nights Pattaya','3 Nights Bangkok'],departures:['Every Wednesday'],departureMonths:'Guaranteed Group Departures',departureCities:['Mumbai'],gallery:[{src:'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=85',alt:'Temple architecture in Bangkok, Thailand'},{src:'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=85',alt:'Bangkok city skyline at night'},{src:'https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=1400&q=85',alt:'Tropical beach in Thailand'}],galleryCaptions:['Bangkok · Temple city','Bangkok · Nightlife','Pattaya · Tropical coast'],groupTitles:['Pattaya Experiences','Bangkok Experiences','Made for Everyone'],experienceGroups:[['Pattaya Experiences','Coral Island tour','Pattaya Beach','Walking Street','Beautiful sunset views'],['Bangkok Experiences','Temple tour','Shopping experience','Bangkok nightlife','Optional river cruise'],['Made for Everyone','Couples','Families','Friends','Group travellers']],itinerary:[{title:'Arrival in Bangkok & Transfer to Pattaya',copy:'Arrive in Bangkok and continue by scheduled transfer to your 4-star Pattaya hotel. Check in and enjoy the evening at leisure.'},{title:'Coral Island Tour',copy:'Travel by boat for a Coral Island experience with beach time, tropical views and optional water activities.'},{title:'Pattaya Leisure & Walking Street',copy:'Enjoy Pattaya Beach and sunset views, followed by time to experience the energy of Walking Street.'},{title:'Transfer to Bangkok',copy:'After breakfast, transfer to Bangkok and check in for three nights. Spend the evening exploring nearby at your own pace.'},{title:'Bangkok Temple Tour',copy:'Discover Bangkok’s landmark temples and cultural heritage with included sightseeing and comfortable transfers.'},{title:'Shopping & Bangkok Nightlife',copy:'Enjoy a Bangkok shopping experience and free time for the city’s dining and nightlife. An optional river cruise can be arranged.'},{title:'Departure',copy:'After breakfast, check out and transfer to the airport for your onward journey.'}],inclusions:['Six nights in 4-star hotels','Three nights in Pattaya','Three nights in Bangkok','Daily breakfast','Airport transfers','Sightseeing as per itinerary','Coral Island tour','Bangkok temple tour'],exclusions:['Air tickets unless confirmed in the final proposal','Lunch and dinner','Optional river cruise','Personal expenses','Travel insurance','Anything not mentioned under inclusions'],benefits:['Special package price ₹65,000 per person','Every Wednesday departure','Suitable for couples, families and friends','4-star hotel stay','Carefully planned transfers and sightseeing'],tagline:'Your Journey, Our Responsibility'},
- {slug:'kenya-grand-safari',title:'Kenya Grand Safari',location:'Kenya, Africa',days:6,price:null,image:'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1400&q=85',desc:'Five nights across Nairobi, Masai Mara and Naivasha with full-board safari meals, shared transfers and guided 4×4 game drives.',tags:['Big Five Safari','4×4 Land Cruiser','5 Nights'],promoEyebrow:'Your Trusted Travel Partner',promoTitle:'Kenya Grand Safari',promoLine:'Nairobi · Masai Mara · Naivasha',specialHeading:'Experience the Wild Beauty of Africa',stays:['5 Nights of Adventure','Big Five Wildlife','English-Speaking Guide'],gallery:[{src:'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1400&q=85',alt:'Safari wildlife in Kenya'},{src:'https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1400&q=85',alt:'Elephants on an African safari'},{src:'https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1400&q=85',alt:'African savanna landscape'}],galleryCaptions:['Masai Mara · Game drive','Kenya · Big Five country','Naivasha · Scenic landscapes'],groupTitles:['Safari Highlights','Hotel Stays','Meal Plan'],experienceGroups:[['Safari Highlights','Big Five wildlife safari','Masai Mara game drives','4×4 Land Cruiser with pop-up roof','English-speaking guide'],['Hotel Stays','Nairobi: Best Western Plus Meridian','Masai Mara: Jambo Mara Camp','Naivasha: Sentrim Elementaita Resort','Or similar accommodation'],['Meal Plan','Daily breakfast in Nairobi','Full board in Masai Mara and Naivasha','Complimentary lunch and dinner Days 2–4','CP in Nairobi']],itinerary:[{title:'Arrival in Nairobi',copy:'Arrive in Nairobi, meet your representative and transfer to Best Western Plus Meridian Hotel or similar for your first night.'},{title:'Nairobi to Masai Mara',copy:'Travel toward the legendary Masai Mara in a shared 4×4 Land Cruiser and settle into Jambo Mara Camp or similar with full-board meals.'},{title:'Masai Mara Game Drives',copy:'Set out on guided game drives with an English-speaking driver and search for lions, elephants, buffaloes, leopards, rhinoceroses and more.'},{title:'Masai Mara to Naivasha',copy:'Enjoy the final Mara landscapes before continuing to scenic Naivasha and Sentrim Elementaita Resort or similar.'},{title:'Naivasha to Nairobi',copy:'Take in the Rift Valley scenery and return to Nairobi for a comfortable final night at Best Western Plus Meridian Hotel or similar.'},{title:'Departure from Nairobi',copy:'After breakfast, check out and transfer for your onward journey according to the confirmed schedule.'}],inclusions:['5 nights’ accommodation','Daily breakfast in Nairobi','Full-board meals in Masai Mara and Naivasha','All transfers and sightseeing on a shared basis','4×4 Land Cruiser with pop-up roof for safari','English-speaking driver and guide','Park entry tickets for Days 3–5','All parking charges','Complimentary lunch and dinner from Days 2–4'],exclusions:['International air tickets unless confirmed','Kenya visa or entry authorisation','Travel insurance','Personal expenses and gratuities','Anything not mentioned under inclusions'],benefits:['Game drives in Masai Mara','Opportunity to witness the Big Five','Scenic landscapes of Naivasha','Comfortable guided safari experience','Carefully selected hotels and camp'],travelDates:[['25 July 2026','30 July 2026'],['11 August 2026','16 August 2026'],['15 August 2026','20 August 2026'],['12 September 2026','17 September 2026']],bookingValidTill:'20 June 2026',tagline:'Book Your Kenya Safari with Tourswale'},
- {slug:'new-york-experience',title:'New York City Experience',location:'USA',days:7,price:179999,image:images.usa,desc:'Landmark neighbourhoods and the energy of Manhattan.',tags:['Manhattan','Brooklyn']},
- {
+  { slug: 'singapore-malaysia', title: 'Singapore & Malaysia', location: 'Asia', days: 7, price: 89999, image: images.singapore, desc: 'Sleek skylines, gardens and a vibrant culinary trail.', tags: ['Singapore', 'Kuala Lumpur'] },
+  { slug: 'turkiye-highlights', title: 'Türkiye Highlights', location: 'Middle East', days: 8, price: 114999, image: images.turkiye, desc: 'Bazaars, minarets and Cappadocia skies.', tags: ['Istanbul', 'Cappadocia'] },
+  { slug: 'thailand-getaway', title: 'Thailand Getaway: Phuket & Krabi', location: 'Thailand', days: 5, price: 53500, image: 'https://unsplash.com/photos/J7cEYPMEDT4/download?force=true&w=1400', desc: 'Four nights across Phuket and Krabi with return flights from Mumbai, island tours and daily breakfast.', tags: ['Flights Included', 'Phuket', 'Krabi'], stays: ['2 Nights in Phuket', '2 Nights in Krabi', 'Daily Breakfast'], departures: ['Every Wednesday', 'Every Saturday'], departureMonths: 'August & September', departureCities: ['Mumbai', 'Pune', 'Nashik'], gallery: [{ src: 'https://unsplash.com/photos/eA59PzXybzY/download?force=true&w=1400', alt: 'Big Buddha Phuket, Thailand' }, { src: 'https://unsplash.com/photos/J7cEYPMEDT4/download?force=true&w=1400', alt: 'Maya Bay and Phi Phi Islands, Thailand' }, { src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'Krabi island landscape in Thailand' }], experienceGroups: [['Phuket City Tour', 'Big Buddha', 'Wat Chalong', 'Karon Viewpoint', 'Phuket Old Town'], ['Phi Phi Island Tour', 'Maya Bay', 'Viking Cave', 'Snorkelling', 'Pileh Lagoon'], ['Krabi 4 Islands Tour', 'Chicken Island', 'Tup Island', 'Poda Island', 'Phra Nang Cave']], exclusions: ['Visa fees', 'Travel insurance unless selected', 'Lunches and dinners', 'Personal expenses and anything not specified'], itinerary: [{ title: 'Fly from Mumbai & arrive in Phuket', copy: 'Board your included economy flight from Mumbai. On arrival, transfer to your Phuket hotel and enjoy the evening at leisure.' }, { title: 'Phuket city and cultural tour', copy: 'Discover Big Buddha, Wat Chalong, Karon Viewpoint and colourful Phuket Old Town with time for Thai culture and cuisine.' }, { title: 'Phi Phi Islands by speedboat', copy: 'Cruise to Maya Bay, Viking Cave and Pileh Lagoon, with time for snorkelling in crystal-clear tropical waters.' }, { title: 'Transfer from Phuket to Krabi', copy: 'Travel onward to Krabi, check in for two nights and enjoy its dramatic limestone scenery at your own pace.' }, { title: 'Krabi 4 Islands & departure', copy: 'Explore Chicken Island, Tup Island, Poda Island and Phra Nang Cave before your scheduled return arrangements.' }], inclusions: ['Return economy-class flights ex-Mumbai', 'Hotel accommodation in Phuket and Krabi', 'Daily breakfast', 'Airport transfers', 'Phuket city tour', 'Phi Phi Island tour by speedboat', 'Krabi 4 Islands tour', 'Travel assistance during the tour'], benefits: ['Trusted travel partner', 'Visa assistance available', 'Customised family and honeymoon tours', 'EMI options available', '24×7 travel support'] },
+  { slug: 'thailand-bangkok-pattaya', title: 'Thailand: Bangkok & Pattaya', location: 'Thailand', days: 7, price: 65000, image: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=85', desc: 'Six nights across Bangkok and Pattaya with 4-star stays, daily breakfast, airport transfers and included sightseeing.', tags: ['Every Wednesday', 'Ex-Mumbai', '4-Star Stay'], promoEyebrow: 'Your Journey, Our Responsibility', promoTitle: 'Explore Thailand', promoLine: 'Bangkok + Pattaya', specialHeading: 'City Energy. Island Days. Thai Culture.', stays: ['6 Nights / 7 Days', '3 Nights Pattaya', '3 Nights Bangkok'], departures: ['Every Wednesday'], departureMonths: 'Guaranteed Group Departures', departureCities: ['Mumbai'], gallery: [{ src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=85', alt: 'Temple architecture in Bangkok, Thailand' }, { src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=85', alt: 'Bangkok city skyline at night' }, { src: 'https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=1400&q=85', alt: 'Tropical beach in Thailand' }], galleryCaptions: ['Bangkok · Temple city', 'Bangkok · Nightlife', 'Pattaya · Tropical coast'], groupTitles: ['Pattaya Experiences', 'Bangkok Experiences', 'Made for Everyone'], experienceGroups: [['Pattaya Experiences', 'Coral Island tour', 'Pattaya Beach', 'Walking Street', 'Beautiful sunset views'], ['Bangkok Experiences', 'Temple tour', 'Shopping experience', 'Bangkok nightlife', 'Optional river cruise'], ['Made for Everyone', 'Couples', 'Families', 'Friends', 'Group travellers']], itinerary: [{ title: 'Arrival in Bangkok & Transfer to Pattaya', copy: 'Arrive in Bangkok and continue by scheduled transfer to your 4-star Pattaya hotel. Check in and enjoy the evening at leisure.' }, { title: 'Coral Island Tour', copy: 'Travel by boat for a Coral Island experience with beach time, tropical views and optional water activities.' }, { title: 'Pattaya Leisure & Walking Street', copy: 'Enjoy Pattaya Beach and sunset views, followed by time to experience the energy of Walking Street.' }, { title: 'Transfer to Bangkok', copy: 'After breakfast, transfer to Bangkok and check in for three nights. Spend the evening exploring nearby at your own pace.' }, { title: 'Bangkok Temple Tour', copy: 'Discover Bangkok’s landmark temples and cultural heritage with included sightseeing and comfortable transfers.' }, { title: 'Shopping & Bangkok Nightlife', copy: 'Enjoy a Bangkok shopping experience and free time for the city’s dining and nightlife. An optional river cruise can be arranged.' }, { title: 'Departure', copy: 'After breakfast, check out and transfer to the airport for your onward journey.' }], inclusions: ['Six nights in 4-star hotels', 'Three nights in Pattaya', 'Three nights in Bangkok', 'Daily breakfast', 'Airport transfers', 'Sightseeing as per itinerary', 'Coral Island tour', 'Bangkok temple tour'], exclusions: ['Air tickets unless confirmed in the final proposal', 'Lunch and dinner', 'Optional river cruise', 'Personal expenses', 'Travel insurance', 'Anything not mentioned under inclusions'], benefits: ['Special package price ₹65,000 per person', 'Every Wednesday departure', 'Suitable for couples, families and friends', '4-star hotel stay', 'Carefully planned transfers and sightseeing'], tagline: 'Your Journey, Our Responsibility' },
+  { slug: 'kenya-grand-safari', title: 'Kenya Grand Safari', location: 'Kenya, Africa', days: 6, price: null, image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1400&q=85', desc: 'Five nights across Nairobi, Masai Mara and Naivasha with full-board safari meals, shared transfers and guided 4×4 game drives.', tags: ['Big Five Safari', '4×4 Land Cruiser', '5 Nights'], promoEyebrow: 'Your Trusted Travel Partner', promoTitle: 'Kenya Grand Safari', promoLine: 'Nairobi · Masai Mara · Naivasha', specialHeading: 'Experience the Wild Beauty of Africa', stays: ['5 Nights of Adventure', 'Big Five Wildlife', 'English-Speaking Guide'], gallery: [{ src: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1400&q=85', alt: 'Safari wildlife in Kenya' }, { src: 'https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1400&q=85', alt: 'Elephants on an African safari' }, { src: 'https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1400&q=85', alt: 'African savanna landscape' }], galleryCaptions: ['Masai Mara · Game drive', 'Kenya · Big Five country', 'Naivasha · Scenic landscapes'], groupTitles: ['Safari Highlights', 'Hotel Stays', 'Meal Plan'], experienceGroups: [['Safari Highlights', 'Big Five wildlife safari', 'Masai Mara game drives', '4×4 Land Cruiser with pop-up roof', 'English-speaking guide'], ['Hotel Stays', 'Nairobi: Best Western Plus Meridian', 'Masai Mara: Jambo Mara Camp', 'Naivasha: Sentrim Elementaita Resort', 'Or similar accommodation'], ['Meal Plan', 'Daily breakfast in Nairobi', 'Full board in Masai Mara and Naivasha', 'Complimentary lunch and dinner Days 2–4', 'CP in Nairobi']], itinerary: [{ title: 'Arrival in Nairobi', copy: 'Arrive in Nairobi, meet your representative and transfer to Best Western Plus Meridian Hotel or similar for your first night.' }, { title: 'Nairobi to Masai Mara', copy: 'Travel toward the legendary Masai Mara in a shared 4×4 Land Cruiser and settle into Jambo Mara Camp or similar with full-board meals.' }, { title: 'Masai Mara Game Drives', copy: 'Set out on guided game drives with an English-speaking driver and search for lions, elephants, buffaloes, leopards, rhinoceroses and more.' }, { title: 'Masai Mara to Naivasha', copy: 'Enjoy the final Mara landscapes before continuing to scenic Naivasha and Sentrim Elementaita Resort or similar.' }, { title: 'Naivasha to Nairobi', copy: 'Take in the Rift Valley scenery and return to Nairobi for a comfortable final night at Best Western Plus Meridian Hotel or similar.' }, { title: 'Departure from Nairobi', copy: 'After breakfast, check out and transfer for your onward journey according to the confirmed schedule.' }], inclusions: ['5 nights’ accommodation', 'Daily breakfast in Nairobi', 'Full-board meals in Masai Mara and Naivasha', 'All transfers and sightseeing on a shared basis', '4×4 Land Cruiser with pop-up roof for safari', 'English-speaking driver and guide', 'Park entry tickets for Days 3–5', 'All parking charges', 'Complimentary lunch and dinner from Days 2–4'], exclusions: ['International air tickets unless confirmed', 'Kenya visa or entry authorisation', 'Travel insurance', 'Personal expenses and gratuities', 'Anything not mentioned under inclusions'], benefits: ['Game drives in Masai Mara', 'Opportunity to witness the Big Five', 'Scenic landscapes of Naivasha', 'Comfortable guided safari experience', 'Carefully selected hotels and camp'], travelDates: [['25 July 2026', '30 July 2026'], ['11 August 2026', '16 August 2026'], ['15 August 2026', '20 August 2026'], ['12 September 2026', '17 September 2026']], bookingValidTill: '20 June 2026', tagline: 'Book Your Kenya Safari with Tourswale' },
+  { slug: 'new-york-experience', title: 'New York City Experience', location: 'USA', days: 7, price: 179999, image: images.usa, desc: 'Landmark neighbourhoods and the energy of Manhattan.', tags: ['Manhattan', 'Brooklyn'] },
+  {
     slug: 'classic-croatia-8d',
     title: 'Classic Croatia',
     location: 'Europe',
@@ -4743,9 +5341,9 @@ export const international=[
     specialHeading: 'Balkan Beauty. Coastal Charms. Timeless Cities.',
     stays: ['8 Days / 7 Nights', '4-Star Category Hotels', 'Guided Tours'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1575540291670-8d3b26f7d327?auto=format&fit=crop&w=1400&q=80', alt: 'Dubrovnik Old Town'},
-      {src: 'https://images.unsplash.com/photo-1555990793-da11153b2473?auto=format&fit=crop&w=1400&q=80', alt: 'Plitvice Lakes'},
-      {src: 'https://images.unsplash.com/photo-1603551664565-1b3c3dd61075?auto=format&fit=crop&w=1400&q=80', alt: 'Split Coastline'}
+      { src: 'https://images.unsplash.com/photo-1575540291670-8d3b26f7d327?auto=format&fit=crop&w=1400&q=80', alt: 'Dubrovnik Old Town' },
+      { src: 'https://images.unsplash.com/photo-1555990793-da11153b2473?auto=format&fit=crop&w=1400&q=80', alt: 'Plitvice Lakes' },
+      { src: 'https://images.unsplash.com/photo-1603551664565-1b3c3dd61075?auto=format&fit=crop&w=1400&q=80', alt: 'Split Coastline' }
     ],
     galleryCaptions: ['Dubrovnik Old Town', 'Plitvice Lakes', 'Split Coast'],
     groupTitles: ['Historic Cities', 'Natural Wonders', 'Coastal Splendor'],
@@ -4755,14 +5353,14 @@ export const international=[
       ['Coastal Splendor', 'Zadar Sea Organ', 'Split Waterfront', 'Dubrovnik Old Town Walls']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrive Zagreb', copy: 'Welcome to Croatia! On arrival at Zagreb Airport, transfer to your hotel. Discover the heart of the country with a guided walking tour of Zagreb, visiting Ban Jelačić Square, Dolac market, Kaptol Cathedral, Tkalčićeva Street, and the beautiful Church of St. Mark in the Upper Town. Enjoy dinner at an Indian restaurant. Overnight in Zagreb.'},
-      {title: 'Day 2 : Zagreb (Optional Slovenia)', copy: 'Free day to explore Zagreb or take an optional full-day tour to Slovenia (visiting Ljubljana and mesmerizing Lake Bled). Alternatively, discover the baroque gem of Varazdin and the romantic Trakoscan Castle. Dinner at an Indian restaurant. Overnight in Zagreb.'},
-      {title: 'Day 3 : Zagreb – Plitvice – Zadar', copy: 'Leave Zagreb and journey to the Plitvice Lakes National Park, a UNESCO World Heritage Site with 16 interconnected cascading lakes. Later, continue towards Zadar, known for its beautiful architecture and best beaches. Overnight in Zadar.'},
-      {title: 'Day 4 : Zadar', copy: 'Enjoy a guided walking tour of Zadar, exploring the Roman Forum, St Donatus Church, and St Anastasia’s Cathedral. Relax at the unique Sea Organ. Rest of the day is free, or take an optional Kornati Island tour. Dinner at the accommodation. Overnight in Zadar.'},
-      {title: 'Day 5 : Zadar – Trogir – Split', copy: 'Journey towards Split, stopping en-route at Trogir, a UNESCO site with charming buildings. In Split, enjoy a guided walking tour of Diocletian’s Palace, Riva promenade, and St. Domnius Cathedral. Overnight in Split.'},
-      {title: 'Day 6 : Split – Mostar – Dubrovnik', copy: 'Travel to Dubrovnik via Bosnia and Herzegovina. Visit Medjugorje, then continue to Mostar to see the famous Stari Most (Old Bridge). Arrive in Dubrovnik, located at the very south of Dalmatia, for a guided walking tour of its 16th-century walls, Stradun street, and Franciscan Church. Enjoy an optional cable car ride. Dinner at Indian restaurant. Overnight in Dubrovnik.'},
-      {title: 'Day 7 : Dubrovnik', copy: 'Free day in Dubrovnik or take an optional tour to Montenegro (Kotor, Budva, and Sveti Stefan). Enjoy dinner at an Indian restaurant. Overnight in Dubrovnik.'},
-      {title: 'Day 8 : Departure from Dubrovnik', copy: 'Your trip concludes with a departure transfer to Dubrovnik Airport. Thank you for visiting Croatia!'}
+      { title: 'Day 1 : Arrive Zagreb', copy: 'Welcome to Croatia! On arrival at Zagreb Airport, transfer to your hotel. Discover the heart of the country with a guided walking tour of Zagreb, visiting Ban Jelačić Square, Dolac market, Kaptol Cathedral, Tkalčićeva Street, and the beautiful Church of St. Mark in the Upper Town. Enjoy dinner at an Indian restaurant. Overnight in Zagreb.' },
+      { title: 'Day 2 : Zagreb (Optional Slovenia)', copy: 'Free day to explore Zagreb or take an optional full-day tour to Slovenia (visiting Ljubljana and mesmerizing Lake Bled). Alternatively, discover the baroque gem of Varazdin and the romantic Trakoscan Castle. Dinner at an Indian restaurant. Overnight in Zagreb.' },
+      { title: 'Day 3 : Zagreb – Plitvice – Zadar', copy: 'Leave Zagreb and journey to the Plitvice Lakes National Park, a UNESCO World Heritage Site with 16 interconnected cascading lakes. Later, continue towards Zadar, known for its beautiful architecture and best beaches. Overnight in Zadar.' },
+      { title: 'Day 4 : Zadar', copy: 'Enjoy a guided walking tour of Zadar, exploring the Roman Forum, St Donatus Church, and St Anastasia’s Cathedral. Relax at the unique Sea Organ. Rest of the day is free, or take an optional Kornati Island tour. Dinner at the accommodation. Overnight in Zadar.' },
+      { title: 'Day 5 : Zadar – Trogir – Split', copy: 'Journey towards Split, stopping en-route at Trogir, a UNESCO site with charming buildings. In Split, enjoy a guided walking tour of Diocletian’s Palace, Riva promenade, and St. Domnius Cathedral. Overnight in Split.' },
+      { title: 'Day 6 : Split – Mostar – Dubrovnik', copy: 'Travel to Dubrovnik via Bosnia and Herzegovina. Visit Medjugorje, then continue to Mostar to see the famous Stari Most (Old Bridge). Arrive in Dubrovnik, located at the very south of Dalmatia, for a guided walking tour of its 16th-century walls, Stradun street, and Franciscan Church. Enjoy an optional cable car ride. Dinner at Indian restaurant. Overnight in Dubrovnik.' },
+      { title: 'Day 7 : Dubrovnik', copy: 'Free day in Dubrovnik or take an optional tour to Montenegro (Kotor, Budva, and Sveti Stefan). Enjoy dinner at an Indian restaurant. Overnight in Dubrovnik.' },
+      { title: 'Day 8 : Departure from Dubrovnik', copy: 'Your trip concludes with a departure transfer to Dubrovnik Airport. Thank you for visiting Croatia!' }
     ],
     inclusions: [
       'Economy Class airfares',
@@ -4825,9 +5423,9 @@ export const international=[
     specialHeading: 'Discover Dubai Your Way.',
     stays: ['3 to 6 Days', 'Shared & Private Transfers', 'Comprehensive Tours'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=80', alt: 'Burj Khalifa and Dubai Fountains'},
-      {src: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80', alt: 'Dubai Desert Safari'},
-      {src: 'https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1400&q=80', alt: 'Abu Dhabi Grand Mosque'}
+      { src: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=80', alt: 'Burj Khalifa and Dubai Fountains' },
+      { src: 'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80', alt: 'Dubai Desert Safari' },
+      { src: 'https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1400&q=80', alt: 'Abu Dhabi Grand Mosque' }
     ],
     galleryCaptions: ['Burj Khalifa', 'Desert Safari', 'Abu Dhabi Tour'],
     groupTitles: ['Standard Packages (LP1-LP5)', 'Premium Packages (LP6-LP7)'],
@@ -4836,12 +5434,12 @@ export const international=[
       ['Premium Packages (LP6-LP7)', 'LP6 Explorer: Private transfers, Premium Camp Desert Safari, Marina Dhow Cruise', 'LP7 Dreamer: Luxury Private transfers, 5* City Tour, 5* Creek Harbour Cruise, 5* Premium Desert Safari']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival in Dubai', copy: 'Transfer from Dubai International Airport to your hotel (Bur Dubai/Deira zone). Settle in and prepare for your upcoming adventures.'},
-      {title: 'Day 2 : City Tour, Dragon Mart & Desert Safari', copy: 'Enjoy a Half Day Dubai City Tour passing by Dubai Museum, Palm Island, and Jumeirah Beach. Stop for 2 hours of shopping at Dragon Mart. In the afternoon, head out for a Desert Safari with BBQ Dinner at a standard camp.'},
-      {title: 'Day 3 : Dhow Dinner Cruise', copy: 'Enjoy a relaxing Dhow Dinner cruise at Dubai Creek (Old Dubai) with sharing transfers.'},
-      {title: 'Day 4 : Burj Khalifa (LP2 & LP3) or Departure (LP1)', copy: 'LP1 guests will take their departure transfer to the airport. LP2 & LP3 guests will visit the Dubai Mall and experience Burj Khalifa At The Top (124th & 125th Floor) followed by the Dubai Fountains show.'},
-      {title: 'Day 5 : Abu Dhabi & Ferrari World (LP3) or Departure (LP2)', copy: 'LP2 guests will take their departure transfer to the airport. LP3 guests will travel to Abu Dhabi for a City Tour, Grand Mosque visit, and Ferrari World general entry.'},
-      {title: 'Day 6 : Departure (LP3)', copy: 'LP3 guests check out and take their final departure transfer to Dubai International Airport.'}
+      { title: 'Day 1 : Arrival in Dubai', copy: 'Transfer from Dubai International Airport to your hotel (Bur Dubai/Deira zone). Settle in and prepare for your upcoming adventures.' },
+      { title: 'Day 2 : City Tour, Dragon Mart & Desert Safari', copy: 'Enjoy a Half Day Dubai City Tour passing by Dubai Museum, Palm Island, and Jumeirah Beach. Stop for 2 hours of shopping at Dragon Mart. In the afternoon, head out for a Desert Safari with BBQ Dinner at a standard camp.' },
+      { title: 'Day 3 : Dhow Dinner Cruise', copy: 'Enjoy a relaxing Dhow Dinner cruise at Dubai Creek (Old Dubai) with sharing transfers.' },
+      { title: 'Day 4 : Burj Khalifa (LP2 & LP3) or Departure (LP1)', copy: 'LP1 guests will take their departure transfer to the airport. LP2 & LP3 guests will visit the Dubai Mall and experience Burj Khalifa At The Top (124th & 125th Floor) followed by the Dubai Fountains show.' },
+      { title: 'Day 5 : Abu Dhabi & Ferrari World (LP3) or Departure (LP2)', copy: 'LP2 guests will take their departure transfer to the airport. LP3 guests will travel to Abu Dhabi for a City Tour, Grand Mosque visit, and Ferrari World general entry.' },
+      { title: 'Day 6 : Departure (LP3)', copy: 'LP3 guests check out and take their final departure transfer to Dubai International Airport.' }
     ],
     inclusions: [
       'Return Airport Transfers',
@@ -4908,9 +5506,9 @@ export const international=[
     specialHeading: 'A journey through timeless European capitals.',
     stays: ['7 Days / 6 Nights', 'Top Quality Hotels', 'Luxury AC Coach'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1549877452-9c387954fbc2?auto=format&fit=crop&w=1400&q=80', alt: 'Budapest Parliament'},
-      {src: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1400&q=80', alt: 'Vienna Architecture'},
-      {src: 'https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80', alt: 'Prague Cityscape'}
+      { src: 'https://images.unsplash.com/photo-1549877452-9c387954fbc2?auto=format&fit=crop&w=1400&q=80', alt: 'Budapest Parliament' },
+      { src: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1400&q=80', alt: 'Vienna Architecture' },
+      { src: 'https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80', alt: 'Prague Cityscape' }
     ],
     galleryCaptions: ['Budapest, Hungary', 'Vienna, Austria', 'Prague, Czech Republic'],
     groupTitles: ['Hungary & Slovakia', 'Austria', 'Czech Republic & Germany'],
@@ -4920,13 +5518,13 @@ export const international=[
       ['Czech Republic & Germany', 'Prague Guided Tour', 'Prague Castle & Charles Bridge', 'Astronomical Clock', 'Munich Orientation Tour']
     ],
     itinerary: [
-      {title: 'Day 1 : Welcome to Budapest', copy: 'Arrive in Budapest, Hungary. Meet your friendly Travel Professional outside the baggage hall and proceed to your hotel. Later, proceed for the famous Danube River Cruise, known as The Queen of European Rivers. Overnight in Budapest. (Dinner)'},
-      {title: 'Day 2 : Budapest City Tour', copy: 'Enjoy a guided city tour of Budapest. Visit Fisherman’s Bastion, Szechenyi Chain Bridge, and Buda Castle. Drive on Andrassy Boulevard to Heroes Square. In the evening, watch an exhilarating Horse show with breathtaking stunts. Overnight in Budapest. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 3 : Budapest to Vienna', copy: 'Proceed to Vienna, Austria. Enjoy a guided tour of this musical city. Visit the famous Schönbrunn Palace. See the Hofburg Imperial Palace, St. Stephens Cathedral, Opera house, and upper & lower Belvedere Palaces. Overnight in Vienna. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 4 : Vienna to Prague via Bratislava', copy: 'Travel to Prague, Czech Republic. En route, enjoy an orientation tour of Bratislava in Slovakia, seeing the Old Town, St. Martin’s Cathedral, and Michael’s Gate. Evening at leisure in Prague. Overnight in Prague. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 5 : Prague City Tour', copy: 'Take a guided city tour of Prague. See the Astronomical Clock, Charles Bridge, St. Vitus Cathedral, Jewish Quarter, and Mala Strana. Visit the famous 9th-century Prague Castle. Enjoy a scrumptious Indian dinner. Overnight in Prague. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 6 : Prague to Munich', copy: 'After a scenic drive from Prague, arrive in Munich, the capital of Bavaria. Enjoy an orientation tour of this beautiful city including Marienplatz—the central square and throbbing cultural center—and Hofbrauhaus, a historic brewery house with a strong influence on German culture. You will also see St. Peter’s Church, the oldest church in the city. Proceed for an Indian dinner. Overnight in Munich. (Breakfast/Packed Lunch/Dinner)'},
-      {title: 'Day 7 : Departure', copy: 'Your holiday ends today. It’s time to fly back home. Check out and depart for the Airport for your flight home. (Breakfast)'}
+      { title: 'Day 1 : Welcome to Budapest', copy: 'Arrive in Budapest, Hungary. Meet your friendly Travel Professional outside the baggage hall and proceed to your hotel. Later, proceed for the famous Danube River Cruise, known as The Queen of European Rivers. Overnight in Budapest. (Dinner)' },
+      { title: 'Day 2 : Budapest City Tour', copy: 'Enjoy a guided city tour of Budapest. Visit Fisherman’s Bastion, Szechenyi Chain Bridge, and Buda Castle. Drive on Andrassy Boulevard to Heroes Square. In the evening, watch an exhilarating Horse show with breathtaking stunts. Overnight in Budapest. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 3 : Budapest to Vienna', copy: 'Proceed to Vienna, Austria. Enjoy a guided tour of this musical city. Visit the famous Schönbrunn Palace. See the Hofburg Imperial Palace, St. Stephens Cathedral, Opera house, and upper & lower Belvedere Palaces. Overnight in Vienna. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 4 : Vienna to Prague via Bratislava', copy: 'Travel to Prague, Czech Republic. En route, enjoy an orientation tour of Bratislava in Slovakia, seeing the Old Town, St. Martin’s Cathedral, and Michael’s Gate. Evening at leisure in Prague. Overnight in Prague. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 5 : Prague City Tour', copy: 'Take a guided city tour of Prague. See the Astronomical Clock, Charles Bridge, St. Vitus Cathedral, Jewish Quarter, and Mala Strana. Visit the famous 9th-century Prague Castle. Enjoy a scrumptious Indian dinner. Overnight in Prague. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 6 : Prague to Munich', copy: 'After a scenic drive from Prague, arrive in Munich, the capital of Bavaria. Enjoy an orientation tour of this beautiful city including Marienplatz—the central square and throbbing cultural center—and Hofbrauhaus, a historic brewery house with a strong influence on German culture. You will also see St. Peter’s Church, the oldest church in the city. Proceed for an Indian dinner. Overnight in Munich. (Breakfast/Packed Lunch/Dinner)' },
+      { title: 'Day 7 : Departure', copy: 'Your holiday ends today. It’s time to fly back home. Check out and depart for the Airport for your flight home. (Breakfast)' }
     ],
     inclusions: [
       'Economy Class airfares',
@@ -4978,9 +5576,9 @@ export const international=[
     specialHeading: 'A comprehensive journey through the heart of Europe.',
     stays: ['9 Days / 8 Nights', 'Well Appointed Hotels', 'Meals by Maharaj / Chef'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1400&q=80', alt: 'Vienna'},
-      {src: 'https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80', alt: 'Prague'},
-      {src: 'https://images.unsplash.com/photo-1549877452-9c387954fbc2?auto=format&fit=crop&w=1400&q=80', alt: 'Budapest'}
+      { src: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1400&q=80', alt: 'Vienna' },
+      { src: 'https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80', alt: 'Prague' },
+      { src: 'https://images.unsplash.com/photo-1549877452-9c387954fbc2?auto=format&fit=crop&w=1400&q=80', alt: 'Budapest' }
     ],
     galleryCaptions: ['Vienna, Austria', 'Prague, Czech Republic', 'Budapest, Hungary'],
     groupTitles: ['Vienna & Prague', 'Cesky Krumlov', 'Budapest & Szentendre'],
@@ -4990,15 +5588,15 @@ export const international=[
       ['Budapest & Szentendre', 'Budapest City Tour', 'Danube River Cruise', 'Szentendre Village Tour']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrive Vienna – Prague', copy: 'Arrive in Vienna, meet our representative, and drive straight to Prague. Check in at the hotel. Evening free for leisure or shopping. Dinner and overnight stay in Prague.'},
-      {title: 'Day 2 : Prague – Cesky Krumlov Sightseeing', copy: 'After breakfast, proceed for a tour of Cesky Krumlov, a picturesque Unesco World Heritage Site in Bohemia’s deep south. Explore the stunning castle above the Vltava River, old town square, and Renaissance architecture. Dinner & Overnight in Prague.'},
-      {title: 'Day 3 : Prague Sightseeing & River Cruise', copy: 'Enjoy a guided city tour of Prague including the State Opera, National Museum, Wenceslas Square, and Charles Square. Walk across the river to Prague Castle and see the St. Vitus Cathedral. Explore the old town with its Astronomical Clock. Later, enjoy a long pleasure cruise along the Vltava River. Dinner & Overnight in Prague.'},
-      {title: 'Day 4 : Prague – Bratislava – Budapest', copy: 'Check out from Prague and proceed to Budapest. En route, visit Bratislava and enjoy a Historic Bus ride. Continue the drive to Budapest and check in at the hotel. Overnight in Budapest.'},
-      {title: 'Day 5 : Budapest City Tour & Danube Cruise', copy: 'Proceed for a Budapest city tour covering Chain Bridge, Parliament, St. Stephen’s Cathedral, Heroes Square, Vajdahunyad Castle, and Royal Palace. Enjoy free time for shopping. In the evening, enjoy a spectacular illuminated Danube River Cruise. Dinner and overnight in Budapest.'},
-      {title: 'Day 6 : Szentendre Village Tour', copy: 'After breakfast, proceed for a full day tour of Szentendre village, a Hungarian town on the Danube River known for its baroque architecture, colorful houses, and cobbled streets. Overnight in Budapest.'},
-      {title: 'Day 7 : Budapest – Vienna', copy: 'Enjoy a buffet breakfast. Check out from Budapest and drive to Vienna. Check in at the hotel and spend the evening at leisure. Dinner and Overnight in Vienna.'},
-      {title: 'Day 8 : Vienna Sightseeing', copy: 'Proceed on a guided city tour of Vienna along the Ringstrasse, State Opera House, Hofburg, and Parliament. Enjoy an optional visit to the showrooms of Schönbrunn Palace. Pass by the Belvedere Palace and enjoy free time for shopping. Dinner & Overnight in Vienna.'},
-      {title: 'Day 9 : Vienna Onwards', copy: 'After breakfast, transfer to the airport to board a flight to your onward destination with memorable experiences of the tour conducted by Classic Holidays.'}
+      { title: 'Day 1 : Arrive Vienna – Prague', copy: 'Arrive in Vienna, meet our representative, and drive straight to Prague. Check in at the hotel. Evening free for leisure or shopping. Dinner and overnight stay in Prague.' },
+      { title: 'Day 2 : Prague – Cesky Krumlov Sightseeing', copy: 'After breakfast, proceed for a tour of Cesky Krumlov, a picturesque Unesco World Heritage Site in Bohemia’s deep south. Explore the stunning castle above the Vltava River, old town square, and Renaissance architecture. Dinner & Overnight in Prague.' },
+      { title: 'Day 3 : Prague Sightseeing & River Cruise', copy: 'Enjoy a guided city tour of Prague including the State Opera, National Museum, Wenceslas Square, and Charles Square. Walk across the river to Prague Castle and see the St. Vitus Cathedral. Explore the old town with its Astronomical Clock. Later, enjoy a long pleasure cruise along the Vltava River. Dinner & Overnight in Prague.' },
+      { title: 'Day 4 : Prague – Bratislava – Budapest', copy: 'Check out from Prague and proceed to Budapest. En route, visit Bratislava and enjoy a Historic Bus ride. Continue the drive to Budapest and check in at the hotel. Overnight in Budapest.' },
+      { title: 'Day 5 : Budapest City Tour & Danube Cruise', copy: 'Proceed for a Budapest city tour covering Chain Bridge, Parliament, St. Stephen’s Cathedral, Heroes Square, Vajdahunyad Castle, and Royal Palace. Enjoy free time for shopping. In the evening, enjoy a spectacular illuminated Danube River Cruise. Dinner and overnight in Budapest.' },
+      { title: 'Day 6 : Szentendre Village Tour', copy: 'After breakfast, proceed for a full day tour of Szentendre village, a Hungarian town on the Danube River known for its baroque architecture, colorful houses, and cobbled streets. Overnight in Budapest.' },
+      { title: 'Day 7 : Budapest – Vienna', copy: 'Enjoy a buffet breakfast. Check out from Budapest and drive to Vienna. Check in at the hotel and spend the evening at leisure. Dinner and Overnight in Vienna.' },
+      { title: 'Day 8 : Vienna Sightseeing', copy: 'Proceed on a guided city tour of Vienna along the Ringstrasse, State Opera House, Hofburg, and Parliament. Enjoy an optional visit to the showrooms of Schönbrunn Palace. Pass by the Belvedere Palace and enjoy free time for shopping. Dinner & Overnight in Vienna.' },
+      { title: 'Day 9 : Vienna Onwards', copy: 'After breakfast, transfer to the airport to board a flight to your onward destination with memorable experiences of the tour conducted by Classic Holidays.' }
     ],
     inclusions: [
       'Airfare / Train Fare',
@@ -5066,9 +5664,9 @@ export const international=[
     specialHeading: 'The ultimate European vacation covering 5 iconic countries.',
     stays: ['14 Days / 13 Nights', '3/4 Star Hotels', 'All Meals Included'],
     gallery: [
-      {src: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1400&q=80', alt: 'Lucerne, Switzerland'},
-      {src: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80', alt: 'Paris, France'},
-      {src: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=80', alt: 'Amsterdam, Netherlands'}
+      { src: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1400&q=80', alt: 'Lucerne, Switzerland' },
+      { src: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80', alt: 'Paris, France' },
+      { src: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=80', alt: 'Amsterdam, Netherlands' }
     ],
     galleryCaptions: ['Lucerne, Switzerland', 'Paris, France', 'Amsterdam, Netherlands'],
     groupTitles: ['Austria', 'Switzerland', 'France', 'Belgium & Netherlands'],
@@ -5079,20 +5677,20 @@ export const international=[
       ['Belgium & Netherlands', 'Photo Stop at Atomium', 'Canal Cruise in Amsterdam', 'Keukenhof / Madurodam', 'Wooden Shoe & Cheese Factory']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrive Munich - Innsbruck', copy: 'Arrive in Munich, board your coach, and proceed to Innsbruck. Enjoy an orientation tour of Innsbruck and a visit to the Swarovski Museum. Overnight in Innsbruck. (Dinner)'},
-      {title: 'Day 2 : Innsbruck - Salzburg - Innsbruck', copy: 'Take a walking tour of Salzburg, the birthplace of Mozart and where The Sound of Music was shot. Visit the Swarovski Crystal World and the Golden Roof. Overnight in Innsbruck. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 3 : Innsbruck – Rhine Falls – Central Swiss', copy: 'Depart from Innsbruck to Schaffhausen to visit the majestic Rhine Falls (boat ride optional). Later proceed to your hotel in Central Switzerland. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 4 : Mt. Titlis & Lucerne', copy: 'Proceed to Mt. Titlis on the Rotair gondola. Enjoy the Ice Flyer and ice sports. After lunch, visit Lucerne to see the Lion Monument and the Chapel Bridge. Evening free for shopping. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 5 : Jungfraujoch (Top of Europe)', copy: 'Drive to Lauterbrunnen to see the Trummelbach Falls, then board a train to Jungfraujoch (Top of Europe) at 11,333 ft. Visit the Ice Palace and Sphinx Terrace. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 6 : Bern & Villars', copy: 'Enjoy a walking tour in Bern, the capital of Switzerland. Later, proceed to Villars for an overnight stay. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 7 : Villars', copy: 'Enjoy a day at leisure in Villars. Overnight stay in Villars. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 8 : Villars – TGV - Paris', copy: 'Check out and board the fast TGV train to Paris. Check in at the hotel in Paris. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 9 : Paris City Tour & Eiffel Tower', copy: 'Guided city tour of Paris covering Champs Elysees, Arc de Triomphe, and Notre Dame. Enjoy a Seine River Cruise and visit the Fragonard perfumery. Afternoon visit to the Eiffel Tower (Level 3 optional). (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 10 : Paris – Disneyland', copy: 'Proceed for a fun-filled day at Disneyland Paris. Enjoy the rides, parades, and meet Disney characters. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 11 : Paris – Brussels - Amsterdam', copy: 'Drive to Amsterdam with a photo stop at the Atomium in Brussels. Overnight stay in the Netherlands. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 12 : Amsterdam', copy: 'Visit a Cheese Factory and Wooden Shoe factory. Enjoy a Canal Cruise passing famous mansions and museums. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 13 : Amsterdam (Keukenhof / Madurodam)', copy: 'Visit Keukenhof (Tulip Gardens) for groups arriving before 19th May, or Madurodam miniature park for groups arriving after 19th May. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 14 : Amsterdam Departure', copy: 'Check out and proceed to Schiphol Airport for your flight back to India. (Breakfast)'}
+      { title: 'Day 1 : Arrive Munich - Innsbruck', copy: 'Arrive in Munich, board your coach, and proceed to Innsbruck. Enjoy an orientation tour of Innsbruck and a visit to the Swarovski Museum. Overnight in Innsbruck. (Dinner)' },
+      { title: 'Day 2 : Innsbruck - Salzburg - Innsbruck', copy: 'Take a walking tour of Salzburg, the birthplace of Mozart and where The Sound of Music was shot. Visit the Swarovski Crystal World and the Golden Roof. Overnight in Innsbruck. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 3 : Innsbruck – Rhine Falls – Central Swiss', copy: 'Depart from Innsbruck to Schaffhausen to visit the majestic Rhine Falls (boat ride optional). Later proceed to your hotel in Central Switzerland. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 4 : Mt. Titlis & Lucerne', copy: 'Proceed to Mt. Titlis on the Rotair gondola. Enjoy the Ice Flyer and ice sports. After lunch, visit Lucerne to see the Lion Monument and the Chapel Bridge. Evening free for shopping. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 5 : Jungfraujoch (Top of Europe)', copy: 'Drive to Lauterbrunnen to see the Trummelbach Falls, then board a train to Jungfraujoch (Top of Europe) at 11,333 ft. Visit the Ice Palace and Sphinx Terrace. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 6 : Bern & Villars', copy: 'Enjoy a walking tour in Bern, the capital of Switzerland. Later, proceed to Villars for an overnight stay. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 7 : Villars', copy: 'Enjoy a day at leisure in Villars. Overnight stay in Villars. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 8 : Villars – TGV - Paris', copy: 'Check out and board the fast TGV train to Paris. Check in at the hotel in Paris. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 9 : Paris City Tour & Eiffel Tower', copy: 'Guided city tour of Paris covering Champs Elysees, Arc de Triomphe, and Notre Dame. Enjoy a Seine River Cruise and visit the Fragonard perfumery. Afternoon visit to the Eiffel Tower (Level 3 optional). (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 10 : Paris – Disneyland', copy: 'Proceed for a fun-filled day at Disneyland Paris. Enjoy the rides, parades, and meet Disney characters. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 11 : Paris – Brussels - Amsterdam', copy: 'Drive to Amsterdam with a photo stop at the Atomium in Brussels. Overnight stay in the Netherlands. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 12 : Amsterdam', copy: 'Visit a Cheese Factory and Wooden Shoe factory. Enjoy a Canal Cruise passing famous mansions and museums. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 13 : Amsterdam (Keukenhof / Madurodam)', copy: 'Visit Keukenhof (Tulip Gardens) for groups arriving before 19th May, or Madurodam miniature park for groups arriving after 19th May. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 14 : Amsterdam Departure', copy: 'Check out and proceed to Schiphol Airport for your flight back to India. (Breakfast)' }
     ],
     inclusions: [
       'Airfare',
@@ -5142,9 +5740,9 @@ export const international=[
     specialHeading: 'Vibrant Cities. Historic Palaces. Timeless Magic.',
     stays: ['5 Days / 4 Nights', '4-Star Hotels', 'Indian Meals Included'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Zaragoza_-_Bas%C3%ADlica_del_Pilar_y_r%C3%ADo_Ebro.jpg', alt: 'Zaragoza Basilica del Pilar'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Montserrat_des_de_Manresa.JPG', alt: 'Montserrat Mountain'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Poble_Espanyol_-_Torres_de_%C3%81vila.jpg/1280px-Poble_Espanyol_-_Torres_de_%C3%81vila.jpg', alt: 'Poble Espanyol Barcelona'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Zaragoza_-_Bas%C3%ADlica_del_Pilar_y_r%C3%ADo_Ebro.jpg', alt: 'Zaragoza Basilica del Pilar' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Montserrat_des_de_Manresa.JPG', alt: 'Montserrat Mountain' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Poble_Espanyol_-_Torres_de_%C3%81vila.jpg/1280px-Poble_Espanyol_-_Torres_de_%C3%81vila.jpg', alt: 'Poble Espanyol Barcelona' }
     ],
     galleryCaptions: ['Zaragoza Basilica del Pilar', 'Montserrat Mountain', 'Poble Espanyol Barcelona'],
     groupTitles: ['Madrid Highlights', 'Barcelona & Environs', 'Tour Comforts'],
@@ -5154,11 +5752,11 @@ export const international=[
       ['Tour Comforts', 'Top 4-star category hotels', 'Professional Tour Manager', 'Indian Vegetarian / Jain / Non-Veg Meals', 'Bottle of mineral water every day']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival in Madrid', copy: 'Welcome to Madrid! Upon arrival at the airport, we shall be waiting to transfer you to your hotel. Enjoy free time. You will receive information about the start of the circuit during the afternoon, or you can check the informative panels in the hotel reception area. Towards the end of the day, we provide transfers to the Egyptian Debod temple, Plaza de Espana and Gran Via; a vibrant district. Overnight in Madrid. (Dinner)'},
-      {title: 'Day 2 : Madrid City Tour', copy: 'Today\'s highlights: Madrid city tour. Visit to the Plaza de Toros de las Ventas bullring. Stroll through the Retiro Park. Experience the city on a guided tour showcasing the vibrant centre, Plaza Mayor, broad avenues, fountains, and a walking tour of Retiro Park with its lake and Crystal Palace. Visit the Bullfighting Museum inside Plaza de Toros. At sunset, enjoy a transfer to the Plaza de Oriente opposite the Royal Palace. Return to hotel. Overnight in Madrid. (Breakfast/Dinner)'},
-      {title: 'Day 3 : Madrid - Zaragoza - Poblet - Montserrat - Barcelona', copy: 'Today\'s highlights: Basilica del Pilar, visit to a medieval monastery, ride on a rack train. We depart early in the morning from Madrid heading towards Aragon. Stop in Zaragoza to visit the Basilica del Pilar. Continue to the Monastery of Poblet, surrounded by walls in a beautiful setting. Later, travel to the Montserrat Monastery and take a rack train ride for fantastic scenery. Arrive in Barcelona in the late afternoon. Overnight in Barcelona. (Breakfast)'},
-      {title: 'Day 4 : Barcelona City Tour', copy: 'Today\'s highlights: Barcelona city tour, "Spanish Village" visit, and evening transfer to Las Ramblas district. Enjoy an informative city tour with a local expert, visiting the historic central area, Gothic neighbourhood, and Olympic Games area. See and photograph La Sagrada Familia basilica. Includes entry ticket to "Poble Espanyol" (Spanish Village) open-air architectural museum. Evening transfer to Las Ramblas and Plaza Catalunya area with Indian dinner included. Return to hotel. Overnight in Barcelona. (Breakfast/Dinner)'},
-      {title: 'Day 5 : Departure', copy: 'Fly back home. (Breakfast)'}
+      { title: 'Day 1 : Arrival in Madrid', copy: 'Welcome to Madrid! Upon arrival at the airport, we shall be waiting to transfer you to your hotel. Enjoy free time. You will receive information about the start of the circuit during the afternoon, or you can check the informative panels in the hotel reception area. Towards the end of the day, we provide transfers to the Egyptian Debod temple, Plaza de Espana and Gran Via; a vibrant district. Overnight in Madrid. (Dinner)' },
+      { title: 'Day 2 : Madrid City Tour', copy: 'Today\'s highlights: Madrid city tour. Visit to the Plaza de Toros de las Ventas bullring. Stroll through the Retiro Park. Experience the city on a guided tour showcasing the vibrant centre, Plaza Mayor, broad avenues, fountains, and a walking tour of Retiro Park with its lake and Crystal Palace. Visit the Bullfighting Museum inside Plaza de Toros. At sunset, enjoy a transfer to the Plaza de Oriente opposite the Royal Palace. Return to hotel. Overnight in Madrid. (Breakfast/Dinner)' },
+      { title: 'Day 3 : Madrid - Zaragoza - Poblet - Montserrat - Barcelona', copy: 'Today\'s highlights: Basilica del Pilar, visit to a medieval monastery, ride on a rack train. We depart early in the morning from Madrid heading towards Aragon. Stop in Zaragoza to visit the Basilica del Pilar. Continue to the Monastery of Poblet, surrounded by walls in a beautiful setting. Later, travel to the Montserrat Monastery and take a rack train ride for fantastic scenery. Arrive in Barcelona in the late afternoon. Overnight in Barcelona. (Breakfast)' },
+      { title: 'Day 4 : Barcelona City Tour', copy: 'Today\'s highlights: Barcelona city tour, "Spanish Village" visit, and evening transfer to Las Ramblas district. Enjoy an informative city tour with a local expert, visiting the historic central area, Gothic neighbourhood, and Olympic Games area. See and photograph La Sagrada Familia basilica. Includes entry ticket to "Poble Espanyol" (Spanish Village) open-air architectural museum. Evening transfer to Las Ramblas and Plaza Catalunya area with Indian dinner included. Return to hotel. Overnight in Barcelona. (Breakfast/Dinner)' },
+      { title: 'Day 5 : Departure', copy: 'Fly back home. (Breakfast)' }
     ],
     inclusions: [
       'Europamundo General Services: Travel by bus with English speaking guide, basic travel insurance and breakfast buffet',
@@ -5214,9 +5812,9 @@ export const international=[
     specialHeading: 'White Sands. Warm Waters. Unforgettable Memories.',
     stays: ['5 Days / 4 Nights', 'South Palm Beach Resort', 'All Meals Included'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Landaa_Giraavaru_vue_du_ciel.JPG/1280px-Landaa_Giraavaru_vue_du_ciel.JPG', alt: 'Maldives Resort Aerial'},
-      {src: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80', alt: 'Maldives Water Villas'},
-      {src: 'https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1200&q=80', alt: 'Maldives Beach'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Landaa_Giraavaru_vue_du_ciel.JPG/1280px-Landaa_Giraavaru_vue_du_ciel.JPG', alt: 'Maldives Resort Aerial' },
+      { src: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80', alt: 'Maldives Water Villas' },
+      { src: 'https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1200&q=80', alt: 'Maldives Beach' }
     ],
     galleryCaptions: ['South Palm Beach Resort', 'Luxurious Water Villas', 'Pristine White Sand Beaches'],
     groupTitles: ['Resort Experience', 'Meals & Dining', 'Travel Comforts'],
@@ -5226,10 +5824,10 @@ export const international=[
       ['Travel Comforts', 'Return Economy class airfare', 'Return airport speed boat transfers', 'Maldives Green tax included']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrival in Maldives', copy: 'Welcome to Maldives, where sands are white as the smiles of the locals, where fish swim happily in the warm waters of the Indian Ocean, where the weather is a dream, and the deep rays of the sun wait to engulf you in their arms. Transfer to your resort via speed boat and check into your beautiful Beach Villa.'},
-      {title: 'Days 2-3 : Beach Villa Leisure', copy: 'Enjoy the pristine beaches and world-class amenities of the South Palm Beach Resort. Your stay in the Beach Villa offers direct access to the white sandy shores.'},
-      {title: 'Day 4 : Water Villa Experience', copy: 'Upgrade your experience as you move to the luxurious Water Villa for your final night. Enjoy direct access to the lagoon and stunning ocean views.'},
-      {title: 'Day 5 : Departure', copy: 'After an unforgettable stay, take the speed boat transfer back to the airport for your return flight home.'}
+      { title: 'Day 1 : Arrival in Maldives', copy: 'Welcome to Maldives, where sands are white as the smiles of the locals, where fish swim happily in the warm waters of the Indian Ocean, where the weather is a dream, and the deep rays of the sun wait to engulf you in their arms. Transfer to your resort via speed boat and check into your beautiful Beach Villa.' },
+      { title: 'Days 2-3 : Beach Villa Leisure', copy: 'Enjoy the pristine beaches and world-class amenities of the South Palm Beach Resort. Your stay in the Beach Villa offers direct access to the white sandy shores.' },
+      { title: 'Day 4 : Water Villa Experience', copy: 'Upgrade your experience as you move to the luxurious Water Villa for your final night. Enjoy direct access to the lagoon and stunning ocean views.' },
+      { title: 'Day 5 : Departure', copy: 'After an unforgettable stay, take the speed boat transfer back to the airport for your return flight home.' }
     ],
     inclusions: [
       'Return Economy class airfare on Sri Lankan Airline with taxes',
@@ -5286,9 +5884,9 @@ export const international=[
     specialHeading: 'Fjords. Cruises. Captivating Capitals.',
     stays: ['9 Days / 8 Nights', '4-Star Hotels', 'Overnight Cruises'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Nyhavn_Canal_3.jpg/1280px-The_Nyhavn_Canal_3.jpg', alt: 'Nyhavn Canal Copenhagen'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nationaltheatret_evening.jpg/1280px-Nationaltheatret_evening.jpg', alt: 'Oslo National Theatre'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tivoli_Gardens_4.jpg/1280px-Tivoli_Gardens_4.jpg', alt: 'Tivoli Gardens'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Nyhavn_Canal_3.jpg/1280px-The_Nyhavn_Canal_3.jpg', alt: 'Nyhavn Canal Copenhagen' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nationaltheatret_evening.jpg/1280px-Nationaltheatret_evening.jpg', alt: 'Oslo National Theatre' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tivoli_Gardens_4.jpg/1280px-Tivoli_Gardens_4.jpg', alt: 'Tivoli Gardens' }
     ],
     galleryCaptions: ['Nyhavn Canal, Denmark', 'Oslo, Norway', 'Tivoli Gardens, Denmark'],
     groupTitles: ['Denmark & Norway', 'Sweden', 'Finland & Tour Comforts'],
@@ -5298,15 +5896,15 @@ export const international=[
       ['Finland & Tour Comforts', 'Guided tour of Helsinki', 'Entrance to the Rock church', 'Overnight cruise to Helsinki', 'Top 4-star category hotels', 'Professional Tour Manager']
     ],
     itinerary: [
-      {title: 'Day 1 : Welcome to Copenhagen', copy: 'Welcome to Copenhagen - Capital of Denmark. On arrival at the airport, clear immigration, collect your baggage and proceed outside to meet your friendly Tour Manager and proceed to the hotel, for check-in and relax. Later proceed for guided city tour of Copenhagen. See the Little Mermaid - symbol of Copenhagen and the Gefion fountain. Witness the Royal residence Amalienborg palace. Drive down Hans Christian Andersen Boulevard and cross the picturesque canal. Overnight in Copenhagen. (Dinner)'},
-      {title: 'Day 2 : Tivoli Gardens & Overnight Cruise', copy: 'Today after buffet breakfast proceed to visit Tivoli Gardens, one of the world\'s oldest amusement parks. Further proceed to see best way of Copenhagen from a boat sailing down on Nyhavn with waterways and canals. Later continue your journey to the Copenhagen\'s port for your overnight cruise to Norway. Enjoy local dinner on board the cruise. Overnight on board cruise. (Breakfast/Lunch/Dinner on board)'},
-      {title: 'Day 3 : Oslo City Tour & Geilo', copy: 'After breakfast on the cruise disembark at the Oslo pier. Meet the local guide to proceed on guided tour of the city of Oslo the Viking capital where fjords and mountains meet. See medieval Akershus Fortress, the City Hall, the Royal Palace, Parliament and the National Theatre. Continue with a visit to the Vigeland Sculpture Park. Tour the Viking Ship Museum which houses the world\'s best-preserved Viking vessels! Visit Holmenkollen museum and Ski Jump for a breath-taking view of Oslo fjords. Drive to Geilo for check-in into the hotel and relax. Overnight in Geilo. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 4 : Norway in a Nutshell', copy: 'After breakfast, check out and get set for one of the highlights of your trip - Norway in Nutshell. Proceed to Gudvangen by drive through magnificent Fjord Norway scenery. Board your scenic fjord cruise from Gudvangen, amazed by the splendid scenery of Aurlandsfjord and Nærøyfjord. Arrive at scenic Flam valley, take the Flamsbana train to Myrdal—a masterpiece of engineering with beautiful huge mountains and thundering waterfalls. Take the NSB train to Geilo. Board your bus to Oslo. Enjoy dinner before check-in. Overnight in Oslo. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 5 : Karlstad & Stockholm', copy: 'Onto Stockholm - the capital of Sweden. Today after buffet breakfast sit back and relax in your coach as we drive to Stockholm. En route, visit the town of Karlstad, situated between the cities of Stockholm and Oslo and bisected by the Klaralven River. Soak in the splendid beauty of Lake Vanern. On arrival at Stockholm - the Swedish capital drive straight to the hotel for check-in and relax. Overnight in Stockholm. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 6 : Stockholm City Tour', copy: 'Enjoy guided city tour of Stockholm, often referred to as the Venice of the North. See Fjallgatan for a magnificent view of the capital. Visit Old Town with its fascinating narrow cobble-stoned alleys, the Royal palace, the Cathedral, and City Hall. Continue to the impressive Vasa Museum, housing a beautifully preserved 17th-century wooden warship. Later, enjoy a ride on Sky view - Stockholm\'s landmark spherical building for a fantastic view. Overnight in Stockholm. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 7 : Drottningholm Palace & Cruise', copy: 'Begin your day with a hearty breakfast and later board your coach as we drive to Drottningholm palace, the private residence of the Swedish royal family built in the late 16th century on the island Lovön. Later proceed to board the overnight cruise for Helsinki. Overnight in Cruise. (Breakfast/Lunch/International Dinner on Board Cruise)'},
-      {title: 'Day 8 : Helsinki City Tour', copy: 'Arrival into Helsinki. Disembark and meet the local guide for a guided city tour. Drive past the busy harbour and Embassy Park. See Senate Square, an elegant Lutheran Cathedral, and Esplanadi. Visit the Sibelius Monument dedicated to Jean Sibelius. Drive down Mannerheim Street to see the Parliament building, National Museum, and Finlandia Hall. Visit the unique Rock Church, built out of solid rock and capped with a copper dome. Overnight in Helsinki. (Breakfast/Lunch/Dinner)'},
-      {title: 'Day 9 : Departure', copy: 'Your memorable Holiday ends, today it\'s time to fly back home. Say goodbye to the wonderful new friends you have made on the tour. Check out and depart for the Airport with pleasant memories of your European trip which you will cherish for a lifetime. (Breakfast)'}
+      { title: 'Day 1 : Welcome to Copenhagen', copy: 'Welcome to Copenhagen - Capital of Denmark. On arrival at the airport, clear immigration, collect your baggage and proceed outside to meet your friendly Tour Manager and proceed to the hotel, for check-in and relax. Later proceed for guided city tour of Copenhagen. See the Little Mermaid - symbol of Copenhagen and the Gefion fountain. Witness the Royal residence Amalienborg palace. Drive down Hans Christian Andersen Boulevard and cross the picturesque canal. Overnight in Copenhagen. (Dinner)' },
+      { title: 'Day 2 : Tivoli Gardens & Overnight Cruise', copy: 'Today after buffet breakfast proceed to visit Tivoli Gardens, one of the world\'s oldest amusement parks. Further proceed to see best way of Copenhagen from a boat sailing down on Nyhavn with waterways and canals. Later continue your journey to the Copenhagen\'s port for your overnight cruise to Norway. Enjoy local dinner on board the cruise. Overnight on board cruise. (Breakfast/Lunch/Dinner on board)' },
+      { title: 'Day 3 : Oslo City Tour & Geilo', copy: 'After breakfast on the cruise disembark at the Oslo pier. Meet the local guide to proceed on guided tour of the city of Oslo the Viking capital where fjords and mountains meet. See medieval Akershus Fortress, the City Hall, the Royal Palace, Parliament and the National Theatre. Continue with a visit to the Vigeland Sculpture Park. Tour the Viking Ship Museum which houses the world\'s best-preserved Viking vessels! Visit Holmenkollen museum and Ski Jump for a breath-taking view of Oslo fjords. Drive to Geilo for check-in into the hotel and relax. Overnight in Geilo. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 4 : Norway in a Nutshell', copy: 'After breakfast, check out and get set for one of the highlights of your trip - Norway in Nutshell. Proceed to Gudvangen by drive through magnificent Fjord Norway scenery. Board your scenic fjord cruise from Gudvangen, amazed by the splendid scenery of Aurlandsfjord and Nærøyfjord. Arrive at scenic Flam valley, take the Flamsbana train to Myrdal—a masterpiece of engineering with beautiful huge mountains and thundering waterfalls. Take the NSB train to Geilo. Board your bus to Oslo. Enjoy dinner before check-in. Overnight in Oslo. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 5 : Karlstad & Stockholm', copy: 'Onto Stockholm - the capital of Sweden. Today after buffet breakfast sit back and relax in your coach as we drive to Stockholm. En route, visit the town of Karlstad, situated between the cities of Stockholm and Oslo and bisected by the Klaralven River. Soak in the splendid beauty of Lake Vanern. On arrival at Stockholm - the Swedish capital drive straight to the hotel for check-in and relax. Overnight in Stockholm. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 6 : Stockholm City Tour', copy: 'Enjoy guided city tour of Stockholm, often referred to as the Venice of the North. See Fjallgatan for a magnificent view of the capital. Visit Old Town with its fascinating narrow cobble-stoned alleys, the Royal palace, the Cathedral, and City Hall. Continue to the impressive Vasa Museum, housing a beautifully preserved 17th-century wooden warship. Later, enjoy a ride on Sky view - Stockholm\'s landmark spherical building for a fantastic view. Overnight in Stockholm. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 7 : Drottningholm Palace & Cruise', copy: 'Begin your day with a hearty breakfast and later board your coach as we drive to Drottningholm palace, the private residence of the Swedish royal family built in the late 16th century on the island Lovön. Later proceed to board the overnight cruise for Helsinki. Overnight in Cruise. (Breakfast/Lunch/International Dinner on Board Cruise)' },
+      { title: 'Day 8 : Helsinki City Tour', copy: 'Arrival into Helsinki. Disembark and meet the local guide for a guided city tour. Drive past the busy harbour and Embassy Park. See Senate Square, an elegant Lutheran Cathedral, and Esplanadi. Visit the Sibelius Monument dedicated to Jean Sibelius. Drive down Mannerheim Street to see the Parliament building, National Museum, and Finlandia Hall. Visit the unique Rock Church, built out of solid rock and capped with a copper dome. Overnight in Helsinki. (Breakfast/Lunch/Dinner)' },
+      { title: 'Day 9 : Departure', copy: 'Your memorable Holiday ends, today it\'s time to fly back home. Say goodbye to the wonderful new friends you have made on the tour. Check out and depart for the Airport with pleasant memories of your European trip which you will cherish for a lifetime. (Breakfast)' }
     ],
     inclusions: [
       'Economy Class airfares',
@@ -5360,9 +5958,9 @@ export const international=[
     specialHeading: 'Wildlife. Coastlines. Majestic Mountains.',
     stays: ['10 Days / 9 Nights', 'Premium Hotels', 'Game Drives & Tours Included'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg/1280px-Camps_bay_%2853460319478%29_%28cropped%29.jpg', alt: 'Camps Bay Cape Town'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Table_Mountain_DanieVDM.jpg/1280px-Table_Mountain_DanieVDM.jpg', alt: 'Table Mountain'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Knysna_waterfront.jpg/1280px-Knysna_waterfront.jpg', alt: 'Knysna Waterfront'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg/1280px-Camps_bay_%2853460319478%29_%28cropped%29.jpg', alt: 'Camps Bay Cape Town' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Table_Mountain_DanieVDM.jpg/1280px-Table_Mountain_DanieVDM.jpg', alt: 'Table Mountain' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Knysna_waterfront.jpg/1280px-Knysna_waterfront.jpg', alt: 'Knysna Waterfront' }
     ],
     galleryCaptions: ['Cape Town Coastline', 'Table Mountain', 'Knysna Waterfront'],
     groupTitles: ['Johannesburg & Sun City', 'Knysna & Coast', 'Cape Town & Peninsula'],
@@ -5372,16 +5970,16 @@ export const international=[
       ['Cape Town & Peninsula', 'Cape Town City Orientation', 'Table Mountain Cable car', 'Cape Point & Cape of Good Hope', 'Seal Island Cruise & Boulders Beach']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrive Johannesburg', copy: 'On arrival, meet & greet by our representative. Private transfer from Airport to your hotel. Check in and freshen up. Rest of the day at leisure. Dinner at an Indian restaurant. Overnight in Johannesburg.'},
-      {title: 'Day 2 : Johannesburg - Sun City', copy: 'Breakfast at hotel. Check out and take a road transfer to Sun City via a guided Wild Dog and Lion tour. Check in & freshen up. Explore Sun City on your own. Dinner at an Indian restaurant. Overnight in Sun City.'},
-      {title: 'Day 3 : Sun City & Pilanesberg Game Drive', copy: 'Breakfast at the hotel. Proceed for an exciting Game Drive in Pilanesberg. Return to the hotel. Rest of the day enjoy the Valley of Waves. Dinner at an Indian restaurant. Overnight in Sun City.'},
-      {title: 'Day 4 : Sun City to Knysna', copy: 'Breakfast at hotel. Check out and take a private transfer to Johannesburg Airport. Board your flight to George. Upon arrival, take a private transfer to your hotel at Knysna. Check in and freshen up. Rest of the day at leisure. Dinner at an Indian restaurant. Overnight in Knysna.'},
-      {title: 'Day 5 : Knysna & Oudtshoorn Tour', copy: 'Breakfast at the hotel. Proceed for full-day touring in Oudtshoorn. Visit the Cango Caves, one of the world\'s natural wonders. Tour the Cango Ostrich Farm, where you can interact with the world\'s largest birds. Lastly, visit the Cango Wildlife Ranch to view unique animal species of the Karoo region. Dinner at an Indian restaurant. Overnight in Knysna.'},
-      {title: 'Day 6 : Knysna - Cape Town', copy: 'Breakfast at hotel. Check out and take a private transfer to Cape Town. Check in and freshen up. Day free at leisure. Dinner at an Indian restaurant. Overnight in Cape Town.'},
-      {title: 'Day 7 : Cape Town City Tour', copy: 'Breakfast at the hotel. Proceed for a Private Morning City Orientation Tour of Cape Town. Discover the spirit of the Mother City, its vibrant cultures, history, and scenery. Highlights include Table Mountain (weather permitting), scenic coastal drive through Clifton & Sea Point, Green Market Square, and a scenic city tour passing the Houses of Parliament and V&A Waterfront. Dinner at an Indian restaurant. Overnight in Cape Town.'},
-      {title: 'Day 8 : Cape Point Tour', copy: 'Breakfast at the hotel. Join us on a Private Full Day Cape Point Tour to the romantic meeting place of the Indian & Atlantic Oceans. Includes Hout Bay, a 30-minute cruise to the seal colony (weather permitting), Cape Point nature reserve, Cape of Good Hope, a stop for lunch at Fish Hoek Galley, and a visit to the penguin colony in Simonstown. Dinner at an Indian restaurant. Overnight in Cape Town.'},
-      {title: 'Day 9 : Cape Town Leisure', copy: 'Breakfast at the hotel. Rest of the day at leisure. You can opt for optional activities (at additional cost) like Sky Diving, Paragliding, Robben Island Tour, Hot Air Ballooning, or a Helicopter ride. Overnight in Cape Town.'},
-      {title: 'Day 10 : Departure', copy: 'Breakfast at the hotel. Check out and take a private transfer to Cape Town International Airport. Board your flight and fly back home with wonderful memories.'}
+      { title: 'Day 1 : Arrive Johannesburg', copy: 'On arrival, meet & greet by our representative. Private transfer from Airport to your hotel. Check in and freshen up. Rest of the day at leisure. Dinner at an Indian restaurant. Overnight in Johannesburg.' },
+      { title: 'Day 2 : Johannesburg - Sun City', copy: 'Breakfast at hotel. Check out and take a road transfer to Sun City via a guided Wild Dog and Lion tour. Check in & freshen up. Explore Sun City on your own. Dinner at an Indian restaurant. Overnight in Sun City.' },
+      { title: 'Day 3 : Sun City & Pilanesberg Game Drive', copy: 'Breakfast at the hotel. Proceed for an exciting Game Drive in Pilanesberg. Return to the hotel. Rest of the day enjoy the Valley of Waves. Dinner at an Indian restaurant. Overnight in Sun City.' },
+      { title: 'Day 4 : Sun City to Knysna', copy: 'Breakfast at hotel. Check out and take a private transfer to Johannesburg Airport. Board your flight to George. Upon arrival, take a private transfer to your hotel at Knysna. Check in and freshen up. Rest of the day at leisure. Dinner at an Indian restaurant. Overnight in Knysna.' },
+      { title: 'Day 5 : Knysna & Oudtshoorn Tour', copy: 'Breakfast at the hotel. Proceed for full-day touring in Oudtshoorn. Visit the Cango Caves, one of the world\'s natural wonders. Tour the Cango Ostrich Farm, where you can interact with the world\'s largest birds. Lastly, visit the Cango Wildlife Ranch to view unique animal species of the Karoo region. Dinner at an Indian restaurant. Overnight in Knysna.' },
+      { title: 'Day 6 : Knysna - Cape Town', copy: 'Breakfast at hotel. Check out and take a private transfer to Cape Town. Check in and freshen up. Day free at leisure. Dinner at an Indian restaurant. Overnight in Cape Town.' },
+      { title: 'Day 7 : Cape Town City Tour', copy: 'Breakfast at the hotel. Proceed for a Private Morning City Orientation Tour of Cape Town. Discover the spirit of the Mother City, its vibrant cultures, history, and scenery. Highlights include Table Mountain (weather permitting), scenic coastal drive through Clifton & Sea Point, Green Market Square, and a scenic city tour passing the Houses of Parliament and V&A Waterfront. Dinner at an Indian restaurant. Overnight in Cape Town.' },
+      { title: 'Day 8 : Cape Point Tour', copy: 'Breakfast at the hotel. Join us on a Private Full Day Cape Point Tour to the romantic meeting place of the Indian & Atlantic Oceans. Includes Hout Bay, a 30-minute cruise to the seal colony (weather permitting), Cape Point nature reserve, Cape of Good Hope, a stop for lunch at Fish Hoek Galley, and a visit to the penguin colony in Simonstown. Dinner at an Indian restaurant. Overnight in Cape Town.' },
+      { title: 'Day 9 : Cape Town Leisure', copy: 'Breakfast at the hotel. Rest of the day at leisure. You can opt for optional activities (at additional cost) like Sky Diving, Paragliding, Robben Island Tour, Hot Air Ballooning, or a Helicopter ride. Overnight in Cape Town.' },
+      { title: 'Day 10 : Departure', copy: 'Breakfast at the hotel. Check out and take a private transfer to Cape Town International Airport. Board your flight and fly back home with wonderful memories.' }
     ],
     inclusions: [
       'Return Intl. Airfare: Ex Mumbai & Domestic Airfare',
@@ -5436,9 +6034,9 @@ export const international=[
     specialHeading: 'Safari. Ocean Vistas. Endless Adventure.',
     stays: ['11 Days / 10 Nights', 'Quality Hotels', 'Extensive Sightseeing'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Mossel_Bay_%2815412141375%29.jpg', alt: 'Mossel Bay'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/African_Buffalo.JPG/1280px-African_Buffalo.JPG', alt: 'Mabula Game Reserve'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg/1280px-Camps_bay_%2853460319478%29_%28cropped%29.jpg', alt: 'Cape Town'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Mossel_Bay_%2815412141375%29.jpg', alt: 'Mossel Bay' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/African_Buffalo.JPG/1280px-African_Buffalo.JPG', alt: 'Mabula Game Reserve' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg/1280px-Camps_bay_%2853460319478%29_%28cropped%29.jpg', alt: 'Cape Town' }
     ],
     galleryCaptions: ['Mossel Bay', 'Mabula Game Reserve Safari', 'Cape Town Coastline'],
     groupTitles: ['Johannesburg & Safari', 'Garden Route & Ocean', 'Cape Town Magic'],
@@ -5448,17 +6046,17 @@ export const international=[
       ['Cape Town Magic', 'Table Mountain Cable Car', 'Cape Peninsula Tour', 'Seal Island Cruise & Penguins', 'Helicopter Ride (10-12 Mins)']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrive Johannesburg', copy: 'Arrive in Johannesburg and be met by our representative. Check in at the hotel. Free time for leisure. Dinner and overnight stay in Johannesburg. (Lunch & Dinner)'},
-      {title: 'Day 2 : Johannesburg – Sun City', copy: 'After breakfast, check out and drive to Sun City (approx 3 hrs). Enroute enjoy the famous walk with the lion. Check in at the hotel. Evening enjoy Casino at the resort (on your own). Overnight in Sun City. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 3 : Sun City Sightseeing', copy: 'Early morning enjoy the Valley of Waves. Free time for optional activities like quad biking, archery, horse riding or water activities. Leisure time to enjoy the casino. Overnight in Sun City. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 4 : Sun City – Mabula Game Drive', copy: 'After breakfast, check out and drive to Mabula (approx 3 hrs). Arrive and check in at the hotel. Later proceed for a Game Drive in the park. Evening free to explore the lodge. Overnight in Mabula. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 5 : Mabula – George – Mossel Bay', copy: 'After breakfast, drive to Johannesburg airport to board a flight to George. On arrival, proceed to Mossel Bay. Enjoy the scenic drive and Mossel Bay beach. Check in and explore the town. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 6 : Mossel Bay – Oudtshoorn', copy: 'Drive to Oudtshoorn and enjoy a guided tour of Cango Caves, followed by the Cango Ostrich Farm and Cango Wildlife Ranch. Drive back to the hotel to relax. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 7 : Mossel Bay – Sightseeing', copy: 'Drive to Bloukrans bungee viewpoint (bungee jumping at own cost). Later drive back to Knysna town to enjoy shopping at the waterfront area. Drive back to the hotel. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 8 : Mossel Bay – Cape Town', copy: 'After breakfast, proceed to Cape Town (approx 5 hrs). Arrive and check in at the hotel. Proceed to V&A Mall (if time permits). Overnight in Cape Town. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 9 : Cape Town Sightseeing', copy: 'Drive to Table Mountain and enjoy the Cable car ride (weather permitting). Enjoy a guided city orientation tour passing Sea Point, Moulli Point, CBD Area, Malay Quarter, and Parliament building. Visit Canal Walk mall for shopping. Overnight in Cape Town. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 10 : Cape Point Sightseeing', copy: 'Drive to Cape Point and enjoy the Funicular ride. Drive to the Cape of Good Hope for a photo stop. Visit the penguin park and enjoy the Seal Island Boat ride at Hout Bay. Enjoy a 10-12 minute Helicopter Ride. Overnight in Cape Town. (Breakfast, Lunch & Dinner)'},
-      {title: 'Day 11 : Departure', copy: 'After breakfast, transfer to the airport to board a flight to your onward destination with memorable experiences. See you soon!'}
+      { title: 'Day 1 : Arrive Johannesburg', copy: 'Arrive in Johannesburg and be met by our representative. Check in at the hotel. Free time for leisure. Dinner and overnight stay in Johannesburg. (Lunch & Dinner)' },
+      { title: 'Day 2 : Johannesburg – Sun City', copy: 'After breakfast, check out and drive to Sun City (approx 3 hrs). Enroute enjoy the famous walk with the lion. Check in at the hotel. Evening enjoy Casino at the resort (on your own). Overnight in Sun City. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 3 : Sun City Sightseeing', copy: 'Early morning enjoy the Valley of Waves. Free time for optional activities like quad biking, archery, horse riding or water activities. Leisure time to enjoy the casino. Overnight in Sun City. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 4 : Sun City – Mabula Game Drive', copy: 'After breakfast, check out and drive to Mabula (approx 3 hrs). Arrive and check in at the hotel. Later proceed for a Game Drive in the park. Evening free to explore the lodge. Overnight in Mabula. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 5 : Mabula – George – Mossel Bay', copy: 'After breakfast, drive to Johannesburg airport to board a flight to George. On arrival, proceed to Mossel Bay. Enjoy the scenic drive and Mossel Bay beach. Check in and explore the town. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 6 : Mossel Bay – Oudtshoorn', copy: 'Drive to Oudtshoorn and enjoy a guided tour of Cango Caves, followed by the Cango Ostrich Farm and Cango Wildlife Ranch. Drive back to the hotel to relax. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 7 : Mossel Bay – Sightseeing', copy: 'Drive to Bloukrans bungee viewpoint (bungee jumping at own cost). Later drive back to Knysna town to enjoy shopping at the waterfront area. Drive back to the hotel. Overnight in Mossel Bay. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 8 : Mossel Bay – Cape Town', copy: 'After breakfast, proceed to Cape Town (approx 5 hrs). Arrive and check in at the hotel. Proceed to V&A Mall (if time permits). Overnight in Cape Town. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 9 : Cape Town Sightseeing', copy: 'Drive to Table Mountain and enjoy the Cable car ride (weather permitting). Enjoy a guided city orientation tour passing Sea Point, Moulli Point, CBD Area, Malay Quarter, and Parliament building. Visit Canal Walk mall for shopping. Overnight in Cape Town. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 10 : Cape Point Sightseeing', copy: 'Drive to Cape Point and enjoy the Funicular ride. Drive to the Cape of Good Hope for a photo stop. Visit the penguin park and enjoy the Seal Island Boat ride at Hout Bay. Enjoy a 10-12 minute Helicopter Ride. Overnight in Cape Town. (Breakfast, Lunch & Dinner)' },
+      { title: 'Day 11 : Departure', copy: 'After breakfast, transfer to the airport to board a flight to your onward destination with memorable experiences. See you soon!' }
     ],
     inclusions: [
       'Accommodation in hotels on sharing basis',
@@ -5521,9 +6119,9 @@ export const international=[
     specialHeading: 'Fairy Chimneys. Thermal Pools. Grand Bazaars.',
     stays: ['10 Days / 9 Nights', 'Quality Accommodations', 'Domestic Flights Included'],
     gallery: [
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/1280px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg', alt: 'Istanbul Skyline'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/1280px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg', alt: 'Cappadocia Hot Air Balloons'},
-      {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Pamukkale%2C_Denizli_2026_68.jpg/1280px-Pamukkale%2C_Denizli_2026_68.jpg', alt: 'Pamukkale Thermal Pools'}
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/1280px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg', alt: 'Istanbul Skyline' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/1280px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg', alt: 'Cappadocia Hot Air Balloons' },
+      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Pamukkale%2C_Denizli_2026_68.jpg/1280px-Pamukkale%2C_Denizli_2026_68.jpg', alt: 'Pamukkale Thermal Pools' }
     ],
     galleryCaptions: ['Istanbul Skyline', 'Cappadocia Balloons', 'Pamukkale Cotton Castles'],
     groupTitles: ['Istanbul Highlights', 'Cappadocia & Pamukkale', 'Kusadasi & Ephesus'],
@@ -5533,16 +6131,16 @@ export const international=[
       ['Kusadasi & Ephesus', 'Ephesus Excavations', 'House of Virgin Mary', 'Leisure at Kusadasi Beaches']
     ],
     itinerary: [
-      {title: 'Day 1 : Arrive Istanbul', copy: 'Arrive at Istanbul Airport and meet our representative. Transfer to your hotel. Later, proceed for a scenic Bosporus Cruise. Return to the hotel for a dinner prepared by your personal Indian Chef. Overnight in Istanbul.'},
-      {title: 'Day 2 : Istanbul City Tour', copy: 'After breakfast, leave for a sightseeing tour including the Hippodrome, Blue Mosque, and Hagia Sophia. Lunch at the hotel cooked by our Indian chef. After lunch, get dropped at Taksim Square, a major tourist and leisure district. Return to the hotel for dinner. Overnight in Istanbul.'},
-      {title: 'Day 3 : Istanbul to Cappadocia', copy: 'After breakfast, check out and drive to the airport for your flight to Cappadocia. Arrive in this fantastical place and enjoy lunch at your hotel. Later, visit Uchisar Village and the beautiful Valleys of Cappadocia. Dinner at the hotel. Overnight in Cappadocia.'},
-      {title: 'Day 4 : Cappadocia Hot Air Balloon & Underground City', copy: 'Early morning, proceed for a magical Hot Air Balloon ride, drifting past fairy chimneys and valleys. Return to the hotel for breakfast. After lunch, visit the Kaymakli Underground city. Dinner at the hotel. Overnight in Cappadocia.'},
-      {title: 'Day 5 : Cappadocia – Konya – Pamukkale', copy: 'After breakfast, drive to Pamukkale via Konya. Enjoy lunch in Konya at an Indian Restaurant. Photo stop at a Caravan Serai and Mevlana. Dinner at the Pamukkale hotel. Overnight in Pamukkale.'},
-      {title: 'Day 6 : Pamukkale to Kusadasi', copy: 'After breakfast, check out and proceed to explore the Cotton Castle and Hierapolis in Pamukkale. Lunch at the Pamukkale hotel, then drive to Kusadasi. Dinner and overnight in Kusadasi.'},
-      {title: 'Day 7 : Kusadasi – Ephesus & Virgin Mary', copy: 'Breakfast at the hotel, then proceed for a full-day tour of the Ephesus Excavations and the House of Virgin Mary. Enjoy lunch at the Kusadasi hotel. The rest of the day is free for leisure to enjoy the beaches of Kusadasi. Dinner and overnight in Kusadasi.'},
-      {title: 'Day 8 : Kusadasi to Istanbul', copy: 'Breakfast at the hotel. Proceed from Kusadasi to Izmir Airport for your flight back to Istanbul. Arrive at your Istanbul hotel and enjoy lunch. The rest of the day is at leisure. Dinner at the hotel. Overnight in Istanbul.'},
-      {title: 'Day 9 : Topkapi Palace and Grand Bazaar', copy: 'Breakfast at the hotel. Proceed to visit the magnificent Topkapi Palace and the vibrant Grand Bazaar. Lunch at the hotel. Rest of the day at leisure for shopping. Dinner and overnight in Istanbul.'},
-      {title: 'Day 10 : Departure', copy: 'After breakfast, transfer to the airport to board your flight to your onward destination with memorable experiences of Turkey. See you soon!'}
+      { title: 'Day 1 : Arrive Istanbul', copy: 'Arrive at Istanbul Airport and meet our representative. Transfer to your hotel. Later, proceed for a scenic Bosporus Cruise. Return to the hotel for a dinner prepared by your personal Indian Chef. Overnight in Istanbul.' },
+      { title: 'Day 2 : Istanbul City Tour', copy: 'After breakfast, leave for a sightseeing tour including the Hippodrome, Blue Mosque, and Hagia Sophia. Lunch at the hotel cooked by our Indian chef. After lunch, get dropped at Taksim Square, a major tourist and leisure district. Return to the hotel for dinner. Overnight in Istanbul.' },
+      { title: 'Day 3 : Istanbul to Cappadocia', copy: 'After breakfast, check out and drive to the airport for your flight to Cappadocia. Arrive in this fantastical place and enjoy lunch at your hotel. Later, visit Uchisar Village and the beautiful Valleys of Cappadocia. Dinner at the hotel. Overnight in Cappadocia.' },
+      { title: 'Day 4 : Cappadocia Hot Air Balloon & Underground City', copy: 'Early morning, proceed for a magical Hot Air Balloon ride, drifting past fairy chimneys and valleys. Return to the hotel for breakfast. After lunch, visit the Kaymakli Underground city. Dinner at the hotel. Overnight in Cappadocia.' },
+      { title: 'Day 5 : Cappadocia – Konya – Pamukkale', copy: 'After breakfast, drive to Pamukkale via Konya. Enjoy lunch in Konya at an Indian Restaurant. Photo stop at a Caravan Serai and Mevlana. Dinner at the Pamukkale hotel. Overnight in Pamukkale.' },
+      { title: 'Day 6 : Pamukkale to Kusadasi', copy: 'After breakfast, check out and proceed to explore the Cotton Castle and Hierapolis in Pamukkale. Lunch at the Pamukkale hotel, then drive to Kusadasi. Dinner and overnight in Kusadasi.' },
+      { title: 'Day 7 : Kusadasi – Ephesus & Virgin Mary', copy: 'Breakfast at the hotel, then proceed for a full-day tour of the Ephesus Excavations and the House of Virgin Mary. Enjoy lunch at the Kusadasi hotel. The rest of the day is free for leisure to enjoy the beaches of Kusadasi. Dinner and overnight in Kusadasi.' },
+      { title: 'Day 8 : Kusadasi to Istanbul', copy: 'Breakfast at the hotel. Proceed from Kusadasi to Izmir Airport for your flight back to Istanbul. Arrive at your Istanbul hotel and enjoy lunch. The rest of the day is at leisure. Dinner at the hotel. Overnight in Istanbul.' },
+      { title: 'Day 9 : Topkapi Palace and Grand Bazaar', copy: 'Breakfast at the hotel. Proceed to visit the magnificent Topkapi Palace and the vibrant Grand Bazaar. Lunch at the hotel. Rest of the day at leisure for shopping. Dinner and overnight in Istanbul.' },
+      { title: 'Day 10 : Departure', copy: 'After breakfast, transfer to the airport to board your flight to your onward destination with memorable experiences of Turkey. See you soon!' }
     ],
     inclusions: [
       'Return Economy Class Airfare',
@@ -5598,11 +6196,11 @@ export const international=[
     tagline: 'Tourswale'
   }
 ];
-export const allTours=[...domestic,...international];
-export const articles=[
- {slug:'best-time-europe-india',title:'Best Time to Visit Europe from India',category:'Seasonal guide',time:'7 min read',image:images.switzerland,intro:'A practical month-by-month guide to weather, value and memorable European experiences.'},
- {slug:'first-time-kashmir-guide',title:'A Complete First-Time Guide to Kashmir',category:'India',time:'6 min read',image:images.kashmir,intro:'What to see, when to go and how to plan a seamless first journey to the valley.'},
- {slug:'dubai-tips-indian-tourists',title:'Dubai Travel Tips for Indian Tourists',category:'Travel advice',time:'5 min read',image:images.dubai,intro:'Useful entry, currency, etiquette and neighbourhood tips for a confident Dubai holiday.'}
+export const allTours = [...domestic, ...international];
+export const articles = [
+  { slug: 'best-time-europe-india', title: 'Best Time to Visit Europe from India', category: 'Seasonal guide', time: '7 min read', image: images.switzerland, intro: 'A practical month-by-month guide to weather, value and memorable European experiences.' },
+  { slug: 'first-time-kashmir-guide', title: 'A Complete First-Time Guide to Kashmir', category: 'India', time: '6 min read', image: images.kashmir, intro: 'What to see, when to go and how to plan a seamless first journey to the valley.' },
+  { slug: 'dubai-tips-indian-tourists', title: 'Dubai Travel Tips for Indian Tourists', category: 'Travel advice', time: '5 min read', image: images.dubai, intro: 'Useful entry, currency, etiquette and neighbourhood tips for a confident Dubai holiday.' }
 ];
-export const testimonials=[{quote:'Every transfer, hotel and little surprise felt considered. Switzerland was effortless from the moment we landed.',name:'Ananya & Rohan',place:'Pune · Switzerland'},{quote:'Our parents and children both loved Kashmir. Tourswale balanced comfort with experiences beautifully.',name:'The Mehta Family',place:'Ahmedabad · Kashmir'},{quote:'They understood our pace and created a Bali honeymoon that felt genuinely personal.',name:'Ishita & Karan',place:'Delhi · Bali'}];
-export const faqs=[['Can Tourswale customise every itinerary?','Yes. Dates, hotels, pace and experiences can all be shaped around your preferences and budget.'],['Do you arrange both Indian and international holidays?','Yes. We plan domestic journeys across India and international holidays across Europe, Asia, the Middle East and the USA.'],['Are flights included in displayed prices?','Package inclusions vary. Your final proposal clearly itemises flights, stays, transfers, experiences and taxes.'],['How early should I enquire?','For the best choice, enquire 8–12 weeks ahead for international trips and 4–8 weeks ahead for domestic travel.']];
+export const testimonials = [{ quote: 'Every transfer, hotel and little surprise felt considered. Switzerland was effortless from the moment we landed.', name: 'Ananya & Rohan', place: 'Pune · Switzerland' }, { quote: 'Our parents and children both loved Kashmir. Tourswale balanced comfort with experiences beautifully.', name: 'The Mehta Family', place: 'Ahmedabad · Kashmir' }, { quote: 'They understood our pace and created a Bali honeymoon that felt genuinely personal.', name: 'Ishita & Karan', place: 'Delhi · Bali' }];
+export const faqs = [['Can Tourswale customise every itinerary?', 'Yes. Dates, hotels, pace and experiences can all be shaped around your preferences and budget.'], ['Do you arrange both Indian and international holidays?', 'Yes. We plan domestic journeys across India and international holidays across Europe, Asia, the Middle East and the USA.'], ['Are flights included in displayed prices?', 'Package inclusions vary. Your final proposal clearly itemises flights, stays, transfers, experiences and taxes.'], ['How early should I enquire?', 'For the best choice, enquire 8–12 weeks ahead for international trips and 4–8 weeks ahead for domestic travel.']];
