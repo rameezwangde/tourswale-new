@@ -22,9 +22,7 @@ const SidebarSummaryCard = ({ tour }) => {
           <div className="ssc-price">
             {tour.price ? `₹${money(tour.price)}` : "On Request"}
           </div>
-          <button className="button gold ssc-book-btn" onClick={() => {
-            document.querySelector('.enquiry-form')?.scrollIntoView({behavior: 'smooth'})
-          }}>BOOK NOW</button>
+          <Link to="/contact" className="button gold ssc-book-btn">BOOK NOW</Link>
         </div>
       </div>
     </div>
