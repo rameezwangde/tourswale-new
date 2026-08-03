@@ -2988,6 +2988,75 @@ export const domestic = [
 ];
 export const international = [
   {
+    slug: 'magical-europe-tour-aug24',
+    title: "12 Days Magical Europe Tour (24 Aug 2026)",
+    location: "Europe",
+    days: 12,
+    price: 304357,
+    image: "/images/magical-europe-aug24.png",
+    desc: "Discover the highlights of Europe in 12 days, traveling through 8 magnificent countries.",
+    tags: ["Europe", "12 Days", "International", "Available"],
+    promoEyebrow: "Group Departure",
+    promoTitle: "Magical Europe Tour",
+    promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy | Liechtenstein | Austria",
+    specialHeading: "Available.",
+    stays: ["12 Days / 11 Nights", "Group Tour", "All Meals Included"],
+    gallery: [
+      {src: "/images/magical-europe-aug24.png", alt: "Magical Europe"}
+    ],
+    galleryCaptions: ["Europe Tour"],
+    groupTitles: ["Details", "Pricing", "Inclusions"],
+    experienceGroups: [
+      ["Details", "12 Days", "France, Belgium, Netherlands, Germany, Switzerland, Italy, Liechtenstein, Austria"],
+      ["Pricing", "Adult: ₹3,04,357"],
+      ["Inclusions", "Flights, Visa, Hotels, Meals"]
+    ],
+    itinerary: [
+      {title: "Day 1: Paris", copy: "Cet ready to begin your luxury journey to Europe. Enter the world of travel as your board your flight to International Airport. On arrival at international Airport. Proceed to board your flight towards Milan International Airport. Arrive at Milan airport, after completing all immigration formalities and hop on to our Luxury coach. Have a good night sleep to kick start your dream vacation. Proceed to our Hotel and overnight stay at Milan, Italy"},
+      {title: "Day 2: Paris", copy: "Breakfast at the Hotel and proceed to Paris city tour. Visit Eiffel tower fall in love with second level and have an unparallel experience of the world wonder. Enjoy the scenic ride through Seine Cruise and witness the historical landmarks of Paris. Proceed to Paris city tour covering Arc De Triomphe, Concord Square, Trocadero, Louvre Glass Pyramid, Notre dame Cathedral, Champs Elysees, Fontaine des Fleuves, Fontaine des Mers Overnight in Paris."},
+      {title: "Day 3: Paris - Belgium - Amsterdam", copy: "Breakfast at the Hotel. Checkout and Proceed towards Brussels. City tour of Brussels covering Grand Place, Manneken Pis, Brussels Town hall, Brussels city Museum Walking tour through old city Visit Atomium (Photo stop)- Symbol of Peace. Overnight in Amsterdam."},
+      {title: "Day 4: Amsterdam - Germany", copy: "Breakfast at the Hotel. Checkout and Proceed to Amsterdam. Visit Keukenhof - Amsterdam's stunning garden with vibrant tulips or Zaanse Schaans Dutch village and explore natural beauty along with ancient windmills, shoe factory, cheese factory City tour of Amsterdam Covering Dam Square, Royal Palace, Nieuwekerk and the war memorial, Walking tour through old city. Overnight in Germany."},
+      {title: "Day 5: Cologne - Frankfurt - Zurich", copy: "Breakfast at the Hotel. Checkout and Proceed towards Cologne. Cologne city tour covering cologne cathedral, iron bridge Frankfurt city tour covering Romer, St. Bartholomew Church Rhine falls witness the largest plain waterfalls in Europe also known as European Niagara Overnight in Swiss."},
+      {title: "Day 6: Switzerland", copy: "Breakfast at the Hotel. Checkout and Proceed towards Grindelwald. Jungfrau, the \"Top of Europe,\" - The journey through your dreams iconic cogwheel train, through snow-draped peaks, Eiger Express cable bus with your family, Sphinx Observatory, Ice Palace, Alpine Sensation Visit the majestic Interlaken city tour and get ready to drown in the beauty of the lakes Yash Chopra brown statue. Overnight in Swiss."},
+      {title: "Day 7: Swiss - Vaduz - Innsbruck", copy: "Breakfast at the Hotel. Checkout and Proceed towards Zurich. Zurich city tour visiting the historic Grossmünster Church and the beautiful Lake Zurich Visit Vaduz city tours - insights into Liechtenstein's history and scenic landscape Innsbruck city tour — covering Altstadt Innsbruck, Coldenes Dachl, Leopold Brunnen, Stadtturn Swarovski kristallwelten (Photostop) Overnight in Innsbruck"},
+      {title: "Day 8: Innsbruck - Padua - Venice - Bologna", copy: "Breakfast at the Hotel. Checkout and Proceed towards Milan St. Antony's Basilica - the famous church of the \"Patron Saint of Lost Things\" Venice Cruise- An adventurous cruise through Mediterranean Sea. Proceed to Island walking tour through Doges palace, St. Mark's square, San Marco basilica, Bridge of Sighs, Campanile di San Marco, glass factory Overnight in Bologna."},
+      {title: "Day 9: Bologna - Pisa - Florence - Arezzo", copy: "Breakfast at the Hotel. Checkout and Proceed towards Pisa. Visit the most famous wonder of Italy — Leaning Tower of Pisa (Photostop). Proceed to see major attractions like — Cathedra di Pisa. Florence city tour — covering Michelangelo Square, Santa Maria del Cathedral, Piazza della signoria, walking tour through old city Overnight in Arezzo"},
+      {title: "Day 10: Arezzo - Rome", copy: "Breakfast at the Hotel. Checkout and Proceed towards Rome city tour Rome city tour — explore the old city of Rome, Pantheon, Piazza Venezia, Trevi Fountain, Trajan Column, Foro di Augusto Proceed towards Colosseum (photo stop) Vatican City tour — covering St. Peter's Basilica Overnight in Rome"},
+      {title: "Day 11: Rome", copy: "Breakfast at the Hotel. Checkout and Proceed towards Rome airport. Enjoy last minute shopping at Rome. Proceed to Rome airport for your flight back to home."},
+      {title: "Day 12: Arrive at airport", copy: "Arrive at International Airport. Spend your leisure time at the airport shopping for your loved ones. Board your flight back to International Airport with sweet memories of our Europe trip."}
+    ],
+    inclusions: [
+      "Sightseeing in France + Belgium + Netherlands + Germany + Switzerland + Italy as per itinerary.",
+      "Daily Breakfast + Indian dinner/ Local Dinner",
+      "Deluxe motor Coach during the trip",
+      "Economy class flight ticket",
+      "Free insurance for aged below 60",
+      "Visa charges",
+      "Tour manager"
+    ],
+    exclusions: [
+      "Local Lunch Will Be burger/pizza/fish n chips/kebab/KFC/Mc Donald/ Indian Buffet/ or any local food.",
+      "Any items or services not explicitly mentioned under inclusions"
+    ],
+    benefits: [
+      "12+ years of experience"
+    ],
+    policies: [
+      {
+        title: "Accommodation Details",
+        details: [
+          "2 Night accommodation in France /4*/3*/ similar",
+          "1 Night accommodation in Netherlands /4*/3*/ similar",
+          "1 Night accommodation in Germany / 4*/3*/ similar",
+          "2 Night accommodation in Switzerland /4*/3*/ similar",
+          "3 Night accommodation in Italy / 4*/3*/ similar",
+          "1 Night accommodation in Austria / 4*/3*/ similar"
+        ]
+      }
+    ],
+    tagline: 'Book Now'
+  },
+  {
     slug: 'magical-europe-tour-aug22',
     title: "12 Days Magical Europe Tour (22 Aug 2026)",
     location: "Europe",
@@ -3197,7 +3266,7 @@ export const international = [
   },
   {
     slug: 'enchanting-europe-tour-aug14',
-    title: "10 Days Enchanting Europe Tour (14 Aug 2026)",
+    title: "10 Days Enchanting Europe Tour (14, 24 & 29 Aug 2026)",
     location: "Europe",
     days: 10,
     price: 270631,
@@ -3209,6 +3278,9 @@ export const international = [
     promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy",
     specialHeading: "Fast Filling.",
     stays: ["10 Days / 9 Nights", "Group Tour", "All Meals Included"],
+    departures: ["14 Aug 2026", "24 Aug 2026", "29 Aug 2026"],
+    departureMonths: "August 2026",
+    departureCities: ["Mumbai"],
     gallery: [
       {src: "/images/enchanting-europe-aug14.png", alt: "Enchanting Europe"}
     ],
@@ -3332,7 +3404,7 @@ export const international = [
   },
   {
     slug: 'dream-europe-tour-8d',
-    title: "08 Days Dream Europe Tour (09 & 16 Aug 2026)",
+    title: "08 Days Dream Europe Tour (09, 16, 24 & 29 Aug 2026)",
     location: "Europe",
     days: 8,
     price: 258201,
@@ -3344,7 +3416,7 @@ export const international = [
     promoLine: "France | Belgium | Netherlands | Germany | Switzerland",
     specialHeading: "Available.",
     stays: ["8 Days / 7 Nights", "Group Tour", "All Meals Included"],
-    departures: ["09 Aug 2026", "16 Aug 2026"],
+    departures: ["09 Aug 2026", "16 Aug 2026", "24 Aug 2026", "29 Aug 2026"],
     departureMonths: "August 2026",
     departureCities: ["Mumbai"],
     gallery: [
@@ -3525,7 +3597,7 @@ export const international = [
   },
   {
     slug: 'golden-europe-tour-11d',
-    title: "11 Days Golden Europe Tour (01 Aug 2026)",
+    title: "11 Days Golden Europe Tour (01, 24, 29 & 31 Aug 2026)",
     location: "Europe",
     days: 11,
     price: 290147,
@@ -3537,6 +3609,9 @@ export const international = [
     promoLine: "France | Belgium | Netherlands | Germany | Switzerland | Italy | Vatican",
     specialHeading: "Fast Filling.",
     stays: ["11 Days / 10 Nights", "Group Tour", "All Meals Included"],
+    departures: ["01 Aug 2026", "24 Aug 2026", "29 Aug 2026", "31 Aug 2026"],
+    departureMonths: "August 2026",
+    departureCities: ["Mumbai"],
     gallery: [
       { src: "https://journeyz.co/wp-content/uploads/2020/08/Bern-scaled.jpg", alt: "Europe Tour" }
     ],
