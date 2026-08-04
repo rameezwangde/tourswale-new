@@ -2277,12 +2277,6 @@ export const domestic = [
     promoLine: 'Tirupati · Bangalore · Mysore · Ooty · Coimbatore · Madurai · Trichy · Velankanni · Pondicherry · Chennai',
     specialHeading: 'Heritage. Hills. Temples.',
     stays: ['11 Nights / 12 Days', 'Premium Stays', 'Extensive Journey'],
-    gallery: [
-      { src: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=80', alt: 'South Indian Temple' },
-      { src: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1400&q=80', alt: 'Hill Stations' },
-      { src: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=80', alt: 'Chennai City' }
-    ],
-    galleryCaptions: ['South Indian Temples', 'Ooty Hills', 'Chennai Heritage'],
     groupTitles: ['Andhra & Karnataka', 'Tamil Nadu Hills & Heritage', 'Coastal Coromandel'],
     experienceGroups: [
       ['Andhra & Karnataka', 'Tirupati Darshan', 'Bangalore City Tour', 'Mysore Palace', 'Brindavan Garden'],
