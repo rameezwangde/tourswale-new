@@ -17,7 +17,7 @@ const SidebarSummaryCard = ({ tour }) => {
           <span className="ssc-divider">|</span>
           <span><Plane size={14}/> {dateStr.toUpperCase()}</span>
         </div>
-        <p className="ssc-destinations">{tour.promoLine || tour.location}</p>
+        <p className="ssc-destinations" style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '16px', opacity: 1, marginTop: '8px' }}>{tour.promoLine || tour.location}</p>
         <div className="ssc-footer">
           <div className="ssc-price">
             {tour.price ? `₹${money(tour.price)}` : "On Request"}
