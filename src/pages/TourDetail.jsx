@@ -19,8 +19,9 @@ const SidebarSummaryCard = ({ tour }) => {
         </div>
         <p className="ssc-destinations" style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '16px', opacity: 1, marginTop: '8px' }}>{tour.promoLine || tour.location}</p>
         <div className="ssc-footer">
-          <div className="ssc-price">
-            {tour.price ? `₹${money(tour.price)}` : "On Request"}
+          <div className="ssc-price" style={{display:'flex',flexDirection:'column',gap:'4px'}}>
+            <span>{tour.price ? `₹${money(tour.price)}` : "On Request"}</span>
+            {tour.pax && <small style={{fontSize:'12px',color:'#756A5B',background:'#F5F1E6',padding:'4px 8px',borderRadius:'4px',lineHeight:1.2,fontWeight:600,letterSpacing:'0.5px',alignSelf:'flex-start'}}>FOR {tour.pax} PAX (₹{money(Math.round(tour.price/tour.pax))} PP)</small>}
           </div>
           <Link to="/contact" className="button gold ssc-book-btn">BOOK NOW</Link>
         </div>
@@ -58,7 +59,7 @@ export default function TourDetail() {
           <div className="detail-meta">
             <span><MapPin /> {tour.location}</span>
             <span><Clock /> {tour.days} Days</span>
-            <span>{tour.price ? <>From <b>₹{money(tour.price)}</b> per person</> : <b>Price on Request</b>}</span>
+            <span>{tour.price ? (tour.pax ? <><b>₹{money(tour.price)}</b> for {tour.pax} pax</> : <>From <b>₹{money(tour.price)}</b> per person</>) : <b>Price on Request</b>}</span>
           </div>
         </div>
       </section>

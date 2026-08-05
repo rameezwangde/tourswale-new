@@ -162,7 +162,8 @@ export const domestic = [
     title: '6N/7D Sikkim-Darjeeling (Gangtok, Pelling, Darjeeling)',
     location: 'Sikkim & Darjeeling',
     days: 7,
-    price: 181300,
+    price: 180000,
+    pax: 3,
     image: 'https://lp-cms-production.imgix.net/2019-06/9579893.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4',
     desc: 'Experience a 7-day magical journey through the majestic Himalayas covering Gangtok, Pelling, and Darjeeling.',
     tags: ['Sikkim', 'Darjeeling', '6 Nights'],
@@ -286,6 +287,7 @@ export const domestic = [
     location: 'Sikkim & Darjeeling',
     days: 9,
     price: 156400,
+    pax: 3,
     image: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80',
     desc: 'Explore the majestic beauty of the Himalayas covering Gangtok, Lachung, Pelling, and Darjeeling in a comprehensive 9-day tour.',
     tags: ['Sikkim', 'Darjeeling', '8 Nights'],
@@ -361,6 +363,7 @@ export const domestic = [
     location: 'Madurai, Kanyakumari, Kovalam',
     days: 7,
     price: 140000,
+    pax: 6,
     image: 'https://images.unsplash.com/photo-1692173248120-59547c3d4653?auto=format&fit=crop&w=1200&q=80',
     desc: 'Embark on a divine 7-day journey across the spiritual heartland of Tamil Nadu and the serene beaches of Kerala, covering Madurai, Trichy, Thanjavur, Rameshwaram, Kanyakumari, and Kovalam.',
     tags: ['Tamil Nadu', 'Kerala', 'Pilgrimage', '6 Nights'],
@@ -2606,7 +2609,7 @@ export const domestic = [
     title: 'Chandigarh Manali Dharamshala Amritsar Tour',
     location: 'North India',
     days: 10,
-    price: 15000,
+    price: 55000,
     image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',
     desc: 'A 10-day spectacular journey through the mountains, valleys, and spiritual centers of North India, starting from Mumbai.',
     tags: ['Chandigarh', 'Manali', 'Dharamshala', 'Amritsar'],
@@ -2672,70 +2675,6 @@ export const domestic = [
         details: [
           'Snow point visit depends on road conditions.',
           'Train schedule subject to Indian Railways.'
-        ]
-      }
-    ],
-    tagline: 'Book Now with Tourswale'
-  },
-  {
-    slug: 'angriya-cruise-mumbai-goa',
-    title: 'Angriya Cruise: Mumbai to Goa',
-    location: 'Mumbai & Goa',
-    days: 2,
-    price: null,
-    image: 'https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?auto=format&fit=crop&w=1200&q=80',
-    desc: 'Experience India’s first domestic cruise ship, operating between Mumbai and Goa. Perfect for exclusive celebrations at sea.',
-    tags: ['Cruise', 'Mumbai to Goa', '1 Night'],
-    promoEyebrow: 'Your Trusted Travel Partner',
-    promoTitle: "Experience Angriya",
-    promoLine: 'Mumbai · Arabian Sea · Goa',
-    specialHeading: 'India’s First Domestic Cruise Ship.',
-    stays: ['1 Night on Cruise', 'Exquisite Celebrations', 'Eight Stay Options'],
-    gallery: [
-      { src: 'https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?auto=format&fit=crop&w=1400&q=80', alt: 'Angriya Cruise Ship' },
-      { src: 'https://images.unsplash.com/photo-1511316695145-4992006ffddb?auto=format&fit=crop&w=1400&q=80', alt: 'Lounge and Dining' },
-      { src: 'https://images.unsplash.com/photo-1599640842225-85d111c60e6b?auto=format&fit=crop&w=1400&q=80', alt: 'Stunning Sea Views' }
-    ],
-    galleryCaptions: ['Angriya Cruise Ship', 'Lounge and Dining', 'Stunning Sea Views'],
-    groupTitles: ['Cruise Highlights', 'Stay Options', 'Onboard Amenities'],
-    experienceGroups: [
-      ['Cruise Highlights', 'Welcome refreshment on arrival', 'Dance away at the boomers disco', 'Perfect for corporate parties & weddings', 'Specific charter options available'],
-      ['Stay Options', 'Luxury Pods & Groups', 'Buddy Room (Separate Beds)', 'Family Room (Kids Bunks)', 'Couple Room (King Size Bed)'],
-      ['Onboard Amenities', '6 uniquely themed bars', '2 exquisite restaurants', 'Dry dock spa therapy', 'One exclusive fathom lounge', 'Infinity Pool & 3 open decks']
-    ],
-    itinerary: [
-      { title: 'Day 1 : Embarkation at Mumbai', copy: 'Board the Angriya cruise at Mumbai. Enjoy a welcome refreshment on arrival and take in the stunning views from the open decks. Settle into your chosen accommodation and spend the afternoon at the infinity pool or exploring the ship’s amenities. In the evening, enjoy a buffet dinner (veg and non-veg options), tea/juice, and snacks. Dance the night away at the boomers disco. Overnight stay on the cruise.' },
-      { title: 'Day 2 : Arrival in Goa', copy: 'Wake up to the beautiful views of the Arabian Sea. Enjoy a delicious breakfast on board as the ship approaches the scenic coast of Goa. Disembark with unforgettable memories of India\'s first domestic cruise.' }
-    ],
-    inclusions: [
-      'Welcome refreshment on arrival',
-      'Usage of swimming pool',
-      'Dance away at the boomers disco',
-      'One night’s stay in cruise',
-      'Buffet Dinner veg and nonveg',
-      'Tea / juice and snacks on boarding',
-      'Breakfast'
-    ],
-    exclusions: [
-      'Any personal expenses',
-      'Spa therapies',
-      'Beverages beyond inclusions',
-      'Anything not mentioned in the inclusions'
-    ],
-    benefits: [
-      'India\'s First Domestic Cruise Ship',
-      'Exquisite venue for exclusive celebrations',
-      'Over 175 successful voyages',
-      'Eight comfortable stay options'
-    ],
-    policies: [
-      {
-        title: 'Accommodation Details',
-        details: [
-          'Luxury Pods & Groups: Pods, Dorms',
-          'Buddy Room: Large Window, Without Window',
-          'Family Room: Large Window, Without Window, Bunks',
-          'Couple Room: Large Windows/Portholes, No Window'
         ]
       }
     ],
@@ -4123,7 +4062,7 @@ export const international = [
     title: '6N/7D Singapore with Malaysia Tour',
     location: 'Singapore & Malaysia',
     days: 7,
-    price: 324705,
+    price: 110000,
     image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80',
     desc: 'Experience 6 Nights covering the best of Singapore and Kuala Lumpur featuring Night Safari, Universal Studios, and Genting Highlands.',
     tags: ['Singapore', 'Malaysia', '6 Nights', 'International'],
@@ -4138,9 +4077,8 @@ export const international = [
       { src: 'https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&w=1200&q=80', alt: 'Gardens by the Bay' }
     ],
     galleryCaptions: ['Singapore Skyline', 'Kuala Lumpur', 'Gardens by the Bay'],
-    groupTitles: ['Prices & Details', 'Hotels', 'Sightseeing & Transfers'],
+    groupTitles: ['Hotels', 'Sightseeing & Transfers'],
     experienceGroups: [
-      ['Prices & Details', 'Price: INR 3,24,705/- For All', 'Pax Details: 4 Adults + 2 Child (10 and 6 year)', 'Rooms: 2', 'Meal Plan: Breakfast'],
       ['Hotels', 'Singapore (4 Nights): ibis Singapore Novena (Standard room) with Breakfast', 'Kuala Lumpur (2 Nights): Ramada Encore by Wyndham KL Chinatown (Family Triple Room) with Breakfast'],
       ['Sightseeing & Transfers', 'Singapore Sightseeing: Night Safari, Universal Studios, Sentosa Magic, City Tour, Gardens by the Bay', 'Kuala Lumpur Sightseeing: Half Day City Tour with KL Tower, Full Day Genting Highlands with Batu Caves', 'Transfers: Private Airport Transfers, Singapore to Malaysia Coach Ticket']
     ],
