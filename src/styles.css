@@ -275,7 +275,7 @@ h3 {
   width: 16px;
 }
 .section {
-  padding: 5rem 8vw;
+  padding: 3rem 8vw;
 }
 .ivory {
   background: var(--ivory);
@@ -454,7 +454,7 @@ h3 {
 }
 .center {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .text-link {
   display: inline-flex;
@@ -4019,7 +4019,7 @@ img {
 }
 
 
-.marquee-container { overflow: hidden; width: 100%; padding-bottom: 2rem; }
+.marquee-container { overflow: hidden; width: 100%; padding-bottom: 0.5rem; }
 .marquee-track { display: flex; gap: 1.5rem; animation: scrollMarquee 30s linear infinite; width: max-content; }
 .marquee-track:hover { animation-play-state: paused; }
 @keyframes scrollMarquee { 0% { transform: translateX(0); } 100% { transform: translateX(calc(-50% - 0.75rem)); } }
