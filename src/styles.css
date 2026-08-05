@@ -373,6 +373,9 @@ h3 {
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.04);
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .tour-card:hover {
   transform: translateY(-6px);
@@ -401,6 +404,9 @@ h3 {
 }
 .card-body {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 .tour-meta {
   display: flex;
@@ -3889,7 +3895,7 @@ img {
 .card-hr {
   border: 0;
   border-top: 1px solid #eee;
-  margin: 1rem 0;
+  margin: auto 0 1rem 0;
   width: 100%;
 }
 .card-foot {
@@ -4011,3 +4017,11 @@ img {
     flex: 0 0 85%;
   }
 }
+
+
+.marquee-container { overflow: hidden; width: 100%; padding-bottom: 2rem; }
+.marquee-track { display: flex; gap: 1.5rem; animation: scrollMarquee 30s linear infinite; width: max-content; }
+.marquee-track:hover { animation-play-state: paused; }
+@keyframes scrollMarquee { 0% { transform: translateX(0); } 100% { transform: translateX(calc(-50% - 0.75rem)); } }
+
+.marquee-track > * { flex: 0 0 min(calc(33.333vw - 1rem), 400px); }
