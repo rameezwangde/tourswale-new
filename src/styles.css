@@ -1835,6 +1835,7 @@ img {
   .logo {
     font-size: 1.55rem;
     white-space: nowrap;
+    margin-left: -1.75rem;
   }
   .logo span {
     font-size: 0.42rem;
