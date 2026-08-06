@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.tourswale.in/sitemap.xml
+
+Sitemap: https://www.tourswale.co.in/sitemap.xml
