@@ -4025,3 +4025,15 @@ img {
 @keyframes scrollMarquee { 0% { transform: translateX(0); } 100% { transform: translateX(calc(-50% - 0.75rem)); } }
 
 .marquee-track > * { flex: 0 0 min(calc(33.333vw - 1rem), 400px); }
+
+@media (max-width: 900px) {
+  .marquee-track > * {
+    flex: 0 0 min(calc(50vw - 1rem), 350px);
+  }
+}
+
+@media (max-width: 600px) {
+  .marquee-track > * {
+    flex: 0 0 85vw;
+  }
+}
