@@ -177,9 +177,9 @@ export default function Bookings() {
     try {
       let url = '';
       if (activeTab === 'flights') {
-        url = `http://localhost:5000/api/flights?from=${from}&to=${to}`;
+        url = `/api/flights?from=${from}&to=${to}`;
       } else {
-        url = `http://localhost:5000/api/hotels?destination=${hotelDestination || 'Mumbai'}`;
+        url = `/api/hotels?destination=${hotelDestination || 'Mumbai'}`;
       }
       
       const res = await fetch(url);
