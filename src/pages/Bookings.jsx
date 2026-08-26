@@ -164,6 +164,7 @@ export default function Bookings() {
   const [tripType, setTripType] = useState('oneway');
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
+  const [hotelDestination, setHotelDestination] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [backendSource, setBackendSource] = useState('');
 
@@ -178,7 +179,7 @@ export default function Bookings() {
       if (activeTab === 'flights') {
         url = `http://localhost:5000/api/flights?from=${from}&to=${to}`;
       } else {
-        url = `http://localhost:5000/api/hotels?destination=Mumbai`;
+        url = `http://localhost:5000/api/hotels?destination=${hotelDestination || 'Mumbai'}`;
       }
       
       const res = await fetch(url);
@@ -275,7 +276,7 @@ export default function Bookings() {
                     <label>Destination</label>
                     <div className="field-inner">
                       <MapPin size={16} color="var(--gold)" />
-                      <input type="text" placeholder="City, Hotel, or Landmark" required style={{marginLeft: '0.5rem', width: '100%'}}/>
+                      <input type="text" value={hotelDestination} onChange={(e) => setHotelDestination(e.target.value)} placeholder="City, Hotel, or Landmark" required style={{marginLeft: '0.5rem', width: '100%'}}/>
                     </div>
                   </div>
                   
