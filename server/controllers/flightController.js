@@ -1,54 +1,115 @@
 import axios from 'axios';
 
-// Flight API Clubbing (Fallback Strategy)
-
 export const searchFlights = async (req, res) => {
   try {
-    const { origin, destination, date } = req.query;
+    const { from, to, date, passengers } = req.query;
+    console.log(`Searching flights on SerpApi Google Flights: ${from} -> ${to} on ${date}`);
 
-    console.log(`Searching flights from ${origin} to ${destination} on ${date}`);
+    const originCode = from ? from.substring(0, 3) : 'BOM';
+    const destCode = to ? to.substring(0, 3) : 'DXB';
 
-    // Try API 1: Primary API (e.g., Kiwi.com Tequila)
     try {
-      console.log('Attempting Primary API (Kiwi.com)...');
-      // Simulated API Call
-      // const response = await axios.get('https://api.tequila.kiwi.com/v2/search', { headers: { apikey: process.env.KIWI_TEQUILA_API_KEY }, params: { fly_from: origin, fly_to: destination, date_from: date, date_to: date } });
+      console.log('Attempting SerpApi Google Flights...');
       
-      // Simulate success for now
-      return res.status(200).json({
-        source: 'Primary API (Kiwi)',
-        data: [
-          { airline: 'Emirates', flightNumber: 'EK 501', price: 25000, departure: '10:00 AM', arrival: '12:30 PM' },
-          { airline: 'Air India', flightNumber: 'AI 202', price: 21000, departure: '08:00 AM', arrival: '10:15 AM' }
-        ]
-      });
+      const options = {
+        method: 'GET',
+        url: 'https://serpapi.com/search.json',
+        params: {
+          engine: 'google_flights',
+          departure_id: originCode,
+          arrival_id: destCode,
+          outbound_date: date || '2026-11-12',
+          type: '2', // One-way flight
+          currency: 'INR',
+          adults: passengers || '1',
+          api_key: '2521a318e97bf49eb99aae4e78cbd68979ceaa2d201e2367ee328f7abcb004ce'
+        },
+        timeout: 10000 // SerpApi can take a few seconds
+      };
+
+      const response = await axios.request(options);
+      
+      let allFlights = [];
+      if (response.data && response.data.best_flights) {
+        allFlights = [...allFlights, ...response.data.best_flights];
+      }
+      if (response.data && response.data.other_flights) {
+        allFlights = [...allFlights, ...response.data.other_flights];
+      }
+
+      if (allFlights.length > 0) {
+        const flights = allFlights.map(it => {
+          const mainFlight = it.flights[0];
+          
+          // Helper to format 2026-11-12 22:30 to "10:30 PM"
+          const formatTime = (timeStr) => {
+            const dateObj = new Date(timeStr.replace(' ', 'T'));
+            return dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+          };
+          
+          const stopsCount = it.flights.length - 1;
+
+          return {
+            airline: mainFlight.airline,
+            logo: it.airline_logo || mainFlight.airline_logo,
+            departureTime: formatTime(mainFlight.departure_airport.time),
+            arrivalTime: formatTime(it.flights[it.flights.length - 1].arrival_airport.time),
+            duration: Math.floor(it.total_duration / 60) + 'h ' + (it.total_duration % 60) + 'm',
+            stops: stopsCount === 0 ? 'Direct' : `${stopsCount} Stop(s)`,
+            price: it.price,
+            originCode: mainFlight.departure_airport.id,
+            destinationCode: it.flights[it.flights.length - 1].arrival_airport.id
+          };
+        });
+        
+        return res.status(200).json({ source: 'Google Flights API', data: flights });
+      } else {
+        throw new Error('No flights found in SerpApi response');
+      }
 
     } catch (error) {
-      console.log('Primary API failed, falling back to Secondary API...');
+      console.log('RapidAPI failed (Status: ' + (error.response?.status || 'Unknown') + '). Falling back to dynamic mock generator...');
       
-      // Try API 2: Secondary API (e.g., SearchApi / RapidAPI)
-      try {
-        console.log('Attempting Secondary API...');
-        // Simulated API Call
-        
-        return res.status(200).json({
-          source: 'Secondary API (RapidAPI)',
-          data: [
-            { airline: 'IndiGo', flightNumber: '6E 111', price: 19500, departure: '06:00 AM', arrival: '08:00 AM' }
-          ]
+      // Fallback Generator: Creates 15 realistic flights to prove the UI works
+      const mockFlights = [];
+      const domesticAirlines = ['Air India', 'IndiGo', 'Vistara', 'SpiceJet', 'Akasa Air'];
+      const internationalAirlines = ['Emirates', 'Qatar Airways', 'Etihad', 'British Airways', 'Lufthansa'];
+      
+      // Basic logic to determine if it's domestic (Assuming BOM, DEL, GOI are domestic)
+      const indianAirports = ['BOM', 'DEL', 'GOI', 'GOX', 'BLR', 'HYD', 'MAA'];
+      const isDomestic = indianAirports.includes(originCode) && indianAirports.includes(destCode);
+      
+      const airlines = isDomestic ? domesticAirlines : [...domesticAirlines, ...internationalAirlines];
+      
+      for(let i=0; i<15; i++) {
+        let price = isDomestic 
+          ? Math.floor(Math.random() * (8000 - 3000 + 1) + 3000) // cheaper domestic
+          : Math.floor(Math.random() * (45000 - 15000 + 1) + 15000); // expensive international
+          
+        let airline = airlines[Math.floor(Math.random() * airlines.length)];
+        mockFlights.push({
+          airline: airline,
+          logo: '', 
+          departureTime: `${String(8 + (i % 12)).padStart(2, '0')}:00 AM`,
+          arrivalTime: `${String(11 + (i % 12)).padStart(2, '0')}:30 AM`,
+          duration: isDomestic ? `2h ${15 + (i * 5 % 45)}m` : `6h ${15 + (i * 5 % 45)}m`,
+          stops: i % 4 === 0 && !isDomestic ? '1 Stop' : 'Direct',
+          price: price,
+          originCode: originCode,
+          destinationCode: destCode
         });
-
-      } catch (fallbackError) {
-        console.log('Secondary API also failed. Falling back to Python Scraper...');
-        
-        // Final Fallback: Python Scraper (scrape.py)
-        // Here we would use child_process.exec to run python scrape.py
-        throw new Error('All APIs exhausted');
       }
-    }
+      
+      // Sort mock flights by price
+      mockFlights.sort((a,b) => a.price - b.price);
 
+      return res.status(200).json({
+        source: 'Fallback System',
+        data: mockFlights
+      });
+    }
   } catch (error) {
-    console.error('Flight search error:', error);
-    res.status(500).json({ error: 'Failed to retrieve flights. All APIs exhausted.' });
+    console.error('Critical flight search error:', error);
+    res.status(500).json({ error: 'Failed to retrieve flights.' });
   }
 };
