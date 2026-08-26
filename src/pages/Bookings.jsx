@@ -9,7 +9,7 @@ export default function Bookings() {
         title="Book Flights & Hotels" 
         description="Search for live flight and hotel prices with Tourswale. Book seamlessly and get the best deals for your next holiday." 
       />
-      <section className="page-hero bookings-hero" style={{backgroundImage:`url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2200&q=85)`}}>
+      <section className="page-hero bookings-hero" style={{backgroundImage:`url(/images/bookings-hero.jpg)`, backgroundPosition: 'center center', backgroundSize: 'cover'}}>
         <div/>
         <div>
           <Breadcrumbs items={['Flights & Hotels']}/>
