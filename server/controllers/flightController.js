@@ -22,7 +22,9 @@ export const searchFlights = async (req, res) => {
           type: '2', // One-way flight
           currency: 'INR',
           adults: passengers || '1',
-          api_key: '2521a318e97bf49eb99aae4e78cbd68979ceaa2d201e2367ee328f7abcb004ce'
+          api_key: process.env.SERPAPI_KEYS 
+            ? process.env.SERPAPI_KEYS.split(',')[Math.floor(Math.random() * process.env.SERPAPI_KEYS.split(',').length)].trim() 
+            : '2521a318e97bf49eb99aae4e78cbd68979ceaa2d201e2367ee328f7abcb004ce'
         },
         timeout: 10000 // SerpApi can take a few seconds
       };

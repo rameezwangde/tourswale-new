@@ -18,7 +18,9 @@ export const searchHotels = async (req, res) => {
           check_out_date: checkOut || '2026-11-15',
           adults: guests || '2',
           currency: 'INR',
-          api_key: '2521a318e97bf49eb99aae4e78cbd68979ceaa2d201e2367ee328f7abcb004ce'
+          api_key: process.env.SERPAPI_KEYS 
+            ? process.env.SERPAPI_KEYS.split(',')[Math.floor(Math.random() * process.env.SERPAPI_KEYS.split(',').length)].trim() 
+            : '2521a318e97bf49eb99aae4e78cbd68979ceaa2d201e2367ee328f7abcb004ce'
         },
         timeout: 10000
       };
